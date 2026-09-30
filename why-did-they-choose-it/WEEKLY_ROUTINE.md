@@ -7,7 +7,7 @@ The weekly run follows these instructions. They mirror the series brief, so any 
 1. **Read the queue:** `why-did-they-choose-it/QUEUE.md` (plus the published files, to avoid duplicates).
 2. **Scan for news:** look for major new Arab procurement developments since the last run: contracts, DSCA notifications, deliveries, follow-on orders, cancellations, localisation deals.
 3. **Update the queue:** if a new topic is stronger than a queued one, insert it with a full topic card and give the reason.
-4. **Select ONE topic:** the highest priority that has enough sources.
+4. **Select ONE topic:** by default, the topic scheduled for this week in the QUEUE.md calendar. A major breaking development may take its slot, which shifts the rest of the calendar by one week. If the scheduled topic lacks sources, take the next one.
 5. **Research.** Primary sources first: ministries of defence, armed forces, official statements, procurement agencies, DSCA, manufacturers. Strong secondary sources: SIPRI, Janes, Defense News, Breaking Defense, Reuters, AP, FT, RUSI, CSIS, RAND, Naval News, The Defense Post, Shephard, and credible Arabic media.
 6. **Verify.** Label every motive as one of: DOCUMENTED REASON / OFFICIAL JUSTIFICATION / MANUFACTURER CLAIM / REPORTED ANALYSIS / PLAUSIBLE BUT UNCONFIRMED.
 7. **Write** in Arabic, using the fixed structure: H1 → direct answer → deal card → sections 1–13 → FAQ → sources.
