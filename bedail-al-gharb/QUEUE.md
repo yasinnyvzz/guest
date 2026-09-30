@@ -1,7 +1,7 @@
 # WESTERN-ALTERNATIVES QUEUE — بدائل الغرب
 
 Series codename: **AMBARGO DELENLER** · Defence Arabia · one article per week
-Queue last reviewed: **2026-09-29**
+Queue last reviewed: **2026-09-30**
 
 Status key: `READY TO PUBLISH` · `QUEUED` · `NEEDS VERIFICATION` · `SKIPPED/REFRAMED`
 Procurement status vocabulary: RUMOURED · REPORTED · EVALUATED · REQUESTED · APPROVED · SELECTED · CONTRACTED · DELIVERED · OPERATIONAL
@@ -60,7 +60,10 @@ Procurement status vocabulary: RUMOURED · REPORTED · EVALUATED · REQUESTED ·
 - **Visual concept:** "Egypt's fighter sourcing 2015–2026": F-16 → Rafale → Su-35 (stalled) → J-10C (reported)
 - **Priority:** P1 (news hook). **Must not state "Egypt bought J-10C" unless confirmed**
 
-### #3 — QUEUED (P1)
+### #3 — READY TO PUBLISH (written 2026-09-30)
+- **File:** `03-cheongung-2-al-difaa-al-jawwi-al-kori.md`
+- **Finding:** No US/Western denial found. This is buyer diversification + a complementary layer, not a restriction case. Combat use in the UAE (2026) is reported, with the 96% figure (29/30) attributed to a named Korean lawmaker. The 174/161 figures are likely UAE-wide totals and are not attributed to Cheongung II
+- **Envanter Media:** none (no documented Turkish competitor)
 - **Title:** لماذا اشترت الإمارات والسعودية والعراق الدفاع الجوي الكوري Cheongung II؟
 - **Primary keyword:** Cheongung II السعودية / KM-SAM العراق
 - **Country:** UAE (2022, ~$3.5bn), Saudi Arabia (Feb 2024, ~$3.2bn), Iraq (Sept 2024, ~$2.6–2.8bn)
@@ -204,6 +207,16 @@ Procurement status vocabulary: RUMOURED · REPORTED · EVALUATED · REQUESTED ·
 - **Visual concept:** Localisation matrix (company × product × level)
 - **Priority:** P3
 
+## Publishing plan
+
+WordPress publishing is blocked until `WP_USERNAME` is added to the environment secrets (`WP_URL` and `WP_APP_PASSWORD` are present).
+
+| Article | Status | Planned publish date |
+|---|---|---|
+| #1 Wing Loong | READY TO PUBLISH | As soon as WordPress access works |
+| #3 Cheongung II | READY TO PUBLISH | 2026-10-07 |
+| Next weekly run (2026-10-06) | To be written | 2026-10-14 |
+
 ## Next run
 
-The next weekly run should pick **#2 (J-10C Egypt)** if new confirmation emerges after the Xi visit. Otherwise pick **#3 (KM-SAM)**, which is the most evidence-ready.
+The weekly run on 2026-10-06 should pick **#2 (J-10C Egypt)** if there is official confirmation after the Xi visit. Otherwise pick **#4 (Algeria Su-57)** or **#5 (K9 Egypt)**, whichever is more evidence-ready.
