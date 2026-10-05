@@ -209,14 +209,24 @@ Procurement status vocabulary: RUMOURED · REPORTED · EVALUATED · REQUESTED ·
 
 ## Publishing plan
 
-WordPress publishing is blocked until `WP_USERNAME` is added to the environment secrets (`WP_URL` and `WP_APP_PASSWORD` are present).
+Target site: **defencearabia.com** (the environment `WP_URL` still points to thedailyenergy.com and must be changed). Mode: **scheduled**, one article per week, 09:00 Istanbul time.
+Status 2026-10-05: WordPress API login fails (HTTP 401 `rest_not_logged_in`, identical result with a deliberately wrong password, so the credentials are not being accepted or the Authorization header is not reaching WordPress). Nothing has been uploaded.
 
-| Article | Status | Planned publish date |
-|---|---|---|
-| #1 Wing Loong | READY TO PUBLISH | As soon as WordPress access works |
-| #3 Cheongung II | READY TO PUBLISH | 2026-10-07 |
-| Next weekly run (2026-10-06) | To be written | 2026-10-14 |
+| # | Article | File | Planned publish |
+|---|---|---|---|
+| 1 | Wing Loong | `01-wing-loong-al-jiyush-al-arabiya.md` | 2026-10-07 |
+| 3 | Cheongung II | `03-cheongung-2-al-difaa-al-jawwi-al-kori.md` | 2026-10-10 |
+| 2 | J-10C Egypt (no official confirmation; reframed) | `02-j-10c-misr.md` | 2026-10-14 |
+| 4 | Algeria Su-57 / CAATSA | `04-su-57-al-jazair-caatsa.md` | 2026-10-21 |
+| 5 | K9 Egypt | `05-k9-misr.md` | 2026-10-28 |
+| 6 | Saudi supplier diversification | `06-al-saudia-tanwi-al-mawarridin.md` | 2026-11-04 |
+| 7 | UAE L-15 (F-35 link not proven; reframed) | `07-l-15-al-imarat.md` | 2026-11-11 |
+| 8 | Turkish ships / Qatar | `08-al-sufun-al-turkiya-qatar.md` | 2026-11-18 |
+| 9 | Morocco MQ-9B vs Bayraktar | `09-al-maghrib-mq-9b-bayraktar.md` | 2026-11-25 |
+| 10 | Arab local industry | `10-al-sinaa-al-askariya-al-arabiya.md` | 2026-12-02 |
+| 11 | Algeria and Chinese arms (new) | `11-al-jazair-al-silah-al-sini.md` | 2026-12-09 |
+| 12 | Iraq after F-16 (new) | `12-al-iraq-baad-f-16.md` | 2026-12-16 |
 
 ## Next run
 
-The weekly run on 2026-10-06 should pick **#2 (J-10C Egypt)** if there is official confirmation after the Xi visit. Otherwise pick **#4 (Algeria Su-57)** or **#5 (K9 Egypt)**, whichever is more evidence-ready.
+All queued topics (#1–#12) are written. Each weekly run should (a) refresh facts in the article due to publish next, and (b) research ONE new topic for slot #13 onward (planned 2026-12-23+). Candidates: China vs Türkiye comparison (needs the published case studies above), Kuwait/Bahrain air-defence diversification, Egypt HQ-9B, Jordan local industry.
