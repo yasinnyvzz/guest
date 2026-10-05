@@ -1,5 +1,6 @@
 ---
 status: READY TO PUBLISH
+planned_publish: 2026-10-07
 series: بدائل الغرب (Western Alternatives)
 series_code: AMBARGO DELENLER
 article_no: 1
