@@ -226,7 +226,12 @@ Status 2026-10-05: WordPress API login fails (HTTP 401 `rest_not_logged_in`, ide
 | 10 | Arab local industry | `10-al-sinaa-al-askariya-al-arabiya.md` | 2026-12-02 |
 | 11 | Algeria and Chinese arms (new) | `11-al-jazair-al-silah-al-sini.md` | 2026-12-09 |
 | 12 | Iraq after F-16 (new) | `12-al-iraq-baad-f-16.md` | 2026-12-16 |
+| 13 | Türkiye vs China (hub article, weekly run 2026-10-06) | `13-turkiya-am-al-sin.md` | 2026-12-23 |
+
+## Weekly run log
+
+- **2026-10-06:** Wrote #13 (Türkiye vs China, CHINA VS TÜRKİYE format, hub page linking #1–#11). Refreshed #3 (Qatar request March 2026; Kuwait talks 25 Aug 2026; both REQUESTED, no contract). Checked #1: no Saudi MQ-9B contract or congressional notification found. WordPress: not published (`WP_USERNAME` missing, `WP_URL` still thedailyenergy.com).
 
 ## Next run
 
-All queued topics (#1–#12) are written. Each weekly run should (a) refresh facts in the article due to publish next, and (b) research ONE new topic for slot #13 onward (planned 2026-12-23+). Candidates: China vs Türkiye comparison (needs the published case studies above), Kuwait/Bahrain air-defence diversification, Egypt HQ-9B, Jordan local industry.
+Each weekly run should (a) refresh facts in the article due to publish next, and (b) research ONE new topic for slot #14 onward (planned 2026-12-30+). Candidates: Kuwait/Bahrain air-defence diversification after the 2026 Iran war; Egypt HQ-9B (only if officially confirmed); Türkiye vs South Korea in Arab land systems (K9/Fırtına, armoured vehicles); Jordan local industry (JODDB).
