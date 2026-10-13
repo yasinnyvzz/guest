@@ -5,7 +5,7 @@ series: بدائل الغرب (Western Alternatives)
 series_code: AMBARGO DELENLER
 article_no: 2
 format: "WHAT IS CONFIRMED AND WHAT IS RUMOUR?"
-facts_checked: 2026-09-30
+facts_checked: 2026-10-13
 slug: hal-ishtarat-misr-j-10c-al-siniya
 seo_title: "هل اشترت مصر مقاتلات J-10C الصينية؟ المؤكد والشائعة بعد زيارة شي جين بينغ"
 meta_description: "لا يوجد حتى 30 سبتمبر 2026 أي تأكيد مصري أو صيني لشراء J-10C. ما الذي نعرفه عن صواريخ AMRAAM وMeteor وصفقة Su-35 المتعثرة ومنظومة HQ-9B، وماذا حمل عام 2026 من طلبات رافال وF-16 جديدة؟"
@@ -232,4 +232,4 @@ secondary_keywords:
 - Migflug — Egypt joins the KAAN (أغسطس 2026، تقارير غير ملزمة): https://migflug.com/afterburner/egypt-turkey-kaan-fifth-generation-fighter-axis-2026/
 
 ---
-*آخر تحقق من الحقائق: 30 سبتمبر 2026. سيُحدَّث المقال عند صدور أي بيان رسمي مصري أو صيني بشأن J-10C، أو تأكيد فرنسي لصفقة Meteor أو عقد رافال الثالث، أو إخطار DSCA بشأن F-16 Block 70.*
+*آخر تحقق من الحقائق: 13 أكتوبر 2026 (لا تأكيد رسمي جديد حتى هذا التاريخ). سيُحدَّث المقال عند صدور أي بيان رسمي مصري أو صيني بشأن J-10C، أو تأكيد فرنسي لصفقة Meteor أو عقد رافال الثالث، أو إخطار DSCA بشأن F-16 Block 70.*
