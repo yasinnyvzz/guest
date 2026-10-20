@@ -228,13 +228,15 @@ Status 2026-10-05: WordPress API login fails (HTTP 401 `rest_not_logged_in`, ide
 | 12 | Iraq after F-16 (new) | `12-al-iraq-baad-f-16.md` | 2026-12-16 |
 | 13 | Türkiye vs China (hub article, weekly run 2026-10-06) | `13-turkiya-am-al-sin.md` | 2026-12-23 |
 | 14 | Kuwait air defence after the Iran war (weekly run 2026-10-13) | `14-al-kuwait-baad-harb-iran-al-difaa-al-jawwi.md` | 2026-12-30 |
+| 15 | Türkiye vs South Korea in Arab land systems (weekly run 2026-10-20) | `15-turkiya-am-korea-al-aslihat-al-barriya.md` | 2027-01-06 |
 
 ## Weekly run log
 
 - **2026-10-06:** Wrote #13 (Türkiye vs China, CHINA VS TÜRKİYE format, hub page linking #1–#11). Refreshed #3 (Qatar request March 2026; Kuwait talks 25 Aug 2026; both REQUESTED, no contract). Checked #1: no Saudi MQ-9B contract or congressional notification found. WordPress: not published (`WP_USERNAME` missing, `WP_URL` still thedailyenergy.com).
 
 - **2026-10-13:** Wrote #14 (Kuwait air defence, WHO REPLACED WHOM? format). Finding: no replacement of the US supplier; the US deepened (LTAMDS, IBCS, NASAMS, C-UAS); the Korean Cheongung II is at talks stage only. Refreshed #2 (due 2026-10-14): no new official J-10C confirmation. WordPress: not published (`WP_USERNAME` missing, `WP_URL` still thedailyenergy.com).
+- **2026-10-20:** Wrote #15 (Türkiye vs South Korea, land systems). Finding: sector split rather than head-to-head competition (Türkiye: wheeled armour; Korea: SPH/MLRS/SAM); the two are technology partners (Fırtına is K9-derived; Altay uses a Korean powerpack after the German block); the UAE's follow-on 8×8 went to local Calidus. Refreshed #4 (due 2026-10-21): no new Algerian/Russian statement. WordPress: not published (`WP_USERNAME` missing, `WP_URL` still thedailyenergy.com).
 
 ## Next run
 
-Each weekly run should (a) refresh facts in the article due to publish next, and (b) research ONE new topic for slot #15 onward (planned 2027-01-06+). Candidates: Bahrain/Qatar air-defence choices after the 2026 Iran war; Egypt HQ-9B (only if officially confirmed); Türkiye vs South Korea in Arab land systems (K9/Fırtına, armoured vehicles); Jordan local industry (JODDB).
+Each weekly run should (a) refresh facts in the article due to publish next, and (b) research ONE new topic for slot #16 onward (planned 2027-01-13+). Candidates: Saudi National Guard ground modernisation (only if a contract is announced); Bahrain/Qatar air-defence choices after the 2026 Iran war; Egypt HQ-9B (only if officially confirmed); Jordan local industry (JODDB).
