@@ -6,6 +6,8 @@
 
 *KGK-84 kitli 2000 librelik bomba, F-16 üzerinde.*
 
+*Kaynak: ASELSAN basın bülteni. Yazıdaki teknik özellikler ve menzil bilgisi şirketin kendi beyanıdır; bağımsız olarak doğrulanmamıştır.*
+
 ## Sinop'ta ilk kalifikasyon atışı
 
 ASELSAN KGK-84, uzun menzilden önceden belirlenmiş yol noktalarını yüksek hassasiyetle takip edebilme kabiliyeti ve dünyadaki muadillerinden ayrışan ileri teknolojileriyle göreve hazırlanıyor. Sinop Atış Alanı'nda gerçekleştirilen test faaliyetinde F-16'dan ilk kalifikasyon menzil atışı başarıyla tamamlandı.
