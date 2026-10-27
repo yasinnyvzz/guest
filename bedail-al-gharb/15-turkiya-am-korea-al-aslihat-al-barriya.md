@@ -5,7 +5,7 @@ series: بدائل الغرب (Western Alternatives)
 series_code: AMBARGO DELENLER
 article_no: 15
 format: "TÜRKİYE VS SOUTH KOREA"
-facts_checked: 2026-10-20
+facts_checked: 2026-10-27
 slug: turkiya-am-korea-al-janubiya-al-aslihat-al-barriya-al-arabiya
 seo_title: "تركيا أم كوريا الجنوبية؟ من يربح سوق الأسلحة البرية في العالم العربي"
 meta_description: "المدرعات التركية والمدفعية والراجمات الكورية في الإمارات والسعودية ومصر وقطر: من يبيع ماذا، وأين التوطين، ولماذا يتشارك البلدان التكنولوجيا أكثر مما يتنافسان؟"
@@ -50,7 +50,7 @@ secondary_keywords:
 | Rabdan 8×8 للإمارات (Al Jasoor: Otokar + Tawazun) | عقد 2017 (400 مركبة قتال مشاة) | **متعاقد عليه ← مُسلَّم** |
 | Cobra II للسعودية | عقد وتسليمات بحسب تقارير تركية وسعودية | **مُسلَّم** (العدد يحتاج تأكيداً رسمياً) |
 | Ejder Yalçın وKirpi لقطر، وPars لعُمان، وCobra/Arma للبحرين | بيانات SIPRI كما جمعها MP-IDSA | **مُسلَّم** |
-| دبابة Altay لقطر | ارتبط اسمها بقطر منذ 2018 عبر BMC (شراكة تركية–قطرية) | **لا طلب قطري معلن** |
+| دبابة Altay لقطر | ذكرت Quwa (2019) وAl Jazeera (2021) أن قطر أول عميل تصدير بطلب 100 دبابة، ولم نعثر على بيان رسمي أو تسليم | **طلب مُبلَّغ عنه (REPORTED)**، لا تسليم |
 
 ---
 
@@ -89,7 +89,7 @@ secondary_keywords:
 | مدرعات 6×6 و8×8 | **Rabdan** (الإمارات، مشروع مشترك)، **Arma** (البحرين)، **Pars** (عُمان)، **Ejder Yalçın** (قطر) | **Redback** (مجنزرة): اهتمام شرق أوسطي **مُبلَّغ عنه** فقط |
 | مدفعية ذاتية الحركة | **T-155 Fırtına**: مشتق من K9، ولم نعثر على مشترٍ عربي | **K9**: مصر (متعاقد)، والإمارات (اتفاق تصنيع، لا طلب) |
 | راجمات صاروخية | صواريخ CIRIT (الإمارات والبحرين)، وراجمات T-122 (الإمارات، 2008) | **K239 Chunmoo**: الإمارات والسعودية |
-| دبابات | **Altay**: لا مشترٍ عربي | **K2**: لم نعثر على عرض عربي موثّق |
+| دبابات | **Altay**: طلب قطري **مُبلَّغ عنه** (100 دبابة)، دون تسليم | **K2**: لم نعثر على عرض عربي موثّق |
 | دفاع جوي قصير/متوسط | **Tolga** لمصر (2026) | **Cheongung II** (الإمارات والسعودية والعراق) |
 
 ## 5. أي بديل تم اختياره؟
@@ -237,9 +237,11 @@ Fırtına نسخة تركية مطوّرة من K9 بترخيص كوري.
 - Defense News — Turkey, South Korea sign deal for Turkish Altay tank (أكتوبر 2021): https://www.defensenews.com/land/2021/10/25/turkey-south-korea-sign-deal-for-turkish-altay-tank/
 - Defense News — At long last, Turkey's Altay tank finds an engine from South Korea (مارس 2021): https://www.defensenews.com/industry/techwatch/2021/03/08/at-long-last-turkeys-altay-tank-finds-an-engine-from-south-korea/
 - Army Technology — IDEX 2025: Hanwha K9 to gain a foothold in the Middle East (فبراير 2025): https://www.army-technology.com/news/idex-2025-hanwha-k9-to-gain-a-foothold-in-the-middle-east/
+- Quwa — BMC says Altay MBT will be ready in two years (2019، يذكر الطلب القطري): https://quwa.org/daily-news/bmc-says-altay-mbt-will-be-ready-in-two-years/
+- Al Jazeera — How the Gulf crisis spurred Qatar to expand its military (يناير 2021): https://www.aljazeera.com/news/2021/1/5/the-dramatic-expansion-of-qatars-military
 - Defense News — Tank deal augments Turkey–Qatar procurement ties (2018): https://www.defensenews.com/industry/2018/05/02/tank-deal-augments-turkey-qatar-procurement-ties/
 
 **مصادر الحلقات السابقة:** الحلقة 3 (Cheongung II)، والحلقة 5 (K9 مصر)، والحلقة 13 (حزمة MKE لمصر).
 
 ---
-*آخر تحقق من الحقائق: 20 أكتوبر 2026. سيُحدَّث المقال عند توقيع عقد K9 إماراتي، أو عقد للحرس الوطني السعودي، أو أول مشترٍ عربي لـFırtına أو Altay.*
+*آخر تحقق من الحقائق: 20 أكتوبر 2026. (تصحيح 27 أكتوبر 2026: إضافة الطلب القطري المُبلَّغ عنه لـAltay.) سيُحدَّث المقال عند توقيع عقد K9 إماراتي، أو تسليم Altay لقطر، أو عقد للحرس الوطني السعودي، أو أول مشترٍ عربي لـFırtına.*
