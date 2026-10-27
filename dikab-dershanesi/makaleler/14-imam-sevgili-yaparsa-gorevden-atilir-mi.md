@@ -30,7 +30,7 @@ facts_checked: 2026-10-27
 
 Bu şart yalnız işe girerken değil, **görev boyunca** geçerlidir. Kaybedildiği tespit edilirse 657 sayılı Kanun'un 98/b maddesi uyarınca ("memurluğa alınma şartlarından herhangi birini kaybetmek") göreve son verilir.
 
-> Bazı hukuk kaynaklarına göre yönetmelikteki "**çevresinde bilinir olduğu**" ibaresi 2023'te kaldırıldı. Bu durumda olayın çevrede duyulmuş olması artık ayrıca aranmıyor olabilir. Bu değişiklik, yayın öncesi Resmî Gazete'den doğrulanmalıdır.
+> Bazı hukuk kaynaklarına göre yönetmelikteki "**çevresinde bilinir olduğu**" ibaresi 2023'te kaldırıldı. Bu durumda olayın çevrede duyulmuş olması artık ayrıca aranmıyor olabilir. Güncel metni mevzuat.gov.tr üzerinden kontrol etmenizi öneririz.
 
 ### 2) Disiplin cezaları
 

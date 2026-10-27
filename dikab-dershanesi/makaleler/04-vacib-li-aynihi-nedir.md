@@ -1,80 +1,81 @@
 ---
 status: READY TO PUBLISH
-publish_at: 2026-10-31 09:00 (TSİ)
-slug: vacib-li-aynihi-nedir
-seo_title: "Vâcib li-Aynihî Nedir? Vâcib li-Zâtihî ve li-Gayrihî Farkı"
-meta_description: "Vâcib li-aynihî (li-zâtihî), varlığı kendi zatının gereği olan, yokluğu düşünülemeyen varlıktır; bu yalnız Allah'tır. Vâcib li-gayrihî, mümkün ve mümteni ile farkı."
+publish_at: 2026-10-30 09:00 (TSİ)
+slug: li-aynihi-vacip-nedir
+seo_title: "Li-aynihi Vâcip Nedir? Li-gayrihi Vâcip ile Farkı ve Örnekleri"
+meta_description: "Li-aynihi vâcip, vücûbu kulun bir davranışına bağlı olmadan doğrudan şâri' tarafından konmuş vâciptir: vitir ve bayram namazları gibi. Li-gayrihi vâcip ile farkı ve kelamdaki kullanımı."
 primary_keyword: li aynihi vacip
-secondary_keywords: [vâcib li-aynihî, vâcib li-zâtihî, vâcib li-gayrihî, vâcibü'l-vücûd, mümkün mümteni, aklî hükümler, haram li-aynihî]
-category: Kelam / Fıkıh Usulü
+secondary_keywords: [li-aynihi vâcip, li-gayrihi vâcip, vacip namazlar, vitir namazı vacip, vâcib li-zâtihî, haram li-aynihi]
+category: Fıkıh / Kelam
 facts_checked: 2026-10-27
 ---
 
-# Vâcib li-aynihî nedir? "Li-aynihî" ve "li-gayrihî" ayrımı
+# Li-aynihi vâcip nedir? Li-gayrihi vâcip ile farkı
 
-**Kısa cevap:** "Li-aynihî", Arapçada **"kendi zatı / özü sebebiyle"** demektir ve "li-zâtihî" ile aynı anlamda kullanılır. Kelamda **vâcib li-aynihî (vâcib li-zâtihî)**, varlığı **kendi zatının gereği olan**, var olmak için başka hiçbir sebebe muhtaç olmayan ve yokluğu düşünülemeyen varlıktır. Bu niteliğe sahip tek varlık **Allah**'tır; bu yüzden Allah için **Vâcibü'l-vücûd** denir.
+**Kısa cevap:** "Li-aynihî", Arapçada **"bizzat kendisi sebebiyle"** demektir. Fıkıhta **li-aynihi vâcip**, vâcip olması kulun herhangi bir davranışına ya da tercihine bağlı olmadan **doğrudan şâri' (Allah ve Resûlü) tarafından konmuş** vâciptir. Hanefî mezhebinde **vitir namazı** ile **Ramazan ve Kurban bayramı namazları** bunun en bilinen örnekleridir. Karşıtı **li-gayrihi vâcip**tir: Kulun kendi davranışı sebebiyle vâcip hâle gelen yükümlülüklerdir, **adak (nezir) namazı** gibi.
 
-"Li aynihi vacip" araması, kelam derslerindeki **aklî hükümler** (vâcib – mümkün – mümteni) konusuyla doğrudan ilgilidir. Aynı "li-aynihî / li-gayrihî" kalıbı fıkıh usulünde de karşımıza çıktığı için aşağıda iki kullanımı ayrı ayrı ele alıyoruz.
+DİKAB ve DHBT'de "vâcip namazlar" konusunda sık sorulan bu ayrım, Hanefî fıkhına özgü **vâcip** kavramını bilmeyi gerektirir.
 
-## 1) Kelamda: aklî hükümler
+## Önce: Hanefî fıkhında vâcip nedir?
 
-Kelamcılar, akla göre her şeyin varlık bakımından üç durumdan birinde olduğunu söyler:
+Hanefîlere göre vâcip, **farz ile sünnet arasında** yer alan hükümdür. Yapılması kesin olarak istenir, ama delili farz kadar kesin (kat'î) değildir; **zannî bir delille** sabit olmuştur. Bu yüzden:
 
-| Aklî hüküm | Tanımı | Örnek |
+- Vâcibi inkâr eden kâfir olmaz, ama terk eden **günaha girer**.
+- Diğer üç mezhep (Şâfiî, Mâlikî, Hanbelî) farz ile vâcibi çoğunlukla aynı anlamda kullanır. "Li-aynihi / li-gayrihi vâcip" ayrımı bu yüzden daha çok **Hanefî** kaynaklarda karşımıza çıkar.
+
+## Li-aynihi vâcip ve li-gayrihi vâcip
+
+| | **Li-aynihi vâcip** | **Li-gayrihi vâcip** |
 |---|---|---|
-| **Vâcib** | Varlığı zorunlu, yokluğu düşünülemeyen | Allah'ın varlığı |
-| **Mümkün** | Var olması da yok olması da eşit; varlığı bir sebebe bağlı | Allah dışındaki her şey (insan, evren) |
-| **Mümteni (muhal)** | Varlığı imkânsız, yokluğu zorunlu | Birden fazla ilah olması |
+| Anlamı | Bizzat kendisi vâcip olan | Başka bir sebep yüzünden vâcip olan |
+| Vücûbun kaynağı | Doğrudan şâri' | Kulun bir davranışı (adak, başlama vb.) |
+| Kul bir şey yapmasa da vâcip mi? | **Evet** | **Hayır**; sebep ortaya çıkınca vâcip olur |
+| Örnekler | Vitir namazı, Ramazan bayramı namazı, Kurban bayramı namazı | Adak (nezir) namazı; başlanıp bozulan nâfile namazın kazası |
 
-### Vâcib li-aynihî (li-zâtihî)
+### Örneklerle
 
-Yokluğunun imkânsızlığı **kendi zatından** kaynaklanan varlıktır. Varlığını kimseden almaz, bir yaratıcıya ya da sebebe ihtiyaç duymaz. Bu yalnızca **Allah'ın zatı** için geçerlidir. TDV İslâm Ansiklopedisi'nin ifadesiyle Allah'ın varlığı zatından gelir (bizâtihî / lizâtihî), diğer varlıklarınki ise başkasından gelir (bigayrihî / ligayrihî).
+- **Vitir namazı:** Kimse adamasa da her gün yatsıdan sonra kılınması vâciptir. Vücûbu kulun bir davranışına bağlı değildir. Bu yüzden **li-aynihi vâcip**tir.
+- **Bayram namazları:** Hanefîlere göre bayram namazı kılmakla yükümlü olanlara vâciptir. Vücûbu doğrudan şâri'den gelir: **li-aynihi vâcip**.
+- **Adak namazı:** "Şu işim olursa iki rekât namaz kılacağım" diyen kişi için bu namaz vâcip olur. Vâcip olmasının sebebi kulun **adağıdır**: **li-gayrihi vâcip**.
+- **Bozulan nâfile namaz:** Hanefîlere göre başlanan nâfile namaz bozulursa kazası gerekir. Vâcip olmasının sebebi kişinin o namaza **başlamış olmasıdır**: li-gayrihi vâcip.
 
-### Vâcib li-gayrihî
+> Bazı kaynaklar tilâvet secdesi ve tavaf namazı gibi örnekleri farklı gruplarda sayar. Sınavda tartışmasız örnekler genellikle **vitir ve bayram namazları** (li-aynihi) ile **adak namazı** (li-gayrihi) olur.
 
-Varlığı zorunludur, ancak bu zorunluluk **kendi zatından değil başka bir şeyden** kaynaklanır. Kelam literatüründe iki bağlamda kullanılır:
+## Aynı kalıbın başka kullanımları
 
-- **Allah'ın sıfatları:** Bazı kelamcılar, sıfatların vücûbunun kendi zatlarından değil Allah'ın zatından kaynaklandığını belirtmek için "vâcib li-gayrihî" ifadesini kullanır.
-- **Felsefî kullanım (İbn Sînâ ve takipçileri):** Kendi zatı bakımından mümkün olan bir varlık, sebebi var olduğunda zorunlu olarak var olur; bu varlık "kendi zatı itibarıyla mümkün, başkası sebebiyle vâcib"tir.
+"Li-aynihî / li-gayrihî" kalıbı İslam ilimlerinde başka hükümler için de kullanılır. Sınavda karıştırmamak için:
 
-### Akılda tutmak için
+| Terim | Alan | Anlamı | Örnek |
+|---|---|---|---|
+| **Haram li-aynihi** | Fıkıh usulü | Kendisindeki kötülük sebebiyle baştan haram olan | Zina, hırsızlık |
+| **Haram li-gayrihi** | Fıkıh usulü | Aslında meşru olup dış bir sebeple haram olan | Bayram günü oruç tutmak |
+| **Hasen li-aynihi** | Fıkıh usulü | Bizzat güzel olduğu için emredilen | İman, namaz |
+| **Hasen li-gayrihi** | Fıkıh usulü | Başka bir şeye vesile olduğu için güzel olan | Namaz için abdest |
+| **Vâcib li-zâtihî (li-aynihî)** | **Kelam** | Varlığı kendi zatından olan, yokluğu düşünülemeyen varlık | Yalnız **Allah** (Vâcibü'l-vücûd) |
+| **Vâcib li-gayrihî** | Kelam / felsefe | Varlığı zorunlu olup bu zorunluluğu başkasından alan | İbn Sînâ'ya göre sebebi var olan mümkün varlık |
 
-> **Vâcib li-aynihî = varlığı kendinden.** Allah'ın varlığı kimseye bağlı değildir.
-> **Mümkün = varlığı başkasından.** Evren ve içindekiler var olmak için Allah'a muhtaçtır.
+### Kelamdaki anlamı kısaca
 
-Bu ayrım, Allah'ın varlığını ispatta kullanılan **imkân delili**nin de temelidir: Mümkün varlıklar var olmak için bir sebebe muhtaçtır; sebepler zinciri sonsuza kadar gidemeyeceğine göre, varlığı kendinden olan bir **Vâcibü'l-vücûd** bulunmalıdır.
+Kelamda akıl, varlığa üç hüküm verir: **vâcip** (varlığı zorunlu), **mümkün** (var olması da olmaması da eşit) ve **mümteni** (varlığı imkânsız). Varlığının zorunluluğu kendi zatından gelen tek varlık Allah'tır; bu yüzden Allah için **vâcibü'l-vücûd li-zâtihî** denir. Allah dışındaki her şey **mümkün** varlıktır ve var olmak için O'na muhtaçtır.
 
-## 2) Fıkıh usulünde: "li-aynihî" ve "li-gayrihî"
-
-Fıkıh usulünde aynı kalıp, bir hükmün **fiilin kendisinden mi yoksa dışarıdan bir sebepten mi** kaynaklandığını anlatmak için kullanılır:
-
-| Terim | Anlamı | Örnek |
-|---|---|---|
-| **Haram li-aynihî (li-zâtihî)** | Kendisindeki kötülük sebebiyle baştan haram kılınan fiil | Zina, hırsızlık, adam öldürme |
-| **Haram li-gayrihî** | Aslında meşru olup dışarıdaki bir sebepten dolayı haram olan fiil | Bayram günü oruç tutmak |
-| **Hasen li-aynihî** | Kendisi bizzat güzel olduğu için emredilen fiil | İman, namaz |
-| **Hasen li-gayrihî** | Başka bir şeye vesile olduğu için güzel olan fiil | Namaz için abdest |
-
-Yani bir sınav sorusunda "li-aynihî" ifadesini gördüğünüzde, **"bizzat kendisi sebebiyle"** anlamını düşünmeniz çoğu zaman doğru cevaba götürür. Kelam sorusuysa konu Allah'ın varlığı ve aklî hükümler, usul sorusuysa konu hükmün kaynağıdır.
+Soru **namaz ve ibadet** bağlamındaysa fıkıhtaki anlam, **Allah'ın varlığı** bağlamındaysa kelamdaki anlam kastedilir.
 
 ## Sıkça sorulan sorular
 
 **Li aynihi vacip ne demek?**
-"Kendi zatı sebebiyle vâcib" demektir; varlığı başka bir sebebe bağlı olmayan, yokluğu düşünülemeyen varlıktır. Bu yalnız Allah'tır.
+"Bizzat kendisi sebebiyle vâcip" demektir. Vâcip olması kulun bir davranışına bağlı olmayıp doğrudan şâri' tarafından konmuş yükümlülüktür.
 
-**Vâcib li-zâtihî ile vâcib li-aynihî aynı mı?**
-Evet. Her iki ifade de "kendi zatı/özü sebebiyle vâcib" anlamına gelir; literatürde "li-zâtihî" daha yaygındır.
+**Li-aynihi vâcip namazlar hangileridir?**
+Hanefî mezhebinde vitir namazı ile Ramazan ve Kurban bayramı namazları li-aynihi vâcip olarak sayılır.
 
-**Vâcib li-gayrihî ne demek?**
-Varlığı zorunlu olmakla birlikte bu zorunluluğu kendi zatından değil başka bir şeyden alan varlıktır.
+**Li-gayrihi vâcip ne demek?**
+Kulun kendi davranışı sebebiyle vâcip hâle gelen yükümlülüktür. Adak namazı ve başlanıp bozulan nâfile namazın kazası örnek verilir.
 
-**Mümkün varlık nedir?**
-Var olması da yok olması da eşit olan, var olmak için bir sebebe muhtaç olan varlıktır; Allah dışındaki her şey mümkün varlıktır.
+**Vâcib li-zâtihî ile li-aynihi vâcip aynı şey mi?**
+Kalıp aynıdır, kullanıldığı alan farklıdır. Kelamda "vâcib li-zâtihî" Allah'ın varlığını anlatır; fıkıhta "li-aynihi vâcip" bir ibadetin hükmünü anlatır.
 
 ---
 
-**İlgili kavramlar:** [Bedâ nedir?](/beda-nedir) · [Ba's nedir?](/bas-nedir) · [DİKAB kavram sözlüğü](/dikab-kavram-sozlugu)
+**İlgili kavramlar:** [Beda nedir?](/beda-nedir) · [Seb'u't-tıvâl nedir?](/sebut-tival-nedir)
 
-**Kaynaklar:** TDV İslâm Ansiklopedisi, "Vücûd (sıfat)" maddesi (islamansiklopedisi.org.tr/vucud--sifat); TDV İslâm Ansiklopedisi, "Nehiy" maddesi (islamansiklopedisi.org.tr/nehiy) — haram li-aynihî / li-gayrihî; Sizgen, "Fıkıh Usûlündeki Haram li-gayrihi Merkezli Tartışmaların Fürû-ı Fıkha Yansımaları" (2024).
-
-> **Editör notu:** "Li aynihi vacip" araması hem kelam (vâcib li-zâtihî) hem usul (li-aynihî/li-gayrihî) niyetini taşıyabilir. Search Console'da bu sayfaya hangi sorgunun geldiğine bakılarak ileride iki ayrı sayfaya bölünüp bölünmeyeceğine karar verilmeli.
+**Kaynaklar:** DİKAB Atlası, "Li-aynihi Vâcip" (dikabdershanesi.com/atlas/li-aynihi-vacip); Diyanet İşleri Başkanlığı, *İlmihal I: İman ve İbadetler* (vâcip namazlar); TDV İslâm Ansiklopedisi, "Vücûd (sıfat)" ve "Nehiy" maddeleri.

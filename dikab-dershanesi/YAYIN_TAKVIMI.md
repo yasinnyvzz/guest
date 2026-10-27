@@ -1,5 +1,27 @@
 # DİKAB Dershanesi — Kavram İçerikleri SEO Planı ve 24 Saatlik Yayın Takvimi
 
+## 0) GERÇEK DURUM (27.10.2026): WordPress'te zamanlandı
+
+Mevcut 4 Sözlük yazısına (Beda, Akraba, Baas, Ehlivukuf) site sahibinin kararıyla
+dokunulmadı. Ayrı kavram sözlüğü hub'ı yayımlanmadı (sitede `/dikab-kavramlar-sozlugu/`
+A–Z sayfası zaten var). Kalan 9 yazı `tools/wp_publish.py` ile "Zamanlanmış" olarak girildi:
+
+| Tarih (TSİ) | WP ID | Kategori | Adres |
+|---|---|---|---|
+| 28.10.2026 09:00 | 3539 | Sözlük | /sebut-tival-nedir/ |
+| 29.10.2026 09:00 | 3540 | Sözlük | /vakf-i-kafi-nedir/ |
+| 30.10.2026 09:00 | 3541 | Sözlük | /li-aynihi-vacip-nedir/ |
+| 31.10.2026 09:00 | 3542 | Diyanet Rehberi | /diyanet-becayis-nasil-yapilir/ |
+| 01.11.2026 09:00 | 3543 | Diyanet Rehberi | /diyanet-munhal-kadro-nedir/ |
+| 02.11.2026 09:00 | 3544 | Diyanet Rehberi | /facebook-becayis-gruplari/ |
+| 03.11.2026 09:00 | 3551 | Diyanet Rehberi | /imam-namaz-vaktinde-camide-yoksa-cezasi-nedir/ |
+| 04.11.2026 09:00 | 3552 | Diyanet Rehberi | /imam-murakip-denetimi/ |
+| 05.11.2026 09:00 | 3553 | Diyanet Rehberi | /imam-sevgili-yaparsa-gorevden-atilir-mi/ |
+
+Henüz yayımlanmamış bir yazıya giden iç linkler düz metin olarak girildi (404 olmasın diye).
+05.11.2026'da `wp_publish.py publish --relink` ile tüm linkler açılacak.
+Aşağıdaki bölümler ilk taslak plandır; tarihleri yukarıdaki tablo geçersiz kılar.
+
 Kaynak: Search Console sorguları (tıklama 0, gösterim 1–3). Bu sorgular gösterim
 alıyor ama tıklama getirmiyor; yani sitede bu niyete tam cevap veren bir sayfa yok.
 Plan, her niyet için **tek URL** açar ve aynı niyetteki sorguları birleştirir.
