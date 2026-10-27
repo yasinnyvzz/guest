@@ -70,7 +70,41 @@ link ya yayın günü eklenmeli ya da yazılar takvimdeki sırayla girilmeli
 - [ ] Arapça terimler (سبع طوال، بعث vb.) doğru göründü mü?
 - [ ] Hub'daki tüm linkler canlı mı? (gün 8'de kontrol)
 
-## 6) Yayın sonrası takip (2–4 hafta)
+## 6) 2. küme: Diyanet personeli (atama, nakil, disiplin)
+
+Aynı ritim (24 saat arayla, 09:00 TSİ), 1. kümenin bitişinden sonra devam eder.
+
+| Sorgu (kullanıcı notu) | Sayfa | Slug |
+|---|---|---|
+| münhal kadrolar becayiş nasıl yapılır | Diyanet'te becayiş nasıl yapılır? | `/diyanet-becayis-nasil-yapilir` |
+| münhal kadrolar | Münhal kadro nedir? | `/diyanet-munhal-kadro-nedir` |
+| facebook becayiş grupları | Facebook becayiş grupları rehberi | `/facebook-becayis-gruplari` |
+| imam vakte gelmedi / camide kimse yok cezası | İmam namaz vaktinde camide yoksa cezası | `/imam-namaz-vaktinde-camide-yoksa-cezasi-nedir` |
+| imam murakıba yakalanma | Murakıp kimdir, denetimde ne olur? | `/imam-murakip-denetimi` |
+| imam sevgili yaptı atılır mı | Ortak nitelik kaybı ve disiplin | `/imam-sevgili-yaparsa-gorevden-atilir-mi` |
+
+| Gün | Tarih / saat | Dosya | Durum |
+|---|---|---|---|
+| 9 | 05.11.2026 Per 09:00 | `makaleler/09-diyanet-becayis-nasil-yapilir.md` | READY TO PUBLISH |
+| 10 | 06.11.2026 Cum 09:00 | `makaleler/10-diyanet-munhal-kadro-nedir.md` | READY TO PUBLISH |
+| 11 | 07.11.2026 Cmt 09:00 | `makaleler/11-facebook-becayis-gruplari.md` | READY TO PUBLISH |
+| 12 | 08.11.2026 Paz 09:00 | `makaleler/12-imam-vakitte-camide-yoksa-cezasi.md` | READY TO PUBLISH |
+| 13 | 09.11.2026 Pzt 09:00 | `makaleler/13-imam-murakip-denetimi.md` | READY TO PUBLISH |
+| 14 | 10.11.2026 Sal 09:00 | `makaleler/14-imam-sevgili-yaparsa-gorevden-atilir-mi.md` | READY TO PUBLISH |
+
+İç link zinciri:
+```
+becayiş ↔ münhal kadro ↔ facebook becayiş grupları      (atama/nakil)
+vakitte yoksa ceza ↔ murakıp denetimi ↔ ortak nitelik    (disiplin)
+```
+
+Editoryal kurallar (2. küme):
+- Ceza tabloları yalnız 657/125 resmî metnine dayanır; madde/bent numarası her satırda yazılı.
+- Belirli kişi, cami, Facebook grubu, haber olayı anılmaz; gerçek imam fotoğrafı kullanılmaz.
+- "Kesin atılır / kesin ceza alır" gibi ifadeler yok; süreç (tespit → savunma → karar → itiraz/dava) anlatılır.
+- Yayın öncesi kontrol: Atama ve Yer Değiştirme Yönetmeliği'nin güncel metni (becayiş maddesi, 5/1-b), 657/127 (7573 sayılı Kanun ile 2026 değişikliği).
+
+## 7) Yayın sonrası takip (2–4 hafta)
 
 - Search Console'da her sayfanın sorguları: gösterim ↑, ortalama pozisyon, CTR.
 - `li aynihi vacip` sayfası kelam mı usul mü niyetiyle tıklanıyor, ona göre bölme kararı.
