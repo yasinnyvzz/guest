@@ -26,3 +26,6 @@ Kimlik bilgileri dosyaya, commit'e yazılmaz. Oturumda ortam değişkeni olarak 
 
 ## Kalıcı kural: tekrar içerik
 Defence Arabia metni, Envanter AR metninin kopyası/çevirisi olmaz. Başlık, giriş, bölüm sırası ve cümleler özgün yazılır; 5-gram örtüşme %25'in altında kalmalı. Yeni haberlerde `yayinla.py` öncesi örtüşme ölçülür.
+
+## Kalıcı kural: kaynak
+Defence Türk, GDH gibi Türk savunma siteleri kaynak olarak gösterilmez; yalnız konu ipucudur. Asıl kaynak (resmî duyuru, şirket/bakanlık bülteni, ajans veya yabancı özel yayın) bulunup o gösterilir. Bulunamayan olgu metinden çıkarılır.
