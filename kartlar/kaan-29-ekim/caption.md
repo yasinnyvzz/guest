@@ -7,8 +7,8 @@ Kapak, Envanter'in Cadılar Bayramı için yaptığı hayalet örtülü KAAN gö
 | Slayt | İçerik |
 |---|---|
 | 1 | KAAN'dan Cumhuriyet Bayramı şakası (hayaletli KAAN) |
-| 2 | Önce kravat: Erdoğan'ın KAAN temalı kravatı |
-| 3 | Sonra şarkı: TUSAŞ'ın "Ben de Özledim" şarkılı KAAN videosu |
+| 2 | Önce kravat: Erdoğan'ın TBMM'deki mavi ve 29 Ekim'deki kırmızı KAAN desenli kravatları (Foto: Cumhurbaşkanlığı / AA) |
+| 3 | Sonra şarkı: TUSAŞ'ın "Ben de Özledim" şarkılı hangar videosunun ekran görüntüsü |
 | 4 | Bir de uyarı: Yusuf Akbaba'nın 28 Ekim tweet'i |
 | 5 | Şimdilik şaka: yeni uçuş önümüzdeki haftalarda bekleniyor |
 
@@ -16,7 +16,7 @@ Kapak, Envanter'in Cadılar Bayramı için yaptığı hayalet örtülü KAAN gö
 
 👻 KAAN'dan Cumhuriyet Bayramı şakası
 
-Önce Cumhurbaşkanı Erdoğan'ın KAAN temalı kravatı geldi, ardından TUSAŞ Ferdi Tayfur'un "Ben de Özledim" şarkısıyla bir KAAN videosu paylaştı. İşaretler o kadar güçlüydü ki çoğumuz 29 Ekim sabahı gözü gökyüzünde bekledik.
+Önce Cumhurbaşkanı Erdoğan'ın KAAN desenli kravatları geldi: TBMM'de mavisi, 29 Ekim'de Anıtkabir'de kırmızısı. TUSAŞ da Ferdi Tayfur'un "Ben de Özledim" şarkısıyla hangardaki KAAN'ı paylaştı. İşaretler o kadar güçlüydü ki çoğumuz 29 Ekim sabahı gözü gökyüzünde bekledik.
 
 KAAN ise bayramı hangarda, örtüsünün altında geçirdi. Savunma sanayii uzmanı Yusuf Akbaba bir gün önceden haber vermişti: "Beklemeyin, o kuş bugün ya da yarın uçmayacak."
 
@@ -28,10 +28,10 @@ Cumhuriyetimizin 103. yılı kutlu olsun 🇹🇷
 
 ## X
 
-KAAN'dan 29 Ekim şakası 👻 Erdoğan'ın KAAN kravatı ve TUSAŞ'ın "Ben de Özledim" videosu sonrası herkes bayramda uçuş bekledi, KAAN bayramı hangarda geçirdi. Yeni uçuş önümüzdeki haftalarda bekleniyor. Cumhuriyetimizin 103. yılı kutlu olsun 🇹🇷
+KAAN'dan 29 Ekim şakası 👻 Erdoğan'ın iki KAAN kravatı ve TUSAŞ'ın "Ben de Özledim" videosu sonrası herkes bayramda uçuş bekledi, KAAN bayramı hangarda geçirdi. Yeni uçuş önümüzdeki haftalarda bekleniyor. Cumhuriyetimizin 103. yılı kutlu olsun 🇹🇷
 
 #KAAN #TUSAŞ #29Ekim
 
 ## Kısa sürüm (story / LinkedIn)
 
-Kravat vardı, "Ben de Özledim" vardı, beklenti vardı. KAAN bu bayramı hangarda geçirdi; asıl sürpriz önümüzdeki haftalarda.
+İki kravat vardı, "Ben de Özledim" vardı, beklenti vardı. KAAN bu bayramı hangarda geçirdi; asıl sürpriz önümüzdeki haftalarda.

@@ -42,6 +42,20 @@ body{background:#000;font-family:"Inter",sans-serif;}
 .c5 .peek{position:absolute;left:50%;bottom:-180px;width:900px;height:760px;transform:translateX(-50%);background:url(_src/ghost.jpg) -113px -470px/1126px 1397px no-repeat;
   -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 30%);mask-image:linear-gradient(180deg,transparent 0%,#000 30%)}
 .cta{display:inline-block;margin-top:40px;border:3px solid #fff;border-radius:999px;padding:16px 30px;font-size:30px;font-weight:700}
+
+/* slide 2 ties */
+.ties{position:absolute;left:64px;right:64px;top:560px;display:flex;gap:24px;z-index:4}
+.tie{position:relative;flex:1;height:640px;border-radius:14px;overflow:hidden;background:#111}
+.tie .ph{position:absolute;inset:0;background-size:cover;background-position:center top}
+.tie .sh{position:absolute;left:0;right:0;bottom:0;height:300px;background:linear-gradient(180deg,rgba(4,9,15,0),rgba(4,9,15,.95))}
+.tie .dt{position:absolute;left:22px;bottom:110px;width:170px;height:170px;border-radius:50%;border:5px solid #fff;background-size:118%;background-position:center;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.tie .cap{position:absolute;left:24px;right:20px;bottom:30px;font-size:30px;font-weight:800;line-height:1.15}
+.tie .cap span{display:block;font-size:22px;font-weight:500;color:var(--mute);margin-top:6px}
+.credit{position:absolute;left:64px;bottom:56px;font-size:20px;letter-spacing:1.5px;color:var(--mute);z-index:5}
+/* slide 3 tusas */
+.phone{position:absolute;left:50%;top:710px;width:600px;height:900px;transform:translateX(-50%) rotate(-2deg);border-radius:28px;overflow:hidden;border:6px solid #1c232d;box-shadow:0 30px 80px rgba(0,0,0,.6);background:url(_src/tusas-video.jpg) center top/600px auto no-repeat;z-index:3}
+.song{position:absolute;left:50%;top:650px;transform:translateX(-50%) rotate(-2deg);z-index:6;background:#fff;color:#111;border-radius:999px;padding:14px 26px;font-size:28px;font-weight:700;white-space:nowrap;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.song i{font-style:normal;color:var(--red);margin-right:10px}
 </style></head><body>
 
 <!-- 1 -->
@@ -61,10 +75,18 @@ body{background:#000;font-family:"Inter",sans-serif;}
   <img class="logo" src="_src/logo-white.png"><div class="num">2/5</div>
   <div class="text">
     <span class="label">ÖNCE KRAVAT</span>
-    <div class="h">Bayram öncesi ilk ipucu</div>
-    <div class="p">Cumhurbaşkanı Erdoğan'ın <b>KAAN temalı kravatı</b> gözlerden kaçmadı. Millî muharip uçak yine gündemin tam ortasındaydı.</div>
+    <div class="h">İki kravat, tek desen</div>
+    <div class="p">Cumhurbaşkanı Erdoğan önce TBMM'de mavi, 29 Ekim'de Anıtkabir'de kırmızı <b>KAAN desenli kravatla</b> görüntülendi.</div>
   </div>
-  <div class="photo" style="background-image:url(_src/kaan-top2.jpg);background-size:auto 820px;background-position:-250px 40px"></div><div class="fade"></div>
+  <div class="ties">
+    <div class="tie"><div class="ph" style="background-image:url(_src/erdogan-mavi.jpg)"></div><div class="sh"></div>
+      <div class="dt" style="background-image:url(_src/kravat-mavi.jpg)"></div>
+      <div class="cap">Mavi<span>TBMM grup toplantısı</span></div></div>
+    <div class="tie"><div class="ph" style="background-image:url(_src/erdogan-kirmizi.jpg)"></div><div class="sh"></div>
+      <div class="dt" style="background-image:url(_src/kravat-kirmizi.jpg);background-size:160%"></div>
+      <div class="cap">Kırmızı<span>29 Ekim, Anıtkabir</span></div></div>
+  </div>
+  <div class="credit">FOTO: CUMHURBAŞKANLIĞI / AA</div>
   <div class="swipe">Kaydır →</div>
 </section>
 
@@ -74,10 +96,11 @@ body{background:#000;font-family:"Inter",sans-serif;}
   <div class="text">
     <span class="label">SONRA ŞARKI</span>
     <div class="h">TUSAŞ'tan<br>"Ben de Özledim"</div>
-    <div class="p">TUSAŞ, Ferdi Tayfur'un <b>"Ben de Özledim"</b> şarkısıyla bir KAAN videosu paylaştı. Herkesin aklında aynı soru vardı: 29 Ekim'de uçuş var mı?</div>
+    <div class="p">TUSAŞ, Ferdi Tayfur'un şarkısıyla hangardaki KAAN'ı paylaştı. Herkesin aklında aynı soru vardı: <b>29 Ekim'de uçuş var mı?</b></div>
   </div>
-  <div class="photo" style="background-image:url(_src/kaan-side.jpg);background-size:1180px auto;background-position:-60px 70px"></div><div class="fade"></div>
-  <div class="swipe">Kaydır →</div>
+  <div class="song"><i>♪</i>Ferdi Tayfur · Ben de Özledim</div>
+  <div class="phone"></div>
+  <div class="swipe" style="z-index:7">Kaydır →</div>
 </section>
 
 <!-- 4 -->
