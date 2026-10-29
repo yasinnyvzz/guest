@@ -1,27 +1,35 @@
-# KAAN 29 Ekim kartı — caption
+# KAAN 29 Ekim carousel — caption
 
-Görsel: `kaan-29-ekim.png` (1080×1350, Instagram 4:5). Kaynak: `kaan-29-ekim.html`.
+Görseller: `seri/1-kapak.png` … `seri/5-uygulama.png` (5 slayt, 1080×1350, Instagram 4:5). Kaynak: `seri.html`.
 
-Bağlam: "Bööö!" başlığı, Envanter'in Cadılar Bayramı için paylaştığı hayalet örtülü KAAN görseline gönderme. TUSAŞ'ın paylaşımı ise Erdoğan'ın KAAN kravatının ardından Ferdi Tayfur'un "Ben de Özledim" şarkısıyla yayımladığı KAAN videosu.
+Çerçeve: olumlu ve ileriye dönük. "Şaka" ve "uçmadı" vurgusu, kutuplaşma ve TUSAŞ'ı hedef alıyor gibi okunma riski nedeniyle çıkarıldı. Örtülü KAAN görseli son slaytta "bugün hangarda, belki haftaya göklerde" çerçevesiyle duruyor.
+
+| Slayt | İçerik |
+|---|---|
+| 1 | 29 Ekim'de gözler KAAN'daydı (kırmızı KAAN kravatı deseni) |
+| 2 | İki kravat, tek desen: TBMM'de mavi, 29 Ekim'de Anıtkabir'de kırmızı (Foto: Cumhurbaşkanlığı / AA) |
+| 3 | TUSAŞ'ın "Ben de Özledim" şarkılı hangar paylaşımı |
+| 4 | Şimdilik örtü altında: bugün hangarda, belki haftaya göklerde |
+| 5 | Envanter'in hazır uygulama kartı: "Detaylar Envanter mobil uygulamasında", App Store / Google Play |
 
 ## Instagram / Facebook
 
-👻 Bööö! KAAN'dan 29 Ekim sürprizi bekleyenlere…
+🇹🇷 29 Ekim'de gözler KAAN'daydı
 
-Cumhurbaşkanı Erdoğan'ın KAAN temalı kravatı, ardından TUSAŞ'ın Ferdi Tayfur'un "Ben de Özledim" şarkısıyla paylaştığı KAAN videosu, millî muharip uçağımızın 29 Ekim'de yeniden gökyüzüyle buluşacağı beklentisini artırmıştı. Bayram sabahı gözler Ankara'daydı.
+Cumhurbaşkanı Erdoğan, TBMM grup toplantısında mavi, 29 Ekim'de Anıtkabir'de kırmızı KAAN desenli kravatıyla dikkat çekti. TUSAŞ da Ferdi Tayfur'un "Ben de Özledim" şarkısıyla hangardaki KAAN'ı paylaşarak millî muharip uçağımıza duyulan özlemi dile getirdi.
 
-Uçuş gelmedi. Savunma sanayii uzmanı Yusuf Akbaba daha 28 Ekim'de uyarmıştı: "Beklemeyin, o kuş bugün ya da yarın uçmayacak."
+KAAN bayramı hangarda, üstü örtülü geçirdi. Kim bilir, belki haftaya gökyüzündedir. Detayları Envanter uygulamasından ilk siz duyacaksınız; bildirimleri açmayı unutmayın.
 
-KAAN'ın önümüzdeki haftalarda yeniden havalanması bekleniyor. Tarih netleşince ilk buradan duyuracağız; bildirimleri açın.
+Cumhuriyetimizin 103. yılı kutlu olsun 🇹🇷
 
-#KAAN #TUSAŞ #MillîMuharipUçak #SavunmaSanayii #29Ekim
+#KAAN #TUSAŞ #29Ekim #CumhuriyetBayramı #MillîMuharipUçak
 
 ## X
 
-KAAN 29 Ekim'de uçmadı. Erdoğan'ın KAAN kravatı ve TUSAŞ'ın "Ben de Özledim" şarkılı KAAN videosu beklentiyi büyütmüştü; Yusuf Akbaba ise 28 Ekim'de "o kuş bugün ya da yarın uçmayacak" demişti. Yeni uçuş önümüzdeki haftalarda bekleniyor. 👻
+29 Ekim'de gözler KAAN'daydı. Cumhurbaşkanı Erdoğan'ın KAAN desenli kravatları ve TUSAŞ'ın "Ben de Özledim" paylaşımı bayrama damga vurdu. KAAN bugün hangarda örtü altındaydı, belki haftaya göklerde. Detaylar Envanter uygulamasında. Cumhuriyetimizin 103. yılı kutlu olsun 🇹🇷
 
-#KAAN #TUSAŞ #SavunmaSanayii
+#KAAN #TUSAŞ #29Ekim
 
 ## Kısa sürüm (story / LinkedIn)
 
-Kravat vardı, "Ben de Özledim" vardı, beklenti vardı. KAAN 29 Ekim'de uçmadı. Yeni uçuş önümüzdeki haftalarda bekleniyor.
+Kravattan hangara, 29 Ekim'de gözler KAAN'daydı. Bugün örtü altında, belki haftaya göklerde. Detaylar Envanter uygulamasında.
