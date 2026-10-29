@@ -1,133 +1,63 @@
-<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>@font-face{font-family:'Poppins';font-style:normal;font-weight:300;src:url(_src/fonts/poppins-300-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:300;src:url(_src/fonts/poppins-300-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;src:url(_src/fonts/poppins-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;src:url(_src/fonts/poppins-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;src:url(_src/fonts/poppins-500-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;src:url(_src/fonts/poppins-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;src:url(_src/fonts/poppins-600-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;src:url(_src/fonts/poppins-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:700;src:url(_src/fonts/poppins-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:700;src:url(_src/fonts/poppins-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:800;src:url(_src/fonts/poppins-800-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:800;src:url(_src/fonts/poppins-800-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:#000;font-family:"Inter",sans-serif}
-:root{--bg:#04090F;--red:#E31B23;--mute:#A9B3BF;--line:#1B2430;--panel:#0B121B}
-.card{position:relative;width:1080px;height:1350px;background:var(--bg);overflow:hidden;margin-bottom:20px;color:#fff}
-.logo{position:absolute;left:64px;top:60px;width:260px;z-index:5}
-.num{position:absolute;right:64px;top:64px;font-size:24px;font-weight:600;color:var(--mute);z-index:5;letter-spacing:1px}
-.label{display:inline-block;background:var(--red);color:#fff;font-weight:800;font-size:22px;letter-spacing:2px;padding:9px 16px;border-radius:4px}
-.foot{position:absolute;left:64px;bottom:44px;font-size:20px;letter-spacing:1.5px;color:var(--mute);z-index:5}
-.swipe{position:absolute;right:64px;bottom:40px;font-size:24px;font-weight:600;color:var(--mute);z-index:5}
-.tx{position:absolute;left:64px;right:64px;top:150px;z-index:4}
-.h{font-weight:900;font-size:68px;line-height:1.04;letter-spacing:-2px;margin-top:20px}
-.h em{font-style:normal;color:#FF4D55}
-.p{font-size:32px;line-height:1.4;color:#D9DEE4;margin-top:22px}
-.p b{color:#fff}
-.ph{position:absolute;left:64px;right:64px;border-radius:18px;background-size:cover;background-position:center;box-shadow:0 30px 70px rgba(0,0,0,.55)}
-.glow{position:absolute;left:0;right:0;top:0;height:760px;background:radial-gradient(ellipse at 25% 35%,rgba(227,27,35,.18),rgba(4,9,15,0) 60%)}
-ul.b{list-style:none;margin-top:26px}
-ul.b li{position:relative;padding-left:28px;font-size:30px;line-height:1.38;color:#D9DEE4;margin-top:12px}
-ul.b li::before{content:"";position:absolute;left:0;top:15px;width:12px;height:12px;background:var(--red);border-radius:2px}
-ul.b li b{color:#fff}
-/* timeline */
-.tl{position:absolute;left:64px;right:64px;top:470px;display:flex;flex-direction:column;gap:22px}
-.st{display:flex;gap:26px;align-items:flex-start;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:28px 30px}
-.st .k{flex:none;width:76px;height:76px;border-radius:50%;background:var(--red);display:flex;align-items:center;justify-content:center;font-size:40px;font-weight:900}
-.st .k.o{background:transparent;border:3px solid var(--red);color:#FF4D55}
-.st .t{font-size:36px;font-weight:800;line-height:1.15}
-.st .d{font-size:27px;color:#C9D0D8;margin-top:8px;line-height:1.35}
-.tag{display:inline-block;margin-top:12px;font-size:22px;font-weight:700;letter-spacing:1px;padding:6px 12px;border-radius:999px}
-.tag.ok{background:rgba(46,180,110,.18);color:#5BD69A}
-.tag.wait{background:rgba(246,198,68,.16);color:#F6C644}
-/* flow */
-.flow{position:absolute;left:64px;right:64px;top:440px;display:flex;align-items:stretch;gap:14px}
-.fb{flex:1;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:26px 22px;text-align:center}
-.fb .i{font-size:22px;font-weight:800;letter-spacing:1.5px;color:#FF4D55}
-.fb .t{font-size:31px;font-weight:800;margin-top:10px;line-height:1.2}
-.ar{flex:none;align-self:center;font-size:44px;color:var(--red);font-weight:900}
-/* chips */
-.col{position:absolute;left:64px;right:64px;display:block}
-.ct{font-size:24px;font-weight:800;letter-spacing:2px;color:var(--mute)}
-.chips{display:flex;flex-wrap:wrap;gap:14px;margin-top:16px}
-.chip{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 22px;font-size:32px;font-weight:800}
-.chip small{display:block;font-size:20px;font-weight:500;color:var(--mute);margin-top:4px;letter-spacing:.3px}
-.note{position:absolute;left:64px;right:64px;top:960px;border-left:5px solid #F6C644;padding:16px 22px;background:rgba(246,198,68,.08);border-radius:0 10px 10px 0;font-size:26px;line-height:1.4;color:#E8E2CC}
-/* stats */
-.stats{position:absolute;left:64px;right:64px;top:420px;display:flex;gap:24px}
-.sb{flex:1;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:34px 34px 30px}
-.sb .n{font-size:190px;font-weight:900;line-height:.9;letter-spacing:-8px;color:#FF4D55}
-.sb .l{font-size:36px;font-weight:800;margin-top:14px}
-</style></head><body>
-
-<!-- 1 -->
-<section class="card" id="s1"><div class="glow"></div>
+body{background:#000;font-family:"Poppins",sans-serif}
+.card{position:relative;width:1080px;height:1350px;overflow:hidden;margin-bottom:20px;color:#fff;background:#0E141B}
+.bg{position:absolute;inset:0;background-size:cover;background-position:center}
+.sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,12,17,.55) 0%,rgba(8,12,17,0) 22%,rgba(8,12,17,0) 42%,rgba(8,12,17,.78) 62%,rgba(8,12,17,.96) 80%,#080C11 100%)}
+.logo{position:absolute;left:78px;top:78px;width:236px;z-index:5}
+.blk{position:absolute;left:78px;right:78px;bottom:170px;z-index:4}
+.tag{display:inline-block;background:#D7262E;color:#fff;font-weight:700;font-size:22px;letter-spacing:1.5px;padding:8px 18px 7px;text-transform:uppercase}
+.hl{font-weight:300;font-size:60px;line-height:1.16;letter-spacing:-.5px;margin-top:26px}
+.hl b{font-weight:700;color:#F0424A}
+.bd{font-weight:400;font-size:29px;line-height:1.5;color:#D6DBE1;margin-top:24px}
+.bd b{font-weight:600;color:#fff}
+.ft{position:absolute;left:78px;right:78px;bottom:66px;display:flex;justify-content:space-between;align-items:center;font-size:22px;z-index:5;color:#DCE1E6}
+.ft b{font-weight:700;color:#fff}
+.ft .k{font-weight:600;letter-spacing:1.5px;font-size:20px}
+.list{margin-top:22px}
+.list div{font-size:29px;line-height:1.45;color:#D6DBE1;padding:10px 0;border-top:1px solid rgba(255,255,255,.14)}
+.list div:last-child{border-bottom:1px solid rgba(255,255,255,.14)}
+.list span{display:inline-block;min-width:54px;font-weight:700;color:#F0424A}
+.big{font-weight:700;font-size:150px;line-height:.95;letter-spacing:-4px;color:#F0424A;margin-top:18px}
+.big i{font-style:normal;font-weight:300;font-size:64px;letter-spacing:0;color:#fff;margin-left:10px;margin-right:34px}
+.num{position:absolute;right:78px;top:84px;font-size:22px;font-weight:500;color:rgba(255,255,255,.75);z-index:5}
+</style></head><body><section class="card" id="s1"><div class="bg" style="background-image:url(_src/tesis-robot.jpg);background-position:52% center"></div><div class="sh"></div>
 <img class="logo" src="_src/logo-white.png"><div class="num">1/8</div>
-<div class="tx"><span class="label">TEKNOLOJİ TRANSFERİ</span>
-<div class="h" style="font-size:80px">MKE, Ürdün'de <em>ikinci</em> mühimmat fabrikasını kurdu</div>
-<div class="p">Orta ve büyük kalibre mühimmat ile uçak bombası dolum ve montaj tesisi, devreye alma öncesi son aşamada.</div></div>
-<div class="ph" style="top:650px;height:590px;background-image:url(_src/tesis-robot.jpg)"></div>
-<div class="foot">FOTOĞRAFLAR: MKE</div><div class="swipe">Kaydır →</div></section>
-
-<!-- 2 -->
-<section class="card" id="s2">
+<div class="blk"><span class="tag">Teknoloji Transferi</span><div class="hl">MKE, Ürdün'de <b>ikinci mühimmat fabrikasını</b> kurdu</div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s2"><div class="bg" style="background-image:url(_src/tesis-personel.jpg);background-position:40% center"></div><div class="sh"></div>
 <img class="logo" src="_src/logo-white.png"><div class="num">2/8</div>
-<div class="tx"><span class="label">MKE NE AÇIKLADI?</span>
-<div class="h">Kurulum tamam,<br>üretim henüz başlamadı</div></div>
-<div class="ph" style="top:420px;height:470px;background-image:url(_src/tesis-personel.jpg)"></div>
-<div class="tx" style="top:920px"><ul class="b" style="margin-top:0">
-<li>Tesis <b>devreye alma öncesi son aşamada</b>.</li>
-<li>Kapasite, yatırım tutarı, tesisin yeri ve devreye alma tarihi <b>açıklanmadı</b>.</li></ul></div>
-<div class="foot">KAYNAK: MKE / AA</div><div class="swipe">Kaydır →</div></section>
-
-<!-- 3 -->
-<section class="card" id="s3">
+<div class="blk"><span class="tag">MKE ne açıkladı?</span><div class="hl">Kurulum tamam, <b>üretim henüz başlamadı</b></div><div class="bd">Orta ve büyük kalibre mühimmat ile uçak bombası dolum ve montaj tesisi <b>devreye alma öncesi son aşamada</b>. Kapasite, yatırım tutarı, yer ve tarih açıklanmadı.</div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s3"><div class="bg" style="background-image:url(_src/tesis-sandik.jpg);background-position:30% center"></div><div class="sh"></div>
 <img class="logo" src="_src/logo-white.png"><div class="num">3/8</div>
-<div class="tx"><span class="label">ÜRDÜN'DE İKİ PROJE</span>
-<div class="h">Önce fişek,<br>şimdi dolum ve montaj</div></div>
-<div class="tl">
- <div class="st"><div class="k">1</div><div><div class="t">Fişek üretim tesisi</div><div class="d">MKE'nin Ürdün'deki ilk teknoloji transferi projesi.</div><span class="tag ok">2024'TEN BERİ ÇALIŞIYOR</span></div></div>
- <div class="st"><div class="k o">2</div><div><div class="t">Dolum ve montaj tesisi</div><div class="d">Orta ve büyük kalibre mühimmat ile uçak bombaları.</div><span class="tag wait">KURULUM TAMAMLANDI</span></div></div>
-</div>
-<div class="ph" style="top:930px;height:310px;background-image:url(_src/tesis-sandik.jpg);background-position:center 60%"></div>
-<div class="foot">FOTOĞRAFLAR: MKE</div><div class="swipe">Kaydır →</div></section>
-
-<!-- 4 -->
-<section class="card" id="s4">
+<div class="blk"><span class="tag">Ürdün'de iki proje</span><div class="hl">Önce fişek, şimdi <b>dolum ve montaj</b></div><div class="list"><div><span>01</span><b style="color:#fff;font-weight:600">Fişek üretim tesisi</b> · 2024'ten beri çalışıyor</div><div><span>02</span><b style="color:#fff;font-weight:600">Dolum ve montaj tesisi</b> · kurulum tamamlandı</div></div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s4"><div class="bg" style="background-image:url(_src/tesis-robot.jpg);background-position:21% 14%;background-size:300% auto"></div><div class="sh"></div>
 <img class="logo" src="_src/logo-white.png"><div class="num">4/8</div>
-<div class="tx"><span class="label">DOLUM VE MONTAJ NEDİR?</span>
-<div class="h">Parçalar burada<br>mühimmata dönüşür</div></div>
-<div class="flow">
- <div class="fb"><div class="i">PARÇALAR</div><div class="t">Gövde, fünye ve diğer parçalar</div></div><div class="ar">→</div>
- <div class="fb"><div class="i">DOLUM</div><div class="t">Patlayıcı dolgu ile birleştirme</div></div><div class="ar">→</div>
- <div class="fb"><div class="i">SONUÇ</div><div class="t">Kullanıma hazır mühimmat</div></div>
-</div>
-<div class="tx" style="top:720px"><div class="ct">ANAHTAR TESLİM MODEL</div>
-<ul class="b" style="margin-top:6px"><li>MKE hattı <b>kurar</b>.</li><li>Personele üretim ve bakım-onarım <b>eğitimi</b> verir.</li><li><b>Teknik asistanlığı</b> sürdürür.</li><li>Ülke, ordusunun mühimmatını <b>yerinde üretme</b> kabiliyeti kazanır.</li></ul></div>
-<div class="ph" style="top:1040px;height:200px;background-image:url(_src/tesis-robot.jpg);background-size:150% auto;background-position:40% 18%"></div>
-<div class="swipe">Kaydır →</div></section>
-
-<!-- 5 -->
-<section class="card" id="s5">
+<div class="blk"><span class="tag">Dolum ve montaj nedir?</span><div class="hl">Parçalar burada <b>mühimmata dönüşür</b></div><div class="bd">Gövde, fünye ve diğer parçalar patlayıcı dolgu ile birleştirilir. Anahtar teslim modelde <b>MKE hattı kurar</b>, personeli eğitir ve teknik desteği sürdürür.</div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s5"><div class="bg" style="background-image:url(_src/sofex.jpg);background-position:100% 40%;background-size:210% auto"></div><div class="sh"></div>
 <img class="logo" src="_src/logo-white.png"><div class="num">5/8</div>
-<div class="tx"><span class="label">2024 ANLAŞMALARI</span>
-<div class="h">Temmuz 2024'te imzalanan kapsam</div></div>
-<div class="col" style="top:440px"><div class="ct">ORTA VE BÜYÜK KALİBRE</div>
-<div class="chips"><div class="chip">81 mm<small>havan</small></div><div class="chip">120 mm<small>havan</small></div><div class="chip">155 mm M107<small>top mermisi</small></div><div class="chip">MK81 · MK82 · MK84<small>uçak bombası</small></div></div></div>
-<div class="col" style="top:740px"><div class="ct">HAFİF MÜHİMMAT</div>
-<div class="chips"><div class="chip">5,56×45</div><div class="chip">7,62×39</div><div class="chip">7,62×51</div><div class="chip">9×19 mm</div></div></div>
-<div class="note">MKE açıklaması, yeni tesisin bu kapsamla birebir aynı olduğunu söylemiyor. Açıklamada yalnızca "orta ve büyük kalibre mühimmat ile uçak bombası" ifadesi geçiyor.</div>
-<div class="foot">KAYNAK: TÜRKİYE TODAY, EYLÜL 2024</div><div class="swipe">Kaydır →</div></section>
-
-<!-- 6 -->
-<section class="card" id="s6">
+<div class="blk"><span class="tag">2024 anlaşmaları</span><div class="hl">Temmuz 2024'te imzalanan <b>kapsam</b></div><div class="list"><div><span>●</span>81 ve 120 mm havan · 155 mm M107 top mermisi</div><div><span>●</span>MK81, MK82, MK84 uçak bombaları</div><div><span>●</span>5,56×45 · 7,62×39 · 7,62×51 · 9×19 mm fişek</div></div><div class="bd" style="font-size:24px;margin-top:18px">MKE, yeni tesisin bu kapsamla birebir aynı olduğunu söylemiyor.</div></div>
+<div class="ft"><div>Kaynak: <b>Türkiye Today, Eylül 2024</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s6"><div class="bg" style="background-image:url(_src/sofex.jpg);background-position:45% center"></div><div class="sh"></div>
 <img class="logo" src="_src/logo-white.png"><div class="num">6/8</div>
-<div class="tx"><span class="label">SOFEX 2026 · AKABE</span>
-<div class="h">Açıklama fuarla<br>aynı güne denk geldi</div></div>
-<div class="ph" style="top:420px;height:560px;background-image:url(_src/sofex.jpg);background-position:center 30%"></div>
-<div class="tx" style="top:1010px"><div class="p" style="margin-top:0">27-29 Ekim'deki fuarda MKE standında <b>MK82 uçak bombası</b> ve <b>25-120 mm</b> arası mühimmat maketleri sergilendi.</div></div>
-<div class="foot">FOTOĞRAF: MKE</div><div class="swipe">Kaydır →</div></section>
-
-<!-- 7 -->
-<section class="card" id="s7"><div class="glow"></div>
+<div class="blk"><span class="tag">SOFEX 2026 · Akabe</span><div class="hl">Açıklama <b>fuarla aynı güne</b> denk geldi</div><div class="bd">27-29 Ekim'deki fuarda MKE standında <b>MK82 uçak bombası</b> ve 25-120 mm arası mühimmat maketleri sergilendi.</div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s7"><div class="bg" style="background-image:url(_src/tesis-personel.jpg);background-position:70% center"></div><div class="sh"></div>
 <img class="logo" src="_src/logo-white.png"><div class="num">7/8</div>
-<div class="tx"><span class="label">HAT DA KURUYOR</span>
-<div class="h">MKE'nin teknoloji<br>transferi karnesi</div></div>
-<div class="stats"><div class="sb"><div class="n">9</div><div class="l">ülke</div></div><div class="sb"><div class="n">11</div><div class="l">proje</div></div></div>
-<div class="tx" style="top:830px"><div class="ct">ÜRDÜN'DE GÖRÜŞMELERİ SÜRENLER</div>
-<ul class="b" style="margin-top:6px"><li>Mevcut tesisler için <b>bakım sözleşmesi</b></li><li>Yeni bir <b>ham madde üretim tesisi</b></li></ul>
-<div class="p" style="font-size:28px;color:var(--mute);margin-top:26px">Tamamlanan ve devam eden projeler, MKE açıklamasına göre.</div></div>
-<div class="swipe">Kaydır →</div></section>
-
-<!-- 8 -->
-<section class="card" id="s8" style="background:url(_src/uygulama-karti.png) 0 0/1080px 1350px no-repeat"><div class="num" style="color:rgba(255,255,255,.8)">8/8</div></section>
-</body></html>
+<div class="blk"><span class="tag">Hat da kuruyor</span><div class="hl">MKE'nin teknoloji transferi karnesi</div><div class="big">9<i>ülke</i>11<i>proje</i></div><div class="bd" style="margin-top:14px">Ürdün'de mevcut tesisler için <b>bakım sözleşmesi</b> ve yeni bir <b>ham madde üretim tesisi</b> görüşmeleri sürüyor.</div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s8" style="background:url(_src/uygulama-karti.png) 0 0/1080px 1350px no-repeat"><div class="num" style="color:rgba(255,255,255,.8)">8/8</div></section></body></html>

@@ -2,6 +2,7 @@
 
 Haber: https://envantermedya.com/mke-urdun-ikinci-muhimmat-fabrikasi/
 Görseller: `seri/1-kapak.png` … `seri/8-uygulama.png` (8 slayt, 1080×1350, Instagram 4:5). Kaynak: `seri.html`.
+Şablon: Figma · Haber Akışı · sıcak haber standardı (149:2).
 Fotoğraflar: MKE'nin AA üzerinden dağıttığı tesis ve SOFEX görüntüleri (MSB ve MKE logolu), SavunmaSanayiST haberinden 1560×940 alındı.
 
 | Slayt | İçerik |
