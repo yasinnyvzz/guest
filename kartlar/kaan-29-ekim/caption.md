@@ -1,6 +1,6 @@
 # KAAN 29 Ekim carousel — caption
 
-Görseller: `seri/1-kapak.png` … `seri/4-ortu-altinda.png` (4 slayt, 1080×1350, Instagram 4:5). Kaynak: `seri.html`.
+Görseller: `seri/1-kapak.png` … `seri/5-uygulama.png` (5 slayt, 1080×1350, Instagram 4:5). Kaynak: `seri.html`.
 
 Çerçeve: olumlu ve ileriye dönük. "Şaka" ve "uçmadı" vurgusu, kutuplaşma ve TUSAŞ'ı hedef alıyor gibi okunma riski nedeniyle çıkarıldı. Örtülü KAAN görseli son slaytta "bugün hangarda, belki haftaya göklerde" çerçevesiyle duruyor.
 
@@ -9,7 +9,8 @@ Görseller: `seri/1-kapak.png` … `seri/4-ortu-altinda.png` (4 slayt, 1080×135
 | 1 | 29 Ekim'de gözler KAAN'daydı (kırmızı KAAN kravatı deseni) |
 | 2 | İki kravat, tek desen: TBMM'de mavi, 29 Ekim'de Anıtkabir'de kırmızı (Foto: Cumhurbaşkanlığı / AA) |
 | 3 | TUSAŞ'ın "Ben de Özledim" şarkılı hangar paylaşımı |
-| 4 | Şimdilik örtü altında: bugün hangarda, belki haftaya göklerde; detaylar Envanter uygulamasında |
+| 4 | Şimdilik örtü altında: bugün hangarda, belki haftaya göklerde |
+| 5 | Detaylar uygulamamızda: Envanter bildirimi olan telefon, App Store / Google Play |
 
 ## Instagram / Facebook
 
