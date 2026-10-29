@@ -17,30 +17,7 @@ body{background:#000;font-family:"Inter",sans-serif;}
 .photo{position:absolute;left:0;right:0;bottom:0;height:640px;background-repeat:no-repeat;filter:grayscale(.15) brightness(.92)}
 .fade{position:absolute;left:0;right:0;bottom:0;height:640px;background:linear-gradient(180deg,var(--bg) 0%,rgba(4,9,15,.55) 22%,rgba(4,9,15,0) 50%,rgba(4,9,15,.75) 100%)}
 
-/* 1 cover */
-.c1 .ghost{position:absolute;left:-23px;top:104px;width:1126px;height:1397px;background:url(_src/ghost.jpg) 0 0/1126px 1397px no-repeat}
-.c1 .mask{position:absolute;left:0;right:0;top:0;height:580px;background:linear-gradient(180deg,#03080E 0%,#03080E 86%,rgba(3,8,14,0) 100%)}
-.c1 .base{position:absolute;left:0;right:0;top:0;height:120px;background:#03080E}
-.c1 .text{top:170px;text-align:center}
-.c1 .h{font-size:82px;margin-top:24px}
-.c1 .h em{font-style:normal;color:var(--red)}
-.c1 .bot{position:absolute;left:0;right:0;bottom:0;height:150px;background:linear-gradient(180deg,rgba(230,232,236,0) 0%,rgba(230,232,236,.0) 100%)}
-.c1 .swipe,.c1 .site{color:#3a4350}
-
-/* tweet */
-.tw{position:absolute;left:92px;top:600px;width:896px;background:var(--paper);border-radius:8px;padding:40px 44px 36px;transform:rotate(-1.4deg);box-shadow:0 30px 60px rgba(0,0,0,.5);color:#111;z-index:4}
-.tw .hd{display:flex;align-items:center;gap:18px}
-.tw .av{width:88px;height:88px;border-radius:50%;background:url(_src/avatar.png) center/cover}
-.tw .nm{font-weight:800;font-size:32px;display:flex;align-items:center;gap:8px}
-.tw .hn{font-size:26px;color:#5a5a5a;margin-top:2px}
-.tw .tx{font-size:46px;line-height:1.28;margin-top:26px;font-weight:500}
-.tw .tx b{font-weight:800}
-.tw .ft{font-size:24px;color:#6a6a6a;margin-top:22px}
-.tw .ft b{color:#111}
-
 /* last */
-.c5 .peek{position:absolute;left:50%;bottom:-180px;width:900px;height:760px;transform:translateX(-50%);background:url(_src/ghost.jpg) -113px -470px/1126px 1397px no-repeat;
-  -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 30%);mask-image:linear-gradient(180deg,transparent 0%,#000 30%)}
 .cta{display:inline-block;margin-top:40px;border:3px solid #fff;border-radius:999px;padding:16px 30px;font-size:30px;font-weight:700}
 
 /* slide 2 ties */
@@ -56,23 +33,32 @@ body{background:#000;font-family:"Inter",sans-serif;}
 .phone{position:absolute;left:50%;top:710px;width:600px;height:900px;transform:translateX(-50%) rotate(-2deg);border-radius:28px;overflow:hidden;border:6px solid #1c232d;box-shadow:0 30px 80px rgba(0,0,0,.6);background:url(_src/tusas-video.jpg) center top/600px auto no-repeat;z-index:3}
 .song{position:absolute;left:50%;top:650px;transform:translateX(-50%) rotate(-2deg);z-index:6;background:#fff;color:#111;border-radius:999px;padding:14px 26px;font-size:28px;font-weight:700;white-space:nowrap;box-shadow:0 10px 30px rgba(0,0,0,.5)}
 .song i{font-style:normal;color:var(--red);margin-right:10px}
+
+/* new cover */
+.k1 .bg{position:absolute;inset:-40px;background:url(_src/kravat-kirmizi-buyuk.jpg) center/cover;transform:rotate(-4deg)}
+.k1 .ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,9,15,.88) 0%,rgba(4,9,15,.35) 30%,rgba(4,9,15,.25) 50%,rgba(4,9,15,.92) 78%,#04090F 100%)}
+.k1 .text{top:auto;bottom:150px}
+.k1 .h{font-size:108px;letter-spacing:-3px}
+.k1 .h em{font-style:normal;color:#FF5A5F}
+.k1 .p{font-size:34px;color:#E6E9ED}
+.last .ph2{position:absolute;left:0;right:0;bottom:0;height:640px;background:url(_src/kaan-side.jpg) -60px 70px/1180px auto no-repeat;filter:brightness(.95)}
 </style></head><body>
 
 <!-- 1 -->
-<section class="card c1" id="s1">
-  <div class="base"></div><div class="ghost"></div><div class="mask"></div>
-  <img class="logo" src="_src/logo-white.png" style="left:50%;transform:translateX(-50%)">
+<section class="card k1" id="s1">
+  <div class="bg"></div><div class="ov"></div>
+  <img class="logo" src="_src/logo-white.png"><div class="num">1/4</div>
   <div class="text">
     <span class="label">29 EKİM 2026</span>
-    <div class="h">KAAN'dan <em>Cumhuriyet</em><br><em>Bayramı</em> şakası</div>
+    <div class="h">29 Ekim'de<br>gözler <em>KAAN</em>'daydı</div>
+    <div class="p">Kravattan hangara, Cumhuriyet Bayramı'nda millî muharip uçağımız gündemin merkezindeydi.</div>
   </div>
-  <div class="site">envantermedya.com</div>
   <div class="swipe">Kaydır →</div>
 </section>
 
 <!-- 2 -->
 <section class="card" id="s2">
-  <img class="logo" src="_src/logo-white.png"><div class="num">2/5</div>
+  <img class="logo" src="_src/logo-white.png"><div class="num">2/4</div>
   <div class="text">
     <span class="label">ÖNCE KRAVAT</span>
     <div class="h">İki kravat, tek desen</div>
@@ -92,46 +78,28 @@ body{background:#000;font-family:"Inter",sans-serif;}
 
 <!-- 3 -->
 <section class="card" id="s3">
-  <img class="logo" src="_src/logo-white.png"><div class="num">3/5</div>
+  <img class="logo" src="_src/logo-white.png"><div class="num">3/4</div>
   <div class="text">
-    <span class="label">SONRA ŞARKI</span>
-    <div class="h">TUSAŞ'tan<br>"Ben de Özledim"</div>
-    <div class="p">TUSAŞ, Ferdi Tayfur'un şarkısıyla hangardaki KAAN'ı paylaştı. Herkesin aklında aynı soru vardı: <b>29 Ekim'de uçuş var mı?</b></div>
+    <span class="label">TUSAŞ'TAN</span>
+    <div class="h">KAAN'a<br>"Ben de Özledim"</div>
+    <div class="p">TUSAŞ, Ferdi Tayfur'un <b>"Ben de Özledim"</b> şarkısıyla hangardaki KAAN'ı paylaştı. Paylaşım, KAAN'ı bekleyenlerin duygusuna tercüman oldu.</div>
   </div>
   <div class="song"><i>♪</i>Ferdi Tayfur · Ben de Özledim</div>
   <div class="phone"></div>
   <div class="swipe" style="z-index:7">Kaydır →</div>
 </section>
 
-<!-- 4 -->
-<section class="card" id="s4">
-  <img class="logo" src="_src/logo-white.png"><div class="num">4/5</div>
-  <div class="text">
-    <span class="label">BİR DE UYARI</span>
-    <div class="h">Bekleyenlere<br>bir not düşüldü</div>
-    <div class="p">Savunma sanayii uzmanı Yusuf Akbaba, bayramdan bir gün önce beklentiyi dengeledi.</div>
-  </div>
-  <div class="tw">
-    <div class="hd"><div class="av"></div>
-      <div><div class="nm">Yusuf Akbaba <svg width="30" height="30" viewBox="0 0 24 24"><path fill="#1D9BF0" d="M22.5 12.5c0-1.6-1-3-2.4-3.6.3-1.5-.2-3-1.3-4.1-1.1-1.1-2.6-1.6-4.1-1.3C14 2.1 12.7 1.1 11 1.1S8.1 2.1 7.4 3.5c-1.5-.3-3 .2-4.1 1.3-1.1 1.1-1.6 2.6-1.3 4.100.6 9.5-.4 10.9-.4 12.5s1 3 2.4 3.6c-.3 1.5.2 3 1.3 4.1 1.1 1.1 2.6 1.6 4.1 1.3.7 1.4 2.1 2.4 3.6 2.4s2.9-1 3.6-2.4c1.5.3 3-.2 4.1-1.3 1.1-1.1 1.6-2.6 1.3-4.1 1.5-.6 2.5-2 2.5-3.6zm-12.6 5.1l-4.1-4.1 1.6-1.6 2.5 2.5 6.2-6.2 1.6 1.6-7.8 7.8z"/></svg></div>
-      <div class="hn">@ssysfakb</div></div></div>
-    <div class="tx">Beklemeyin, o kuş bugün ya da yarın <b>uçmayacak.</b></div>
-    <div class="ft">09:45 · 28.10.2026 · <b>57,4B</b> görüntülenme</div>
-  </div>
-  <div class="photo" style="height:520px;background-image:url(_src/kaan.jpg);background-size:auto 700px;background-position:-200px 10px"></div><div class="fade" style="height:520px"></div>
-  <div class="swipe">Kaydır →</div>
-</section>
 
-<!-- 5 -->
-<section class="card c5" id="s5">
-  <img class="logo" src="_src/logo-white.png"><div class="num">5/5</div>
+<!-- 4 -->
+<section class="card last" id="s4">
+  <img class="logo" src="_src/logo-white.png"><div class="num">4/4</div>
   <div class="text">
-    <span class="label">ŞİMDİLİK ŞAKA</span>
-    <div class="h">Asıl sürpriz<br>önümüzdeki haftalarda</div>
-    <div class="p">KAAN bu bayramı hangarda geçirdi. Yeni uçuşun <b>önümüzdeki haftalarda</b> yapılması bekleniyor. Tarih netleşince ilk buradan duyuracağız.</div>
+    <span class="label">SIRADAKİ ADIM</span>
+    <div class="h">Gözler yeni uçuşta</div>
+    <div class="p">KAAN'ın yeni uçuşunun <b>önümüzdeki haftalarda</b> gerçekleşmesi bekleniyor. Gelişmeleri ilk buradan paylaşacağız.</div>
     <div class="cta">Takip et, kaçırma</div>
   </div>
-  <div class="peek"></div>
-  <div class="site" style="color:#3a4350">envantermedya.com</div>
+  <div class="ph2"></div><div class="fade"></div>
+  <div class="site">envantermedya.com</div>
 </section>
 </body></html>
