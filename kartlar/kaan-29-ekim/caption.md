@@ -10,7 +10,7 @@ Görseller: `seri/1-kapak.png` … `seri/5-uygulama.png` (5 slayt, 1080×1350, I
 | 2 | İki kravat, tek desen: TBMM'de mavi, 29 Ekim'de Anıtkabir'de kırmızı (Foto: Cumhurbaşkanlığı / AA) |
 | 3 | TUSAŞ'ın "Ben de Özledim" şarkılı hangar paylaşımı |
 | 4 | Şimdilik örtü altında: bugün hangarda, belki haftaya göklerde |
-| 5 | Detaylar uygulamamızda: Envanter bildirimi olan telefon, App Store / Google Play |
+| 5 | Envanter'in hazır uygulama kartı: "Detaylar Envanter mobil uygulamasında", App Store / Google Play |
 
 ## Instagram / Facebook
 
