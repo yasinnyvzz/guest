@@ -23,3 +23,9 @@ Kimlik bilgileri dosyaya, commit'e yazılmaz. Oturumda ortam değişkeni olarak 
 5. Grupla: `POST /ev/v1/link-post-translations {"groups":[{"tr":…,"en":…,…}]}` — önce kapaklar, sonra postlar.
 6. Yayına al (`status: publish`), ardından TR postu bir kez kaydet ve her dilin kapak/kategorisini doğrula.
 7. Kontrol: `GET /ev/v1/post-translations?id=<tr_id>`; grubu çözmek gerekirse `POST /ev/v1/pll-detach {"ids":[…]}`.
+
+## Kalıcı kural: tekrar içerik
+Defence Arabia metni, Envanter AR metninin kopyası/çevirisi olmaz. Başlık, giriş, bölüm sırası ve cümleler özgün yazılır; 5-gram örtüşme %25'in altında kalmalı. Yeni haberlerde `yayinla.py` öncesi örtüşme ölçülür.
+
+## Kalıcı kural: kaynak
+Defence Türk, GDH gibi Türk savunma siteleri kaynak olarak gösterilmez; yalnız konu ipucudur. Asıl kaynak (resmî duyuru, şirket/bakanlık bülteni, ajans veya yabancı özel yayın) bulunup o gösterilir. Bulunamayan olgu metinden çıkarılır.
