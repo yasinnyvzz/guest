@@ -29,3 +29,6 @@ Defence Arabia metni, Envanter AR metninin kopyası/çevirisi olmaz. Başlık, g
 
 ## Kalıcı kural: kaynak
 Defence Türk, GDH gibi Türk savunma siteleri kaynak olarak gösterilmez; yalnız konu ipucudur. Asıl kaynak (resmî duyuru, şirket/bakanlık bülteni, ajans veya yabancı özel yayın) bulunup o gösterilir. Bulunamayan olgu metinden çıkarılır.
+
+## Kalıcı kural: aynı haber varsa yapma
+Aynı olay Envanter'de yazılmışsa yeni URL açılmaz ve mevcut yazı da güncellenmez; haber atlanır. Yalnızca olay farklıysa (ör. yeni sipariş dilimi) yazılır.
