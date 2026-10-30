@@ -2,6 +2,8 @@
 
 Görseller: `seri/1-kapak.png` … `seri/8-uygulama.png` (8 slayt, 1080×1350). Kaynak: `seri.html`.
 Şablon: Envanter alıntı kartı (Haluk Görgün kartı düzeni: kırmızı zemin, çapraz koyu bant, sol beyaz çizgi, siyah-beyaz dekupe portre).
+**İkinci sürüm (uzun metin):** `seri-uzun/` (9 slayt, kaynak `seri-uzun.html`). Açık krem zemin, siyah logo, kırmızı çapraz bant, ince Poppins gövde metni ve kırmızı kalın vurgu; alıntılar daha az kısaltıldı, bir kart fazla (Azerbaycan'da din ayrı kart).
+
 Alıntılar konuşma metninden kısaltıldı; atlanan yerler "..." ile gösterildi, kelimeler değiştirilmedi.
 
 | Slayt | Etiket | Alıntı |
