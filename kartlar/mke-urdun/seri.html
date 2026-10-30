@@ -1,0 +1,63 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>@font-face{font-family:'Poppins';font-style:normal;font-weight:300;src:url(_src/fonts/poppins-300-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:300;src:url(_src/fonts/poppins-300-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;src:url(_src/fonts/poppins-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;src:url(_src/fonts/poppins-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;src:url(_src/fonts/poppins-500-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;src:url(_src/fonts/poppins-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;src:url(_src/fonts/poppins-600-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;src:url(_src/fonts/poppins-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:700;src:url(_src/fonts/poppins-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:700;src:url(_src/fonts/poppins-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:800;src:url(_src/fonts/poppins-800-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:800;src:url(_src/fonts/poppins-800-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;font-family:"Poppins",sans-serif}
+.card{position:relative;width:1080px;height:1350px;overflow:hidden;margin-bottom:20px;color:#fff;background:#0E141B}
+.bg{position:absolute;inset:0;background-size:cover;background-position:center}
+.sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,12,17,.55) 0%,rgba(8,12,17,0) 22%,rgba(8,12,17,0) 42%,rgba(8,12,17,.78) 62%,rgba(8,12,17,.96) 80%,#080C11 100%)}
+.logo{position:absolute;left:78px;top:78px;width:236px;z-index:5}
+.blk{position:absolute;left:78px;right:78px;bottom:170px;z-index:4}
+.tag{display:inline-block;background:#D7262E;color:#fff;font-weight:700;font-size:22px;letter-spacing:1.5px;padding:8px 18px 7px;text-transform:uppercase}
+.hl{font-weight:300;font-size:60px;line-height:1.16;letter-spacing:-.5px;margin-top:26px}
+.hl b{font-weight:700;color:#F0424A}
+.bd{font-weight:400;font-size:29px;line-height:1.5;color:#D6DBE1;margin-top:24px}
+.bd b{font-weight:600;color:#fff}
+.ft{position:absolute;left:78px;right:78px;bottom:66px;display:flex;justify-content:space-between;align-items:center;font-size:22px;z-index:5;color:#DCE1E6}
+.ft b{font-weight:700;color:#fff}
+.ft .k{font-weight:600;letter-spacing:1.5px;font-size:20px}
+.list{margin-top:22px}
+.list div{font-size:29px;line-height:1.45;color:#D6DBE1;padding:10px 0;border-top:1px solid rgba(255,255,255,.14)}
+.list div:last-child{border-bottom:1px solid rgba(255,255,255,.14)}
+.list span{display:inline-block;min-width:54px;font-weight:700;color:#F0424A}
+.big{font-weight:700;font-size:150px;line-height:.95;letter-spacing:-4px;color:#F0424A;margin-top:18px}
+.big i{font-style:normal;font-weight:300;font-size:64px;letter-spacing:0;color:#fff;margin-left:10px;margin-right:34px}
+.num{position:absolute;right:78px;top:84px;font-size:22px;font-weight:500;color:rgba(255,255,255,.75);z-index:5}
+</style></head><body><section class="card" id="s1"><div class="bg" style="background-image:url(_src/tesis-robot.jpg);background-position:52% center"></div><div class="sh"></div>
+<img class="logo" src="_src/logo-white.png"><div class="num">1/8</div>
+<div class="blk"><span class="tag">Teknoloji Transferi</span><div class="hl">MKE, Ürdün'de <b>ikinci mühimmat fabrikasını</b> kurdu</div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s2"><div class="bg" style="background-image:url(_src/tesis-personel.jpg);background-position:40% center"></div><div class="sh"></div>
+<img class="logo" src="_src/logo-white.png"><div class="num">2/8</div>
+<div class="blk"><span class="tag">MKE ne açıkladı?</span><div class="hl">Kurulum tamam, <b>üretim henüz başlamadı</b></div><div class="bd">Orta ve büyük kalibre mühimmat ile uçak bombası dolum ve montaj tesisi <b>devreye alma öncesi son aşamada</b>. Kapasite, yatırım tutarı, yer ve tarih açıklanmadı.</div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s3"><div class="bg" style="background-image:url(_src/tesis-sandik.jpg);background-position:30% center"></div><div class="sh"></div>
+<img class="logo" src="_src/logo-white.png"><div class="num">3/8</div>
+<div class="blk"><span class="tag">Ürdün'de iki proje</span><div class="hl">Önce fişek, şimdi <b>dolum ve montaj</b></div><div class="list"><div><span>01</span><b style="color:#fff;font-weight:600">Fişek üretim tesisi</b> · 2024'ten beri çalışıyor</div><div><span>02</span><b style="color:#fff;font-weight:600">Dolum ve montaj tesisi</b> · kurulum tamamlandı</div></div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s4"><div class="bg" style="background-image:url(_src/tesis-robot.jpg);background-position:21% 14%;background-size:300% auto"></div><div class="sh"></div>
+<img class="logo" src="_src/logo-white.png"><div class="num">4/8</div>
+<div class="blk"><span class="tag">Dolum ve montaj nedir?</span><div class="hl">Parçalar burada <b>mühimmata dönüşür</b></div><div class="bd">Gövde, fünye ve diğer parçalar patlayıcı dolgu ile birleştirilir. Anahtar teslim modelde <b>MKE hattı kurar</b>, personeli eğitir ve teknik desteği sürdürür.</div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s5"><div class="bg" style="background-image:url(_src/sofex.jpg);background-position:100% 40%;background-size:210% auto"></div><div class="sh"></div>
+<img class="logo" src="_src/logo-white.png"><div class="num">5/8</div>
+<div class="blk"><span class="tag">2024 anlaşmaları</span><div class="hl">Temmuz 2024'te imzalanan <b>kapsam</b></div><div class="list"><div><span>●</span>81 ve 120 mm havan · 155 mm M107 top mermisi</div><div><span>●</span>MK81, MK82, MK84 uçak bombaları</div><div><span>●</span>5,56×45 · 7,62×39 · 7,62×51 · 9×19 mm fişek</div></div><div class="bd" style="font-size:24px;margin-top:18px">MKE, yeni tesisin bu kapsamla birebir aynı olduğunu söylemiyor.</div></div>
+<div class="ft"><div>Kaynak: <b>Türkiye Today, Eylül 2024</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s6"><div class="bg" style="background-image:url(_src/sofex.jpg);background-position:45% center"></div><div class="sh"></div>
+<img class="logo" src="_src/logo-white.png"><div class="num">6/8</div>
+<div class="blk"><span class="tag">SOFEX 2026 · Akabe</span><div class="hl">Açıklama <b>fuarla aynı güne</b> denk geldi</div><div class="bd">27-29 Ekim'deki fuarda MKE standında <b>MK82 uçak bombası</b> ve 25-120 mm arası mühimmat maketleri sergilendi.</div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s7"><div class="bg" style="background-image:url(_src/tesis-personel.jpg);background-position:70% center"></div><div class="sh"></div>
+<img class="logo" src="_src/logo-white.png"><div class="num">7/8</div>
+<div class="blk"><span class="tag">Hat da kuruyor</span><div class="hl">MKE'nin teknoloji transferi karnesi</div><div class="big">9<i>ülke</i>11<i>proje</i></div><div class="bd" style="margin-top:14px">Ürdün'de mevcut tesisler için <b>bakım sözleşmesi</b> ve yeni bir <b>ham madde üretim tesisi</b> görüşmeleri sürüyor.</div></div>
+<div class="ft"><div>Kaynak: <b>MKE / AA</b></div><div class="k">KAYDIR →</div></div></section>
+<section class="card" id="s8" style="background:url(_src/uygulama-karti.png) 0 0/1080px 1350px no-repeat"><div class="num" style="color:rgba(255,255,255,.8)">8/8</div></section></body></html>
