@@ -21,14 +21,14 @@ Alıntılar konuşma metninden kısaltıldı; atlanan yerler "..." ile gösteril
 
 Azerbaycan İsrail'den neden vazgeçemiyor?
 
-Erem Şentürk'e göre cevap, Karabağ'dan bankacılık sistemine uzanan bir bağımlılık ağında. Şentürk, İsrail'in Karabağ'da Türkiye'nin altı katı varlık gösterdiğini, Azerbaycan'ın ordu envanterinden dijital altyapısına kadar birçok alanda İsrail'e bağlı olduğunu söylüyor. İran denklemini ve Azerbaycan'daki din anlayışını da ele alan Şentürk, sözlerini bir özeleştiriyle bitiriyor: "Niye gidip Kur'an kursu açmadın?"
+Serdar Tuncer'in YouTube programına konuk olan Erem Şentürk'ün Azerbaycan-İsrail ilişkisine dair sözleri sosyal medyada geniş ilgi gördü. Şentürk'e göre İsrail, Karabağ'da Türkiye'nin altı katı varlık gösterdi. Azerbaycan ise ordu envanterinden dijital altyapısına, uydularından bankacılık sistemine kadar birçok alanda İsrail'e bağlı. İran denklemini ve Azerbaycan'daki din anlayışını da anlatan Şentürk, sözlerini bir özeleştiriyle bitirdi: "Niye gidip Kur'an kursu açmadın?"
 
-Alıntılardaki değerlendirmeler Erem Şentürk'e aittir.
+Kaydırın, Şentürk'ün sözlerini okuyun. Alıntılardaki değerlendirmeler Erem Şentürk'e aittir.
 
-#Azerbaycan #İsrail #Karabağ #İran #Jeopolitik
+#Azerbaycan #İsrail #EremŞentürk #SerdarTuncer #Jeopolitik
 
 ## X
 
-Azerbaycan İsrail'den neden vazgeçemiyor? Erem Şentürk: "Ben İsrail'le ters düştüğüm anda ordu envanterinin %60'ını kaybederim." Karabağ'dan İran'a, alıntılarla.
+Serdar Tuncer'in YouTube programına konuk olan Erem Şentürk'ün sözleri gündem oldu: "Ben İsrail'le ters düştüğüm anda ordu envanterinin %60'ını kaybederim." Azerbaycan İsrail'den neden vazgeçemiyor? Karabağ'dan İran'a, alıntılarla.
 
-#Azerbaycan #İsrail
+#Azerbaycan #İsrail #EremŞentürk
