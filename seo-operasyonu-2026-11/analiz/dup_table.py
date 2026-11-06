@@ -1,0 +1,45 @@
+# Tablo 4 — mükerrer içerik (aynı dil, aynı arama niyeti). Gösterimler son 24 saat GSC (anchor satırları toplanmış).
+# Not: URL değişikliği / 301 / birleştirme ONAY gerektirir; burada yalnız öneri var.
+DUP = [
+ ("en", "/en/en-spanish-navy-submarine-isaac-peral-sinks-infanta-elena-sinkex-26/ (7.434 gös., 31 tık, konum 7,1)", "/en/spain-s81-isaac-peral-submarine-sinks-target-ship-sinkex-26-en/ (3.135 gös., 13 tık, konum 3,2)", "Aynı olay, iki hat (önekli Polylang + sonekli dil atanmamış)", "Haber: SINKEX 26 Isaac Peral", "84960 ana; 84756 canonical→84960, hreflang grubunu 84960'a taşı (onay)"),
+ ("es", "/es/es-submarino-isaac-peral-hunde-infanta-elena-sinkex-26/ (323 gös., 13 tık)", "/es/espana-s81-isaac-peral-submarino-hunde-buque-sinkex-26-es/ (284 gös., 1 tık)", "Aynı olay", "Haber: SINKEX 26", "84958 ana; sonekli kopya canonical (onay)"),
+ ("en", "/en/en-what-is-hq-9-chinas-long-range-air-defense-system/ (15455)", "/en/en-hq-9-what-is-it-a-long-range-air-defense-system-of-china/ (15487)", "Aynı gün üretilmiş iki açıklayıcı", "HQ-9 nedir", "15455 ana; 15487 canonical/301 (onay)"),
+ ("ru", "/ru/ru-hq-9-что-такое-…-пр/ (15457, canlı)", "/ru/ru-hq-9-что-такое-…-пр-2/ (404, 940 gös.)", "Silinmiş kopya hâlâ gösterim alıyor", "HQ-9 что такое", "404 URL'yi 15457'ye 301 (onay) — RU'da en hızlı kazanım"),
+ ("en", "/en/en-what-is-the-f-22-raptor-americas-5th-gen-air-superiority-fighter/ (48568)", "48567, 48571, 48575, 48576, 48577 (aynı gün 6 URL)", "Başlıklar neredeyse aynı (Jaccard ≥0,8)", "What is the F-22 Raptor", "Tek URL seç; diğer 5'i canonical/301 (onay). Otomasyonda tekrar üretimi durdur"),
+ ("en", "/en/what-is-k9-thunder-self-propelled-howitzer-explained/ (15137)", "/en/k9-thunder-explained/ (16554), /en/en-what-is-k9-thunder-the-story-…/ (16544)", "3 açıklayıcı", "K9 Thunder nedir ('samsung k9 thunder' 49 gös., konum 8,5)", "15137 ana; diğer 2 canonical (onay)"),
+ ("en", "/en/en-what-is-apfsds-a-breakdown-of-modern-tank-ammunition/ (560 gös.)", "/en/en-what-is-an-apfsds-shell-…/ (70 gös.), /en/en-what-is-apfsds/", "3 açıklayıcı aynı gün", "What is APFSDS", "21865 ana (en çok gösterim); diğer 2 canonical"),
+ ("en", "/en/en-strongest-military-africa-2026/ (1.039 gös.)", "/en/en-strongest-army-africa-2026/ (118), /en/en-africas-strongest-militaries-2026/ (80), /en/en-why-egypt-strongest-military-africa/", "Aynı sıralama niyeti", "Strongest military in Africa", "67765 ana; 'why Egypt' farklı açı (NEW ANGLE) kalabilir, diğer 2 canonical"),
+ ("en", "/en/bayraktar-tb2-baykar-en/ (370 gös., konum 1,2)", "/en/what-is-bayraktar-tb2-turkish-combat-drone-explained/", "Aynı açıklayıcı niyet", "What is Bayraktar TB2", "Biri ana seçilmeli; ikisi de dil atanmamış"),
+ ("en", "/en/bayraktar-akinci-specifications-operators/ (50 gös.)", "/en/en-what-is-bayraktar-akinci-turkiye-heavy-strike-drone/ (78 gös.)", "Aynı ürün açıklayıcısı", "What is AKINCI", "Specs + 'what is' tek sayfada birleşsin"),
+ ("en", "/en/en-kenya-defence-forces-recruitment-2026/ (10.700 gös.)", "/en/en-next-kdf-recruitment-date/, /en/en-is-there-kdf-recruitment-2026/", "'when/is there' alt niyetleri ana sayfa ile çakışıyor", "KDF recruitment 2026 status", "Ana sayfa korunur; alt sayfalar farklı soru odaklı kalabilir ama 'latest status' kutusu yalnız ana sayfada; iç linkle bağla"),
+ ("en", "/en/europe-strongest-armies-2026-russia-france-turkey/", "/en/nato-strongest-armies-2026-usa-france-turkey/", "Kısmi örtüşme", "Europe vs NATO ranking", "SKIP — farklı kapsam (Avrupa ≠ NATO); iç link yeterli"),
+ ("tr", "/aselsan-nedir/ (1.250 gös., konum 8,0)", "/savunma-sozluk/aselsan-nedir/ (391), /aselsan-nedir-ne-is-yapar/ (canonical→/aselsan-nedir/ ✓), /aselsan-nedir-ne-is-yapar-ne-uretiyor/, /aselsan-savunma-nedir/", "5 URL aynı soru", "ASELSAN nedir", "3457 ana; sözlük kaydı kısa tanım + ana rehbere link; diğer 2 post canonical (onay)"),
+ ("tr", "/kaan-nedir/ (hub)", "/kaan-ucagi-nedir/, /kaan-nedir-turkiye-milli-muharip-ucagi/, /kaan-nedir-ne-ise-yarar-…/, /kaan-milli-muharip-ucak/", "5 'KAAN nedir' yazısı", "KAAN nedir", "/kaan-nedir/ hub; diğerleri canonical (onay). 'tusaş kaan' sorgusu şu an haber sayfasına düşüyor"),
+ ("tr", "/aselsan-kimin-sahibi/ (465 gös.)", "/aselsan-devletin-mi-ozel-sirket-mi/ (162), /aselsan-kimin-devletin-mi/", "Aynı soru", "ASELSAN kimin, devletin mi", "40904 ana; diğerleri canonical"),
+ ("tr", "/aselsan-ne-zaman-neden-kuruldu/ (198 gös.)", "/aselsan-ne-zaman-ve-neden-kuruldu/ (aynı başlık), /aselsan-ne-zaman-kuruldu-tarihcesi/", "Birebir aynı başlık", "ASELSAN ne zaman kuruldu", "Tek URL; diğerleri canonical"),
+ ("tr", "/aselsan-fabrikalari-yerleskeleri/ (263 gös.)", "/aselsan-nerede-merkez-fabrikalari/ (123), /aselsan-nerede-merkez-kampusler/", "Aynı soru", "ASELSAN nerede", "41092 ana"),
+ ("tr", "/aselsan-maaslari-2026/ (1.519 gös.)", "/aselsan-maaslari-2026-2/, /aselsan-maaslari/ (2025), /aselsan-muhendis-maaslari-2026-…/", "Aynı yıl, aynı soru", "ASELSAN maaşları 2026", "22991 ana; '-2' canonical; mühendis maaşı alt niyet olarak kalabilir"),
+ ("tr", "/tusas-maaslari-2026-muhendis-teknisyen-ve-isci-ucretleri-ne-kadar/ (312)", "/tusas-maaslari-2026/ (110) — birebir aynı başlık", "Aynı başlık", "TUSAŞ maaşları 2026", "10277 ana"),
+ ("tr", "/aselsan-mulakat-sureci-asamalari/", "/aselsan-is-basvurusu-mulakat-sureci/, /aselsan-is-basvurusu-mulakat/", "Aynı süreç", "ASELSAN mülakat", "Tek rehber"),
+ ("tr", "/silah-ruhsati-nasil-alinir/ (156)", "/silah-bulundurma-ruhsati-nasil-alinir/ (195)", "Kısmi (bulundurma alt niyet)", "Silah ruhsatı nasıl alınır", "SKIP — alt niyet ayrı; karşılıklı link"),
+ ("tr", "/sar9-nedir-ozellikleri/ (204)", "/sar9-nedir-ozellikleri-teknik-verileri/ (35)", "Aynı ürün", "SAR9 nedir", "73533 ana"),
+ ("es", "/es/cuanto-gana-marino-semar-2026/ (834)", "/es/es-sueldo-sedena-semar-mexico-2026/ (463), /es/cuanto-gana-soldado-sedena-2026/ (250), /es/es-sueldo-soldado-mexico-sedena-semar-2026/ (91), /es/cuanto-gana-un-soldado-en-mexico-sueldos-sedena-semar-2026/", "5 URL; ikisi SEMAR+SEDENA birlikte", "Sueldos SEMAR / SEDENA 2026", "İki ana sayfa: SEMAR (63220) + SEDENA (63103); 'SEDENA y SEMAR' karma 3 URL canonical (onay)"),
+ ("es", "/es/ejercito-mas-poderoso-de-latinoamerica-ranking-2026/ (213)", "/es/es-ejercito-mas-poderoso-latinoamerica-ranking-2026/ (64), /es/ejercito-mas-poderoso-latinoamerica-ranking-militar-2026/ (39)", "14 ES URL aynı başlık/niyet (64191, 64986, 65952, 66480, 66891, 67185, 67451, 68228 … — 2–23 Eylül arası otomasyon tekrarları)", "Ranking militar Latinoamérica", "62984 ana (213 gös.); diğer 13 canonical/301 (onay). Otomasyonda aynı konu kontrolü"),
+ ("es", "/es/navantia-que-es-que-hace-y-quien-es-su-propietario-perfil-2026/ (105)", "/es/es-navantia-que-es-propietario/ (60)", "Aynı profil", "Navantia qué es", "Biri ana (105 gösterimli)"),
+ ("es", "/es/ia-63-pampa-iii-caracteristicas-historia-modernizacion-argentina/ (169)", "/es/pampa-iii-avion-entrenador-argentino-caracteristicas-programa-2026/", "Aynı ürün", "Pampa III", "Birincisi ana"),
+ ("ar", "/ar/ar-africa-strongest-armies-2026/ (1.127)", "/ar/ar-strongest-army-africa-2026/", "Aynı sıralama", "أقوى جيش في أفريقيا", "66932 ana"),
+ ("ar", "/ar/ar-morocco-algeria-military-comparison-2026/ (209)", "/ar/ar-morocco-vs-algeria-military-2026/ (154)", "Aynı karşılaştırma", "المغرب والجزائر مقارنة", "57406 ana"),
+ ("ar", "/ar/ar-saudi-arabia-military-strength-2026/ (164)", "/ar/ar-saudi-military-strength-2026/ — birebir aynı başlık", "Aynı başlık", "القوة العسكرية السعودية", "66652 ana"),
+ ("ru", "/ru/ru-samyy-bystryy-istrebitel-v-mire/ (240+anchor)", "/ru/samye-bystrye-boevye-samolety-v-mire/ (152)", "Aynı sıralama niyeti", "Самый быстрый истребитель", "72671 ana"),
+ ("ru", "/ru/что-такое-баллистическая-ракета-как-о-ru/ (112)", "/ru/ballisticheskaya-raketa/ (55)", "Aynı tanım", "Баллистическая ракета это", "Biri ana"),
+ ("ru", "/ru/chto-takoe-radar/ (215)", "/ru/chto-takoe-radar-aesa/", "Kısmi (AESA alt konu)", "Что такое радар", "SKIP — AESA ayrı niyet; karşılıklı link"),
+]
+DUP += [
+ ("en", "/en/kf-21-boramae-what-is-south-korea-fighter/ (28255)", "/en/what-is-kf-21-boramae-korean-fighter-explained/ (15307)", "İki açıklayıcı", "What is KF-21 Boramae", "Biri ana; diğeri canonical"),
+ ("es", "/es/es-s80-isaac-peral-submarino-caracteristicas/ (64254)", "/es/s-80-isaac-peral-el-submarino-espanol-con-propulsion-aip-que-renueva-la-armada/ (63615)", "Aynı ürün rehberi", "Submarino S-80", "64254 ana"),
+]
+DUP += [("tr", "/sar-56-nedir-ozellikleri-teknik-verileri/ (212 gös.)", "/sar-56-nedir/", "Aynı ürün açıklayıcısı", "SAR 56 nedir", "67126 ana (GSC gösterimi olan); diğeri canonical")]
+DUP += [
+ ("en", "/en/rocket-vs-missile-difference/", "/en/en-rocket-vs-missile-difference/", "Aynı başlık niyeti, iki hat", "Rocket vs missile", "Biri ana; diğeri canonical"),
+ ("tr", "ZAMANLANMIŞ 26740 'Navantia S-80 Plus Denizaltısı Nedir?' (12.11.2026)", "ZAMANLANMIŞ 26213 'S-80 Denizaltısı Nedir?' (23.04.2027)", "Kuyrukta aynı niyet iki kez", "S-80 nedir (TR)", "26213'ü kuyruktan çıkar/taslağa al (onay) — 26740 yeterli"),
+]

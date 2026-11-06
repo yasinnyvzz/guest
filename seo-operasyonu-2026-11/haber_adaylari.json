@@ -1,0 +1,664 @@
+[
+  {
+    "id": "spain-pnt-pem-2-3bn",
+    "headline_en": "Spain authorises €2.3 billion programme for robust positioning, navigation and timing (PNT) systems for its armed forces",
+    "date": "2026-11-03",
+    "summary": "Spain's Council of Ministers on 3 November 2026 authorised a contract to acquire systems giving the Armed Forces a robust positioning, navigation and timing (PNT) capability, with an estimated value of €2,302,768,365.48. Infodefensa describes it as a new Special Modernisation Programme (PEM) and one of the Defence Ministry's largest by value. The official referencia gives no detail on scope, schedule or contractors. Infodefensa reports that, for now, the programme is funded by the Defence Ministry with no Industry Ministry pre-financing.",
+    "primary_source": {
+      "name": "La Moncloa – Referencia del Consejo de Ministros, 3 Nov 2026 (Defensa section)",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261103-referencia-rueda-de-prensa-ministros.aspx"
+    },
+    "other_sources": [
+      {
+        "name": "Infodefensa",
+        "url": "https://www.infodefensa.com/texto-diario/mostrar/6077145/defensa-lanza-megacontrato-2300-millones-euros-blindar-fuerzas-armadas-frente-interferencias"
+      }
+    ],
+    "target_langs": [
+      "es",
+      "en"
+    ],
+    "target_countries": [
+      "Spain"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "Consejo de Ministros",
+        "PNT",
+        "posicionamiento",
+        "2.302",
+        "1438"
+      ],
+      "existing_urls": [],
+      "missing_in": [
+        "tr",
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "high",
+    "notes": "Infodefensa's suggestion that Indra, GMV and Grupo Oesía are well placed is the outlet's own analysis, not an official statement; label it as such or leave it out. Infodefensa uses 'interferencias' (jamming/spoofing) framing; the referencia says only 'capacidad de posicionamiento, navegación y tiempo robusta'."
+  },
+  {
+    "id": "spain-ea-aircraft-modernisation-1-438bn",
+    "headline_en": "Spain approves €1.438 billion programme to modernise Air and Space Force aircraft",
+    "date": "2026-11-03",
+    "summary": "On 3 November 2026 Spain's Council of Ministers authorised a contract for the 'modernisation and evolutionary development of the aerial platforms' of the Ejército del Aire y del Espacio, with an estimated value of €1,438,000,000. Infodefensa reports it as a Special Modernisation Programme (PEM). Together with the €2.3 billion PNT programme approved the same day, the two PEMs total almost €3.75 billion. The referencia does not say which aircraft, systems or technologies are covered, or how the money is split.",
+    "primary_source": {
+      "name": "La Moncloa – Referencia del Consejo de Ministros, 3 Nov 2026",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261103-referencia-rueda-de-prensa-ministros.aspx"
+    },
+    "other_sources": [
+      {
+        "name": "Infodefensa",
+        "url": "https://www.infodefensa.com/texto-diario/mostrar/6077208/gobierno-da-luz-verde-pem-1438-millones-modernizar-aeronaves-ejercito-aire-espacio"
+      }
+    ],
+    "target_langs": [
+      "es",
+      "en"
+    ],
+    "target_countries": [
+      "Spain"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "1.438",
+        "1438",
+        "Consejo de Ministros",
+        "Ejército del Aire"
+      ],
+      "existing_urls": [],
+      "missing_in": [
+        "tr",
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "high",
+    "notes": "Do not name specific fleets (Eurofighter, F-18, etc.) as beneficiaries; no source says which ones are included. Infodefensa's Eurofighter figures are background only."
+  },
+  {
+    "id": "spain-155mm-extended-range-269m",
+    "headline_en": "Spain authorises €269 million framework agreement for extended-range 155 mm artillery ammunition",
+    "date": "2026-11-03",
+    "summary": "Spain's Council of Ministers on 3 November 2026 authorised a framework agreement to buy extended-range 155 mm field artillery ammunition, with an estimated value of €269,200,000. The same session also authorised a €20 million framework agreement for sonobuoys and related equipment for the maritime patrol weapon system, plus a €30 million framework for pyrotechnic, search-and-rescue and training material. Infodefensa notes that the €269.2 million is the total estimated value of the framework over several years, not a single immediate purchase. It also notes that the ammunition is for the Army's M109 and SIAC 155/52 howitzers.",
+    "primary_source": {
+      "name": "La Moncloa – Referencia del Consejo de Ministros, 3 Nov 2026",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261103-referencia-rueda-de-prensa-ministros.aspx"
+    },
+    "other_sources": [
+      {
+        "name": "Infodefensa",
+        "url": "https://www.infodefensa.com/texto-diario/mostrar/6080042/defensa-prepara-otro-gran-pedido-municion-269-millones-proyectiles-155-mm"
+      }
+    ],
+    "target_langs": [
+      "es",
+      "en"
+    ],
+    "target_countries": [
+      "Spain"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "155 mm España",
+        "sonoboyas",
+        "Consejo de Ministros",
+        "İspanya 155"
+      ],
+      "existing_urls": [],
+      "missing_in": [
+        "tr",
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "high",
+    "notes": "Infodefensa says the range exceeds 40 km, based on 'la información disponible'. This is not in the official text, so treat it as unconfirmed. Its mention of Rheinmetall Expal is background, not a supplier selection."
+  },
+  {
+    "id": "spain-mh60r-loa-amendment-38m",
+    "headline_en": "Spain adds €38 million to Navy MH-60R Seahawk programme; first helicopter still due by end-2026",
+    "date": "2026-11-03",
+    "summary": "Spain's Council of Ministers on 3 November 2026 authorised Amendment 3 to LOA SP-P-SDE for the Spanish Navy's MH-60R multi-mission helicopter programme, with an estimated value of €37,909,731.23. Infodefensa reports that the programme, run through US Foreign Military Sales, covers eight MH-60R. The Defence Ministry's schedule calls for the first aircraft to reach the Flotilla de Aeronaves at Rota before the end of 2026, and the other seven in 2027. The helicopters will replace the SH-60B of the 10th Squadron, and the programme budget is now about €909.5 million (€909,515,490), up from €820.5 million in 2022. The referencia does not say what the new amendment pays for.",
+    "primary_source": {
+      "name": "La Moncloa – Referencia del Consejo de Ministros, 3 Nov 2026",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261103-referencia-rueda-de-prensa-ministros.aspx"
+    },
+    "other_sources": [
+      {
+        "name": "Infodefensa",
+        "url": "https://www.infodefensa.com/texto-diario/mostrar/6077605/defensa-inyecta-38-millones-programa-mh-60r-armada-contempla-llegada-primer-helicoptero-antes-final-ano"
+      }
+    ],
+    "target_langs": [
+      "es",
+      "en"
+    ],
+    "target_countries": [
+      "Spain"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "MH-60R",
+        "Seahawk Armada",
+        "Consejo de Ministros"
+      ],
+      "existing_urls": [],
+      "missing_in": [
+        "tr",
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "high",
+    "notes": "Envanter has MH-60R stories for New Zealand, Denmark and South Korea, but none on Spain's programme. The eight-aircraft total, end-2026 first delivery and budget figures come from Infodefensa, which cites the Defence Ministry, not from the referencia."
+  },
+  {
+    "id": "spain-sirio-dragon-tormenta-26",
+    "headline_en": "Spanish Air and Space Force wraps up its largest exercise of 2026, Sirio-Dragón-Tormenta 26: 278 sorties, 2,500+ personnel",
+    "date": "2026-11-04",
+    "summary": "The Ejército del Aire y del Espacio closed exercise Sirio-Dragón-Tormenta 26 (SDT26), run from 19 to 30 October from several air bases and aerodromes, with 278 sorties and more than 2,500 personnel. Air Combat Command (MACOM) planned and ran it. Assets included Eurofighters (Wings 11, 14, 46), F-18s (Wings 12, 15), A400M (Wing 31), C-295 (Wing 35), A330 MRTT (Wing 45), Predator UAVs (Wing 23), CN-235 Vigma and S-76 helicopters (Wing 49), and a NATO E-3 AWACS. The exercise practised NATO Agile Combat Employment, including F-18 rearming and refuelling and a C-295 acting as a forward arming and refuelling point (FARP) at Teruel airport, which served as a dispersed operating base. The ESP JFAC command-and-control structure operated from Torrejón and Pollensa.",
+    "primary_source": {
+      "name": "Infodefensa",
+      "url": "https://www.infodefensa.com/texto-diario/mostrar/6077722/ejercito-aire-espacio-cierra-mayor-ejercicio-ano-270-salidas-diez-dias"
+    },
+    "other_sources": [
+      {
+        "name": "Zona Militar (RSS excerpt only; page blocked)",
+        "url": "https://www.zona-militar.com/2026/11/05/con-2-500-efectivos-movilizados-y-278-salidas-ejecutadas-el-ejercito-del-aire-finalizo-el-ejercicio-sirio-dragon-tormenta-26/"
+      }
+    ],
+    "target_langs": [
+      "es",
+      "en"
+    ],
+    "target_countries": [
+      "Spain"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "Sirio",
+        "Sirio-Dragón",
+        "Tormenta 26",
+        "Sirio Dragón Tormenta",
+        "Ejército del Aire"
+      ],
+      "existing_urls": [],
+      "missing_in": [
+        "tr",
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "high",
+    "notes": "I could not find an official Ejército del Aire or Defence Ministry release; defensa.gob.es press notes show nothing on it. Infodefensa and Zona Militar agree on 2,500 personnel and 278 sorties. The Infodefensa headline says '270 salidas'; the body says 278."
+  },
+  {
+    "id": "spain-s80-fuel-cell-ardora-ii",
+    "headline_en": "Spain awards €3.6 million R&D contract for a national fuel cell for the S-80 submarines' AIP",
+    "date": "2026-11-05",
+    "summary": "Spain's Ministry of Defence, through the Directorate General of Armament and Material (DGAM), has awarded Fundación Cidaut a €3.6 million R&D contract called Ardora Phase II. The contract covers designing a Spanish fuel cell and advancing its integration into the air-independent propulsion (AIP) system of the Navantia-built S-80 submarines. The work runs four years (2026–2029). It covers a Balance of Plant (BOP) system tailored to the S-80 AIP and the preliminary design of a 300 kW naval fuel-cell system. Funding is €50,000 in 2026, €600,000 in 2027, €1.6 million in 2028 and €1,344,589 in 2029. The stated aim is to reduce dependence on foreign suppliers for a critical AIP component.",
+    "primary_source": {
+      "name": "Infodefensa",
+      "url": "https://www.infodefensa.com/texto-diario/mostrar/6079735/defensa-avanza-desarrollo-pila-combustible-nacional-submarino-s80-inversion-36-millones"
+    },
+    "other_sources": [],
+    "target_langs": [
+      "es",
+      "en"
+    ],
+    "target_countries": [
+      "Spain"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "pila de combustible",
+        "Cidaut",
+        "Ardora",
+        "S-81",
+        "Isaac Peral"
+      ],
+      "existing_urls": [
+        "/es/es-s80-isaac-peral-submarino-caracteristicas/ (Sept guide; not this contract)"
+      ],
+      "missing_in": [
+        "tr",
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "medium",
+    "notes": "Value is €3.6 million, NOT €36 million. Infodefensa's URL slug and its Infodefensa TV headline say '36 millones', but the article body and annual breakdown add up to €3.6 million. The award notice on the public procurement platform (PLACSP) has not been located; verify it there if possible. Envanter already covered the S-81 SINKEX in all languages; this contract story is separate."
+  },
+  {
+    "id": "peru-congress-funds-second-f16-block70-batch",
+    "headline_en": "Peru's Congress approves funds for first payment on second batch of 12 F-16 Block 70 fighters",
+    "date": "2026-11-01",
+    "summary": "Peru's Congress approved the supplementary credit bill that includes funds for the first instalment of the purchase contract for a second batch of 12 F-16 Block 70 fighters. The vote was 83–10–27 in the Chamber of Deputies and 37–10–6 in the Senate. The executive sent bill No. 00005-2026-2031-CR on 30 September, requesting 1,197 million soles (about US$345.49 million) for the second batch, which would complete the 24 new fighters the Peruvian Air Force (FAP) requires. Infodefensa reports that the credit still has to be published in the official gazette and transferred to the Defence Ministry. It also reports that the contract with Lockheed Martin is expected to be signed by December at the latest.",
+    "primary_source": {
+      "name": "Infodefensa",
+      "url": "https://www.infodefensa.com/texto-diario/mostrar/6073107/congreso-peru-aprueba-fondos-primer-pago-segundo-lote-12-cazas-f-16-bloque-70"
+    },
+    "other_sources": [],
+    "target_langs": [
+      "es",
+      "en"
+    ],
+    "target_countries": [
+      "Peru"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "Peru F-16",
+        "Perú F-16",
+        "Block 70"
+      ],
+      "existing_urls": [
+        "/es/peru-pide-al-congreso-348-millones-de-dolares-para-el-segundo-lote-de-12-f-16-block-70/",
+        "/en/peru-asks-congress-for-348m-to-fund-second-batch-of-12-f-16-block-70s/",
+        "/peru-ikinci-12-f-16-block-70-icin-kongreye-basvurdu-348-milyon-dolarlik-ek-butce/ (+ ru/ar), all 2026-10-05, covering the request only"
+      ],
+      "missing_in": [
+        "es",
+        "en",
+        "tr",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "medium",
+    "notes": "Envanter covered the 5 October request but not the approval, so this is a follow-up. Infodefensa does not give the exact vote date; the article is dated 1 November, so the vote may have been in late October. Check the date, and publication of the law in El Peruano, on the Congress site before publishing. Envanter's earlier piece used US$348 million; Infodefensa now gives US$345.49 million at the current exchange rate."
+  },
+  {
+    "id": "peru-c27j-leonardo-support-40m",
+    "headline_en": "Peru awards Leonardo €40.4 million to support the Air Force's four C-27J Spartans",
+    "date": "2026-11-02",
+    "summary": "Peru's Armed Forces Procurement Agency (ACFFAA) on 2 November 2026 awarded Leonardo S.p.A. a €40,410,616.89 contract to renew zero-stock integrated support for the four C-27J Spartan medium transports of the Peruvian Air Force (FAP). It was a single-source award, justified by Leonardo being the original manufacturer and holding the intellectual property. The ACFFAA approved the contracting through Resolución Jefatural No. 141-2026-ACFFAA of 20 October 2026. The previous comparable contract, awarded in mid-2023, was US$25,551,353.67. Infodefensa adds that a fifth aircraft, a modernised C-27J Spartan NG, is due in the fourth quarter of 2027.",
+    "primary_source": {
+      "name": "Infodefensa",
+      "url": "https://www.infodefensa.com/texto-diario/mostrar/6079378/leonardo-spa-adjudica-soporte-logistico-integral-c-27j-spartan-fuerza-aerea-peru"
+    },
+    "other_sources": [],
+    "target_langs": [
+      "es",
+      "en"
+    ],
+    "target_countries": [
+      "Peru"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "C-27J",
+        "Spartan",
+        "Leonardo Perú"
+      ],
+      "existing_urls": [],
+      "missing_in": [
+        "tr",
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "medium",
+    "notes": "If possible, confirm on the ACFFAA/SEACE portal using RJ 141-2026-ACFFAA. Infodefensa's report of a possible further C-27J NG in 2027 is unofficial ('informaciones extraoficiales'), so leave it out or label it."
+  },
+  {
+    "id": "turkiye-parliament-ratifies-makkah-defence-pact",
+    "headline_en": "Türkiye's parliament ratifies the Makkah Joint Defence Agreement with Saudi Arabia and Pakistan",
+    "date": "2026-11-05",
+    "summary": "Türkiye's parliament on Thursday, 5 November 2026, ratified the Makkah Joint Defense Agreement between Pakistan, Saudi Arabia and Türkiye, according to Arab News, which carries Reuters reporting. The three countries signed the pact in August, and it was sent to parliament in October. Under it, an attack on one party is considered an attack on all. A ruling-party lawmaker had told Reuters that a separate mandate allowing Turkish military personnel to deploy to Saudi Arabia under the pact would also be submitted to parliament. Arab News reports the ratification clears the way for Ankara to send military support to Riyadh amid Houthi attacks on the kingdom.",
+    "primary_source": {
+      "name": "Arab News (Reuters reporting)",
+      "url": "https://www.arabnews.com/middle-east/turkiyes-parliament-ratifies-makkah-defense-pact-clearing-way-for-military-support-to-saudi-arabia-3010066"
+    },
+    "other_sources": [],
+    "target_langs": [
+      "ar",
+      "en",
+      "tr",
+      "es",
+      "ru"
+    ],
+    "target_countries": [
+      "Türkiye",
+      "Saudi Arabia",
+      "Pakistan"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "Mekke",
+        "Makkah",
+        "Meca",
+        "Mecca",
+        "TBMM",
+        "Makkah ratif"
+      ],
+      "existing_urls": [
+        "/mekke-ortak-savunma-anlasmasi-tbmmye-sunuldu/ (TR, 2026-10-20, submission)",
+        "/en/mecca-joint-defense-agreement-turkish-parliament/ (EN, 2026-10-20, submission)",
+        "/en/en-mecca-defence-pact-iran-tehran-security-talks/ and es/ar/ru versions (2026-10-26/27, Tehran talks)"
+      ],
+      "missing_in": [
+        "tr",
+        "en",
+        "ar",
+        "es",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "high",
+    "notes": "The ratification itself is not covered in any language. Envanter calls it the 'Mecca/Mekke' pact; keep naming consistent. If possible, add the TBMM record or the Resmî Gazete publication of the ratification law as the official source. The separate troop-deployment mandate was not yet reported as voted."
+  },
+  {
+    "id": "saudi-syria-defence-cooperation-agreement",
+    "headline_en": "Saudi Arabia and Syria sign a defence cooperation agreement in Riyadh",
+    "date": "2026-11-04",
+    "summary": "Saudi Crown Prince and Prime Minister Mohammed bin Salman and Syrian President Ahmed al-Sharaa witnessed the signing of a defence cooperation agreement between the two countries after talks in Riyadh on Wednesday, 4 November 2026. The two leaders discussed regional developments and the implications of any military escalation for security, freedom of navigation and energy supplies. They also called for an immediate halt to actions threatening maritime security in the Red Sea, the Bab al-Mandab Strait and the Strait of Hormuz. The published report does not give the agreement's terms.",
+    "primary_source": {
+      "name": "Asharq Al-Awsat (English)",
+      "url": "https://english.aawsat.com/node/5337786"
+    },
+    "other_sources": [],
+    "target_langs": [
+      "ar",
+      "en",
+      "tr"
+    ],
+    "target_countries": [
+      "Saudi Arabia",
+      "Syria"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "Suriye Suudi",
+        "Saudi Syria",
+        "Şara",
+        "Arabia Saudí Siria"
+      ],
+      "existing_urls": [],
+      "missing_in": [
+        "tr",
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "medium",
+    "notes": "The official text should be on the Saudi Press Agency (spa.gov.sa), but that site renders with JavaScript and could not be read. Do not describe the deal's content, or tie it to Syria joining the Makkah pact; no source says either. Al Jazeera reported on 31 October that Syria is 'considering' joining the pact; that is context only."
+  },
+  {
+    "id": "saudi-air-defence-intercepts-houthi-missile-madinah",
+    "headline_en": "Saudi air defences intercept Houthi ballistic missile fired towards Madinah region",
+    "date": "2026-11-05",
+    "summary": "The Coalition to Restore Legitimacy in Yemen said on 5 November 2026 that a ballistic missile fired by the Houthis towards Saudi Arabia's Madinah region had been intercepted and destroyed. The coalition spokesman, Maj. Gen. Turki al-Malki, said Saudi air defence forces carried out the interception. Saudi Civil Defence had earlier activated its early-warning system in Yanbu and Sharurah, then announced minutes later that the danger had passed. A day earlier (4 November), the coalition said it had downed three Houthi drones over the Southern, Eastern and Makkah regions.",
+    "primary_source": {
+      "name": "Asharq Al-Awsat (English)",
+      "url": "https://english.aawsat.com/node/5337873"
+    },
+    "other_sources": [
+      {
+        "name": "Asharq Al-Awsat – drones intercepted, 4 Nov",
+        "url": "https://english.aawsat.com/node/5337396"
+      }
+    ],
+    "target_langs": [
+      "ar",
+      "en",
+      "es"
+    ],
+    "target_countries": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "Medine",
+        "Madinah",
+        "Medina",
+        "Houthi",
+        "Husi"
+      ],
+      "existing_urls": [
+        "/es/es-coalicion-intercepta-misil-huti-riad-destruye-lanzadores-sana/ (2026-10-26, earlier incident)",
+        "/es/es-coalicion-intercepta-10-misiles-huties-sur-arabia-saudi/ (2026-10-25, earlier incident)"
+      ],
+      "missing_in": [
+        "tr",
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "medium",
+    "notes": "Earlier Houthi intercepts were covered in ES; this Madinah incident is not covered in any language. The missile type, interceptor system and launch site are not given; do not name a system (Patriot, THAAD, etc.). Look for the SPA or Saudi MoD statement to cite directly."
+  },
+  {
+    "id": "poland-kub-osa-sam-support-tender",
+    "headline_en": "Poland tenders multi-year support to keep its Soviet-origin Kub and Osa air defence systems operational",
+    "date": "2026-11-06",
+    "summary": "Poland's armed forces are preparing a new order for repair and maintenance of the 2K12 Kub and 9K33 Osa surface-to-air missile systems, with technical assistance and personnel training. The 12th Military Economic Unit (12. WOG) in Toruń is running the procurement, which has an estimated value of about PLN 43.05 million net. The base period covers 2026–2027, with an option to continue support in 2028–2030 depending on needs and funding. The scope covers combat vehicles, launchers, detection and guidance stations, target-illumination equipment, transport-loading equipment, missile test equipment and power sources, all of which have had Polish modernisations.",
+    "primary_source": {
+      "name": "Defence24.pl",
+      "url": "https://defence24.pl/sily-zbrojne/utrzymac-gotowosc-zestawow-przeciwlotniczych-kub-i-osa-z-planem-wieloletniego-wsparcia"
+    },
+    "other_sources": [],
+    "target_langs": [
+      "ru",
+      "en",
+      "tr"
+    ],
+    "target_countries": [
+      "Poland"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "Kub",
+        "Osa",
+        "Polonya hava savunma"
+      ],
+      "existing_urls": [],
+      "missing_in": [
+        "tr",
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "medium",
+    "notes": "This is a procurement in preparation, not a signed contract. The original tender notice (12. WOG Toruń) has not been located. Defence24 is a Polish specialist outlet, not on your list; confirm in the tender notice if possible. Related Polish item, also uncovered: Armament Agency restricted tender for 1,300 BULLFIGHTER-type 130 mm RF/IR naval decoy rounds, launched 29 October (https://defence24.pl/sily-zbrojne/marynarka-wojenna-wzmocni-ochrone-okretow-tak-unikna-rakiet)."
+  },
+  {
+    "id": "romania-moldova-joint-procurement-iveco-trucks",
+    "headline_en": "Romania and Moldova launch their first joint military procurement: 62 IVECO trucks for the Moldovan Army",
+    "date": "2026-11-02",
+    "summary": "On 2 November 2026 at Victoria Palace, Romania and the Republic of Moldova signed documents making them partners in a joint military procurement programme for the first time. Romania's Directorate General for Armaments, Moldova's Agency for Resource Provision and Property Administration (AARAP) and IVECO Defence Vehicles signed an addendum to Romania's 2019 framework agreement with the Italian company, making AARAP a contracting authority under it. AARAP and IVECO Defence Vehicles then signed subsequent contract No. 4 for 62 IVECO trucks in three configurations for the Moldovan National Army. Romanian Prime Minister Luca Niculescu, Defence Minister Ștefan-Radu Oprea and Moldovan Defence Minister Anatolie Nosatîi attended.",
+    "primary_source": {
+      "name": "Romanian Ministry of National Defence (MApN) press release",
+      "url": "https://www.mapn.ro/cpresa/19463_romania-sprijina-modernizarea-armatei-republicii-moldova-printr-un-program-comun-de-achiziții-militare"
+    },
+    "other_sources": [
+      {
+        "name": "MApN – Oprea–Nosatîi meeting",
+        "url": "https://www.mapn.ro/cpresa/19464_romania-iși-reafirma-sprijinul-pentru-modernizarea-armatei-republicii-moldova-și-consolidarea-cooperarii-in-domeniul-apararii"
+      }
+    ],
+    "target_langs": [
+      "ru",
+      "en",
+      "tr"
+    ],
+    "target_countries": [
+      "Romania",
+      "Moldova"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "Moldova",
+        "Moldova IVECO",
+        "Romanya",
+        "Romania Moldova"
+      ],
+      "existing_urls": [],
+      "missing_in": [
+        "tr",
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "high",
+    "notes": "The contract value is not published; do not estimate it. Related MApN item from 4 November: Oprea met US Under Secretary of Defense for Policy Elbridge Colby (https://www.mapn.ro/cpresa/19467_intrevederea-ministrului-apararii-naționale-cu-subsecretarul-pentru-politica-de-aparare,-departamentul-de-razboi-al-sua)."
+  },
+  {
+    "id": "aselsan-1-1bn-air-defence-export",
+    "headline_en": "ASELSAN signs $1.1 billion air defence export contract with an undisclosed international customer",
+    "date": "2026-11-03",
+    "summary": "ASELSAN disclosed on Türkiye's Public Disclosure Platform (KAP) at 10:07 on 3 November 2026 that it had signed an export contract with an international customer for the sale of air defence systems, valued at US$1.1 billion. The 'New Business Relation' filing does not name the customer, the country or the specific systems, and gives no delivery schedule. It says only that the deal will positively affect company revenues. Türkiye Today separately reported that ASELSAN's new export contracts in the first nine months of 2026 rose 34% to $1.9 billion, and that its order backlog passed $30 billion.",
+    "primary_source": {
+      "name": "KAP – ASELSAN disclosure (New Business Relation)",
+      "url": "https://www.kap.org.tr/en/Bildirim/1691350"
+    },
+    "other_sources": [
+      {
+        "name": "Türkiye Today",
+        "url": "https://www.turkiyetoday.com/nation/aselsan-lands-11b-air-defense-export-deal-with-unnamed-customer-3231613"
+      }
+    ],
+    "target_langs": [
+      "en",
+      "es",
+      "ar",
+      "ru"
+    ],
+    "target_countries": [
+      "Türkiye"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "ASELSAN 1.1",
+        "ASELSAN air defence export",
+        "ASELSAN"
+      ],
+      "existing_urls": [
+        "/aselsan-1-1-milyar-dolar-hava-savunma-ihracat-sozlesmesi/ (TR only, 2026-11-03)"
+      ],
+      "missing_in": [
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "high",
+    "notes": "Do not name a system (KORKUT, HİSAR, SİPER) or a buyer; neither is disclosed. The backlog and nine-month figures come from Türkiye Today, not KAP; cite them as such or check ASELSAN's Q3 2026 investor presentation."
+  },
+  {
+    "id": "turkiye-defence-exports-october-2026",
+    "headline_en": "Türkiye's defence and aerospace exports jump 61% in October 2026 to $1.14 billion",
+    "date": "2026-11-03",
+    "summary": "Türkiye's defence and aerospace exports rose 61% year on year in October 2026 to US$1.14 billion, Defence Industries Agency (SSB) President Haluk Görgün said on 3 November 2026. Exports for January–October reached US$8.05 billion, up 21% on the same period of 2025. Exports for the last 12 months rose 37% to US$11.357 billion.",
+    "primary_source": {
+      "name": "Anadolu Agency (via Foreks), quoting SSB President Haluk Görgün",
+      "url": "https://www.foreks.com/haber/detay/6ae9b4a2422c786f3f7afadd/AA/tr/savunma-ve-havacilik-ihracati-ekimde-1-1-milyar-dolari-asti-03-11-26/"
+    },
+    "other_sources": [],
+    "target_langs": [
+      "en",
+      "ar",
+      "es",
+      "ru"
+    ],
+    "target_countries": [
+      "Türkiye"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "defence exports October",
+        "Turkish defence exports",
+        "Görgün exports",
+        "ihracat"
+      ],
+      "existing_urls": [
+        "/savunma-havacilik-ihracati-ekim-2026-yuzde-61-artis/ (TR only, 2026-11-03)"
+      ],
+      "missing_in": [
+        "en",
+        "es",
+        "ar",
+        "ru"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "high",
+    "notes": "The original is Görgün's post on his official X account with an SSB infographic, which was not opened here; cite AA as the wire. Envanter's TR piece says the 12-month total was 11.3 billion; AA gives 11,357 million. Use 11.357."
+  },
+  {
+    "id": "mke-tolga-20mm-dual-euronaval-2026",
+    "headline_en": "MKE presents TOLGA 20mm Dual naval close-in gun system at Euronaval 2026 after first warship firing",
+    "date": "2026-11-05",
+    "summary": "Türkiye's MKE showcased the TOLGA 20mm Dual Gun System, a remotely operated naval weapon station for close-range defence against UAVs, unmanned surface vessels and other aerial and surface threats, at Euronaval 2026 in Paris. Naval News reports the system has two independently operated 20×102 mm gas-operated revolver guns with a combined rate of fire of up to 3,200 rounds per minute, adjustable from 1 to 1,600 rounds per minute per gun. It has a stated effective range of 2,000 m (1,000 m with airburst rounds), 360° azimuth coverage, –30° to +70° elevation, and a turret weight of about 850 kg. The system was integrated on a warship for the first time, the corvette TCG Beykoz, during the TURNAS 2026 exercise in October. MKE says it achieved a 100% success rate across 24 scenarios there.",
+    "primary_source": {
+      "name": "Naval News",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/mke-reveals-tolga-20mm-dual-gun-system/"
+    },
+    "other_sources": [],
+    "target_langs": [
+      "en"
+    ],
+    "target_countries": [
+      "Türkiye"
+    ],
+    "envanter_coverage": {
+      "checked_keywords": [
+        "TOLGA",
+        "TOLGA 20",
+        "MKE TOLGA"
+      ],
+      "existing_urls": [
+        "/mke-tolga-20-mm-cift-silahli-ates-serbest-2026/ (TR, 2026-10-22)",
+        "/mke-tolga-tcg-beykoz-turnas-2026-pirana/ (TR, 2026-10-25)",
+        "/es/es-tolga-mke-dispara-buque-beykoz-pirana-tb2/ (+ ru/ar, 2026-10-25)"
+      ],
+      "missing_in": [
+        "en"
+      ]
+    },
+    "news_or_guide": "news",
+    "confidence": "high",
+    "notes": "Envanter covered the Beykoz firing in TR/ES/RU/AR but has nothing on TOLGA in English; the Euronaval presentation is new in every language. The '3x faster than rivals' and 100%-success claims are MKE's own; attribute them to MKE."
+  }
+]

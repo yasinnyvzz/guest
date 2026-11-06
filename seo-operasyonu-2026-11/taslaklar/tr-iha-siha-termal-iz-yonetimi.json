@@ -1,0 +1,94 @@
+{
+  "lang": "tr",
+  "title": "İHA ve SİHA'larda termal iz yönetimi nedir? Kızılötesi imza nasıl azaltılır?",
+  "slug": "iha-siha-termal-iz-yonetimi",
+  "excerpt": "Termal iz yönetimi, İHA ve SİHA'ların kızılötesi imzasını ölçme ve azaltma çalışmalarının bütünüdür. Isı kaynakları, MWIR/LWIR bantları, azaltma yöntemleri ve ödünleşimler.",
+  "content_html": "<p><strong>Termal iz yönetimi</strong>, bir İHA veya SİHA'nın yaydığı kızılötesi (IR) enerjinin ölçülmesi, modellenmesi ve tasarım ile kullanım tedbirleriyle azaltılması çalışmalarının bütünüdür. Amaç, ısı güdümlü füzelerin (MANPADS gibi) ve IRST ya da termal kamera gibi pasif sensörlerin hava aracını tespit, takip ve kilitlenme mesafesini kısaltmaktır. İzin başlıca kaynakları motor ve egzoz gazı, sıcak motor parçaları, aviyonik ısısı, aerodinamik ısınma ve Güneş'in gövdeyi ısıtmasıdır. Başlıca azaltma yolları ise egzozun soğutulması ve karıştırılması, sıcak bölgelerin perdelenmesi, düşük yayınımlı (low-e) kaplamalar, termal kamuflaj ve görev planlamasıdır.</p>\n\n<h2>Kızılötesi imza nedir?</h2>\n<p>Mutlak sıfırın üzerindeki her cisim ışınım yayar. Bir yüzeyin yaydığı toplam güç, Stefan-Boltzmann yasasına göre sıcaklığın dördüncü kuvvetiyle (T<sup>4</sup>) ve yüzeyin <strong>yayınım katsayısıyla</strong> (emisivite, ε) orantılıdır. Avustralya Savunma Bilim ve Teknoloji Grubu'nun (DSTG) yayımladığı çalışmaya göre, askerî platformlarda kullanılan geleneksel boyaların yayınım değeri 0,95 civarındadır; yani bu yüzeyler ideal bir \"kara cisme\" yakın ışıma yapar. Dolayısıyla termal izi değiştirmenin iki temel kolu vardır: sıcaklığı düşürmek veya yayınımı azaltmak.</p>\n<p>Atmosfer her dalga boyunu aynı ölçüde geçirmez. Karbondioksit 2,7, 4,3 ve 15 mikrometrede (µm), su buharı ise 1–2 ve 5–8 µm aralığında ışınımı güçlü biçimde soğurur. Bu nedenle askerî IR sensörleri üç \"atmosfer penceresinde\" çalışır:</p>\n<table>\n<thead><tr><th>Bant</th><th>Dalga boyu</th><th>Ağırlıklı olarak görülen kaynaklar</th></tr></thead>\n<tbody>\n<tr><td>Bant I (SWIR)</td><td>1–3 µm</td><td>Çok sıcak egzoz gazı ve doğrudan görülen motor içi parçalar; genellikle belirli açılardan, çoğunlukla arkadan</td></tr>\n<tr><td>Bant II (MWIR)</td><td>3–5 µm</td><td>Sıcak egzoz gazı, sıcak metal parçalar, aerodinamik olarak ısınmış gövde yüzeyleri; her yönden görülebilir</td></tr>\n<tr><td>Bant III (LWIR)</td><td>8–14 µm</td><td>Ortam sıcaklığına yakın yüzeyler: gövde kaplaması, personel, araçlar; her yönden görülebilir</td></tr>\n</tbody>\n</table>\n<p>DSTG'nin değerlendirmesine göre hava araçları bu açıdan kara ve deniz platformlarından daha dezavantajlıdır, çünkü çoğunlukla soğuk gökyüzü fonu önünde görüntülenirler; kara aracı ya da gemide ise yüzey sıcaklığı çevreye daha yakın olabilir. Termal kameraların temel çalışma ilkesi için <a href=\"https://envantermedya.com/termal-kamera-nedir/\">\"Termal Kamera Nedir?\"</a> yazımıza bakabilirsiniz.</p>\n\n<h2>İHA ve SİHA'larda ısı nereden gelir?</h2>\n<ul>\n<li><strong>Motor ve egzoz gazı:</strong> Yanma ürünleri (CO<sub>2</sub> ve su buharı) en belirgin kaynaktır. Türbin motorlu bir hedef İHA üzerinde yapılan ve <em>Sensors</em> dergisinde 2018'de yayımlanan deneysel çalışmada, aracın spektral ışınım şiddetinin egzoz gazı tarafından belirlendiği ve ana emisyon bantlarının 2,7 µm ile 4,3 µm olduğu bulunmuştur.</li>\n<li><strong>Sıcak motor parçaları:</strong> Egzoz çıkışı, nozul ve motor kaportası çevresi, gaz bulutundan farklı olarak atmosferde daha az soğurulan geniş bantlı ışınım yayar.</li>\n<li><strong>Aviyonik ve güç sistemleri:</strong> Görev bilgisayarları, haberleşme ve elektro-optik sistemler, elektrikli tahrikte ise batarya ve motorlar ısı üretir; bu ısının nereden ve nasıl atıldığı izi doğrudan etkiler.</li>\n<li><strong>Aerodinamik ısınma:</strong> Hücum kenarları ve burun bölgesi hava sürtünmesiyle ısınır; etkisi hızla birlikte artar, bu yüzden jet motorlu insansız savaş uçaklarında pervaneli platformlara göre daha belirgindir.</li>\n<li><strong>Güneş yükü ve yansıma:</strong> Güneş gövdeyi ısıtır; ayrıca yüzeyler çevredeki sıcak arazi ve gökyüzünden gelen ışınımı yansıtır.</li>\n</ul>\n<p>Aynı çalışma, gözlem açısının da belirleyici olduğunu gösteriyor: 0–90 derece arasındaki açılarda en geniş ışıyan alan MWIR bandında ölçülmüş, LWIR'de ise gövdenin katkısı motor ve egzoza göre zayıf kalmıştır. İHA ve SİHA kavramlarının temel tanımları için <a href=\"https://envantermedya.com/savunma-sozluk/iha-nedir/\">İHA Nedir?</a> ve <a href=\"https://envantermedya.com/savunma-sozluk/siha-nedir/\">SİHA Nedir?</a> maddelerine bakılabilir.</p>\n\n<h2>Tehdit tarafı: MANPADS ve IRST</h2>\n<p>Arms Control Association'ın derlemesine göre omuzdan atılan hava savunma sistemlerinin (MANPADS) en yaygın türü, hedefi motorun ısısını algılayarak bulan kızılötesi güdümlü füzelerdir. DSTG çalışması, ABD'nin AIM-9 Sidewinder ve FIM-92 Stinger'ını ve Rusya'nın 9K333 Verba'sını IR güdümlü füzelere örnek gösterir. Bu füzelerin nesiller içindeki gelişimini <a href=\"https://envantermedya.com/kizilotesi-gudumlu-fuze-nesilleri/\">\"Kızılötesi Güdümlü Füze Nesilleri\"</a> yazımızda ele aldık.</p>\n<p>İkinci tehdit grubu <strong>IRST</strong> (kızılötesi arama ve takip) sistemleridir. Leonardo'nun tanımıyla IRST, kendisi hiçbir yayın yapmadan hedefleri tespit edebilen pasif bir sensördür; bu nedenle radar ikazı vermez. Şirketin SkyWard ailesi Gripen E/F ve KF-21 savaş uçaklarında ve Uzak Doğu'daki bir müşterinin insansız hava aracında kullanılmak üzere tedarik edilmiştir. Sonuç olarak İHA artık yalnızca yerden değil, havadaki pasif sensörlere karşı da IR açısından görünürdür.</p>\n\n<h2>Kızılötesi imza nasıl azaltılır?</h2>\n<h3>Egzoz soğutma ve karıştırma</h3>\n<p>Egzoz gazının soğuk ortam havasıyla karıştırılması ya da sıcak motor bileşenlerinin üzerinden soğuk hava geçirilmesi, gazın sıcaklığını ve en yoğun ışınımın dalga boyunu değiştirir. DSTG, turbofan motorların bypass havasının ve gemideki yakıtın ısı emici olarak kullanılmasını bu yaklaşıma örnek verir; ancak bu yöntemlerin esas olarak Bant I ışınımını azalttığını, Bant II ve III'teki izin büyük ölçüde sürdüğünü vurgular.</p>\n<h3>Perdeleme ve geometri</h3>\n<p>Sıcak parçaların ve egzoz çıkışının gövde, kanat veya özel kaportalar arkasında bırakılması, tehdidin en olası geldiği yönlerde doğrudan görüş hattını keser. Motorun gövdenin üstüne yerleştirilmesi gibi yerleşim tercihleri de aşağıdan bakan sensörlere karşı aynı mantıkla değerlendirilir.</p>\n<h3>Düşük yayınımlı kaplamalar</h3>\n<p>Sıcaklık düşürülemiyorsa, yüzey yayınımını azaltan kaplamalar ışınım miktarını düşürür. DSTG'ye göre bu kaplamalar görünür bölgede kamuflaj rengini koruyacak şekilde formüle edilebilir; ancak yalnızca sıcak noktalara uygulanmalıdır. Tüm platform kaplanırsa yayılmayan enerji içeride kalır ve bir yalıtım etkisiyle aracın genel sıcaklığı yükselebilir. Yakın kızılötesinde yansıtıcı boyalar ise Güneş'ten kaynaklanan ısınmayı sınırlamak için kullanılır.</p>\n<h3>Termal kamuflaj ağları</h3>\n<p>Yerde bekleyen İHA'lar, hangarlar ve yer kontrol istasyonları için çok spektrumlu kamuflaj örtüleri kullanılır. Saab'ın tanımına göre Barracuda ürünleri hedefin radar, termal ve kızılötesi sensörler ile çıplak gözle fark edilmesini zorlaştırmayı amaçlar; şirket, ağın metrekaresinin 300 gramın altında olduğunu ve örtülen nesnenin sıcaklığını düşürdüğünü belirtir. Sistemin teknik ayrıntılarını <a href=\"https://envantermedya.com/barracuda-mcs-cok-spektrumlu-kamuflaj-sistemi-teknik/\">\"Barracuda MCS: Saab'ın Çok Spektrumlu Kamuflaj Sistemi\"</a> yazımızda inceledik.</p>\n<h3>Kullanım konsepti</h3>\n<p>İmza yönetimi tasarımla bitmez. Tehdit değerlendirmesi, sensör ortamının görev planlamasına dahil edilmesi ve motor güç ayarlarının ize etkisinin bilinmesi, operatörlerin genel kullanım doktrininin parçasıdır. Ayrıntılar doğal olarak gizlilik kapsamındadır.</p>\n\n<h2>Termal iz nasıl ölçülür?</h2>\n<p>Ölçüm, spektroradyometreler ve farklı bantlarda çalışan kameralarla yapılır. <em>Sensors</em> dergisindeki çalışmada araştırmacılar 2–13,5 µm aralığını kapsayan bir spektroradyometrenin yanında SWIR, MWIR ve LWIR kameralar kullanmış, aracı farklı gözlem açılarında ölçmüştür. Yazarlar, iç mekânda yer testinde elde edilen sonuçların uçuş koşullarına doğrudan aktarılamayacağını, Güneş ışığı ve arka plan ışınımının ayrıca incelenmesi gerektiğini not eder. Bu nedenle laboratuvar ölçümleri genellikle hesaplamalı akışkanlar dinamiği (CFD) ve ışınım modelleriyle, ardından uçuş testleriyle tamamlanır.</p>\n\n<h2>Ödünleşimler: her azaltmanın bir bedeli var</h2>\n<table>\n<thead><tr><th>Yöntem</th><th>Hedeflediği kaynak</th><th>Bedeli / sınırı</th></tr></thead>\n<tbody>\n<tr><td>Egzoz soğutma ve karıştırma</td><td>Egzoz gazı, sıcak motor parçaları</td><td>Ek ağırlık ve hacim; DSTG'ye göre maliyetli ve sonradan uygulaması zor</td></tr>\n<tr><td>Perdeleme</td><td>Doğrudan görülen sıcak parçalar</td><td>Yalnızca belirli açılarda etkili; yapısal ağırlık</td></tr>\n<tr><td>Düşük yayınımlı kaplama</td><td>Sıcak yüzeyler</td><td>Yanlış uygulamada yalıtım etkisi ve ısınma; dayanıklılık ve bakım</td></tr>\n<tr><td>Termal kamuflaj ağı</td><td>Yerdeki araç ve tesisler</td><td>Yalnızca yerde kullanılabilir; kurulum süresi</td></tr>\n<tr><td>Fişek ve DIRCM gibi karşı tedbirler</td><td>Kilitlenmiş füze</td><td>Faydalı yük ve güç ihtiyacı; DSTG'ye göre gelişmiş görüntüleyici arayıcılar fişeği hedeften ayırt edebilir</td></tr>\n</tbody>\n</table>\n<p>Dahası, iz tek bir spektrumla sınırlı değildir. IR izi düşürülmüş bir platform radar, akustik ve görsel izi yüksekse yine de tespit edilebilir. Bu yüzden tasarımcılar termal izi radar kesit alanı ve ses gibi diğer imzalarla birlikte ele alır; genel çerçeve için <a href=\"https://envantermedya.com/savunma-sozluk/stealth-nedir/\">Stealth Nedir?</a> maddesine bakılabilir.</p>\n\n<h2>Sık sorulan sorular</h2>\n<h3>Termal iz ile kızılötesi imza aynı şey mi?</h3>\n<p>Günlük kullanımda evet. Kızılötesi imza, bir platformun IR bantlarındaki toplam ışınım profilini ifade eder; termal iz ise genellikle orta ve uzun dalga kızılötesindeki ısıl ışınım için kullanılır.</p>\n<h3>İHA'nın en çok ısı yayan kısmı neresidir?</h3>\n<p>Yanmalı motorlu araçlarda motor ve egzoz gazı. Türbin motorlu bir İHA üzerindeki 2018 tarihli ölçümde ışınım şiddetinin egzoz gazı tarafından belirlendiği bulunmuştur.</p>\n<h3>MWIR ile LWIR arasındaki fark nedir?</h3>\n<p>MWIR (3–5 µm) sıcak egzoz ve motor parçalarını öne çıkarır; LWIR (8–14 µm) ise ortam sıcaklığına yakın yüzeyleri, örneğin gövde kaplamasını daha iyi gösterir.</p>\n<h3>Elektrikli küçük İHA'ların termal izi olmaz mı?</h3>\n<p>Olur, ancak kaynakları farklıdır: batarya, elektrik motoru ve elektronik kartlar ısınır. Egzoz gazı bulunmadığı için iz genellikle daha zayıftır ama sıfır değildir.</p>\n<h3>IRST nedir?</h3>\n<p>IRST, hava hedeflerini kızılötesi ışınımları üzerinden arayan ve takip eden pasif bir sensördür. Yayın yapmadığı için hedef tarafından radar ikaz alıcısıyla fark edilmez.</p>\n<h3>Düşük yayınımlı boya bütün gövdeye sürülebilir mi?</h3>\n<p>DSTG'ye göre bu önerilmez: yayılmayan enerji platformda kalır ve genel sıcaklığı artırabilir. Kaplama sıcak noktalara, ısının daha az kritik yönlere yönlendirilmesiyle birlikte uygulanır.</p>",
+  "rank_math_title": "İHA ve SİHA'larda Termal İz Yönetimi Nedir?",
+  "rank_math_description": "İHA ve SİHA'larda termal iz yönetimi: kızılötesi imzanın kaynakları, MWIR/LWIR bantları, egzoz soğutma, düşük yayınımlı kaplama ve kamuflaj yöntemleri.",
+  "rank_math_focus_keyword": "iha siha termal iz yönetimi",
+  "target_query": "iha siha termal iz yönetimi",
+  "demand_evidence": "GSC last 24h: \"iha siha termal iz yönetimi\" 23 impressions @ avg pos 28; no page on the topic exists.",
+  "category_hint": "Savunma Sözlüğü / Hava",
+  "sources": [
+    {
+      "name": "Kelly, L. C. (Defence Science & Technology Group, Australia) — Low-Emissivity Topcoats for the Reduction of Thermal Infrared Emissions From Military Platforms, CoatingsTech/PAINT.ORG, April 2020",
+      "url": "https://www.paint.org/wp-content/uploads/2021/09/Low-Emissivity-Topcoats-Military-Platforms_Apr-2020.pdf",
+      "supports": "Stefan-Boltzmann/emissivity; conventional coatings ε≈0.95; CO2 (2.7, 4.3, 15 µm) and H2O (1–2, 5–8 µm) absorption; windows 1–3, 3–5, 8–14 µm and what each band sees; aircraft vs cold sky; TIR sources (plumes, hot parts, aerodynamic heating, skin, reflection); shrouding, active cooling (bypass air, fuel heat sink), limits (weight, cost, upgrade difficulty); flares vs smart imagers; LE coatings on hotspots only, insulation effect; NIR reflective coatings vs solar heating; AIM-9, FIM-92, 9K333 Verba examples"
+    },
+    {
+      "name": "Zheng H. et al. — Experimental Study of Multispectral Characteristics of an Unmanned Aerial Vehicle at Different Observation Angles, Sensors 2018, 18(2):428",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5855085",
+      "supports": "Turbine target-drone: plume determines spectral intensity; main bands 2.7 and 4.3 µm; MWIR largest radiating area at 0–90°; LWIR airframe weak; instruments (2–13.5 µm spectroradiometer, SWIR/MWIR/LWIR cameras); indoor ground test limitation"
+    },
+    {
+      "name": "Arms Control Association — MANPADS at a Glance",
+      "url": "https://www.armscontrol.org/factsheets/manpads",
+      "supports": "IR-guided MANPADS are the most common type and home on engine heat; flares and DIRCM as countermeasures"
+    },
+    {
+      "name": "Leonardo — IRST, Nerviano (focus page)",
+      "url": "https://www.leonardo.com/en/focus-detail/-/detail/leonardo-irst-nerviano",
+      "supports": "IRST as passive sensor without emissions; PIRATE on Typhoon; SkyWard on Gripen E/F, KF-21 and a Far East remotely piloted aircraft"
+    },
+    {
+      "name": "Saab — Barracuda multispectral camouflage (Saab Brasil story, 2020)",
+      "url": "https://www.saab.com/markets/brasil/historias/2020/barracuda-multispectral-camouflage",
+      "supports": "Barracuda protects against radar, thermal and IR sensors and the naked eye; textile <300 g/m²; reduces temperature of protected object"
+    },
+    {
+      "name": "Saab — press release: long-term agreement for camouflage systems with the Netherlands (27.08.2026)",
+      "url": "https://saab.com/newsroom/press-releases/2026/saab-signs-long-term-agreement-for-camouflage-systems-with-the-netherlands",
+      "supports": "Current multispectral camouflage procurement context (not quoted in text; supporting reference)"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://envantermedya.com/termal-kamera-nedir/",
+      "anchor": "Termal Kamera Nedir?"
+    },
+    {
+      "url": "https://envantermedya.com/savunma-sozluk/iha-nedir/",
+      "anchor": "İHA Nedir?"
+    },
+    {
+      "url": "https://envantermedya.com/savunma-sozluk/siha-nedir/",
+      "anchor": "SİHA Nedir?"
+    },
+    {
+      "url": "https://envantermedya.com/kizilotesi-gudumlu-fuze-nesilleri/",
+      "anchor": "Kızılötesi Güdümlü Füze Nesilleri"
+    },
+    {
+      "url": "https://envantermedya.com/barracuda-mcs-cok-spektrumlu-kamuflaj-sistemi-teknik/",
+      "anchor": "Barracuda MCS: Saab'ın Çok Spektrumlu Kamuflaj Sistemi"
+    },
+    {
+      "url": "https://envantermedya.com/savunma-sozluk/stealth-nedir/",
+      "anchor": "Stealth Nedir?"
+    }
+  ],
+  "hreflang_equivalents": {
+    "en": null,
+    "es": null,
+    "ar": null,
+    "ru": null,
+    "zh": null,
+    "_note": "No IR-signature-management page in any language. Related but not equivalent: RU https://envantermedya.com/ru/ru-chto-takoe-teplovizor/ (thermal imager), EN https://envantermedya.com/en/saab-barracuda-camouflage-multi-spectral/ (Barracuda)."
+  },
+  "image": {
+    "recommendation": "Envanter title card 1200x675 (lacivert zemin, altın şerit, 'ENVANTER MEDYA', text 'Termal iz yönetimi'). Do not use AI-generated 'thermal image' visuals presented as real; if a thermal photo is desired, use an official DSTG/manufacturer image with credit.",
+    "alt": "İHA ve SİHA'larda termal iz yönetimi ve kızılötesi imza"
+  },
+  "word_count": 1241,
+  "verification_notes": [
+    "Content deliberately kept at a public, conceptual level: no specific evasion tactics, altitudes, profiles or 'how to defeat system X' guidance; the 'Kullanım konsepti' subsection is intentionally generic.",
+    "Band naming: DSTG uses Bands I/II/III = 1–3/3–5/8–14 µm; the text maps them to SWIR/MWIR/LWIR for readers. DSTG's own waveband table defines MWIR as 3–6 µm and LWIR as 6–15 µm (semiconductor response) — the window figures, not these, are used in the text.",
+    "Statements on avionics/battery heat, aerodynamic heating being more pronounced on jet-powered unmanned combat aircraft than on propeller UAVs, engine placement above the fuselage and 'electric small UAVs have weaker signatures' are engineering-general explanations without a specific opened source; no numbers attached.",
+    "Mahulikar, Sonawane & Rao, 'Infrared signature studies of aerospace vehicles', Progress in Aerospace Sciences 43 (2007) 218–245 — highly relevant review, but the abstract page could not be opened (ScienceDirect 403); not cited. Editor may add it after checking.",
+    "Saab Barracuda: '<300 g/m²' and 'reduces object temperature' are Saab marketing claims (attributed in text).",
+    "Leonardo: SkyWard platforms per Leonardo; the Far East UAV customer is unnamed by the company.",
+    "Zheng et al. measurements were on a turbine-powered target drone in an indoor ground test; generalisation to piston/turboprop SİHA (e.g. TB2, Akıncı) is not claimed in the text."
+  ],
+  "duplicate_check": "REST /wp/v2/posts lang=all searched: 'termal iz', 'kızılötesi imza', 'termal imza', 'IR imza', 'termal kamuflaj', 'infrared signature', Barracuda, MANPADS, IRST, 'тепловая заметность', 'инфракрасн'; glossary savunma_terimi: termal, kızılötesi, İHA, SİHA, kamuflaj, IRST, MANPADS, imza. Found related pages (Termal Kamera Nedir?, Kızılötesi Güdümlü Füze Nesilleri, Barracuda pages, Stealth glossary) but no page on IR/thermal signature management for UAVs → not a duplicate."
+}

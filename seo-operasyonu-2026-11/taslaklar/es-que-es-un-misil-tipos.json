@@ -1,0 +1,132 @@
+{
+  "lang": "es",
+  "title": "¿Qué es un misil? Tipos, cómo funciona y diferencia con un cohete",
+  "slug": "es-que-es-un-misil-tipos",
+  "excerpt": "Un misil es un arma autopropulsada y guiada. Explicamos sus partes, cómo funciona, los tipos (balístico, crucero, tierra-aire, antibuque…) y en qué se diferencia de un cohete.",
+  "content_html": "<p>Un <strong>misil</strong> es un arma autopropulsada y guiada: lleva su propio motor y un sistema que corrige la trayectoria durante el vuelo hasta alcanzar el blanco. Esa capacidad de guiado es lo que lo separa de un cohete no guiado y de un proyectil de artillería, que una vez disparados siguen una trayectoria que ya no se puede modificar. Los misiles se clasifican por su forma de volar (balísticos y de crucero), por el lugar desde el que se lanzan y por el tipo de blanco: tierra-aire, aire-aire, antibuque o antitanque. Su alcance va de unos cientos de metros a más de 5.500 kilómetros.</p>\n\n<h2>Qué es un misil: guiado frente a no guiado</h2>\n<p>En el lenguaje militar, la palabra clave es <em>guiado</em>. Un misil sabe dónde está su objetivo, o al menos dónde debería estar, y usa sensores y superficies de control para llegar a él. Un cohete de artillería, en cambio, se apunta antes del disparo y después vuela por inercia. La frontera, sin embargo, se ha difuminado: hoy existen kits que convierten cohetes no guiados en armas de precisión, como el estadounidense APKWS, que transforma cohetes de 70 mm en munición guiada por láser, según su fabricante, BAE Systems.</p>\n\n<h2>Partes de un misil y cómo funciona</h2>\n<p>La NASA describe cuatro grandes sistemas en cualquier cohete: estructura, carga útil, guiado y propulsión. En un misil la carga útil es la cabeza de guerra, y a esos cuatro se suma el sistema de control, que traduce las órdenes del guiado en movimiento.</p>\n<ul>\n<li><strong>Guiado.</strong> Puede ser inercial (giróscopos y acelerómetros), por satélite (GPS u otros), por comparación del terreno o mediante un buscador en la punta: radar activo, infrarrojo o láser. Los misiles de crucero suelen combinar varios en tres fases: lanzamiento, medio curso y fase terminal, según el Centro Nacional de Inteligencia Aérea y Espacial de EE. UU. (NASIC).</li>\n<li><strong>Propulsión.</strong> La mayoría usa motores cohete de combustible sólido o líquido, que llevan a bordo combustible y oxidante y por eso funcionan incluso fuera de la atmósfera. Los misiles de crucero suelen usar pequeñas turbinas, y algunos, como el Meteor europeo, un estatorreactor que mantiene el empuje hasta el impacto.</li>\n<li><strong>Cabeza de guerra.</strong> De fragmentación contra aviones, con carga en tándem contra blindados con protección reactiva, perforante contra buques o búnkeres. Algunos interceptores, como el PAC-3, destruyen el blanco por impacto directo (<em>hit-to-kill</em>).</li>\n<li><strong>Control.</strong> Aletas y timones aerodinámicos o, en los misiles que salen de la atmósfera, la orientación de la tobera del motor.</li>\n</ul>\n\n<h2>Tipos de misiles</h2>\n<h3>Misiles balísticos</h3>\n<p>Un misil balístico es impulsado por un motor cohete en la primera parte del vuelo y después sigue una trayectoria de caída libre, a menudo fuera de la atmósfera. Su vuelo tiene tres fases: impulso, medio curso y terminal. Por alcance se dividen en misiles de corto alcance (menos de 1.000 km), medio alcance (1.000-3.000 km), alcance intermedio (3.000-5.500 km) e intercontinentales (más de 5.500 km), según la clasificación de la Arms Control Association. Puede ver ejemplos en nuestra comparativa de <a href=\"https://envantermedya.com/es/es-tayfun-misiles-comparables/\">misiles balísticos comparables al TAYFUN</a>.</p>\n<h3>Misiles de crucero</h3>\n<p>Vuelan siempre dentro de la atmósfera, propulsados por un motor a reacción y sostenidos por alas, como un pequeño avión no tripulado. Suelen volar bajo para esconderse del radar y pueden seguir rutas indirectas hasta el blanco. Se dividen en misiles de ataque a tierra y misiles antibuque. Sobre la tendencia más reciente, vea <a href=\"https://envantermedya.com/es/es-misil-crucero-bajo-costo-dinamarca-anthem/\">qué es un misil de crucero de bajo costo</a>.</p>\n<h3>Misiles hipersónicos</h3>\n<p>Son los que vuelan a más de Mach 5. El NASIC destaca los vehículos planeadores hipersónicos, que se lanzan con un cohete y luego planean a menor altitud que una ojiva balística, maniobrando, lo que los hace difíciles de interceptar. Explicamos la diferencia en <a href=\"https://envantermedya.com/es/es-diferencia-misil-hipersonico-y-supersonico/\">misil hipersónico frente a supersónico</a> y en <a href=\"https://envantermedya.com/es/misiles-mas-rapidos-del-mundo/\">los misiles más rápidos del mundo</a>.</p>\n<h3>Por blanco y plataforma</h3>\n<p>La clasificación más usada en la práctica combina el origen y el destino: tierra-aire (defensa antiaérea), aire-aire, aire-superficie, superficie-superficie, antibuque y antitanque.</p>\n\n<h2>Ejemplos de misiles por tipo</h2>\n<table>\n<thead><tr><th>Tipo</th><th>Ejemplo</th><th>Datos del fabricante u operador</th></tr></thead>\n<tbody>\n<tr><td>Crucero (ataque a tierra)</td><td>Tomahawk (EE. UU.)</td><td>Alcance de unas 1.000 millas (unos 1.600 km); se lanza desde buques, submarinos y lanzadores terrestres (RTX)</td></tr>\n<tr><td>Balístico de corto alcance</td><td>Iskander-M (Rusia)</td><td>350 km, combustible sólido, lanzador móvil (NASIC, 2017)</td></tr>\n<tr><td>Aire-aire</td><td>Meteor (Europa)</td><td>190 kg, 3,7 m, estatorreactor; España es una de las seis naciones socias (MBDA)</td></tr>\n<tr><td>Antibuque</td><td>Exocet (Francia)</td><td>Vuelo rasante sobre el mar, buscador radar activo; adoptado por más de 35 países (MBDA)</td></tr>\n<tr><td>Antitanque</td><td>Spike (diseño israelí, producción española)</td><td>27 kg, alcance eficaz de 220 m a 4 km, carga en tándem; fabricado en España por GDELS y Tecnobit (Ejército de Tierra)</td></tr>\n<tr><td>Tierra-aire de largo alcance</td><td>Patriot / PAC-3 MSE (EE. UU.)</td><td>Contra misiles balísticos tácticos, de crucero y aviones; misil de hasta 100 km según el Ejército de Tierra; PAC-3 MSE de impacto directo, con 17 países socios (Lockheed Martin)</td></tr>\n<tr><td>Tierra-aire de medio alcance</td><td>NASAMS (Noruega/EE. UU.)</td><td>Dispara el misil AMRAAM, alcance de 25 km según el Ejército de Tierra</td></tr>\n</tbody>\n</table>\n<p>El Exocet es también un nombre familiar en Latinoamérica: su versión aérea AM39 se hizo célebre en la guerra de las Malvinas, como contamos en <a href=\"https://envantermedya.com/es/es-mbda-exocet-am39-argentina-malvinas-brasil-latinoamerica/\">Exocet AM39: Argentina, Malvinas y Latinoamérica</a>. Francia ya ha encargado la nueva versión <a href=\"https://envantermedya.com/es/fransa-mbda-exocet-mm40-block-3c-es/\">Exocet MM40 Block 3C</a>.</p>\n\n<h2>Diferencias entre misil, cohete y proyectil</h2>\n<table>\n<thead><tr><th></th><th>Misil</th><th>Cohete</th><th>Proyectil</th></tr></thead>\n<tbody>\n<tr><td>Propulsión propia</td><td>Sí</td><td>Sí</td><td>No: lo impulsa el disparo del cañón</td></tr>\n<tr><td>Guiado en vuelo</td><td>Sí</td><td>No (salvo kits como el APKWS)</td><td>Normalmente no (aunque existe munición de artillería guiada)</td></tr>\n<tr><td>Ejemplo</td><td>Exocet, Meteor</td><td>Cohete de 70 mm Hydra</td><td>Granada de obús de 155 mm</td></tr>\n</tbody>\n</table>\n<p>Un detalle técnico ayuda a entenderlo: el motor cohete lleva a bordo tanto el combustible como el oxidante, mientras que un turborreactor toma el oxígeno del aire, explica la NASA. Por eso todos los misiles balísticos usan cohetes, mientras que muchos misiles de crucero usan turbinas. En español, además, «cohete» designa tanto el motor como el arma no guiada que lo usa.</p>\n\n<h2>Misiles en servicio en España</h2>\n<p>El Ejército de Tierra opera, entre otros, el sistema Patriot y el NASAMS para defensa antiaérea y el Spike como misil contracarro, producido en España. España es socia del programa Meteor, el misil aire-aire de largo alcance del Eurofighter. Para profundizar, vea <a href=\"https://envantermedya.com/es/es-que-es-el-amraam-aim-120/\">qué es el AMRAAM</a>, el misil del NASAMS, y nuestra <a href=\"https://envantermedya.com/es/es-patriot-vs-s400-comparativa/\">comparativa Patriot vs S-400</a>.</p>\n\n<h2>Preguntas frecuentes</h2>\n<h3>¿Qué diferencia hay entre un misil y un cohete?</h3>\n<p>El misil es guiado y puede corregir su trayectoria en vuelo; el cohete militar clásico no lo es. Ambos usan propulsión propia, y un misil balístico es, de hecho, un cohete con sistema de guiado.</p>\n<h3>¿Qué es un misil balístico?</h3>\n<p>Es el que se impulsa con un motor cohete al principio del vuelo y después cae siguiendo una trayectoria balística. Se clasifica por alcance, desde menos de 1.000 km hasta más de 5.500 km en los intercontinentales.</p>\n<h3>¿Qué es un misil de crucero?</h3>\n<p>Un misil que vuela todo el trayecto dentro de la atmósfera, con alas y motor a reacción, normalmente a baja altura. El Tomahawk es el ejemplo más conocido.</p>\n<h3>¿Qué significa que un misil es «dispara y olvida»?</h3>\n<p>Que lleva su propio buscador y, tras el lanzamiento, no necesita que el tirador siga iluminando el blanco. MBDA usa el término para el Exocet.</p>\n<h3>¿Qué misil es el más rápido?</h3>\n<p>Los más rápidos son los misiles balísticos intercontinentales y los planeadores hipersónicos, por encima de Mach 5. Las cifras exactas rara vez son verificables, como explicamos en nuestro artículo sobre los misiles más rápidos del mundo.</p>\n",
+  "rank_math_title": "¿Qué es un misil? Tipos y diferencia con un cohete",
+  "rank_math_description": "Un misil es un arma autopropulsada y guiada en vuelo. Sus partes, cómo funciona, tipos (balístico, crucero, tierra-aire) y diferencias con cohete y proyectil.",
+  "rank_math_focus_keyword": "misil",
+  "target_query": "misil",
+  "demand_evidence": "GSC ES (últimas 24 h): \"misil\" 246 impresiones @ pos 3,6 (hoy cae en una noticia). No existe página ES dedicada (comprobado en 1.673 entradas ES).",
+  "category_hint": "Savunma Sözlüğü (Glosario de defensa)",
+  "sources": [
+    {
+      "name": "Arms Control Association – Missile Defense Systems at a Glance",
+      "url": "https://www.armscontrol.org/factsheets/missile-defense-systems-glance",
+      "supports": "Clasificación por alcance (<1.000, 1.000–3.000, 3.000–5.500, >5.500 km), fases impulso/medio curso/terminal, misiles de crucero dentro de la atmósfera con motor a reacción, tipos hipersónicos"
+    },
+    {
+      "name": "NASIC / DIBMAC – Ballistic and Cruise Missile Threat 2017 (copia CSIS)",
+      "url": "https://missilethreat.csis.org/wp-content/uploads/2017/06/06262017_nasic.pdf",
+      "supports": "HGV > Mach 5 a menor altitud y maniobrables; guiado de LACM en tres fases (INS, GPS/GLONASS, TERCOM, buscador terminal); LACM con pequeña turbina, vuelo bajo y rutas indirectas; LACM y ASCM; Iskander-M 350 km sólido móvil; reentrada de 6–8 km/s en ICBM"
+    },
+    {
+      "name": "NASA Glenn – Rocket Parts",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/rocket-parts/",
+      "supports": "Cuatro sistemas (estructura, carga útil, guiado, propulsión); control mediante rotación de la tobera"
+    },
+    {
+      "name": "NASA Glenn – Rocket Thrust",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/rocket-thrust/",
+      "supports": "El cohete lleva oxidante a bordo; las turbinas toman el oxígeno del aire"
+    },
+    {
+      "name": "RTX (Raytheon) – Tomahawk cruise missile",
+      "url": "https://www.rtx.com/raytheon/what-we-do/sea/tomahawk-cruise-missile",
+      "supports": "Alcance de unas 1.000 millas; lanzamiento desde buques, submarinos y tierra; GPS"
+    },
+    {
+      "name": "MBDA – METEOR",
+      "url": "https://www.mbda-systems.com/products/air-dominance/meteor",
+      "supports": "190 kg, 3,7 m, estatorreactor con empuje hasta el impacto, cabeza de fragmentación, seis naciones socias incluida España, plataformas (Eurofighter, Rafale, Gripen, F-35)"
+    },
+    {
+      "name": "MBDA – EXOCET Family",
+      "url": "https://www.mbda-systems.com/products/deep-strike/exocet-family",
+      "supports": "Antibuque subsónico alto, vuelo rasante, buscador radar activo, 'dispara y olvida', adoptado por más de 35 países, versiones AM39/SM39/MM40"
+    },
+    {
+      "name": "Lockheed Martin – PAC-3",
+      "url": "https://www.lockheedmartin.com/en-us/products/pac-3-advanced-air-defense-missile.html",
+      "supports": "PAC-3 MSE, tecnología Hit-to-Kill, 17 países socios"
+    },
+    {
+      "name": "BAE Systems – APKWS",
+      "url": "https://www.baesystems.com/en-us/product/apkws-laser-guided-rocket",
+      "supports": "Kit que convierte cohetes no guiados de 70 mm (Hydra 70) en munición guiada por láser"
+    },
+    {
+      "name": "Ejército de Tierra – Sistema de misiles Patriot",
+      "url": "https://ejercito.defensa.gob.es/materiales/artilleria_antiaerea/PATRIOT.html",
+      "supports": "Misil superficie-aire, alcance del misil 100 km, contra TBM, misiles de crucero y aviones; en servicio en el ET"
+    },
+    {
+      "name": "Ejército de Tierra – NASAMS",
+      "url": "https://ejercito.defensa.gob.es/materiales/artilleria_antiaerea/NASAMS.html",
+      "supports": "Misil AMRAAM, alcance 25 km; en servicio en el ET"
+    },
+    {
+      "name": "Ejército de Tierra – Misil Spike",
+      "url": "https://ejercito.defensa.gob.es/materiales/armamento_ligero/misil_spike.html",
+      "supports": "27 kg, 114 cm, alcance eficaz 220 m–4.000 m, cabeza en tándem; fabricado por GDELS y Tecnobit"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://envantermedya.com/es/es-tayfun-misiles-comparables/",
+      "anchor": "misiles balísticos comparables al TAYFUN"
+    },
+    {
+      "url": "https://envantermedya.com/es/es-misil-crucero-bajo-costo-dinamarca-anthem/",
+      "anchor": "qué es un misil de crucero de bajo costo"
+    },
+    {
+      "url": "https://envantermedya.com/es/es-diferencia-misil-hipersonico-y-supersonico/",
+      "anchor": "misil hipersónico frente a supersónico"
+    },
+    {
+      "url": "https://envantermedya.com/es/misiles-mas-rapidos-del-mundo/",
+      "anchor": "los misiles más rápidos del mundo"
+    },
+    {
+      "url": "https://envantermedya.com/es/es-mbda-exocet-am39-argentina-malvinas-brasil-latinoamerica/",
+      "anchor": "Exocet AM39: Argentina, Malvinas y Latinoamérica"
+    },
+    {
+      "url": "https://envantermedya.com/es/fransa-mbda-exocet-mm40-block-3c-es/",
+      "anchor": "Exocet MM40 Block 3C"
+    },
+    {
+      "url": "https://envantermedya.com/es/es-que-es-el-amraam-aim-120/",
+      "anchor": "qué es el AMRAAM"
+    },
+    {
+      "url": "https://envantermedya.com/es/es-patriot-vs-s400-comparativa/",
+      "anchor": "comparativa Patriot vs S-400"
+    }
+  ],
+  "hreflang_equivalents": {
+    "tr": null,
+    "en": null,
+    "ar": null,
+    "ru": null,
+    "zh": null
+  },
+  "image": {
+    "recommendation": "Envanter title card 1200x675 (lacivert zemin, altın şerit, 'ENVANTER MEDYA') con el texto '¿Qué es un misil?' y un esquema propio (no foto) de las partes: buscador, guiado, cabeza de guerra, motor, aletas. Alternativa: foto oficial del Ministerio de Defensa / Ejército de Tierra de un lanzamiento Patriot o NASAMS con crédito.",
+    "alt": "Qué es un misil: partes, tipos y diferencia con un cohete"
+  },
+  "word_count": 1253,
+  "verification_notes": [
+    "Exocet AM39 en Malvinas: dato histórico apoyado en el artículo interno de Envanter; MBDA solo dice 'combat proven in numerous conflicts'. Añadir fuente primaria (Armada Argentina / MBDA historia) si se desea citarlo.",
+    "Origen israelí del Spike (Rafael): la ficha del Ejército de Tierra solo indica fabricación por GDELS y Tecnobit; la página de Rafael no cargó. El texto lo presenta como 'diseño israelí, producción española'.",
+    "La ficha del Ejército de Tierra del NASAMS indica 'guiado semiactivo' y a la vez 'dispara y olvida' (contradictorio); el texto no menciona el tipo de guiado del NASAMS.",
+    "La ficha Patriot del ET es genérica (no especifica PAC-2/PAC-3); el texto no afirma que España opere PAC-3 MSE.",
+    "La asignación de Patriot/NASAMS al RAAA 73 procede del historial del MAAA visto solo en resumen de búsqueda; el texto no nombra unidades.",
+    "Tomahawk: RTX da 'unas 1.000 millas'; la conversión (~1.600 km) es propia.",
+    "Clasificación por alcance de la Arms Control Association (ficha revisada en 2019); otras fuentes (NASIC/CSIS) usan bandas distintas (CRBM <300 km, SRBM 300–1.000 km, LRBM ≥1.000 km).",
+    "No se ha encontrado una página dedicada al Exocet en ES con intención de ficha; se enlazan la noticia del MM40 Block 3C y el artículo AM39."
+  ],
+  "duplicate_check": "REST /wp/v2/posts?search=misil|misiles|qué es un misil|cohete|balístico&lang=all y /wp/v2/savunma_terimi?search=Füze|Roket: no existe página ES (ni TR/EN) genérica 'qué es un misil'. Hay páginas afines en ES (misil de crucero de bajo costo, hipersónico vs supersónico, misiles más rápidos, AMRAAM, Exocet AM39) que se enlazan. TR tiene subtipos (havadan-yere-fuze-nedir, gemisavar-fuze-nedir), no equivalentes exactos."
+}

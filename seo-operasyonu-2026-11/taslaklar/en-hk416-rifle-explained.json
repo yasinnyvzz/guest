@@ -1,0 +1,121 @@
+{
+  "lang": "en",
+  "title": "HK416 Explained: Heckler & Koch's Piston-Driven 5.56 mm Assault Rifle",
+  "slug": "en-hk416-rifle-explained",
+  "excerpt": "The HK416 is Heckler & Koch's 5.56 mm assault rifle that pairs the AR-15 layout with a short-stroke gas piston. Specs, barrel lengths, the M27, HK416F, G38 and G95 variants, and confirmed users.",
+  "content_html": "<p>The <strong>HK416</strong> is a 5.56×45 mm NATO assault rifle made by the German manufacturer Heckler &amp; Koch (H&amp;K) in Oberndorf. It keeps the general layout and controls of the AR-15/M4 family but replaces that design's direct-impingement gas system with what H&amp;K calls an \"indirect gas-operated\" mechanism: a short-stroke gas piston driving a locked rotating bolt. The current HK416 A5 is offered with 11-, 12.5-, 14.5-, 16.5- and 20-inch barrels, takes 10-, 20- or 30-round magazines and has a quoted rate of fire of 850 rounds per minute. Norway, France, Germany and the US Marine Corps (as the M27) are its best-documented military users.</p>\n\n<h2>What is the HK416?</h2>\n<p>H&amp;K markets the HK416 as a modular rifle platform for armed forces and police. According to the manufacturer's product page, the rifle has a full-length NATO STANAG 4694 Picatinny rail for day and night sights, controls that can be operated from either side, a tool-free gas adjustment that allows a suppressor to be fitted at any time, and a magazine well optimised for M4/M16-pattern magazines. H&amp;K also states that the rifle passes the NATO barrel-obstruction test and can be fired immediately after surfacing from water, a feature aimed at maritime special forces.</p>\n<p>The company says the Norwegian Armed Forces were the first customer to adopt the HK416, in 2007. In January 2019 H&amp;K announced a further Norwegian order for HK416 rifle sets worth about €22 million, spread over 36 months. The rifle regularly appears in comparisons of current service rifles, including Envanter Medya's <a href=\"https://envantermedya.com/en/en-piyade-tufegi-ranking/\">ranking of the best service rifles of 2026</a>.</p>\n\n<h2>Short-stroke gas piston vs AR-15 direct impingement</h2>\n<p>The main engineering difference between the HK416 and a standard AR-15, M16 or M4 is how propellant gas cycles the action.</p>\n<ul>\n<li><strong>Direct impingement (AR-15/M4):</strong> gas tapped from the barrel travels back through a thin tube straight into the bolt carrier, where it expands and pushes the carrier rearward. The system is light and has few parts, but hot gas and carbon fouling are deposited inside the receiver and on the bolt.</li>\n<li><strong>Short-stroke piston (HK416):</strong> gas tapped from the barrel pushes a short piston in the gas block. The piston and operating rod strike the bolt carrier and then stop, and the gas is vented at the front of the rifle instead of entering the receiver. H&amp;K describes this as indirect gas operation.</li>\n</ul>\n<p>The practical case for the piston is a cleaner, cooler bolt group and better tolerance of the extra back-pressure created by suppressors, which is why the HK416 has an adjustable gas regulator. The trade-off is additional mass towards the front of the weapon and a proprietary gas system rather than standard AR-15 parts. The same short-stroke principle is used by several newer rifles, including Turkey's MPT-55 from MKE and the SAR 56 from Sarsılmaz, according to their manufacturers' published data.</p>\n\n<h2>HK416 technical data</h2>\n<p>The figures below are taken from H&amp;K's HK416 product page. The manufacturer notes that values are rounded and vary with configuration; the dimensions and weight given are for the HK416 A5 with an 11-inch barrel, the configuration for which H&amp;K publishes full data.</p>\n<table>\n<thead><tr><th>Parameter</th><th>HK416 (H&amp;K data)</th></tr></thead>\n<tbody>\n<tr><td>Calibre</td><td>5.56×45 mm NATO</td></tr>\n<tr><td>Operating principle</td><td>Indirect gas operation (short-stroke piston), locked rotating bolt head</td></tr>\n<tr><td>Modes of fire</td><td>Semi-automatic / fully automatic</td></tr>\n<tr><td>Rate of fire</td><td>850 rounds/min</td></tr>\n<tr><td>Magazine</td><td>10, 20 or 30 rounds</td></tr>\n<tr><td>HK416 A5 barrel options</td><td>11 in, 12.5 in, 14.5 in, 16.5 in, 20 in</td></tr>\n<tr><td>Length, A5 11-inch (stock collapsed/extended)</td><td>709–805 mm</td></tr>\n<tr><td>Weight, A5 11-inch, without magazine</td><td>3.2 kg</td></tr>\n<tr><td>Muzzle velocity (DM11 ammunition)</td><td>790 m/s</td></tr>\n<tr><td>Effective main combat range</td><td>450 m</td></tr>\n<tr><td>Accurate suppressive fire</td><td>600 m</td></tr>\n<tr><td>Trigger pull</td><td>20–35 N</td></tr>\n</tbody>\n</table>\n<p>Longer barrels add weight. The German procurement office BAAINBw gave a weight of 3,690 g for the 14.5-inch HK416 A7 it ordered in 2017. For background on the cartridge itself, see our comparison of <a href=\"https://envantermedya.com/en/en-5-56-vs-7-62-nato/\">5.56 NATO and 7.62 NATO rifle ammunition</a> and our explainer on <a href=\"https://envantermedya.com/en/en-what-is-caliber/\">what calibre means</a>.</p>\n\n<h2>Main HK416 variants and national designations</h2>\n<table>\n<thead><tr><th>Designation</th><th>What it is</th><th>Basis in official or press sources</th></tr></thead>\n<tbody>\n<tr><td>HK416 A5</td><td>Current baseline H&amp;K model, five barrel lengths</td><td>H&amp;K product page</td></tr>\n<tr><td>M27 IAR</td><td>US Marine Corps infantry automatic rifle based on the HK416</td><td>Military.com, 2017</td></tr>\n<tr><td>HK416F</td><td>French-specific version of the HK416 A5, standard and short models</td><td>French Ministry of the Armed Forces; Shephard, 2017</td></tr>\n<tr><td>G38</td><td>German designation for the HK416 A5 (G38C: 11-inch barrel)</td><td>VISIER/all4shooters, 2014; H&amp;K lists G38 11\" and 14.5\"</td></tr>\n<tr><td>G95 (HK416 A7)</td><td>Rifle for German special forces, 14.5-inch barrel</td><td>BAAINBw press release, October 2017</td></tr>\n<tr><td>G95A1 / G95KA1 (HK416 A8)</td><td>New Bundeswehr standard rifle and short version for specialised forces</td><td>BAAINBw press release, January 2023</td></tr>\n</tbody>\n</table>\n\n<h3>United States: the M27 Infantry Automatic Rifle</h3>\n<p>The US Marine Corps uses an HK416-based rifle as the M27 Infantry Automatic Rifle, carried by squad automatic riflemen. In August 2017 Military.com reported that the Corps intended to negotiate a sole-source deal with Heckler &amp; Koch for up to 50,814 additional M27s, and described the rifle as weighing about eight pounds with a 30-round magazine. The report presented wider issue to infantry riflemen as an option under discussion at that time, not a final decision.</p>\n\n<h3>France: HK416F</h3>\n<p>France chose the HK416F under its AIF (Arme Individuelle Future) programme to replace the FAMAS. According to Shephard, the procurement agency DGA signed the contract on 22 September 2016 for a first firm tranche of 5,340 rifles worth about €168 million; Defense News reported that the first 400 rifles were received on 3 May 2017 and that more than 100,000 were planned over roughly ten years. The French Ministry of the Armed Forces describes the HK416F as coming in a standard version for ground troops and a short version for airborne troops, weighing about 4 kg, and deployed operationally since 2018.</p>\n\n<h3>Germany: G38, G95 and G95A1</h3>\n<p>Germany uses several HK416 designations. A 2014 VISIER report said the HK416 A5 had been catalogued as the G38, with the 11-inch model listed as the G38C. On 10 October 2017 the BAAINBw ordered 1,745 HK416 A7 rifles, designated G95, for the Kommando Spezialkräfte (KSK) and the navy's special forces. In January 2023 the BAAINBw announced the start of procurement of the HK416 A8-based G95A1 as the Bundeswehr's new standard rifle, with the G95KA1 short version for specialised forces, and said deliveries would begin in 2026. The selection had been made in spring 2021 but was delayed by a legal review.</p>\n\n<h3>Norway</h3>\n<p>Norway was the first national adopter in 2007, according to H&amp;K, and placed a follow-on order in 2019. Other users are frequently reported in the press, but this page lists only those confirmed by manufacturer or government statements. H&amp;K's wider position in the market is covered in our overview of the <a href=\"https://envantermedya.com/en/worlds-largest-small-arms-manufacturers/\">world's largest small arms manufacturers</a>, and the competition it faces in new NATO programmes is visible in the UK's <a href=\"https://envantermedya.com/en/en-uk-project-grayburn-sa80-replacement-2-billion/\">Project Grayburn to replace the SA80</a>.</p>\n\n<h2>FAQ</h2>\n<h3>Is the HK416 an AR-15?</h3>\n<p>It shares the AR-15/M4 layout, controls and magazine type, but it uses a short-stroke gas piston instead of the AR-15's direct-impingement gas tube, so its gas system and upper receiver are H&amp;K designs.</p>\n<h3>What calibre is the HK416?</h3>\n<p>5.56×45 mm NATO, with 10-, 20- and 30-round magazines according to H&amp;K. H&amp;K's 7.62×51 mm NATO counterpart is a separate model, the HK417.</p>\n<h3>What barrel lengths does the HK416 come in?</h3>\n<p>H&amp;K lists the HK416 A5 with 11-, 12.5-, 14.5-, 16.5- and 20-inch barrels, plus German G38 models in 11 and 14.5 inches.</p>\n<h3>What is the G95?</h3>\n<p>The G95 is the Bundeswehr designation for the HK416 A7 bought for special forces in 2017. The G95A1, based on the HK416 A8, is Germany's new standard rifle, with deliveries announced from 2026.</p>\n<h3>What is the difference between the HK416 and the M27?</h3>\n<p>The M27 is the US Marine Corps' designation for its HK416-based infantry automatic rifle, configured for the squad automatic-rifleman role.</p>\n<h3>Which countries use the HK416?</h3>\n<p>Confirmed military users include Norway, France (HK416F), Germany (G38, G95, G95A1) and the US Marine Corps (M27). Other users reported in the press should be checked against official sources.</p>",
+  "rank_math_title": "HK416 Rifle Explained: Specs, Variants and Users",
+  "rank_math_description": "The HK416 is Heckler & Koch's 5.56 mm rifle with a short-stroke gas piston. Specs, barrel lengths, M27, HK416F, G38 and G95 variants and users.",
+  "rank_math_focus_keyword": "hk416",
+  "target_query": "hk416",
+  "demand_evidence": "GSC last 24h (2026-11-05/06): 'hk416' 55 impressions @ avg pos 6.8; 'hk 416' 19 impressions @ avg pos 7.7. No English page on the topic among 6,016 EN posts.",
+  "category_hint": "Kara / Hafif Silahlar (Savunma Ansiklopedisi)",
+  "sources": [
+    {
+      "name": "Heckler & Koch – HK416 product page (overview, variants, compare)",
+      "url": "https://www.heckler-koch.com/en/Products/Military%20and%20Law%20Enforcement/Assault%20rifles/HK416",
+      "supports": "Calibre, indirect gas operation, locked rotating bolt, 10/20/30 magazines, 850 rds/min, 790 m/s (DM11), 450 m/600 m ranges, trigger pull, A5 11-inch 709–805 mm and 3.2 kg, variant list (A5 11/12.5/14.5/16.5/20, G38 11/14.5, G95K), STANAG 4694 rail, ambidextrous controls, tool-free gas adjustment, M4/M16 magazine compatibility, over-the-beach capability"
+    },
+    {
+      "name": "Heckler & Koch – HK417 product page",
+      "url": "https://www.heckler-koch.com/en/Products/Military%20and%20Law%20Enforcement/Assault%20rifles/HK417",
+      "supports": "HK417 is 7.62×51 mm NATO"
+    },
+    {
+      "name": "Heckler & Koch press release – HK416 assault rifles to the Norwegian Armed Forces (Jan 2019)",
+      "url": "https://www.heckler-koch.com/en/News/Pressemitteilungen%20En/2019/HK416%20Assult%20Rifles%20to%20the%20Norwegian%20Armed%20Forced",
+      "supports": "Norway first adopter in 2007; 2019 order ~€22 million over 36 months"
+    },
+    {
+      "name": "BAAINBw press release 29/2017 'Neues Sturmgewehr für die Spezialkräfte' (11 Oct 2017)",
+      "url": "https://www.bundeswehr.de/resource/blob/133822/4b8dbb1eccdaa7358101eb477dbee147/neues-sturmgewehr-fuer-die-spezialkraefte-data.pdf",
+      "supports": "1,745 HK416 A7 ordered 10 Oct 2017, designation G95, 3,690 g, 14.5-inch barrel, for KSK and naval special forces"
+    },
+    {
+      "name": "BAAINBw press release 02/2023 'Beschaffung des neuen Sturmgewehrs für die Bundeswehr läuft an' (23 Jan 2023), hosted by Heckler & Koch",
+      "url": "https://www.heckler-koch.com/Downloads/Pressemeldungen/DE/2023/25-01-2023%20PM_Sturmgewehr_Vertragschluss.pdf",
+      "supports": "G95A1 standard rifle and G95KA1 short version from 2026, based on HK416 A8; selection spring 2021, delayed by review"
+    },
+    {
+      "name": "all4shooters / VISIER – 'Sturmgewehr Heckler & Koch 416 heißt G38' (4 Sep 2014)",
+      "url": "https://www.all4shooters.com/de/zeitschriften/visier-im-web/aktuelles/news/september-2014/sturmgewehr-heckler-und-koch-416-heisst-g38-behoerdenwaffe/",
+      "supports": "HK416 A5 catalogued as G38; 11-inch version G38C"
+    },
+    {
+      "name": "French Ministry of the Armed Forces – Eurosatory 2022 product card HK 416F",
+      "url": "https://prod-site-internet-minarm-admin.cloud.defense.gouv.fr/sites/default/files/eurosatory/ESY%2022_carte%20d%27identit%C3%A9_HK%20416_finale%20EN.pdf",
+      "supports": "HK416F standard and short (airborne) versions, ~4 kg, deployed operationally since 2018"
+    },
+    {
+      "name": "Shephard – 'New French Army rifle deliveries start' (31 May 2017)",
+      "url": "https://shephardmedia.com/news/landwarfareintl/new-french-army-rifles-deliveries-start",
+      "supports": "DGA contract 22 Sep 2016, first firm tranche 5,340 rifles ~€168m; HK416F is French modification of HK416A5; AIF programme"
+    },
+    {
+      "name": "Defense News – 'Heckler & Koch delivers first batch of assault rifles to French' (9 May 2017)",
+      "url": "https://www.defensenews.com/land/2017/05/09/gun-manufacturer-heckler-koch-delivers-first-batch-of-assault-rifles-to-french/",
+      "supports": "400 rifles received 3 May 2017; >100,000 planned over ~10 years; replaces FAMAS"
+    },
+    {
+      "name": "Military.com – 'Marines to H&K: We'll Take 50K More M27 Rifles' (17 Aug 2017)",
+      "url": "https://www.military.com/kitup/2017/08/marines-hk-50k-m27-rifles.html",
+      "supports": "M27 based on HK416; automatic-rifleman role; up to 50,814 more sought sole-source; ~8 lb, 30-round magazine; wider issue under discussion"
+    },
+    {
+      "name": "MKE – Small Arms catalogue (2025)",
+      "url": "https://mke.gov.tr/Content/D_Dosya/ckResim/Programlar/01-MKE-KATALOG-SMALL%20ARMS.pdf",
+      "supports": "MPT-55 uses short-stroke gas piston (cross-reference)"
+    },
+    {
+      "name": "Sarsılmaz – SAR 56 14.5\" product page",
+      "url": "https://sarsilmaz.com/en/product/sar-56-145",
+      "supports": "SAR 56 uses gas piston system (cross-reference)"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://envantermedya.com/en/en-piyade-tufegi-ranking/",
+      "anchor": "ranking of the best service rifles of 2026"
+    },
+    {
+      "url": "https://envantermedya.com/en/en-5-56-vs-7-62-nato/",
+      "anchor": "5.56 NATO and 7.62 NATO rifle ammunition"
+    },
+    {
+      "url": "https://envantermedya.com/en/en-what-is-caliber/",
+      "anchor": "what calibre means"
+    },
+    {
+      "url": "https://envantermedya.com/en/worlds-largest-small-arms-manufacturers/",
+      "anchor": "world's largest small arms manufacturers"
+    },
+    {
+      "url": "https://envantermedya.com/en/en-uk-project-grayburn-sa80-replacement-2-billion/",
+      "anchor": "Project Grayburn to replace the SA80"
+    }
+  ],
+  "hreflang_equivalents": {
+    "tr": "https://envantermedya.com/hk416-heckler-koch-saldiri-tufegi/",
+    "en": null,
+    "es": null,
+    "ar": null,
+    "ru": null,
+    "zh": null
+  },
+  "image": {
+    "recommendation": "Envanter title card 1200x675 (lacivert zemin, altın şerit, 'ENVANTER MEDYA'), or a licence-safe official press image with credit",
+    "alt": "HK416 assault rifle explainer – Envanter Medya title card"
+  },
+  "word_count": 1332,
+  "verification_notes": [
+    "H&K publishes full dimensions/weight only for the HK416 A5 11-inch in the static page; weights for 14.5/16.5/20-inch A5 are loaded dynamically and were NOT captured. Only the 11-inch figures (709–805 mm, 3.2 kg) and the G95/A7 14.5-inch weight from BAAINBw (3,690 g) are used.",
+    "790 m/s muzzle velocity is shown on H&K's page alongside the 11-inch configuration data (DM11 ammunition); confirm it is not a family-wide figure before quoting it elsewhere.",
+    "France: Shephard says the €168m contract was a first firm tranche of 5,340 rifles; Defense News links €168m to a >100,000-rifle programme. Text attributes each figure to its outlet. Primary DGA communiqué not opened.",
+    "M27: official USMC/MARCORSYSCOM pages returned HTTP 403 from this environment; M27 facts rely on Military.com (2017). Current USMC fielding status (whole-infantry issue) not verified and deliberately not stated as fact.",
+    "G38: designation sourced to VISIER/all4shooters 2014 and H&K's variant list; no Bundeswehr primary document opened for G38. Which German units use the G38 is not stated.",
+    "Users limited to Norway, France, Germany, USMC. Other widely reported users (e.g. various special forces) were not verified and are omitted.",
+    "Development history (origin date, early names) omitted — no primary source opened.",
+    "Once published, cross-link to the new EN SAR 56 and MPT-55 explainers (same batch)."
+  ],
+  "duplicate_check": "REST search (posts + /wp/v2/search, lang=all) for 'hk416', 'hk 416', 'HK416', '416', 'heckler', 'Heckler Koch': no dedicated EN page. Found TR page https://envantermedya.com/hk416-heckler-koch-saldiri-tufegi/ (equivalent) and EN pages that only mention HK416 in passing (en-piyade-tufegi-ranking, en-5-56-vs-7-62-nato, worlds-largest-small-arms-manufacturers). No es/ar/ru/zh equivalent found."
+}

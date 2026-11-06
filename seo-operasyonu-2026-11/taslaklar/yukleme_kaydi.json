@@ -1,0 +1,227 @@
+[
+ {
+  "file": "en-hk416-rifle-explained.json",
+  "lang": "en",
+  "post_id": 84997,
+  "media_id": 84996,
+  "status": "draft",
+  "link": "https://envantermedya.com/en/?p=84997",
+  "title": "HK416 Explained: Heckler & Koch's Piston-Driven 5.56 mm Assault Rifle",
+  "slug": "en-hk416-rifle-explained",
+  "target_query": "hk416",
+  "source_check": "12 kaynak; Heckler & Koch – HK416 product page (overview, variants, compare); Heckler & Koch – HK417 product page; Heckler & Koch press release – HK416 assault rifles to the Norwegian Armed Forces (Jan 2019); BAAINBw press release 29/2017 'Neues Sturmgewehr für die Spezialkräfte' (11 Oct 2017)",
+  "pll_lang": [
+   "en"
+  ]
+ },
+ {
+  "file": "en-mpt-55-rifle-mke.json",
+  "lang": "en",
+  "post_id": 84999,
+  "media_id": 84998,
+  "status": "draft",
+  "link": "https://envantermedya.com/en/?p=84999",
+  "title": "MPT-55 Rifle: MKE's 5.56 mm National Infantry Rifle Explained",
+  "slug": "en-mpt-55-rifle-mke",
+  "target_query": "mpt 55",
+  "source_check": "5 kaynak; MKE – Small Arms catalogue (2025); CNN Türk / Anadolu Agency – 'Hassas görevlerin güçlü silahı MPT-55' (22 Aug 2019); The Firearm Blog – 'IDEF 2017: MKEK introduces 5.56x45mm MPT-55 rifle' (22 May 2017); Militarnyi – 'Georgia acquired Turkish MPT-55 and KMR762 rifles' (4 May 2025)",
+  "pll_lang": [
+   "en"
+  ]
+ },
+ {
+  "file": "en-sar-56-rifle-sarsilmaz.json",
+  "lang": "en",
+  "post_id": 85001,
+  "media_id": 85000,
+  "status": "draft",
+  "link": "https://envantermedya.com/en/?p=85001",
+  "title": "SAR 56 Rifle: Sarsılmaz's 5.56 mm Infantry Rifle Explained",
+  "slug": "en-sar-56-rifle-sarsilmaz",
+  "target_query": "sar 56",
+  "source_check": "9 kaynak; Sarsılmaz – SAR 56 14.5\" product page; Sarsılmaz – SAR 56 11\" product page; Sarsılmaz – SAR 56 7.5\" product page; Sarsılmaz – SAR 56C SA product page",
+  "pll_lang": [
+   "en"
+  ]
+ },
+ {
+  "file": "ru-chto-takoe-btr.json",
+  "lang": "ru",
+  "post_id": 85003,
+  "media_id": 85002,
+  "status": "draft",
+  "link": "https://envantermedya.com/ru/?p=85003",
+  "title": "Что такое БТР: устройство, назначение и известные модели бронетранспортёров",
+  "slug": "ru-chto-takoe-btr",
+  "target_query": "бтр",
+  "source_check": "8 kaynak; ARTEC GmbH — BOXER Armoured Personnel Carrier brochure (03/2025); Patria — Patria AMV XP product page; General Dynamics Land Systems — Stryker; Otokar — ARMA 8x8 brochure",
+  "pll_lang": [
+   "ru"
+  ]
+ },
+ {
+  "file": "ru-chto-takoe-korvet.json",
+  "lang": "ru",
+  "post_id": 85005,
+  "media_id": 85004,
+  "status": "draft",
+  "link": "https://envantermedya.com/ru/?p=85005",
+  "title": "Что такое корвет: чем корвет отличается от фрегата и эсминца",
+  "slug": "ru-chto-takoe-korvet",
+  "target_query": "корвет",
+  "source_check": "9 kaynak; Naval News — Turkish Navy Ada-class corvette called in France for the first time (11/2023); Baird Maritime — Vessel review: Rezkiy (Project 20380); Naval News — Navantia delivers fifth Avante 2200 corvette to Saudi Arabia (03/2024); Naval News — First BR71 MKII corvette for Angola launched by CMN (03/2026)",
+  "pll_lang": [
+   "ru"
+  ]
+ },
+ {
+  "file": "tr-iha-siha-termal-iz-yonetimi.json",
+  "lang": "tr",
+  "post_id": 85007,
+  "media_id": 85006,
+  "status": "draft",
+  "link": "https://envantermedya.com/?p=85007",
+  "title": "İHA ve SİHA'larda termal iz yönetimi nedir? Kızılötesi imza nasıl azaltılır?",
+  "slug": "iha-siha-termal-iz-yonetimi",
+  "target_query": "iha siha termal iz yönetimi",
+  "source_check": "6 kaynak; Kelly, L. C. (Defence Science & Technology Group, Australia) — Low-Emissivity Topcoats for the Reduction of Thermal Infrared Emissions From Military Platforms, CoatingsTech/PAINT.ORG, April 2020; Zheng H. et al. — Experimental Study of Multispectral Characteristics of an Unmanned Aerial Vehicle at Different Observation Angles, Sensors 2018, 18(2):428; Arms Control Association — MANPADS at a Glance; Leonardo — IRST, Nerviano (focus page)",
+  "pll_lang": [
+   "tr"
+  ]
+ },
+ {
+  "file": "es-fuerzas-armadas-argentina-2026.json",
+  "lang": "es",
+  "post_id": 85009,
+  "media_id": 85008,
+  "status": "draft",
+  "link": "https://envantermedya.com/es/?p=85009",
+  "title": "Fuerzas Armadas de Argentina 2026: Ejército, Armada, Fuerza Aérea y presupuesto",
+  "slug": "es-fuerzas-armadas-argentina-2026",
+  "target_query": "fuerzas armadas argentinas 2026",
+  "source_check": "15 kaynak; Ministerio de Defensa (21-08-2026) – LOA por 235 Stryker; Ministerio de Defensa (20-12-2024) – primer escuadrón TAM 2C-A2; DEF / defonline (26-09-2026) – segundo escuadrón TAM 2C-A2; Ministerio de Defensa (20-10-2026) – seis Bell 407GXi",
+  "pll_lang": [
+   "es"
+  ]
+ },
+ {
+  "file": "es-fuerzas-armadas-mexico-2026.json",
+  "lang": "es",
+  "post_id": 85011,
+  "media_id": 85010,
+  "status": "draft",
+  "link": "https://envantermedya.com/es/?p=85011",
+  "title": "Fuerzas Armadas de México 2026: efectivos, aviones, buques y presupuesto",
+  "slug": "es-fuerzas-armadas-mexico-2026",
+  "target_query": "fuerzas armadas de mexico 2026",
+  "source_check": "12 kaynak; Cámara de Diputados – Presupuesto de Egresos de la Federación 2026 (DOF 21-11-2025); Ley de la Guardia Nacional (DOF 16-07-2025), texto vigente Cámara de Diputados; El Universal (28-04-2026) – informe de labores 2025 de la GN aprobado por el Senado; SIPRI – Trends in World Military Expenditure, 2025 (abril de 2026)",
+  "pll_lang": [
+   "es"
+  ]
+ },
+ {
+  "file": "es-indra-que-es-que-hace-propietario.json",
+  "lang": "es",
+  "post_id": 85013,
+  "media_id": 85012,
+  "status": "draft",
+  "link": "https://envantermedya.com/es/?p=85013",
+  "title": "Indra: qué es, qué hace y quién es su propietario (2026)",
+  "slug": "es-indra-que-es-que-hace-propietario",
+  "target_query": "indra",
+  "source_check": "13 kaynak; Indra Group – Comunicado de resultados del ejercicio 2025 (25/02/2026); Indra Group – Comunicado de resultados 1S 2026 (23/07/2026); Indra Group – Comunicado de resultados 9M 2026 (29/10/2026); Indra Group – Estructura accionarial (gráfico con datos a 19/10/2026)",
+  "pll_lang": [
+   "es"
+  ]
+ },
+ {
+  "file": "es-naval-group-que-es.json",
+  "lang": "es",
+  "post_id": 85015,
+  "media_id": 85014,
+  "status": "draft",
+  "link": "https://envantermedya.com/es/?p=85015",
+  "title": "Naval Group: qué es, qué hace y quién es su propietario",
+  "slug": "es-naval-group-que-es",
+  "target_query": "naval group",
+  "source_check": "13 kaynak; Naval Group – Gouvernance / Actionnariat; Naval Group – Discover the group; Naval Group – History; Naval Group – 'Challenges met, course set' (balance 2025, 27/03/2026)",
+  "pll_lang": [
+   "es"
+  ]
+ },
+ {
+  "file": "es-que-es-un-misil-tipos.json",
+  "lang": "es",
+  "post_id": 85017,
+  "media_id": 85016,
+  "status": "draft",
+  "link": "https://envantermedya.com/es/?p=85017",
+  "title": "¿Qué es un misil? Tipos, cómo funciona y diferencia con un cohete",
+  "slug": "es-que-es-un-misil-tipos",
+  "target_query": "misil",
+  "source_check": "12 kaynak; Arms Control Association – Missile Defense Systems at a Glance; NASIC / DIBMAC – Ballistic and Cruise Missile Threat 2017 (copia CSIS); NASA Glenn – Rocket Parts; NASA Glenn – Rocket Thrust",
+  "pll_lang": [
+   "es"
+  ]
+ },
+ {
+  "file": "es-consejo-ministros-pnt-2302-millones-fuerzas-armadas.json",
+  "lang": "es",
+  "post_id": 85019,
+  "media_id": 85018,
+  "status": "draft",
+  "link": "https://envantermedya.com/es/?p=85019",
+  "title": "El Consejo de Ministros autoriza 2.302 millones para dotar a las Fuerzas Armadas de capacidad PNT robusta",
+  "slug": "es-consejo-ministros-pnt-2302-millones-fuerzas-armadas",
+  "target_query": "consejo de ministros defensa 3 noviembre 2026 PNT",
+  "source_check": "5 kaynak; La Moncloa – Referencia del Consejo de Ministros, 3 de noviembre de 2026; Infodefensa – PNT; Infodefensa – aeronaves EA; Infodefensa – 155 mm",
+  "pll_lang": [
+   "es"
+  ]
+ },
+ {
+  "file": "ar-barlaman-turki-yusadiq-ittifaqiyat-makkah-difa-mushtarak.json",
+  "lang": "ar",
+  "post_id": 85021,
+  "media_id": 85020,
+  "status": "draft",
+  "link": "https://envantermedya.com/ar/?p=85021",
+  "title": "البرلمان التركي يصادق على اتفاقية مكة للدفاع المشترك مع السعودية وباكستان",
+  "slug": "ar-barlaman-turki-yusadiq-ittifaqiyat-makkah-difa-mushtarak",
+  "target_query": "البرلمان التركي يصادق على اتفاقية مكة للدفاع المشترك",
+  "source_check": "4 kaynak; TBMM (official) – 'Mekke Anlaşması'nın onaylanmasının uygun bulunduğuna dair kanun teklifi TBMM Genel Kurulunda kabul edildi', published 2026-11-06 00:30; TBMM (official) – submission of the bill, 2026-10-21; Arab News (Reuters); Anadolu Ajansı (same text as TBMM release, 2026-11-05 23:54)",
+  "pll_lang": [
+   "ar"
+  ]
+ },
+ {
+  "file": "en-aselsan-1-1-billion-air-defence-export-contract.json",
+  "lang": "en",
+  "post_id": 85023,
+  "media_id": 85022,
+  "status": "draft",
+  "link": "https://envantermedya.com/en/?p=85023",
+  "title": "ASELSAN Signs $1.1 Billion Air Defence Export Contract With an Undisclosed Customer",
+  "slug": "en-aselsan-1-1-billion-air-defence-export-contract",
+  "target_query": "aselsan 1.1 billion air defense export",
+  "source_check": "2 kaynak; KAP – ASELSAN 'New Business Relation' disclosure, 03.11.2026 10:07:49; Türkiye Today",
+  "pll_lang": [
+   "en"
+  ]
+ },
+ {
+  "file": "ru-rumyniya-moldova-sovmestnaya-zakupka-62-gruzovika-iveco.json",
+  "lang": "ru",
+  "post_id": 85025,
+  "media_id": 85024,
+  "status": "draft",
+  "link": "https://envantermedya.com/ru/?p=85025",
+  "title": "Румыния и Молдова впервые провели совместную военную закупку: 62 грузовика IVECO для Национальной армии",
+  "slug": "ru-rumyniya-moldova-sovmestnaya-zakupka-62-gruzovika-iveco",
+  "target_query": "Молдова IVECO грузовики Румыния совместная закупка",
+  "source_check": "2 kaynak; MApN (Ministerul Apărării Naționale) – joint procurement press release, 2 Nov 2026; MApN – Oprea–Nosatîi meeting, 2 Nov 2026",
+  "pll_lang": [
+   "ru"
+  ]
+ }
+]

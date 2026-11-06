@@ -1,0 +1,71 @@
+{
+  "lang": "en",
+  "title": "ASELSAN Signs $1.1 Billion Air Defence Export Contract With an Undisclosed Customer",
+  "slug": "en-aselsan-1-1-billion-air-defence-export-contract",
+  "excerpt": "ASELSAN told Türkiye's Public Disclosure Platform on 3 November 2026 that it signed a $1.1 billion export contract for air defence systems with an international customer it did not name.",
+  "content_html": "<p>ASELSAN has signed a US$1.1 billion export contract with an international customer for the sale of air defence systems, the Turkish defence electronics company said in a <a href=\"https://www.kap.org.tr/en/Bildirim/1691350\">filing to Türkiye's Public Disclosure Platform (KAP)</a> published at 10:07 on 3 November 2026. The \"New Business Relation\" disclosure does not name the customer, the country or the systems, and gives no quantities or delivery schedule. It says only that the contract will have a positive impact on company revenues.</p>\n<h2>What the KAP filing says</h2>\n<p>The explanatory section of the disclosure is a single sentence: \"ASELSAN has signed an export contract with an international customer, valued at USD 1.1 billion, for the sale of Air Defense Systems.\" The filing notes that the English text is a translation and that the Turkish version prevails. The structured fields of the form add little:</p>\n<table>\n<thead><tr><th>Field in the KAP form</th><th>Disclosed value</th></tr></thead>\n<tbody>\n<tr><td>Nature of the other party</td><td>Customer</td></tr>\n<tr><td>Name of customer</td><td>\"International Client\"</td></tr>\n<tr><td>Contract value</td><td>USD 1.1 billion</td></tr>\n<tr><td>Scope</td><td>Sale of air defence systems (export)</td></tr>\n<tr><td>Expected start of the business relation</td><td>3 November 2026</td></tr>\n<tr><td>Customer's share of net sales / trade receivables in latest statements</td><td>0.0% / 0.0%</td></tr>\n<tr><td>Significant provisions of the contract</td><td>None listed</td></tr>\n<tr><td>Impact on company activities</td><td>\"Positive impact on company revenues\"</td></tr>\n<tr><td>Country, system type, quantity, delivery schedule</td><td>Not disclosed</td></tr>\n</tbody>\n</table>\n<p>The 0.0% shares mean the customer did not account for a measurable part of ASELSAN's sales or receivables in its latest published financial statements. The filing does not explain this further.</p>\n<h2>What remains unknown</h2>\n<p>ASELSAN's air defence portfolio covers several gun, missile, radar and command-and-control products, but the disclosure does not say which of them, or which combination, the contract covers. Envanter is not naming a system or a buyer, because neither has been officially disclosed. Our <a href=\"https://envantermedya.com/aselsan-1-1-milyar-dolar-hava-savunma-ihracat-sozlesmesi/\">Turkish-language report on the same filing</a> takes the same approach.</p>\n<h2>How the deal compares</h2>\n<p>According to <a href=\"https://www.turkiyetoday.com/nation/aselsan-lands-11b-air-defense-export-deal-with-unnamed-customer-3231613\">Türkiye Today</a>, ASELSAN's new export contracts in the first nine months of 2026 rose 34% to $1.9 billion, total new orders reached $14 billion and the order backlog passed $30 billion for the first time. On those figures, the single $1.1 billion contract is equal to more than half of the company's nine-month export bookings. Envanter covered the <a href=\"https://envantermedya.com/en/en-aselsan-backlog-30-7-billion-nine-month-results/\">nine-month results and backlog</a> in detail.</p>\n<p>The filing follows a run of disclosures in recent weeks. Türkiye Today notes that export contracts announced in October covered radar, counter-drone, command-and-control and other systems, among them a <a href=\"https://envantermedya.com/en/en-aselsan-442-5-million-export-contract-radar-counter-uas/\">$442.5 million radar and counter-UAS export contract</a> and a <a href=\"https://envantermedya.com/en/en-aselsan-157-9-million-export-deal/\">$157.9 million deal spanning electronic warfare and weapon systems</a>. On the domestic side, ASELSAN has signed air defence contracts with Türkiye's Presidency of Defence Industries (SSB) for long-range and hybrid systems, including a <a href=\"https://envantermedya.com/en/en-aselsan-hybrid-air-defense-contract-2-46-billion-euros/\">€2.46 billion hybrid air defence contract</a>; Envanter has tallied <a href=\"https://envantermedya.com/en/en-aselsan-2026-air-defence-contracts-total-7-476-million-euro/\">six 2026 air defence contracts worth about €7.48 billion</a>.</p>\n<h2>Company comment</h2>\n<p>ASELSAN has not commented on the customer beyond the filing. Speaking about the company's growth, General Manager Ahmet Akyol said, as quoted by Türkiye Today: \"We do not wait for orders to outpace our capacity. We turn orders into capacity, and capacity into the future.\" Türkiye Today also reported that revenue rose 28% to ₺151.5 billion in January–September and that research and development spending increased 36% to $1.3 billion.</p>\n<h2>FAQ</h2>\n<h3>Who bought the systems?</h3>\n<p>ASELSAN has not disclosed the customer or its country. The KAP filing lists only an \"International Client\".</p>\n<h3>Which air defence system is included?</h3>\n<p>The filing does not name any system, quantity or delivery date.</p>\n",
+  "rank_math_title": "ASELSAN Signs $1.1 Billion Air Defence Export Contract",
+  "rank_math_description": "ASELSAN disclosed a $1.1 billion air defence export contract on KAP on 3 November 2026. The buyer, country and systems were not named. What the filing says.",
+  "rank_math_focus_keyword": "ASELSAN air defence export contract",
+  "target_query": "aselsan 1.1 billion air defense export",
+  "demand_evidence": "News item; no GSC brief. Candidate 'aselsan-1-1bn-air-defence-export' (confidence high); TR version exists, EN missing.",
+  "category_hint": "Haber",
+  "sources": [
+    {
+      "name": "KAP – ASELSAN 'New Business Relation' disclosure, 03.11.2026 10:07:49",
+      "url": "https://www.kap.org.tr/en/Bildirim/1691350",
+      "supports": "USD 1.1 billion export contract for air defence systems with an 'International Client'; start date 03/11/2026; 0.0% shares; no significant provisions; positive impact on revenues; Turkish version prevails"
+    },
+    {
+      "name": "Türkiye Today",
+      "url": "https://www.turkiyetoday.com/nation/aselsan-lands-11b-air-defense-export-deal-with-unnamed-customer-3231613",
+      "supports": "Nine-month export contracts +34% to $1.9bn; total new orders $14bn; backlog above $30bn for the first time; revenue +28% to ₺151.5bn; R&D +36% to $1.3bn; October exports covered radar, counter-drone, C2 and other systems; SSB contracts for long-range and hybrid air defence; Akyol quote"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://envantermedya.com/aselsan-1-1-milyar-dolar-hava-savunma-ihracat-sozlesmesi/",
+      "anchor": "Turkish-language report on the same filing"
+    },
+    {
+      "url": "https://envantermedya.com/en/en-aselsan-backlog-30-7-billion-nine-month-results/",
+      "anchor": "nine-month results and backlog"
+    },
+    {
+      "url": "https://envantermedya.com/en/en-aselsan-442-5-million-export-contract-radar-counter-uas/",
+      "anchor": "$442.5 million radar and counter-UAS export contract"
+    },
+    {
+      "url": "https://envantermedya.com/en/en-aselsan-157-9-million-export-deal/",
+      "anchor": "$157.9 million deal spanning electronic warfare and weapon systems"
+    },
+    {
+      "url": "https://envantermedya.com/en/en-aselsan-hybrid-air-defense-contract-2-46-billion-euros/",
+      "anchor": "€2.46 billion hybrid air defence contract"
+    },
+    {
+      "url": "https://envantermedya.com/en/en-aselsan-2026-air-defence-contracts-total-7-476-million-euro/",
+      "anchor": "six 2026 air defence contracts worth about €7.48 billion"
+    }
+  ],
+  "hreflang_equivalents": {
+    "tr": "https://envantermedya.com/aselsan-1-1-milyar-dolar-hava-savunma-ihracat-sozlesmesi/",
+    "en": null,
+    "es": null,
+    "ar": null,
+    "ru": null
+  },
+  "image": {
+    "recommendation": "Envanter title card 1200x675 (lacivert zemin, altın şerit, 'ENVANTER MEDYA') reading 'ASELSAN · $1.1bn air defence export · KAP 3 Nov 2026'. Avoid photos of a specific system (HİSAR, KORKUT, SİPER), since that would imply which system was sold.",
+    "alt": "Envanter Medya title card on ASELSAN's $1.1 billion air defence export contract"
+  },
+  "verification_notes": [
+    "Buyer, country and systems are undisclosed; none named in the text.",
+    "Nine-month export (+34%, $1.9bn), $14bn new orders, >$30bn backlog, revenue and R&D figures and the Akyol quote come from Türkiye Today, not KAP; attributed in text. Could be cross-checked with ASELSAN's Q3 2026 investor presentation.",
+    "Interpretation of the 0.0% fields is limited to what the numbers say (no measurable share in latest statements).",
+    "$442.5m, $157.9m, €2.46bn and €7.48bn figures appear only as anchors to existing Envanter articles; editor may confirm those pages' own sourcing."
+  ],
+  "duplicate_check": "REST search lang=all for 'ASELSAN export', 'ASELSAN air defence', 'ASELSAN 1.1 billion', 'ASELSAN', 'Steel Dome', 'order backlog', plus full listing of all en/es/ar/ru posts since 2026-11-02: only the TR article (/aselsan-1-1-milyar-dolar-hava-savunma-ihracat-sozlesmesi/, 2026-11-03) covers this filing. No EN page.",
+  "word_count": 575,
+  "status_decision": "WRITE – news"
+}
