@@ -8,7 +8,9 @@ Kullanım:
 Kurallar: aynı slug (publish/draft/future/pending) varsa atlar; status her zaman 'draft';
 kategori yalnız TR için verilir (Polylang eşitlemesi), diğer dillerde editör grupladıktan sonra eşitlenir.
 """
-import json, os, sys, requests
+import json, os, sys, tempfile, requests
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "yayin-araclari"))
+from kapak import make
 
 EV = "https://envantermedya.com/wp-json"
 TR_CATS = [53, 24795]
@@ -51,15 +53,27 @@ def main(paths, write):
         ex = exists(s, d["slug"])
         if ex:
             print("ZATEN VAR, atlandı:", d["slug"], ex[0]["id"], ex[0]["status"]); continue
+        # kapak: ev başlık kartı (gerçek fotoğraf değil, yapay görsel de değil)
+        png = os.path.join(tempfile.mkdtemp(), f"{d['slug']}-kapak.png")
+        make(png, d.get("cover_label") or d.get("category_hint", "ENVANTER")[:28], d["title"], "ENVANTER MEDYA", d["lang"] == "ar")
+        alt = d.get("image", {}).get("alt") or d["title"]
+        m = s.post(f"{EV}/wp/v2/media", data=open(png, "rb").read(), timeout=120,
+                   headers={"Content-Disposition": f'attachment; filename="{d["slug"]}-kapak.png"', "Content-Type": "image/png"})
+        m.raise_for_status(); mid = m.json()["id"]
+        s.post(f"{EV}/wp/v2/media/{mid}", json={"alt_text": alt, "title": d["title"]}, timeout=60).raise_for_status()
+        s.post(f"{EV}/ev/v1/set-post-lang", json={"post_id": mid, "lang": d["lang"]}, timeout=60)
+        payload["featured_media"] = mid
         r = s.post(f"{EV}/wp/v2/posts", json=payload, timeout=120); r.raise_for_status()
         pid = r.json()["id"]
         s.post(f"{EV}/ev/v1/set-post-lang", json={"post_id": pid, "lang": d["lang"]}, timeout=60).raise_for_status()
         chk = s.get(f"{EV}/wp/v2/posts/{pid}", params={"context": "edit", "_fields": "id,status,link"}, timeout=60).json()
         assert chk["status"] == "draft", chk
-        out.append({"file": p, "lang": d["lang"], "post_id": pid, "status": chk["status"], "link": chk["link"]})
+        out.append({"file": os.path.basename(p), "lang": d["lang"], "post_id": pid, "media_id": mid, "status": chk["status"], "link": chk["link"],
+                    "title": d["title"], "slug": d["slug"], "target_query": d.get("target_query", ""),
+                    "source_check": f"{len(d.get('sources', []))} kaynak; " + "; ".join(x.get("name", "") for x in d.get("sources", [])[:4])})
         print("TASLAK:", d["lang"], pid, chk["link"])
     if out:
-        json.dump(out, open("yukleme_kaydi.json", "w"), ensure_ascii=False, indent=1)
+        json.dump(out, open(os.environ.get("UPLOAD_LOG", "yukleme_kaydi.json"), "w"), ensure_ascii=False, indent=1)
 
 
 if __name__ == "__main__":
