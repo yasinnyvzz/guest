@@ -5,7 +5,7 @@ Kimlik bilgisi dosyaya yazılmaz: EV_AUTH="kullanıcı:uygulama parolası" ortam
 (ya da ENVANTER_WP_USER / ENVANTER_WP_APP_PASSWORD).
 
 Kullanım:
-  python3 yayinla_dil.py <haber_klasoru> <tr_post_id> <tr_kapak_id> [--taslak]
+  python3 yayinla_dil.py <haber_klasoru> <tr_post_id> <tr_kapak_id> [--taslak] [--kapak=es:123,ru:124]
 Örnek (yayınlanmış TR yazılar):
   python3 yayinla_dil.py siper-hipersonik-radar 85040 85039
   python3 yayinla_dil.py sungur-burc-ilk-atis   85043 85042
@@ -18,6 +18,10 @@ if len(args) != 3:
     sys.exit(__doc__)
 ROOT = Path(args[0]).resolve(); TR_POST = int(args[1]); TR_COVER = int(args[2])
 TASLAK = "--taslak" in sys.argv
+MEVCUT_KAPAK = {}  # --kapak=es:85048,ru:85049 ile daha önce yüklenmiş kapaklar yeniden kullanılır
+for a in sys.argv:
+    if a.startswith("--kapak="):
+        MEVCUT_KAPAK = {k: int(v) for k, v in (x.split(":") for x in a[8:].split(","))}
 LANGS = ["en", "ar", "es", "ru"]
 BASE = os.environ.get("ENVANTER_WP_URL", "https://envantermedya.com").rstrip("/") + "/wp-json"
 USER = os.environ.get("ENVANTER_WP_USER"); PWD = os.environ.get("ENVANTER_WP_APP_PASSWORD")
@@ -35,22 +39,39 @@ def call(method, path, data=None, raw=None, headers=None):
         body = raw; h.update(headers or {})
     elif data is not None:
         body = json.dumps(data).encode(); h["Content-Type"] = "application/json"
-    req = urllib.request.Request(BASE + path, data=body, method=method, headers=h)
-    try:
-        with urllib.request.urlopen(req, timeout=120) as r:
-            return json.load(r)
-    except urllib.error.HTTPError as e:
-        sys.exit(f"{method} {path} -> {e.code}: {e.read()[:400].decode(errors='replace')}")
+    import time
+    for deneme in range(3):
+        req = urllib.request.Request(BASE + path, data=body, method=method, headers=h)
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code >= 500 and method == "GET" and deneme < 2:
+                time.sleep(5 * (deneme + 1)); continue
+            sys.exit(f"{method} {path} -> {e.code}: {e.read()[:400].decode(errors='replace')}")
+        except (urllib.error.URLError, TimeoutError) as e:
+            if method == "GET" and deneme < 2:
+                time.sleep(5 * (deneme + 1)); continue
+            sys.exit(f"{method} {path} -> ağ hatası: {e}")
 
 
 def main():
     print("Oturum:", call("GET", "/wp/v2/users/me").get("name"))
     items = {l: json.loads((ROOT / l / "haber.json").read_text(encoding="utf-8")) for l in LANGS}
-    for l, h in items.items():
-        if call("GET", f"/wp/v2/posts?slug={h['slug']}&status=publish,draft,future,pending&context=edit"):
-            sys.exit(f"[{l}] slug zaten var: {h['slug']}")
     covers, posts = {"tr": TR_COVER}, {"tr": TR_POST}
+    var = {}
     for l, h in items.items():
+        r = call("GET", f"/wp/v2/posts?slug={h['slug']}&status=publish,draft,future,pending&context=edit&_fields=id,status,featured_media")
+        if r:
+            if r[0]["status"] != "draft":
+                sys.exit(f"[{l}] slug zaten yayında: {h['slug']}")
+            var[l] = r[0]
+            print(f"  [{l}] var olan taslak {r[0]['id']} yeniden kullanılıyor")
+    for l, h in items.items():
+        if l in var and var[l].get("featured_media"):
+            covers[l] = var[l]["featured_media"]; continue
+        if l in MEVCUT_KAPAK:
+            covers[l] = MEVCUT_KAPAK[l]; continue
         f = ROOT / l / h["cover"]["file"]
         m = call("POST", "/wp/v2/media", raw=f.read_bytes(), headers={
             "Content-Type": mimetypes.guess_type(f.name)[0] or "image/png",
@@ -60,6 +81,9 @@ def main():
         covers[l] = m["id"]; print(f"  [{l}] kapak {m['id']}")
     call("POST", "/ev/v1/link-post-translations", {"groups": [covers]})
     for l, h in items.items():
+        if l in var:
+            call("POST", "/ev/v1/set-post-lang", {"post_id": var[l]["id"], "lang": l})
+            posts[l] = var[l]["id"]; continue
         content = (ROOT / l / h["content_file"]).read_text(encoding="utf-8")
         p = call("POST", "/wp/v2/posts", {
             "title": h["title"], "slug": h["slug"], "status": "draft", "content": content,
