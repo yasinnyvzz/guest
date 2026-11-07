@@ -1,0 +1,18 @@
+{
+  "title": "Savunma Sanayiinin 41 Yılı: Hazır Alımdan Teknoloji İhracatına [Dosya]",
+  "slug": "savunma-sanayiinin-41-yili-dosya",
+  "excerpt": "3238 sayılı Kanun'la 1985'te kurulan yapının 41 yılı: ortak üretimden 2004 kırılmasına, ATAK, MİLGEM, TB2, KAAN ve Çelik Kubbe'ye; 62 projeden 1.500'e, 248 milyon dolardan 10 milyar dolarlık ihracata.",
+  "categories": [53, 58, 2774],
+  "rank_math_title": "Savunma sanayiinin 41 yılı: 1985'ten 2026'ya dosya | Envanter Medya",
+  "rank_math_description": "1985'te kurulan SAGEB'den bugünkü SSB'ye savunma sanayiinin 41 yılı: kronoloji, dönüm noktaları, platformlar ve 2002'den bugüne ihracat ile proje rakamları.",
+  "rank_math_focus_keyword": "savunma sanayiinin 41 yılı",
+  "cover": {"file": "kapak.png", "alt": "Savunma sanayiinin 41 yılı dosyası kapak görseli: KAAN, TCG Anadolu, AKINCI ve ALTAY", "caption": "Kapak: KAAN (Wikimedia Commons, CC BY-SA 4.0), TCG Anadolu (ABD Donanması, kamu malı), AKINCI (CeeGee, Wikimedia Commons, CC BY-SA 4.0), ALTAY T1 (Wikimedia Commons). Tasarım: Envanter Medya"},
+  "inline": {
+    "kronoloji": {"file": "kronoloji.png", "alt": "Savunma sanayiinin 41 yılı kronoloji infografiği, 1985-2026"},
+    "kurumsal": {"file": "kurumsal.png", "alt": "SAGEB, SSM ve SSB kurumsal dönüşüm şeması"},
+    "karsilastirma": {"file": "karsilastirma.png", "alt": "2002 ve bugün savunma sanayii göstergeleri karşılaştırma infografiği"},
+    "ihracat": {"file": "ihracat.png", "alt": "Savunma ve havacılık ihracatı 2002 ve 2021-2026 sütun grafiği"}
+  },
+  "content_file": "icerik.html",
+  "kaynak_notu": "Kullanıcının paylaştığı claude.ai artifact'i Cloudflare doğrulaması nedeniyle okunamadı; dosya SSB 41. yıl açıklaması, 3238 sayılı Kanun, Hürriyet 14.05.2004 ve SSB/TİM ihracat verileriyle hazırlandı. Fotoğraflar sitenin medya kütüphanesinden, künyeleriyle kullanıldı. Aynı gün yayımlanan 'SSB 41 yaşında' haberinden (85172) ayrı, kronolojik dosya formatında; o habere bağlantı veriyor."
+}
