@@ -37,3 +37,8 @@ Hafta 1 yukarıdaki 7; hafta 2 helikopter, hava savunma, radar/EH, gemiler, deni
 - Otomatik başlık taraması: **968 tekil aday başlık** (bölüm/firma başlıkları ve alt ürün kalemleri dahil, gürültülü). Envanter'deki ürün sayfalarıyla ad eşleşmesi: **313**. Gerçek tekil ürün sayısı elle temizlik sonrası netleşir; şimdilik kesin sayı değildir.
 - Katalogda ayrıca doğrulanan örnekler: Bayraktar AKINCI, KALKAN DİHA, KIZILELMA, Mini İHA, TB2, TB3; TUSAŞ: AKSUNGUR, ANKA-III, GÖKTÜRK-1R/-3, HÜRJET, KAAN, SÜPER ŞİMŞEK, T129 ATAK, T929 ATAK-II. **Envanter'de eksik görünen katalog ürünleri (yeni içerik adayı):** TB3, Mini İHA, KALKAN DİHA, Süper Şimşek, Göktürk-1R/-3 (kontrol edilecek).
 - Katalog güncel durum bilgisi vermez ("olacak" gibi ifadeler içerir); durum sütunu hâlâ üretici/SSB duyurusuyla ayrıca doğrulanmalı.
+
+## Taslaklar (8 Kasım 2026) — hepsi draft, onay bekliyor
+- #85235 Ana katalog: /turk-savunma-sanayii-urunleri/
+- #85284 KPSS rehberi: /kpss-yerli-ve-milli-savunma-sanayii-urunleri/ (20 örnek soru + cevap anahtarı; resmî KPSS sorusu değildir)
+- #85285 Şirketler rehberi: /turkiye-savunma-sanayii-sirketleri/
