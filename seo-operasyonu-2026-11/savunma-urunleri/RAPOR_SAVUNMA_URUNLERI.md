@@ -30,3 +30,10 @@ savunma_sistemi 1.238 · savunma_firma 150 · firma 469 · savunma_terimi 481 ·
 
 ## 30 gün
 Hafta 1 yukarıdaki 7; hafta 2 helikopter, hava savunma, radar/EH, gemiler, denizaltı; hafta 3 piyade tüfekleri, tabancalar, motorlar, uydu, ihracat; hafta 4 şirket alt rehberleri (ASELSAN, Roketsan, TUSAŞ, Baykar, STM, HAVELSAN, MKE, TEI, Kale), tarihçe, ürün sayfası başlık düzeltmeleri.
+
+## Güncelleme (8 Kasım 2026): SSB kataloğu işlendi
+- ssb.gov.tr erişilebilir hâle geldi (önceki hata geçici). PDF: `turk-savunma-sanayii-urun-katalogu.pdf`, 2026 baskısı, **1370 sayfa**, metin katmanlı. Yerelde metne çevrilip yalnız başlık/firma/sayfa indeksi çıkarıldı (`ssb_katalog_indeks.json`); metin kopyalanmadı, görsel yüklenmedi.
+- Katalog **firma bazlı**: İçindekilerde 151 firma satırı; ürün başlığı çıkarılan 139 firma.
+- Otomatik başlık taraması: **968 tekil aday başlık** (bölüm/firma başlıkları ve alt ürün kalemleri dahil, gürültülü). Envanter'deki ürün sayfalarıyla ad eşleşmesi: **313**. Gerçek tekil ürün sayısı elle temizlik sonrası netleşir; şimdilik kesin sayı değildir.
+- Katalogda ayrıca doğrulanan örnekler: Bayraktar AKINCI, KALKAN DİHA, KIZILELMA, Mini İHA, TB2, TB3; TUSAŞ: AKSUNGUR, ANKA-III, GÖKTÜRK-1R/-3, HÜRJET, KAAN, SÜPER ŞİMŞEK, T129 ATAK, T929 ATAK-II. **Envanter'de eksik görünen katalog ürünleri (yeni içerik adayı):** TB3, Mini İHA, KALKAN DİHA, Süper Şimşek, Göktürk-1R/-3 (kontrol edilecek).
+- Katalog güncel durum bilgisi vermez ("olacak" gibi ifadeler içerir); durum sütunu hâlâ üretici/SSB duyurusuyla ayrıca doğrulanmalı.

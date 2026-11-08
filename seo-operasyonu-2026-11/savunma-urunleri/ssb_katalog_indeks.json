@@ -1,0 +1,6419 @@
+{
+"kaynak": "SSB 2026 Ürün Kataloğu (turk-savunma-sanayii-urun-katalogu.pdf, 1370 sayfa); yalnız başlık/firma/sayfa indeksi, metin kopyası yok",
+"firmalar": [
+[
+"Önsöz",
+5
+],
+[
+"Savunma Sanayii Başkanlığı Tarihçesi",
+6
+],
+[
+"Firma Faaliyet Alanları Listesi",
+20
+],
+[
+"3E",
+24
+],
+[
+"ABRAMAK",
+30
+],
+[
+"AC TASARIM",
+32
+],
+[
+"ADA TERSANESİ",
+38
+],
+[
+"AĞAOĞLU SAVUNMA",
+46
+],
+[
+"AKDAŞ SİLAH",
+52
+],
+[
+"AKSA RUNFLAT",
+60
+],
+[
+"ALKIN",
+64
+],
+[
+"ALP HAVACILIK",
+74
+],
+[
+"ALTAY YAZILIM",
+80
+],
+[
+"ALTINAY SAVUNMA",
+84
+],
+[
+"ANADOLU ROBOTİK",
+92
+],
+[
+"ANADOLU SAVUNMA",
+98
+],
+[
+"ANADOLU TERSANESİ",
+102
+],
+[
+"ANDAR",
+108
+],
+[
+"ANOVA",
+110
+],
+[
+"ARCA SAVUNMA",
+116
+],
+[
+"ARES SHIPYARD",
+124
+],
+[
+"ARMELSAN SAVUNMA",
+160
+],
+[
+"ASARTECH",
+166
+],
+[
+"ASELSAN",
+170
+],
+[
+"ASELSAN KONYA",
+254
+],
+[
+"ASELSAN SİVAS",
+264
+],
+[
+"ASFAT",
+272
+],
+[
+"ASİSGUARD",
+288
+],
+[
+"ASPİLSAN ENERJİ",
+298
+],
+[
+"ASSAN GROUP",
+308
+],
+[
+"ATA ARMS",
+314
+],
+[
+"ATEL",
+320
+],
+[
+"AYESAŞ",
+326
+],
+[
+"BAYKAR",
+330
+],
+[
+"BEST GRUP",
+338
+],
+[
+"BİRİKİM PİLLERİ",
+346
+],
+[
+"BİTES",
+350
+],
+[
+"BMC",
+364
+],
+[
+"BMC POWER",
+372
+],
+[
+"BOĞAZİÇİ SAVUNMA",
+378
+],
+[
+"BRG",
+382
+],
+[
+"CANİK",
+386
+],
+[
+"CES",
+392
+],
+[
+"CSH",
+398
+],
+[
+"CTECH",
+400
+],
+[
+"ÇUMİTAŞ",
+412
+],
+[
+"DASAL",
+418
+],
+[
+"DEARSAN",
+428
+],
+[
+"DEICO",
+436
+],
+[
+"DERYA SİLAH SANAYİ",
+438
+],
+[
+"DESAN",
+442
+],
+[
+"DİGİTEST",
+448
+],
+[
+"DORÇE",
+458
+],
+[
+"EHSİM",
+464
+],
+[
+"ELECTRA IC",
+468
+],
+[
+"ELEKTROLAND DEFENCE",
+478
+],
+[
+"EPSİLON",
+486
+],
+[
+"ERMAKSAN",
+488
+],
+[
+"FEMSAN",
+496
+],
+[
+"FNSS",
+508
+],
+[
+"FORA GRUP SAVUNMA",
+524
+],
+[
+"FOTONİKS",
+528
+],
+[
+"FZK MÜHENDİSLİK",
+540
+],
+[
+"GARANTİ KOMPOZİT",
+546
+],
+[
+"GÖKSER ARGE",
+554
+],
+[
+"GÜRBAĞ SAVUNMA",
+560
+],
+[
+"GÜRDESAN",
+566
+],
+[
+"HAVELSAN",
+576
+],
+[
+"HMS MAKİNA",
+606
+],
+[
+"HST OTOMOTİV",
+608
+],
+[
+"HTR",
+612
+],
+[
+"HUĞLU",
+618
+],
+[
+"IDC SAVUNMA",
+622
+],
+[
+"İŞBİR ELEKTRİK",
+624
+],
+[
+"KALE JET",
+630
+],
+[
+"KALE PRATT & WHITNEY",
+634
+],
+[
+"KALEKALIP",
+636
+],
+[
+"KARDEMİR",
+644
+],
+[
+"KAREL",
+650
+],
+[
+"KATMERCİLER",
+656
+],
+[
+"KAYALAR",
+666
+],
+[
+"KİM TEKNOLOJİ",
+674
+],
+[
+"KOÇAK - SPEEDOL",
+678
+],
+[
+"KOLUMAN",
+688
+],
+[
+"KZ MEKATRONİK",
+694
+],
+[
+"LENTATEK",
+698
+],
+[
+"MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+702
+],
+[
+"MDH MAKEL TEKNOLOJİ",
+778
+],
+[
+"MECA METAL",
+786
+],
+[
+"MEDEF SAVUNMA",
+788
+],
+[
+"MENATEK",
+796
+],
+[
+"MESAN",
+806
+],
+[
+"METEKSAN SAVUNMA",
+814
+],
+[
+"MICROINA",
+828
+],
+[
+"MIILUX OY",
+834
+],
+[
+"MILMAST",
+838
+],
+[
+"MILSOFT",
+840
+],
+[
+"MİLDATA",
+848
+],
+[
+"MİLKAB SAVUNMA",
+850
+],
+[
+"MS SPEKTRAL",
+852
+],
+[
+"NETA COMMUNICATIONS",
+860
+],
+[
+"NETAŞ",
+862
+],
+[
+"NORM TECHNOLOGIES",
+868
+],
+[
+"NUROL MAKİNA",
+876
+],
+[
+"NUROL TEKNOLOJİ",
+882
+],
+[
+"ONUR YÜKSEK TEKNOLOJİ (OYT)",
+890
+],
+[
+"OTOKAR",
+902
+],
+[
+"ÖZTİRYAKİLER",
+914
+],
+[
+"PAGETEL",
+922
+],
+[
+"PAPILON SAVUNMA",
+928
+],
+[
+"PROFEN",
+936
+],
+[
+"RAFF MILITARY TEXTILE",
+942
+],
+[
+"REKROM OPTOELEKTRONİK",
+950
+],
+[
+"REPKON",
+954
+],
+[
+"RFTR",
+958
+],
+[
+"ROKETSAN",
+960
+],
+[
+"RST",
+992
+],
+[
+"SARSILMAZ",
+998
+],
+[
+"SAVRONİK",
+1006
+],
+[
+"SDT",
+1028
+],
+[
+"SEDEF SHIPYARD",
+1042
+],
+[
+"SEFİNE TERSANESİ",
+1044
+],
+[
+"SIMBT",
+1048
+],
+[
+"SPARK ÖLÇÜM TEKNOLOJİLERİ",
+1058
+],
+[
+"STM",
+1062
+],
+[
+"TAAC",
+1098
+],
+[
+"TAIS SHIPYARDS",
+1104
+],
+[
+"TDU SAVUNMA",
+1128
+],
+[
+"TEI",
+1136
+],
+[
+"TEKATRON",
+1144
+],
+[
+"TEKNO",
+1148
+],
+[
+"TEKNOKAR",
+1150
+],
+[
+"TEKOM",
+1158
+],
+[
+"TİSAŞ",
+1164
+],
+[
+"TRANSVARO",
+1170
+],
+[
+"TRMOTOR",
+1178
+],
+[
+"TRON ELEKTRONİK",
+1182
+],
+[
+"TRTEST",
+1194
+],
+[
+"TUALCOM ELEKTRONİK",
+1196
+],
+[
+"TURKISH TECHNIC",
+1210
+],
+[
+"TÜBİTAK SAGE",
+1238
+],
+[
+"TÜBİTAK UME",
+1264
+],
+[
+"TÜMOSAN",
+1268
+],
+[
+"TÜRK HAVACILIK UZAY SANAYİİ",
+1280
+],
+[
+"TÜZÜN SAVUNMA",
+1294
+],
+[
+"UAVERA",
+1296
+],
+[
+"ULAK",
+1298
+],
+[
+"UNIROBOTICS",
+1308
+],
+[
+"UNIFO GIDA",
+1312
+],
+[
+"ÜNTEL KABLO",
+1314
+],
+[
+"VANEDA",
+1316
+]
+],
+"aday_basliklar": [
+{
+"firma": "Savunma Sanayii Başkanlığı Tarihçesi",
+"baslik": "sanayilesme",
+"sayfa": 10,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "Savunma Sanayii Başkanlığı Tarihçesi",
+"baslik": "ihracat yaklasimi",
+"sayfa": 11,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "Savunma Sanayii Başkanlığı Tarihçesi",
+"baslik": "omur devri yonetimi",
+"sayfa": 12,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "Savunma Sanayii Başkanlığı Tarihçesi",
+"baslik": "t c cumhurbaskanligi",
+"sayfa": 14,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "Savunma Sanayii Başkanlığı Tarihçesi",
+"baslik": "icindekiler",
+"sayfa": 15,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "Savunma Sanayii Başkanlığı Tarihçesi",
+"baslik": "asisguard",
+"sayfa": 16,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "Savunma Sanayii Başkanlığı Tarihçesi",
+"baslik": "femsan",
+"sayfa": 17,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "Savunma Sanayii Başkanlığı Tarihçesi",
+"baslik": "medef savunma",
+"sayfa": 18,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "Savunma Sanayii Başkanlığı Tarihçesi",
+"baslik": "sedef shipyard",
+"sayfa": 19,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "Firma Faaliyet Alanları Listesi",
+"baslik": "volkan itfaiye",
+"sayfa": 20,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "Firma Faaliyet Alanları Listesi",
+"baslik": "toplam",
+"sayfa": 21,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "Firma Faaliyet Alanları Listesi",
+"baslik": "faaliyet alanlari listesi",
+"sayfa": 22,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "3E",
+"baslik": "gece gorus sistemleri",
+"sayfa": 26,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "3E",
+"baslik": "gunduz gorus sistemleri",
+"sayfa": 27,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "3E",
+"baslik": "multi sensor gozetleme sistemleri",
+"sayfa": 28,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "3E",
+"baslik": "termal goruntuleme sistemleri",
+"sayfa": 29,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AC TASARIM",
+"baslik": "ac tasarim",
+"sayfa": 32,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AC TASARIM",
+"baslik": "aa59569 serisi urunler",
+"sayfa": 34,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "AC TASARIM",
+"baslik": "ac 4100 polyester orgulu makaron",
+"sayfa": 35,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AC TASARIM",
+"baslik": "ac 4600 esnek emi kablo ekranlamasi",
+"sayfa": 36,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AC TASARIM",
+"baslik": "ac 4400 metal govdeli",
+"sayfa": 37,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ADA TERSANESİ",
+"baslik": "ahts",
+"sayfa": 40,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ADA TERSANESİ",
+"baslik": "balik yemi gemisi",
+"sayfa": 41,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ADA TERSANESİ",
+"baslik": "kazi tarama gemisi",
+"sayfa": 42,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ADA TERSANESİ",
+"baslik": "konteyner gemisi",
+"sayfa": 43,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ADA TERSANESİ",
+"baslik": "motor yat",
+"sayfa": 44,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ADA TERSANESİ",
+"baslik": "ro ro yolcu gemisi",
+"sayfa": 45,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AĞAOĞLU SAVUNMA",
+"baslik": "ahss fxs 9",
+"sayfa": 48,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AĞAOĞLU SAVUNMA",
+"baslik": "kor fx 9 r",
+"sayfa": 49,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AĞAOĞLU SAVUNMA",
+"baslik": "kor fx 9 rs",
+"sayfa": 50,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AĞAOĞLU SAVUNMA",
+"baslik": "kor ag 9",
+"sayfa": 51,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AKDAŞ SİLAH",
+"baslik": "ak 12ubs",
+"sayfa": 54,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AKDAŞ SİLAH",
+"baslik": "ak 37rgl",
+"sayfa": 55,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "AKDAŞ SİLAH",
+"baslik": "ak 40glx",
+"sayfa": 56,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "AKDAŞ SİLAH",
+"baslik": "ak sight",
+"sayfa": 57,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AKDAŞ SİLAH",
+"baslik": "semx 55",
+"sayfa": 59,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AKSA RUNFLAT",
+"baslik": "aluminyum jant",
+"sayfa": 62,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AKSA RUNFLAT",
+"baslik": "runflat",
+"sayfa": 63,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALKIN",
+"baslik": "alkin",
+"sayfa": 64,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALKIN",
+"baslik": "530 booster",
+"sayfa": 66,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALKIN",
+"baslik": "702 askeri",
+"sayfa": 67,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALKIN",
+"baslik": "w32 kanopi yuksek basinc booster",
+"sayfa": 71,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ALKIN",
+"baslik": "w32 mariner",
+"sayfa": 72,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ALKIN",
+"baslik": "w4 dizel",
+"sayfa": 73,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALP HAVACILIK",
+"baslik": "alp havacilik",
+"sayfa": 74,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALP HAVACILIK",
+"baslik": "tei ts1400 aksesuar disli kutusu",
+"sayfa": 76,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ALP HAVACILIK",
+"baslik": "doner tabla halka disli",
+"sayfa": 77,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALP HAVACILIK",
+"baslik": "sikorsky s70i uh60 t70 mlg tlg tgb",
+"sayfa": 78,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALP HAVACILIK",
+"baslik": "sikorsky s70i uh60 t70 spindle komplesi",
+"sayfa": 79,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALTAY YAZILIM",
+"baslik": "altay yazilim",
+"sayfa": 80,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALTAY YAZILIM",
+"baslik": "elektro optik goruntuleme sistemleri",
+"sayfa": 82,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ALTAY YAZILIM",
+"baslik": "insani operasyonlar",
+"sayfa": 83,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALTINAY SAVUNMA",
+"baslik": "altinay savunma",
+"sayfa": 84,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALTINAY SAVUNMA",
+"baslik": "ast l serisi eyleyiciler",
+"sayfa": 86,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALTINAY SAVUNMA",
+"baslik": "kus kapani",
+"sayfa": 87,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ALTINAY SAVUNMA",
+"baslik": "bomba imha robot kolu",
+"sayfa": 88,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALTINAY SAVUNMA",
+"baslik": "teleskobik mast sistemleri",
+"sayfa": 89,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ALTINAY SAVUNMA",
+"baslik": "stabilize pedestaller",
+"sayfa": 90,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ALTINAY SAVUNMA",
+"baslik": "venus 4",
+"sayfa": 91,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ANADOLU ROBOTİK",
+"baslik": "anadolu robotik",
+"sayfa": 92,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ANADOLU ROBOTİK",
+"baslik": "argon 300",
+"sayfa": 94,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ANADOLU ROBOTİK",
+"baslik": "argon 600",
+"sayfa": 95,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ANADOLU ROBOTİK",
+"baslik": "armas",
+"sayfa": 96,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ANADOLU ROBOTİK",
+"baslik": "aryon",
+"sayfa": 97,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ANADOLU SAVUNMA",
+"baslik": "seyit 8x8",
+"sayfa": 101,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ANADOLU TERSANESİ",
+"baslik": "cadet training ship cts",
+"sayfa": 104,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ANADOLU TERSANESİ",
+"baslik": "landing craft mechanized lcm40",
+"sayfa": 105,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ANADOLU TERSANESİ",
+"baslik": "landing craft tank lct",
+"sayfa": 106,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ANADOLU TERSANESİ",
+"baslik": "landing ship tank lst",
+"sayfa": 107,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ANDAR",
+"baslik": "andar",
+"sayfa": 108,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ANOVA",
+"baslik": "ac dc dc dc cevirici ailesi",
+"sayfa": 112,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ANOVA",
+"baslik": "yakit transfer pompasi",
+"sayfa": 115,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARCA SAVUNMA",
+"baslik": "arca savunma",
+"sayfa": 116,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ARCA SAVUNMA",
+"baslik": "mm roket 0km",
+"sayfa": 118,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ARCA SAVUNMA",
+"baslik": "mm roket 40km",
+"sayfa": 119,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ARCA SAVUNMA",
+"baslik": "plastik patlayi i",
+"sayfa": 120,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ARCA SAVUNMA",
+"baslik": "55 mm yuksek infilakli topcu muhimmati",
+"sayfa": 121,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ARCA SAVUNMA",
+"baslik": "5 mm yuksek infilakli topcu muhimmati",
+"sayfa": 122,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ARCA SAVUNMA",
+"baslik": "mm topcu muhimmati",
+"sayfa": 123,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares shipyard",
+"sayfa": 124,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 14 wt",
+"sayfa": 126,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 24 harpoon",
+"sayfa": 127,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 5 fifi",
+"sayfa": 128,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 27 ctv",
+"sayfa": 129,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 30 cf",
+"sayfa": 130,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 32 predator",
+"sayfa": 131,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 35 fifi",
+"sayfa": 132,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 35 harpoon",
+"sayfa": 133,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 42 blaze",
+"sayfa": 134,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 42 fpb",
+"sayfa": 135,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 42 wt",
+"sayfa": 136,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 44 fpb",
+"sayfa": 137,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 55 ambulans",
+"sayfa": 138,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 55 fac",
+"sayfa": 139,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 55 sat",
+"sayfa": 140,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 58 ambulans",
+"sayfa": 141,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 60 vip",
+"sayfa": 142,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 65 fpb",
+"sayfa": 143,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 65 sat",
+"sayfa": 144,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 70 freyja",
+"sayfa": 145,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 72 opv",
+"sayfa": 146,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 80 famb",
+"sayfa": 147,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 85 blaze",
+"sayfa": 148,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 85 fcsv",
+"sayfa": 149,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 100 sat",
+"sayfa": 150,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 110 bold",
+"sayfa": 151,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 115 bold",
+"sayfa": 152,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 125 famb",
+"sayfa": 153,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 140 blaze",
+"sayfa": 154,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 150 sat",
+"sayfa": 155,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares 200 cf",
+"sayfa": 156,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares caimen 80 flc",
+"sayfa": 157,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "ares caimen 200 flc",
+"sayfa": 158,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARES SHIPYARD",
+"baslik": "njord offshore 32 ctv",
+"sayfa": 159,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARMELSAN SAVUNMA",
+"baslik": "aras 2023",
+"sayfa": 162,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARMELSAN SAVUNMA",
+"baslik": "kasif",
+"sayfa": 163,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARMELSAN SAVUNMA",
+"baslik": "nusrat 1915",
+"sayfa": 164,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ARMELSAN SAVUNMA",
+"baslik": "orkun 2053",
+"sayfa": 165,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASARTECH",
+"baslik": "asartech",
+"sayfa": 166,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASARTECH",
+"baslik": "fb5014 2687 5 mhz bant",
+"sayfa": 169,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "aselsan",
+"sayfa": 170,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "atom 35mm parcacikli muhimmat",
+"sayfa": 172,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "2034 dkc e cihazi",
+"sayfa": 173,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "adop 2000 ates destek c4i sistemi",
+"sayfa": 174,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "alaz 100",
+"sayfa": 176,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "alkar havan silah sistemleri",
+"sayfa": 177,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "amir 100c kazaya dayanikli",
+"sayfa": 178,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "aselflir 400",
+"sayfa": 183,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "aselflir 600",
+"sayfa": 184,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "aselsan mitos wecdis",
+"sayfa": 186,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "atay 100",
+"sayfa": 187,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "atlas aselsan sayisal",
+"sayfa": 188,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "ats 62d",
+"sayfa": 189,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "ats 72d",
+"sayfa": 190,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "avci kaska entegre kumanda sistemi",
+"sayfa": 191,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "aya ts100",
+"sayfa": 192,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "ccd 68 merkezi kokpit gostergesi",
+"sayfa": 194,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "cetvel 100",
+"sayfa": 195,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "cetvel 600d",
+"sayfa": 196,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "denizgozu mercan",
+"sayfa": 200,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "doruk",
+"sayfa": 202,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "eid motor gostergeleri",
+"sayfa": 203,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "engerek m02",
+"sayfa": 204,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "gokdeniz yakin hava savunma sistemi",
+"sayfa": 207,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "goren 100",
+"sayfa": 208,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "gungor 100d",
+"sayfa": 209,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "hgk 82",
+"sayfa": 211,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "hizir suustu gemiler icin torpido",
+"sayfa": 212,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "hisar ffs",
+"sayfa": 213,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "hisar o bataryasi",
+"sayfa": 214,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "hums yapisal butunluk ve",
+"sayfa": 215,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "ihtar anti drone sistemi",
+"sayfa": 216,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "karat 100",
+"sayfa": 217,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "kayar bilezik urun ailesi",
+"sayfa": 218,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "kizilgoz 100",
+"sayfa": 220,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "kizilgoz 400",
+"sayfa": 221,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "korkut kundagi motorlu hava",
+"sayfa": 222,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "lazer arayici baslik lab",
+"sayfa": 223,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "lias 100d",
+"sayfa": 224,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "marlin",
+"sayfa": 225,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "mgb moduler gorev",
+"sayfa": 227,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "msc cok islevli",
+"sayfa": 229,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "nova a210",
+"sayfa": 230,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "nova a500",
+"sayfa": 231,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "rne 410 radyo navigasyon ekipmani",
+"sayfa": 233,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "sadak 2mk",
+"sayfa": 234,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "sadak 4t",
+"sayfa": 235,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "sager 100",
+"sayfa": 236,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "sager 500",
+"sayfa": 237,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "sarp l",
+"sayfa": 238,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "sarp zafer nsv",
+"sayfa": 239,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "stamp 2",
+"sayfa": 240,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "sahin 40mm fiziksel",
+"sayfa": 241,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "vega a940",
+"sayfa": 247,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "yamgoz 100",
+"sayfa": 250,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "yildirim 100",
+"sayfa": 251,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN",
+"baslik": "zargana denizalti torpido karsi",
+"sayfa": 252,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN",
+"baslik": "zoka akustik torpido karsi tedbir",
+"sayfa": 253,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN KONYA",
+"baslik": "akons",
+"sayfa": 256,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN KONYA",
+"baslik": "maks oba 40 h",
+"sayfa": 257,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN KONYA",
+"baslik": "nefer l uzaktan komutali silah sistemi",
+"sayfa": 258,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN KONYA",
+"baslik": "sarp kpvt",
+"sayfa": 259,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN KONYA",
+"baslik": "sarp nsv dual",
+"sayfa": 260,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN KONYA",
+"baslik": "sarp uzaktan komutali silah sistemi",
+"sayfa": 261,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN KONYA",
+"baslik": "sarp zafer",
+"sayfa": 262,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN SİVAS",
+"baslik": "aselsan sivas",
+"sayfa": 264,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN SİVAS",
+"baslik": "a361 gece gorus nisangahi",
+"sayfa": 267,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN SİVAS",
+"baslik": "a600 gece gorus eklentisi",
+"sayfa": 268,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASELSAN SİVAS",
+"baslik": "a960 gunduz gorus",
+"sayfa": 269,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASELSAN SİVAS",
+"baslik": "f5 5 surekli odakli",
+"sayfa": 270,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASFAT",
+"baslik": "a400 m bakim kabiliyeti",
+"sayfa": 274,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASFAT",
+"baslik": "acik deniz karakol gemisi",
+"sayfa": 275,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASFAT",
+"baslik": "asbot",
+"sayfa": 276,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASFAT",
+"baslik": "korbas 3",
+"sayfa": 278,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASFAT",
+"baslik": "milden",
+"sayfa": 279,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASFAT",
+"baslik": "milgem 3 burgazada f 513",
+"sayfa": 280,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASFAT",
+"baslik": "milgem 5 istanbul f 515",
+"sayfa": 281,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASFAT",
+"baslik": "onur 1 mod 3 tapasi",
+"sayfa": 282,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASFAT",
+"baslik": "pn milgem",
+"sayfa": 283,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASFAT",
+"baslik": "rahvan",
+"sayfa": 284,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASFAT",
+"baslik": "seyit onbasi",
+"sayfa": 285,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASFAT",
+"baslik": "suustu ozel harekat botu",
+"sayfa": 286,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASFAT",
+"baslik": "yuzer havuz",
+"sayfa": 287,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASİSGUARD",
+"baslik": "songar 2 li bomba atar",
+"sayfa": 292,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASİSGUARD",
+"baslik": "songar 6 li roket",
+"sayfa": 293,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASİSGUARD",
+"baslik": "surucu bilgi sistemi",
+"sayfa": 296,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASPİLSAN ENERJİ",
+"baslik": "4400 44",
+"sayfa": 300,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASPİLSAN ENERJİ",
+"baslik": "mirket",
+"sayfa": 307,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ASSAN GROUP",
+"baslik": "assan group",
+"sayfa": 308,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASSAN GROUP",
+"baslik": "120 mm yivli setli havan",
+"sayfa": 310,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASSAN GROUP",
+"baslik": "122 mm cnra roketi",
+"sayfa": 311,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASSAN GROUP",
+"baslik": "60 mm komando havani",
+"sayfa": 312,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ASSAN GROUP",
+"baslik": "mark 80 serisi bilyeli ucak bombalari",
+"sayfa": 313,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ATA ARMS",
+"baslik": "ata arms",
+"sayfa": 314,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ATA ARMS",
+"baslik": "alr",
+"sayfa": 316,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ATA ARMS",
+"baslik": "asr",
+"sayfa": 317,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ATA ARMS",
+"baslik": "ata9",
+"sayfa": 318,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ATEL",
+"baslik": "atel",
+"sayfa": 320,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ATEL",
+"baslik": "drone karsiti sirt tipi karistirma sistemleri",
+"sayfa": 322,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ATEL",
+"baslik": "drone karsiti tesis tipi karistirma",
+"sayfa": 323,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ATEL",
+"baslik": "patlayi i madde imha tipi",
+"sayfa": 324,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ATEL",
+"baslik": "vip arac tipi karistirma sistemleri",
+"sayfa": 325,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "AYESAŞ",
+"baslik": "ropkon",
+"sayfa": 328,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "AYESAŞ",
+"baslik": "yeni nesil mobil radar kompleksi",
+"sayfa": 329,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BAYKAR",
+"baslik": "bayraktar akinci",
+"sayfa": 332,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BAYKAR",
+"baslik": "bayraktar kalkan diha",
+"sayfa": 333,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BAYKAR",
+"baslik": "bayraktar kizilelma",
+"sayfa": 334,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BAYKAR",
+"baslik": "bayraktar mini iha",
+"sayfa": 335,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BAYKAR",
+"baslik": "bayraktar tb2 siha",
+"sayfa": 336,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BAYKAR",
+"baslik": "bayraktar tb3",
+"sayfa": 337,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BEST GRUP",
+"baslik": "askar ii",
+"sayfa": 340,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BEST GRUP",
+"baslik": "zirhli kamyonet ve zirhli suv",
+"sayfa": 341,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BEST GRUP",
+"baslik": "zirhli kaziyici ve yukleyici",
+"sayfa": 342,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BEST GRUP",
+"baslik": "zirhli guvenlik kabini",
+"sayfa": 343,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BEST GRUP",
+"baslik": "zirhli mobil kontrol noktasi",
+"sayfa": 344,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BEST GRUP",
+"baslik": "zirhli personel nakil araci",
+"sayfa": 345,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİRİKİM PİLLERİ",
+"baslik": "birikim pilleri",
+"sayfa": 346,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİRİKİM PİLLERİ",
+"baslik": "bpm ida bataryasi",
+"sayfa": 348,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİRİKİM PİLLERİ",
+"baslik": "bpm siha bataryasi",
+"sayfa": 349,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİTES",
+"baslik": "bites",
+"sayfa": 350,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİTES",
+"baslik": "artirilmis gerceklik tabanli bakim sistemi",
+"sayfa": 352,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BİTES",
+"baslik": "askeri taktik operasyon kiti atok",
+"sayfa": 353,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BİTES",
+"baslik": "atis egitim simulatorleri",
+"sayfa": 354,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİTES",
+"baslik": "bizbize egk",
+"sayfa": 355,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİTES",
+"baslik": "dijital ikiz",
+"sayfa": 356,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİTES",
+"baslik": "etkilesimli dijital egitim sistemi",
+"sayfa": 357,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİTES",
+"baslik": "goruntu yonetim sistemi",
+"sayfa": 358,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİTES",
+"baslik": "k e c i",
+"sayfa": 359,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BİTES",
+"baslik": "karma gerceklik destekli",
+"sayfa": 360,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİTES",
+"baslik": "karma taktik harita",
+"sayfa": 361,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BİTES",
+"baslik": "xper drive",
+"sayfa": 362,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BİTES",
+"baslik": "xper share",
+"sayfa": 363,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BMC",
+"baslik": "bmc",
+"sayfa": 364,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BMC",
+"baslik": "4 4 toma mudahale araci",
+"sayfa": 366,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BMC",
+"baslik": "5 ton 4 4 tta 10 ton 6 6 tta",
+"sayfa": 367,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BMC",
+"baslik": "8 8 tta tank tasiyi i",
+"sayfa": 368,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BMC",
+"baslik": "altu 8 8 pt",
+"sayfa": 369,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BMC",
+"baslik": "firtina ii t 55 yeni nesil obus sistemi",
+"sayfa": 370,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BMC POWER",
+"baslik": "azra",
+"sayfa": 374,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BMC POWER",
+"baslik": "batu",
+"sayfa": 375,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BMC POWER",
+"baslik": "levend",
+"sayfa": 376,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BMC POWER",
+"baslik": "utku",
+"sayfa": 377,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BOĞAZİÇİ SAVUNMA",
+"baslik": "bogazici savunma",
+"sayfa": 378,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BOĞAZİÇİ SAVUNMA",
+"baslik": "ilter maritime dron",
+"sayfa": 380,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BOĞAZİÇİ SAVUNMA",
+"baslik": "j350 dron tespit ve engelleme sistemi",
+"sayfa": 381,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BRG",
+"baslik": "brg",
+"sayfa": 382,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "BRG",
+"baslik": "brg9 elite",
+"sayfa": 384,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "BRG",
+"baslik": "brg 9 tactical",
+"sayfa": 385,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CANİK",
+"baslik": "canik",
+"sayfa": 386,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "CANİK",
+"baslik": "canik m2 qcb",
+"sayfa": 388,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CANİK",
+"baslik": "canik m3",
+"sayfa": 389,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CANİK",
+"baslik": "sfx rival",
+"sayfa": 390,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "CANİK",
+"baslik": "sfx rival s",
+"sayfa": 391,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "CES",
+"baslik": "ces",
+"sayfa": 392,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CES",
+"baslik": "balistik koruyu u g",
+"sayfa": 394,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CES",
+"baslik": "balistik baslik",
+"sayfa": 395,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "CES",
+"baslik": "balistik koruyu u kalkan",
+"sayfa": 396,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CES",
+"baslik": "hava platformlari",
+"sayfa": 397,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CSH",
+"baslik": "csh",
+"sayfa": 398,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CTECH",
+"baslik": "60ghz radyo baglanti terminali",
+"sayfa": 402,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CTECH",
+"baslik": "antenler",
+"sayfa": 403,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "CTECH",
+"baslik": "gssarx",
+"sayfa": 404,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CTECH",
+"baslik": "jamids",
+"sayfa": 405,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CTECH",
+"baslik": "mobiot",
+"sayfa": 406,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CTECH",
+"baslik": "network management system",
+"sayfa": 407,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CTECH",
+"baslik": "uydu telekomut alicisi",
+"sayfa": 408,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "CTECH",
+"baslik": "securearx",
+"sayfa": 409,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ÇUMİTAŞ",
+"baslik": "cumitas",
+"sayfa": 412,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ÇUMİTAŞ",
+"baslik": "4x4 14 tons multipurpose rolling chassis",
+"sayfa": 414,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ÇUMİTAŞ",
+"baslik": "17 tons multipurpose rolling chassis",
+"sayfa": 415,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ÇUMİTAŞ",
+"baslik": "armoured wheel loader 980",
+"sayfa": 416,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ÇUMİTAŞ",
+"baslik": "fast armoured backhoeloader",
+"sayfa": 417,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DASAL",
+"baslik": "dasal",
+"sayfa": 418,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DASAL",
+"baslik": "arikusu bee eater",
+"sayfa": 420,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DASAL",
+"baslik": "ondor",
+"sayfa": 421,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DASAL",
+"baslik": "fal on",
+"sayfa": 422,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DASAL",
+"baslik": "fal on r40",
+"sayfa": 423,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DASAL",
+"baslik": "kirlangic x4a",
+"sayfa": 424,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DASAL",
+"baslik": "peregrine x4b",
+"sayfa": 425,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DASAL",
+"baslik": "puhu",
+"sayfa": 426,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DASAL",
+"baslik": "sumru",
+"sayfa": 427,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DEARSAN",
+"baslik": "dearsan",
+"sayfa": 428,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DEARSAN",
+"baslik": "dearsan 15m ani mudahale botu",
+"sayfa": 430,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DEARSAN",
+"baslik": "dearsan 15m silahli insansiz",
+"sayfa": 431,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DEARSAN",
+"baslik": "dearsan 33m hizli mudahale botu",
+"sayfa": 432,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DEARSAN",
+"baslik": "dearsan 50m hizli taarruz gemisi",
+"sayfa": 433,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DEARSAN",
+"baslik": "dearsan 92m korvet",
+"sayfa": 434,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DEARSAN",
+"baslik": "serhet sinifi fuzeli karakol gemileri",
+"sayfa": 435,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DEICO",
+"baslik": "deico",
+"sayfa": 436,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DESAN",
+"baslik": "desan",
+"sayfa": 442,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DESAN",
+"baslik": "agem",
+"sayfa": 444,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DESAN",
+"baslik": "hisar",
+"sayfa": 445,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DESAN",
+"baslik": "mpms",
+"sayfa": 446,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DESAN",
+"baslik": "triglav",
+"sayfa": 447,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DİGİTEST",
+"baslik": "digitest",
+"sayfa": 448,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DİGİTEST",
+"baslik": "savunma ve havacilik",
+"sayfa": 450,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "DİGİTEST",
+"baslik": "onder k 12 7 mm 3 namlu doner",
+"sayfa": 451,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DİGİTEST",
+"baslik": "gorax 25 mm tek namlulu",
+"sayfa": 457,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DORÇE",
+"baslik": "birlesimli askeri konteyner",
+"sayfa": 460,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DORÇE",
+"baslik": "kursun gecirmez prefabrik bina",
+"sayfa": 461,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DORÇE",
+"baslik": "moduler askeri kamp",
+"sayfa": 462,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "DORÇE",
+"baslik": "romorka monte tuvalet ve",
+"sayfa": 463,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "EHSİM",
+"baslik": "ehsim",
+"sayfa": 464,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "EHSİM",
+"baslik": "ktss",
+"sayfa": 466,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "EHSİM",
+"baslik": "rassim",
+"sayfa": 467,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ELECTRA IC",
+"baslik": "electra ic",
+"sayfa": 468,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ELECTRA IC",
+"baslik": "3u vpx modul bitflex vpx3 mzq1",
+"sayfa": 470,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ELECTRA IC",
+"baslik": "3u vpx modul bitflex vpx3 mzqu",
+"sayfa": 471,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ELECTRA IC",
+"baslik": "arinc429 ip cekirdegi",
+"sayfa": 472,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ELECTRA IC",
+"baslik": "arinc664 uc sistem ip cekirdegi",
+"sayfa": 473,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ELECTRA IC",
+"baslik": "electra ic muhendislik hizmetleri",
+"sayfa": 474,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ELEKTROLAND DEFENCE",
+"baslik": "elektroland",
+"sayfa": 478,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ELEKTROLAND DEFENCE",
+"baslik": "acrob",
+"sayfa": 480,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ELEKTROLAND DEFENCE",
+"baslik": "bogac",
+"sayfa": 481,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ELEKTROLAND DEFENCE",
+"baslik": "hancer",
+"sayfa": 482,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ELEKTROLAND DEFENCE",
+"baslik": "maxu teleskopik manipulator kol",
+"sayfa": 483,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ELEKTROLAND DEFENCE",
+"baslik": "wjd su topu ve",
+"sayfa": 485,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ERMAKSAN",
+"baslik": "ermaksan",
+"sayfa": 488,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ERMAKSAN",
+"baslik": "2 5 kw askeri fiber lazer guc kaynaklari",
+"sayfa": 490,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ERMAKSAN",
+"baslik": "3d eklemeli imalat makinesi enavision",
+"sayfa": 491,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ERMAKSAN",
+"baslik": "81 mm kamali havan sm 81 keskin havani",
+"sayfa": 492,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ERMAKSAN",
+"baslik": "fbg tabanli sensor",
+"sayfa": 493,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ERMAKSAN",
+"baslik": "lazer anti dron sistemi",
+"sayfa": 494,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ERMAKSAN",
+"baslik": "qcw dizgi lazer diyot modulu z shape",
+"sayfa": 495,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FEMSAN",
+"baslik": "hgk 2",
+"sayfa": 498,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FEMSAN",
+"baslik": "nefer",
+"sayfa": 499,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FEMSAN",
+"baslik": "sarp",
+"sayfa": 500,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FEMSAN",
+"baslik": "stop",
+"sayfa": 501,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FEMSAN",
+"baslik": "rcws 5",
+"sayfa": 502,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FEMSAN",
+"baslik": "alpar",
+"sayfa": 503,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FEMSAN",
+"baslik": "its",
+"sayfa": 504,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FEMSAN",
+"baslik": "teber pgm k",
+"sayfa": 505,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FEMSAN",
+"baslik": "umtas omtas",
+"sayfa": 506,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FEMSAN",
+"baslik": "atak ii",
+"sayfa": 507,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FNSS",
+"baslik": "fnss",
+"sayfa": 508,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FNSS",
+"baslik": "akinci zma",
+"sayfa": 510,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FNSS",
+"baslik": "caka ukk",
+"sayfa": 511,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FNSS",
+"baslik": "g lge suvari",
+"sayfa": 512,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FNSS",
+"baslik": "kaplan mt",
+"sayfa": 513,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FNSS",
+"baslik": "kaplan sta zma",
+"sayfa": 514,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FNSS",
+"baslik": "kundu amfibi irhli",
+"sayfa": 515,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FNSS",
+"baslik": "pars 4x4",
+"sayfa": 516,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FNSS",
+"baslik": "pars iii 8x8 ttza",
+"sayfa": 517,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FNSS",
+"baslik": "pars iv 8x8 yn t a",
+"sayfa": 518,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FNSS",
+"baslik": "pars i",
+"sayfa": 519,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FNSS",
+"baslik": "saber ukk",
+"sayfa": 520,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FNSS",
+"baslik": "teber 35 ukk",
+"sayfa": 521,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FNSS",
+"baslik": "aha",
+"sayfa": 522,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FORA GRUP SAVUNMA",
+"baslik": "fora grup savunma",
+"sayfa": 524,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FORA GRUP SAVUNMA",
+"baslik": "fora grup urun yelpazesi",
+"sayfa": 526,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FORA GRUP SAVUNMA",
+"baslik": "taktik medikal ekipmanlar",
+"sayfa": 527,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FOTONİKS",
+"baslik": "fotoniks",
+"sayfa": 528,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FOTONİKS",
+"baslik": "0d 250 optik iff flasor",
+"sayfa": 530,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FOTONİKS",
+"baslik": "atlas 2b kesif gozetleme sistemi",
+"sayfa": 531,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FOTONİKS",
+"baslik": "avci termal surus kamerasi",
+"sayfa": 532,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FOTONİKS",
+"baslik": "css savas",
+"sayfa": 533,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FOTONİKS",
+"baslik": "m g3 monokuler",
+"sayfa": 536,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FOTONİKS",
+"baslik": "orka 2 cok islevli",
+"sayfa": 537,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FOTONİKS",
+"baslik": "simsek optik iff sistemi",
+"sayfa": 538,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "FZK MÜHENDİSLİK",
+"baslik": "fzk muhendislik",
+"sayfa": 540,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FZK MÜHENDİSLİK",
+"baslik": "korkut kule mekanigi",
+"sayfa": 542,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FZK MÜHENDİSLİK",
+"baslik": "korhan kule mekanigi",
+"sayfa": 543,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FZK MÜHENDİSLİK",
+"baslik": "35 mm oerlikon top modernizasyonu",
+"sayfa": 544,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "FZK MÜHENDİSLİK",
+"baslik": "katlanabilir dingil sistemi",
+"sayfa": 545,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GARANTİ KOMPOZİT",
+"baslik": "garanti kompozit",
+"sayfa": 546,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GARANTİ KOMPOZİT",
+"baslik": "arac zirh cozumleri",
+"sayfa": 548,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "GARANTİ KOMPOZİT",
+"baslik": "balistik koruyucu basliklar",
+"sayfa": 549,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GARANTİ KOMPOZİT",
+"baslik": "balistik koruyucu kiyafetler",
+"sayfa": 550,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GARANTİ KOMPOZİT",
+"baslik": "balistik koruyucu yelekler",
+"sayfa": 551,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "GARANTİ KOMPOZİT",
+"baslik": "balistik olmayan kasklar",
+"sayfa": 552,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GARANTİ KOMPOZİT",
+"baslik": "helikopter kaski",
+"sayfa": 553,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GÖKSER ARGE",
+"baslik": "shelter iklimlendirme sistemi",
+"sayfa": 556,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "GÖKSER ARGE",
+"baslik": "simulator iklimlendirme sistemi",
+"sayfa": 557,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GÖKSER ARGE",
+"baslik": "tapa buster montaj hatti",
+"sayfa": 558,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GÜRBAĞ SAVUNMA",
+"baslik": "gurbag savunma",
+"sayfa": 560,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GÜRBAĞ SAVUNMA",
+"baslik": "gspt 0510",
+"sayfa": 562,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GÜRBAĞ SAVUNMA",
+"baslik": "gspt 40120",
+"sayfa": 563,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GÜRBAĞ SAVUNMA",
+"baslik": "gspt dual k",
+"sayfa": 564,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "GÜRBAĞ SAVUNMA",
+"baslik": "gspt oniks",
+"sayfa": 565,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GÜRDESAN",
+"baslik": "gurdesan",
+"sayfa": 566,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GÜRDESAN",
+"baslik": "a tipi bot mataforasi",
+"sayfa": 568,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "GÜRDESAN",
+"baslik": "denizde ikmal irgati",
+"sayfa": 570,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "GÜRDESAN",
+"baslik": "kavitasyon tuneli",
+"sayfa": 572,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "GÜRDESAN",
+"baslik": "sualti ve su ustu gemi",
+"sayfa": 574,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "GÜRDESAN",
+"baslik": "teleskopik vasita",
+"sayfa": 575,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "havelsan",
+"sayfa": 576,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "advent",
+"sayfa": 578,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "advent marti",
+"sayfa": 579,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "ages f 6 vmt",
+"sayfa": 580,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "a anahtari",
+"sayfa": 581,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "anti drone",
+"sayfa": 582,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "asger",
+"sayfa": 583,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "at trsim",
+"sayfa": 584,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "atis e itim simulat ru",
+"sayfa": 585,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "baha",
+"sayfa": 586,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "baris kartali",
+"sayfa": 587,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "bariyer dlp",
+"sayfa": 588,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "barkan",
+"sayfa": 589,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "dataflo",
+"sayfa": 590,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "deni alti bilgi da itim sistemi dbds",
+"sayfa": 591,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "diyalog",
+"sayfa": 592,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "drive",
+"sayfa": 593,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "ehtes",
+"sayfa": 594,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "ete3",
+"sayfa": 595,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "eyeminer",
+"sayfa": 596,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "gercek amanli isletim sistemi gis",
+"sayfa": 597,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "harmoni",
+"sayfa": 598,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "havelsan platform ve savas",
+"sayfa": 599,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "kalkan",
+"sayfa": 600,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "keskin nisan i",
+"sayfa": 601,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "matra sgrs",
+"sayfa": 602,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "odak",
+"sayfa": 603,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HAVELSAN",
+"baslik": "platform y netim sistemleri",
+"sayfa": 604,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HAVELSAN",
+"baslik": "tiges",
+"sayfa": 605,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HMS MAKİNA",
+"baslik": "hms makina",
+"sayfa": 606,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HST OTOMOTİV",
+"baslik": "x200 4b transmisyon",
+"sayfa": 610,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HST OTOMOTİV",
+"baslik": "x300 transmisyon",
+"sayfa": 611,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HTR",
+"baslik": "htr",
+"sayfa": 612,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "HTR",
+"baslik": "erisis",
+"sayfa": 614,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HTR",
+"baslik": "lazer aydinlatici",
+"sayfa": 615,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HTR",
+"baslik": "sezgi hareket tespit sensoru",
+"sayfa": 616,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HTR",
+"baslik": "tani gecis kontrol sistemi",
+"sayfa": 617,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HUĞLU",
+"baslik": "atrox ta ti yivsi pompali tufek",
+"sayfa": 620,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "HUĞLU",
+"baslik": "ovis bolt a tion u un men illi silah",
+"sayfa": 621,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "IDC SAVUNMA",
+"baslik": "idc savunma",
+"sayfa": 622,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "İŞBİR ELEKTRİK",
+"baslik": "taktik sessi kabinli enerat rler",
+"sayfa": 626,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "İŞBİR ELEKTRİK",
+"baslik": "alternat rler",
+"sayfa": 627,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "İŞBİR ELEKTRİK",
+"baslik": "askeri kombine enerat rler",
+"sayfa": 628,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "İŞBİR ELEKTRİK",
+"baslik": "marin enerat rler",
+"sayfa": 629,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KALEKALIP",
+"baslik": "kalekalip",
+"sayfa": 636,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KALEKALIP",
+"baslik": "kagl40 otomatik bombaatar",
+"sayfa": 638,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KALEKALIP",
+"baslik": "kcr739 piyade tufegi",
+"sayfa": 639,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KALEKALIP",
+"baslik": "kgl38 37 38 kalibre olumcul olmayan",
+"sayfa": 640,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KALEKALIP",
+"baslik": "kmr762 dmr",
+"sayfa": 641,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KALEKALIP",
+"baslik": "kmg556 makineli tufek",
+"sayfa": 642,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KALEKALIP",
+"baslik": "kng c5 piyade tufegi",
+"sayfa": 643,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KARDEMİR",
+"baslik": "kardemir",
+"sayfa": 644,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KARDEMİR",
+"baslik": "duz yuvarlak",
+"sayfa": 646,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KARDEMİR",
+"baslik": "kangal wire rod garrets bar in coils",
+"sayfa": 647,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KARDEMİR",
+"baslik": "platina",
+"sayfa": 648,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "KARDEMİR",
+"baslik": "demiryolu rayi",
+"sayfa": 649,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KAREL",
+"baslik": "karel",
+"sayfa": 650,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KATMERCİLER",
+"baslik": "katmerciler",
+"sayfa": 656,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KATMERCİLER",
+"baslik": "4x4 zirhli ambulans",
+"sayfa": 658,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KATMERCİLER",
+"baslik": "eren 4x4 meskun mahal mudahale araci",
+"sayfa": 659,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "KATMERCİLER",
+"baslik": "hizir 4x4 mayina karsi",
+"sayfa": 660,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KATMERCİLER",
+"baslik": "khan 4x4 zirhli personel tasiyici",
+"sayfa": 661,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KATMERCİLER",
+"baslik": "koruma kalkani",
+"sayfa": 662,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KATMERCİLER",
+"baslik": "nefer zirh sistemi",
+"sayfa": 663,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "KATMERCİLER",
+"baslik": "t o m a",
+"sayfa": 664,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KAYALAR",
+"baslik": "kayalar",
+"sayfa": 666,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KAYALAR",
+"baslik": "sahra mutfak",
+"sayfa": 668,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "KAYALAR",
+"baslik": "dorse mutfak",
+"sayfa": 669,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "KAYALAR",
+"baslik": "konteyner mutfak",
+"sayfa": 670,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KAYALAR",
+"baslik": "mutfak yardimci ekipmanlari",
+"sayfa": 671,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KAYALAR",
+"baslik": "buharli kaynatma kazani",
+"sayfa": 672,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KAYALAR",
+"baslik": "servis ekipmalari",
+"sayfa": 673,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KİM TEKNOLOJİ",
+"baslik": "balistik seramikler",
+"sayfa": 676,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "KİM TEKNOLOJİ",
+"baslik": "balistik yan plakalar",
+"sayfa": 677,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KOÇAK - SPEEDOL",
+"baslik": "kocak speedol",
+"sayfa": 678,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KOÇAK - SPEEDOL",
+"baslik": "askeri dizel motor yagi sae 15w40",
+"sayfa": 680,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KOÇAK - SPEEDOL",
+"baslik": "iki zamanli outboard motor yagi",
+"sayfa": 681,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KOÇAK - SPEEDOL",
+"baslik": "cok maksatli turbin yagi serisi",
+"sayfa": 685,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KOÇAK - SPEEDOL",
+"baslik": "kapali sistem disli yagi serisi",
+"sayfa": 686,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KOLUMAN",
+"baslik": "koluman",
+"sayfa": 688,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "KOLUMAN",
+"baslik": "akaryakit ikmal tankeri",
+"sayfa": 690,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "KOLUMAN",
+"baslik": "derman 8x8",
+"sayfa": 691,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "KZ MEKATRONİK",
+"baslik": "kz mekatronik",
+"sayfa": 694,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KZ MEKATRONİK",
+"baslik": "doldurulabilir sekilli sarj seti pusat",
+"sayfa": 696,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "KZ MEKATRONİK",
+"baslik": "mini mak",
+"sayfa": 697,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "LENTATEK",
+"baslik": "digital askeri saglik kiti",
+"sayfa": 700,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "LENTATEK",
+"baslik": "karayel insansiz hava araci ailesi",
+"sayfa": 701,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "105 mm boran havadan",
+"sayfa": 705,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "105 mm m68 t1 tank topu silah sistemi",
+"sayfa": 706,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "120 mm 55 kal altay tanki silah sistemi",
+"sayfa": 710,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "120 mm havan sistemi",
+"sayfa": 711,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "120 mm tank muhimmati",
+"sayfa": 712,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "120 mm tank",
+"sayfa": 713,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "130 mm milli chaff atici sistemi",
+"sayfa": 714,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "155 mm 52 kal silah sistemi",
+"sayfa": 715,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "155 mm moduler barut sistemi",
+"sayfa": 716,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "20 mm doner namlulu",
+"sayfa": 718,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "20 mmx110 fisegi",
+"sayfa": 719,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "21 mm ders atis roketi",
+"sayfa": 720,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "35 mm ucaksavar",
+"sayfa": 722,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "40 mm uzun",
+"sayfa": 723,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "40 mm x 53 yuksek hizli",
+"sayfa": 724,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "5 56 mm x 45 nato mke t 43",
+"sayfa": 725,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "5 56 mm x 45 nato t 50 otomatik tufek",
+"sayfa": 726,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "5 56 mmx45 fisek m193",
+"sayfa": 728,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "500 lb mk 82 t termobarik ucak bombasi",
+"sayfa": 729,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "60 mm havan muhimmati",
+"sayfa": 730,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "7 62 mmx51 ses alti fisek",
+"sayfa": 735,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "7 62 mmx63 buzgulu fisek",
+"sayfa": 736,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "81 mm havan muhimmati",
+"sayfa": 738,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "9 mm x 19 ap5 yari",
+"sayfa": 739,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "9 65 mm 38 cal",
+"sayfa": 743,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "e firtina hts firtina",
+"sayfa": 745,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "el bombalari",
+"sayfa": 746,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "elektronik yaklasim tapalari",
+"sayfa": 748,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "eyp 1",
+"sayfa": 749,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "iha muhimmatlari",
+"sayfa": 753,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "karticler ve squibler",
+"sayfa": 754,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "kuresel sevk barutlari",
+"sayfa": 756,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "m204 detonatoru",
+"sayfa": 757,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "milli deniz topu 76 62 mm",
+"sayfa": 758,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "mke mod53 roket tapasi",
+"sayfa": 762,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "mke termal kamera sistemi",
+"sayfa": 763,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "mke kacis maskesi",
+"sayfa": 764,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "mke yavuz obusu",
+"sayfa": 765,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "silah komplesi ve",
+"sayfa": 770,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "silindirik barutlar ve itki malzemesi",
+"sayfa": 771,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "tamgec mayinli sahalarda",
+"sayfa": 773,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "unl 10 x primer",
+"sayfa": 775,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "yhss yakin hava savunma sistemi",
+"sayfa": 776,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MAKİNA KİMYA ENDÜSTRİSİ – (MKE)",
+"baslik": "yuzey aydinlatma tuzagi",
+"sayfa": 777,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MDH MAKEL TEKNOLOJİ",
+"baslik": "mdh makel teknoloji",
+"sayfa": 778,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MDH MAKEL TEKNOLOJİ",
+"baslik": "kbrn filtrasyon sistemleri",
+"sayfa": 780,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MDH MAKEL TEKNOLOJİ",
+"baslik": "filtreler",
+"sayfa": 781,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MDH MAKEL TEKNOLOJİ",
+"baslik": "kbrn tespit teshis sistemleri",
+"sayfa": 782,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MDH MAKEL TEKNOLOJİ",
+"baslik": "iklimlendirme sistemleri",
+"sayfa": 783,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MDH MAKEL TEKNOLOJİ",
+"baslik": "yardimci guc sistemleri apu",
+"sayfa": 784,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MDH MAKEL TEKNOLOJİ",
+"baslik": "yardimci guc sistemleri jenerator",
+"sayfa": 785,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MECA METAL",
+"baslik": "meca metal",
+"sayfa": 786,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MEDEF SAVUNMA",
+"baslik": "uretimin son asamasinda her kapsul ustun kalite ve",
+"sayfa": 793,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MEDEF SAVUNMA",
+"baslik": "9x19 mm cekirdekleri",
+"sayfa": 794,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MEDEF SAVUNMA",
+"baslik": "5 56x45mm 223 rem cekirdekleri",
+"sayfa": 795,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MENATEK",
+"baslik": "menatek",
+"sayfa": 796,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MENATEK",
+"baslik": "amortisor",
+"sayfa": 798,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MENATEK",
+"baslik": "yon degistirici reduktor",
+"sayfa": 799,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MENATEK",
+"baslik": "aski kolu",
+"sayfa": 800,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MENATEK",
+"baslik": "burulma mili",
+"sayfa": 801,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MENATEK",
+"baslik": "hiz azaltan",
+"sayfa": 802,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MENATEK",
+"baslik": "naz rulmani",
+"sayfa": 803,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MENATEK",
+"baslik": "palet tertibati",
+"sayfa": 804,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MESAN",
+"baslik": "medar mts",
+"sayfa": 808,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MESAN",
+"baslik": "meka",
+"sayfa": 809,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MESAN",
+"baslik": "mepak",
+"sayfa": 810,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MESAN",
+"baslik": "mergen tim",
+"sayfa": 811,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MESAN",
+"baslik": "mkt st",
+"sayfa": 812,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MESAN",
+"baslik": "robotik platforma entegre mayin",
+"sayfa": 813,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "agnosis anti jam gnss",
+"sayfa": 816,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "alaca ka bant rka olcum sistemi",
+"sayfa": 817,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "dcsim yara savunma simulatoru",
+"sayfa": 818,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "ftsim yangin egitim simulatoru",
+"sayfa": 819,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "kapan dron savar sistemi",
+"sayfa": 820,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "mert tasinabilir elektronik taarruz sistemi",
+"sayfa": 821,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "merter sirt tipi taktik",
+"sayfa": 822,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "nazar lazer elektronik harp sistemi",
+"sayfa": 823,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "retinar aesa coklu gorev radari",
+"sayfa": 824,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "retinar ptr kara gozetleme radari",
+"sayfa": 825,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "ulaq 35 asuw",
+"sayfa": 826,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "METEKSAN SAVUNMA",
+"baslik": "yakamos 2020 karinaya",
+"sayfa": 827,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MICROINA",
+"baslik": "0 5 6 ghz 0 5w rf yukseltec modulu",
+"sayfa": 830,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MICROINA",
+"baslik": "100 3000 mhz sinyal uyumlandirma birimi",
+"sayfa": 831,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MICROINA",
+"baslik": "2 18 ghz sp3t rf",
+"sayfa": 832,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MICROINA",
+"baslik": "40 ghz faz kilitli",
+"sayfa": 833,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MIILUX OY",
+"baslik": "zirh celikleri",
+"sayfa": 836,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "MIILUX OY",
+"baslik": "asinma celikleri",
+"sayfa": 837,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MILSOFT",
+"baslik": "dds",
+"sayfa": 842,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MILSOFT",
+"baslik": "link m",
+"sayfa": 843,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MILSOFT",
+"baslik": "mil cds",
+"sayfa": 844,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MILSOFT",
+"baslik": "mil dlp",
+"sayfa": 845,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MILSOFT",
+"baslik": "mil intel",
+"sayfa": 846,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MILSOFT",
+"baslik": "pirimap",
+"sayfa": 847,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MİLKAB SAVUNMA",
+"baslik": "milkab savunma",
+"sayfa": 850,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MS SPEKTRAL",
+"baslik": "titan x yari sabit",
+"sayfa": 854,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MS SPEKTRAL",
+"baslik": "phantom x geri yansimali",
+"sayfa": 855,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MS SPEKTRAL",
+"baslik": "acikg",
+"sayfa": 856,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MS SPEKTRAL",
+"baslik": "vnir dusuk isik g runtuleme sistemi",
+"sayfa": 857,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "MS SPEKTRAL",
+"baslik": "iha d ner kanat burun kamerasi",
+"sayfa": 858,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "NETA COMMUNICATIONS",
+"baslik": "neta communications",
+"sayfa": 860,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "NETAŞ",
+"baslik": "netas",
+"sayfa": 862,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "NORM TECHNOLOGIES",
+"baslik": "agir silah muhimmatlari",
+"sayfa": 870,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "NORM TECHNOLOGIES",
+"baslik": "balistik koruyucu baslik",
+"sayfa": 871,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "NORM TECHNOLOGIES",
+"baslik": "hafif silah muhimmatlari",
+"sayfa": 872,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "NORM TECHNOLOGIES",
+"baslik": "yanmaz elbise",
+"sayfa": 875,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "NUROL MAKİNA",
+"baslik": "nurol makina",
+"sayfa": 876,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "NUROL MAKİNA",
+"baslik": "ejder kunter",
+"sayfa": 878,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "NUROL MAKİNA",
+"baslik": "ejder yalcin 4x4",
+"sayfa": 879,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "NUROL MAKİNA",
+"baslik": "ilgaz ii 4x4",
+"sayfa": 880,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "NUROL MAKİNA",
+"baslik": "yoruk nms 4x4",
+"sayfa": 881,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "NUROL TEKNOLOJİ",
+"baslik": "kara hava deniz araclari zirh panelleri",
+"sayfa": 884,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "NUROL TEKNOLOJİ",
+"baslik": "ileri teknik balistik seramikler",
+"sayfa": 885,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "NUROL TEKNOLOJİ",
+"baslik": "balistik koruyucu ayakli",
+"sayfa": 886,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "NUROL TEKNOLOJİ",
+"baslik": "balistik koruyucu gogus plakasi",
+"sayfa": 887,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "NUROL TEKNOLOJİ",
+"baslik": "balistik koruyucu yan plaka",
+"sayfa": 888,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "NUROL TEKNOLOJİ",
+"baslik": "yumusak balistik koruyucu ic ve",
+"sayfa": 889,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ONUR YÜKSEK TEKNOLOJİ (OYT)",
+"baslik": "ses haberlesme sistemi ocs ng4000",
+"sayfa": 892,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ONUR YÜKSEK TEKNOLOJİ (OYT)",
+"baslik": "iha ses haberlesme ve kayit sistemi ocs",
+"sayfa": 893,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ONUR YÜKSEK TEKNOLOJİ (OYT)",
+"baslik": "rugged rig rig 300r",
+"sayfa": 894,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ONUR YÜKSEK TEKNOLOJİ (OYT)",
+"baslik": "telsiz ip cevirici rig 300",
+"sayfa": 895,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ONUR YÜKSEK TEKNOLOJİ (OYT)",
+"baslik": "zaman dagitim sistemi ntsc 3000",
+"sayfa": 896,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ONUR YÜKSEK TEKNOLOJİ (OYT)",
+"baslik": "entegre taktik gorev",
+"sayfa": 897,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ONUR YÜKSEK TEKNOLOJİ (OYT)",
+"baslik": "insansiz deniz araci veri",
+"sayfa": 898,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ONUR YÜKSEK TEKNOLOJİ (OYT)",
+"baslik": "kablosuz iletisim modulu",
+"sayfa": 899,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ONUR YÜKSEK TEKNOLOJİ (OYT)",
+"baslik": "kablosuz iletisim modulu insansiz",
+"sayfa": 900,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ONUR YÜKSEK TEKNOLOJİ (OYT)",
+"baslik": "guvenli operator",
+"sayfa": 901,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "OTOKAR",
+"baslik": "akrep ii",
+"sayfa": 904,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "OTOKAR",
+"baslik": "arma 8x8",
+"sayfa": 906,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "OTOKAR",
+"baslik": "basok",
+"sayfa": 907,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "OTOKAR",
+"baslik": "cobra ii",
+"sayfa": 908,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "OTOKAR",
+"baslik": "isv",
+"sayfa": 909,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "OTOKAR",
+"baslik": "keskin",
+"sayfa": 910,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "OTOKAR",
+"baslik": "mizrak 30",
+"sayfa": 911,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "OTOKAR",
+"baslik": "tulpar",
+"sayfa": 912,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "OTOKAR",
+"baslik": "ural",
+"sayfa": 913,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ÖZTİRYAKİLER",
+"baslik": "banyo tuvalet treyleri",
+"sayfa": 916,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ÖZTİRYAKİLER",
+"baslik": "seyyar sahra firin unitesi",
+"sayfa": 918,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ÖZTİRYAKİLER",
+"baslik": "soguk hava unitesi",
+"sayfa": 919,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ÖZTİRYAKİLER",
+"baslik": "su aritma ve depolama unitesi",
+"sayfa": 920,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ÖZTİRYAKİLER",
+"baslik": "treyler tipi camasirhane",
+"sayfa": 921,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "PAGETEL",
+"baslik": "elektronik taarruz sistemi selteri",
+"sayfa": 924,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "PAGETEL",
+"baslik": "genisleyebilen selter",
+"sayfa": 925,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "PAGETEL",
+"baslik": "iha yer kontrol istasyonu",
+"sayfa": 926,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "PAGETEL",
+"baslik": "sahil guvenlik gozetleme",
+"sayfa": 927,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "PAPILON SAVUNMA",
+"baslik": "papilon savunma",
+"sayfa": 928,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "PAPILON SAVUNMA",
+"baslik": "papilon holistika",
+"sayfa": 930,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "PAPILON SAVUNMA",
+"baslik": "papilon papt 4114",
+"sayfa": 931,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "PAPILON SAVUNMA",
+"baslik": "papilon mt 07",
+"sayfa": 932,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "PAPILON SAVUNMA",
+"baslik": "papilon forensika bs",
+"sayfa": 934,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "PAPILON SAVUNMA",
+"baslik": "papilon pyuz snapface",
+"sayfa": 935,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "PROFEN",
+"baslik": "profen",
+"sayfa": 936,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "PROFEN",
+"baslik": "nspector g6p gercek zamanli",
+"sayfa": 938,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "PROFEN",
+"baslik": "prj wr90 i tipi doner birlestirici",
+"sayfa": 939,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "RAFF MILITARY TEXTILE",
+"baslik": "military",
+"sayfa": 944,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "RAFF MILITARY TEXTILE",
+"baslik": "anti riot robocop setler",
+"sayfa": 945,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "RAFF MILITARY TEXTILE",
+"baslik": "armalar",
+"sayfa": 946,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "RAFF MILITARY TEXTILE",
+"baslik": "cantalar",
+"sayfa": 947,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "RAFF MILITARY TEXTILE",
+"baslik": "migferler",
+"sayfa": 948,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "RAFF MILITARY TEXTILE",
+"baslik": "sapkalar",
+"sayfa": 949,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "REKROM OPTOELEKTRONİK",
+"baslik": "lasir 270 m2",
+"sayfa": 952,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "REKROM OPTOELEKTRONİK",
+"baslik": "lasir p",
+"sayfa": 953,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "REPKON",
+"baslik": "repkon",
+"sayfa": 954,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "REPKON",
+"baslik": "ozel tasarim uretim",
+"sayfa": 956,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "REPKON",
+"baslik": "seri uretim kabiliyeti",
+"sayfa": 957,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "RFTR",
+"baslik": "rftr",
+"sayfa": 958,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "roketsan",
+"sayfa": 960,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "105 155 mm obus muhimmati mesafece",
+"sayfa": 962,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "akya yeni nesil agir sinif torpido",
+"sayfa": 963,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "alka ag yetenekli silah",
+"sayfa": 964,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "atmaca gemisavar fuzesi",
+"sayfa": 965,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "barbaros kiyi savunma sistemi",
+"sayfa": 966,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "burc hava savunma fuze sistemi",
+"sayfa": 967,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "cirit lazer gudumlu fuze",
+"sayfa": 968,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "cakir seyir fuzesi",
+"sayfa": 969,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "dsh denizalti savunma harbi roketi",
+"sayfa": 970,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "hisar hava savunma fuzeleri a o rf d",
+"sayfa": 971,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "iha 122 havadan karaya balistik fuze",
+"sayfa": 972,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "kara atmaca karadan",
+"sayfa": 973,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "lacin gudum kiti ve lacin pod l pod",
+"sayfa": 974,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "levent yakin hava savunma fuze sistemi",
+"sayfa": 975,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "l omtas lazer gudumlu orta menzilli",
+"sayfa": 976,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "mam c mini akilli muhimmat",
+"sayfa": 977,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "mam l mini akilli muhimmat",
+"sayfa": 978,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "mam t mini akilli muhimmat",
+"sayfa": 979,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "midlas milli dikey atim lancer sistemi",
+"sayfa": 980,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "omtas orta menzilli tanksavar",
+"sayfa": 981,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "sungur hava savunma fuze sistemi",
+"sayfa": 983,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "t 107 122 cok namlulu roketatar",
+"sayfa": 984,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "taktik fuze silah sistemi",
+"sayfa": 985,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "tanok 120 mm lazer gudumlu",
+"sayfa": 986,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "temren",
+"sayfa": 987,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "trg 122 gudumlu roketi",
+"sayfa": 988,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "trg 300 fuzesi",
+"sayfa": 989,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ROKETSAN",
+"baslik": "trlg 230 fuzesi",
+"sayfa": 990,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "ROKETSAN",
+"baslik": "umtas uzun menzilli tanksavar",
+"sayfa": 991,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "RST",
+"baslik": "rst",
+"sayfa": 992,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "RST",
+"baslik": "gambi",
+"sayfa": 994,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "RST",
+"baslik": "doruk 2d 3d",
+"sayfa": 995,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "RST",
+"baslik": "karistirmaya dayanikli gps",
+"sayfa": 996,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "RST",
+"baslik": "kumetas",
+"sayfa": 997,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SARSILMAZ",
+"baslik": "sarsilmaz",
+"sayfa": 998,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SARSILMAZ",
+"baslik": "sar9 mete tabanca",
+"sayfa": 1000,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SARSILMAZ",
+"baslik": "kilinc 2000 mega tabanca",
+"sayfa": 1001,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SARSILMAZ",
+"baslik": "sar 109t makineli tabanca",
+"sayfa": 1002,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SARSILMAZ",
+"baslik": "sar 127 mt air makineli tufek",
+"sayfa": 1003,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SARSILMAZ",
+"baslik": "sar9 sp tabanca",
+"sayfa": 1005,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "savronik",
+"sayfa": 1006,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "1u endustriyel guc dagitim",
+"sayfa": 1008,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "anten kontrol unitesi",
+"sayfa": 1009,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "arayuz ve gosterge birimleri",
+"sayfa": 1010,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "askeri sistem donatimi",
+"sayfa": 1011,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "atis egitim simulatoru atesim",
+"sayfa": 1012,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SAVRONİK",
+"baslik": "aydinlatmali paneller",
+"sayfa": 1013,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "dimmer birimleri",
+"sayfa": 1014,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "elektronik zaman modulu ve",
+"sayfa": 1015,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "iot sensorler",
+"sayfa": 1017,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SAVRONİK",
+"baslik": "itmmix",
+"sayfa": 1018,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "kara ve deniz platformlari",
+"sayfa": 1019,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "kritik iletisim alt yapisi",
+"sayfa": 1020,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SAVRONİK",
+"baslik": "mobil mesh ag radyosu",
+"sayfa": 1021,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SAVRONİK",
+"baslik": "roket arayuz birimi",
+"sayfa": 1022,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "sinyal anahtarlama birimleri",
+"sayfa": 1023,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "uydu yer terminali",
+"sayfa": 1024,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SAVRONİK",
+"baslik": "uzaktan egitim",
+"sayfa": 1025,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SAVRONİK",
+"baslik": "veri link sistemleri",
+"sayfa": 1026,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SAVRONİK",
+"baslik": "yer veri terminali",
+"sayfa": 1027,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SDT",
+"baslik": "sdt",
+"sayfa": 1028,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SDT",
+"baslik": "acmi pod",
+"sayfa": 1030,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SDT",
+"baslik": "acmi pod data link sistemleri",
+"sayfa": 1031,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SDT",
+"baslik": "arac tipi rf karistirici sistemleri",
+"sayfa": 1032,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SDT",
+"baslik": "avci anti drone sistemi",
+"sayfa": 1033,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SDT",
+"baslik": "deniz platformlarina yonelik",
+"sayfa": 1034,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SDT",
+"baslik": "esm elint sistemi",
+"sayfa": 1035,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SDT",
+"baslik": "fuze atis kontrol unitesi",
+"sayfa": 1036,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SDT",
+"baslik": "gomulu egitim simulasyon",
+"sayfa": 1037,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SDT",
+"baslik": "sigint",
+"sayfa": 1040,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SEFİNE TERSANESİ",
+"baslik": "sefine tersanesi",
+"sayfa": 1044,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SEFİNE TERSANESİ",
+"baslik": "denizde ikmal muharebe destek gemisi",
+"sayfa": 1046,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SEFİNE TERSANESİ",
+"baslik": "marlin insansiz deniz araci",
+"sayfa": 1047,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SIMBT",
+"baslik": "goruntu ureteci simbt simrealize",
+"sayfa": 1050,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "SIMBT",
+"baslik": "buzlu denizlerde seyir simulatoru",
+"sayfa": 1055,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SIMBT",
+"baslik": "deniz kirliligi yayilma ve temizleme",
+"sayfa": 1056,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SPARK ÖLÇÜM TEKNOLOJİLERİ",
+"baslik": "elektronik test ve olcum cihazlarin",
+"sayfa": 1060,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "SPARK ÖLÇÜM TEKNOLOJİLERİ",
+"baslik": "elektronik test ve olcum",
+"sayfa": 1061,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "stm",
+"sayfa": 1062,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "STM",
+"baslik": "acik deniz karakol gemisi opv 1900 opv 2100",
+"sayfa": 1064,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "STM",
+"baslik": "aerotab",
+"sayfa": 1065,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "alpagut akilli dolanan",
+"sayfa": 1066,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "bilgi sistemleri entegrasyon cekirdegi",
+"sayfa": 1067,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "boyga havan muhimmati tasiyan",
+"sayfa": 1068,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "cythreat",
+"sayfa": 1069,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "dar",
+"sayfa": 1070,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "entegrasyon projeleri",
+"sayfa": 1071,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "focusflite as",
+"sayfa": 1072,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "gemed",
+"sayfa": 1073,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "hucumbot stm mpac",
+"sayfa": 1074,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "STM",
+"baslik": "is dunyasi harp oyunu stm thinktech",
+"sayfa": 1075,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "kargu muharebede kanitlanmis",
+"sayfa": 1076,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "kestirimci bakim",
+"sayfa": 1077,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "lojistik destek gemisi projesi",
+"sayfa": 1078,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "milgem ada sinifi korvet",
+"sayfa": 1079,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "STM",
+"baslik": "milgem i sinifi firkateyn",
+"sayfa": 1080,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "STM",
+"baslik": "microsatpro",
+"sayfa": 1081,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "nato air command",
+"sayfa": 1082,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "nato integration core int core",
+"sayfa": 1083,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "nlptoolkit",
+"sayfa": 1084,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "opsmet",
+"sayfa": 1085,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "pakistan denizde ikmal tankeri",
+"sayfa": 1086,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "pirisat nano uydu platformu otomatik",
+"sayfa": 1087,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "sahil guvenlik gemileri",
+"sayfa": 1088,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "section 50",
+"sayfa": 1089,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "simdes",
+"sayfa": 1090,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "stm dengiz ecdis stmdengiz wecdis",
+"sayfa": 1091,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "STM",
+"baslik": "sualti optik haberlesme sistemi",
+"sayfa": 1092,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "STM",
+"baslik": "tankom taktik saha komuta kontrol",
+"sayfa": 1093,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "test ve egitim gemisi projesi tcg ufuk a 591",
+"sayfa": 1094,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "STM",
+"baslik": "thinktech",
+"sayfa": 1095,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "STM",
+"baslik": "tugpa",
+"sayfa": 1096,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "STM",
+"baslik": "yeni tip denizalti projesi reis sinifi",
+"sayfa": 1097,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAAC",
+"baslik": "taac",
+"sayfa": 1098,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAAC",
+"baslik": "demir kus",
+"sayfa": 1100,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TAAC",
+"baslik": "inis takimi acma kapama eyleyi isi",
+"sayfa": 1101,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAAC",
+"baslik": "yardim i sistem eyleyi ileri",
+"sayfa": 1102,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAAC",
+"baslik": "ucus kontrol sistemi eyleyi ileri",
+"sayfa": 1103,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "tais shipyards",
+"sayfa": 1104,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "cpv 56",
+"sayfa": 1107,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "erdsb 52",
+"sayfa": 1108,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "erv 90",
+"sayfa": 1109,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "fac 33",
+"sayfa": 1110,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "fac 45",
+"sayfa": 1111,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "fpb 57",
+"sayfa": 1113,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "frigate 105",
+"sayfa": 1114,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "frigate 140",
+"sayfa": 1115,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "gmfpb 60",
+"sayfa": 1116,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "kaan 77",
+"sayfa": 1117,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "lcm 30",
+"sayfa": 1118,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "lct 53",
+"sayfa": 1119,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "lct 80",
+"sayfa": 1120,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "lhd 230",
+"sayfa": 1121,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "lpd 150",
+"sayfa": 1122,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "lsm 90",
+"sayfa": 1123,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "mpsrs 95",
+"sayfa": 1124,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "notc 28",
+"sayfa": 1125,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "opv 85",
+"sayfa": 1126,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TAIS SHIPYARDS",
+"baslik": "usv",
+"sayfa": 1127,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TDU SAVUNMA",
+"baslik": "tdu savunma",
+"sayfa": 1128,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TDU SAVUNMA",
+"baslik": "gozetleme balonu",
+"sayfa": 1130,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TDU SAVUNMA",
+"baslik": "mobil kamuflaj sistemi",
+"sayfa": 1131,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TDU SAVUNMA",
+"baslik": "multispektral gizleme agi",
+"sayfa": 1132,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TDU SAVUNMA",
+"baslik": "personel termal koruyucu",
+"sayfa": 1133,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TDU SAVUNMA",
+"baslik": "sahte hedefler",
+"sayfa": 1134,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TDU SAVUNMA",
+"baslik": "sisirilebilir mobil hangar",
+"sayfa": 1135,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEI",
+"baslik": "tei",
+"sayfa": 1136,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TEI",
+"baslik": "motor parca ve modul uretimi",
+"sayfa": 1138,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEI",
+"baslik": "tei pd170",
+"sayfa": 1139,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TEI",
+"baslik": "tei pg50s",
+"sayfa": 1140,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEI",
+"baslik": "tei tf6000",
+"sayfa": 1141,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEI",
+"baslik": "tei tj300",
+"sayfa": 1142,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEI",
+"baslik": "tei tj90u",
+"sayfa": 1143,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEKATRON",
+"baslik": "tekatron",
+"sayfa": 1144,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEKATRON",
+"baslik": "ugv",
+"sayfa": 1146,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEKATRON",
+"baslik": "palem",
+"sayfa": 1147,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEKNO",
+"baslik": "tekno",
+"sayfa": 1148,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEKNOKAR",
+"baslik": "teknokar",
+"sayfa": 1150,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEKNOKAR",
+"baslik": "iff blade antenna",
+"sayfa": 1154,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TEKNOKAR",
+"baslik": "3 way rf power divider",
+"sayfa": 1155,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEKNOKAR",
+"baslik": "2 3 ghz 2 7 ghz rf",
+"sayfa": 1156,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEKNOKAR",
+"baslik": "mini telemetry system",
+"sayfa": 1157,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEKOM",
+"baslik": "tekom",
+"sayfa": 1158,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TEKOM",
+"baslik": "zirhli arac aydinlatmalari",
+"sayfa": 1160,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TEKOM",
+"baslik": "askeri tip sinir anahtarlari",
+"sayfa": 1161,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TEKOM",
+"baslik": "askeri arac tavan lambalari",
+"sayfa": 1162,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TEKOM",
+"baslik": "guc dagitim kutulari",
+"sayfa": 1163,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TİSAŞ",
+"baslik": "tisas",
+"sayfa": 1164,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TİSAŞ",
+"baslik": "igana px 9 gen3 duty",
+"sayfa": 1166,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TİSAŞ",
+"baslik": "px 9 arry",
+"sayfa": 1167,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TİSAŞ",
+"baslik": "zig 14 sport",
+"sayfa": 1168,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TİSAŞ",
+"baslik": "zpt 556",
+"sayfa": 1169,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRANSVARO",
+"baslik": "fuzyon urunleri",
+"sayfa": 1172,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRANSVARO",
+"baslik": "gimbal urunleri",
+"sayfa": 1173,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRANSVARO",
+"baslik": "keskin nisanci tespit sistemleri",
+"sayfa": 1174,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRANSVARO",
+"baslik": "multi sensor sistemler",
+"sayfa": 1175,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TRANSVARO",
+"baslik": "radar jammer urunleri",
+"sayfa": 1176,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRANSVARO",
+"baslik": "termal silah nisangahlari",
+"sayfa": 1177,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TRMOTOR",
+"baslik": "trmotor",
+"sayfa": 1178,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRMOTOR",
+"baslik": "apu60",
+"sayfa": 1180,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRMOTOR",
+"baslik": "ess404",
+"sayfa": 1181,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRON ELEKTRONİK",
+"baslik": "trdb l 1 8 rf dagitim birimi 1 giris 8 cikis",
+"sayfa": 1184,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRON ELEKTRONİK",
+"baslik": "sgub 3000 0504 rf sinyal",
+"sayfa": 1185,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRON ELEKTRONİK",
+"baslik": "sugb 30 0402 rf sinyal",
+"sayfa": 1187,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRON ELEKTRONİK",
+"baslik": "trdf 6000 7 28 anten anahtarlama birimi",
+"sayfa": 1188,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRON ELEKTRONİK",
+"baslik": "trdf 1000 4 17 altbant",
+"sayfa": 1190,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TRTEST",
+"baslik": "trtest",
+"sayfa": 1194,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "tualcom elektronik",
+"sayfa": 1196,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "tualaj 4100 mini gps gnss anti jamming",
+"sayfa": 1198,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "tualaj 4500 d gps gnss anti jamming",
+"sayfa": 1199,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "tualaj 4200 mini gps gnss anti jamming",
+"sayfa": 1200,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "tualaj 8300 gps gnss anti jamming",
+"sayfa": 1201,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "anty gps gnss anti jamming sistemi",
+"sayfa": 1202,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "l band tdma mesh adhoc data link",
+"sayfa": 1203,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "butunlesik ve istiflenebilir veri toplama",
+"sayfa": 1204,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "telemetry vericileri",
+"sayfa": 1205,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "ucus sonlandirma alicisi",
+"sayfa": 1206,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "radar altimetre",
+"sayfa": 1207,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "esm elint alicisi",
+"sayfa": 1208,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TUALCOM ELEKTRONİK",
+"baslik": "kompakt dfd alicisi",
+"sayfa": 1209,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "a330 340 main landing gear trolley",
+"sayfa": 1212,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "aircraft engine",
+"sayfa": 1213,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "avionic tray",
+"sayfa": 1214,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "car on track",
+"sayfa": 1215,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "cna sokum takim destek",
+"sayfa": 1216,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "connectivity solution",
+"sayfa": 1217,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "dummy weight a320",
+"sayfa": 1218,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "genx 1b fan blade container",
+"sayfa": 1221,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "grinding tool b777",
+"sayfa": 1222,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "havacilik egitimleri",
+"sayfa": 1223,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "heat exchanger",
+"sayfa": 1224,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "mirrors",
+"sayfa": 1226,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "motor ve apu tamir",
+"sayfa": 1227,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "radome tasima tool u",
+"sayfa": 1229,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "safety valve test",
+"sayfa": 1230,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "tecrube ve yetki gerektiren ozel",
+"sayfa": 1231,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "test services",
+"sayfa": 1232,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "thrust reverser dolly wb",
+"sayfa": 1233,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "transformer rectifier power",
+"sayfa": 1234,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "ucak bakim",
+"sayfa": 1235,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TURKISH TECHNIC",
+"baslik": "vidaout",
+"sayfa": 1237,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "tubitak sage",
+"sayfa": 1238,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "ag anahtarlama karti",
+"sayfa": 1240,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "arayuz karti",
+"sayfa": 1241,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "bozdogan",
+"sayfa": 1242,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "camgoz",
+"sayfa": 1243,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "gokdogan",
+"sayfa": 1244,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "gozde",
+"sayfa": 1245,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "hgk 83",
+"sayfa": 1246,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "ifm 0120 islemci ve fpga modulu",
+"sayfa": 1247,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "kayi 30",
+"sayfa": 1249,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "kgk 82",
+"sayfa": 1250,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "konum 01 l1 l2 kks anteni",
+"sayfa": 1251,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "kuzgun ky",
+"sayfa": 1252,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "mihal",
+"sayfa": 1253,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "motor kontrol ve surucu karti",
+"sayfa": 1254,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "parm",
+"sayfa": 1255,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "sarb 83",
+"sayfa": 1256,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "sgn 150d",
+"sayfa": 1257,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "sgn 33p",
+"sayfa": 1258,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "som a",
+"sayfa": 1259,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "som b1",
+"sayfa": 1260,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "som j",
+"sayfa": 1261,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK SAGE",
+"baslik": "togan",
+"sayfa": 1262,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜBİTAK UME",
+"baslik": "tubitak ume",
+"sayfa": 1264,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK UME",
+"baslik": "atomik spin jiroskop",
+"sayfa": 1266,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜBİTAK UME",
+"baslik": "rubidyum atomik frekans standardi",
+"sayfa": 1267,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜMOSAN",
+"baslik": "tumosan",
+"sayfa": 1268,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜMOSAN",
+"baslik": "alp 1 guc grubu",
+"sayfa": 1270,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜMOSAN",
+"baslik": "askeri arac gosterge",
+"sayfa": 1271,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜMOSAN",
+"baslik": "marin tip guc grubu elektronik",
+"sayfa": 1273,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜMOSAN",
+"baslik": "marin tip guc grubu uzaktan",
+"sayfa": 1274,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜMOSAN",
+"baslik": "pusat",
+"sayfa": 1275,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜMOSAN",
+"baslik": "tmsn x5 4 motor",
+"sayfa": 1278,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜRK HAVACILIK UZAY SANAYİİ",
+"baslik": "aksungur",
+"sayfa": 1282,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜRK HAVACILIK UZAY SANAYİİ",
+"baslik": "anka iii",
+"sayfa": 1283,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜRK HAVACILIK UZAY SANAYİİ",
+"baslik": "gokturk 1 r",
+"sayfa": 1284,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜRK HAVACILIK UZAY SANAYİİ",
+"baslik": "gokturk 3",
+"sayfa": 1285,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜRK HAVACILIK UZAY SANAYİİ",
+"baslik": "hurjet",
+"sayfa": 1286,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜRK HAVACILIK UZAY SANAYİİ",
+"baslik": "kaan",
+"sayfa": 1287,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜRK HAVACILIK UZAY SANAYİİ",
+"baslik": "mikro uydu sistemi",
+"sayfa": 1288,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜRK HAVACILIK UZAY SANAYİİ",
+"baslik": "super simsek",
+"sayfa": 1289,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜRK HAVACILIK UZAY SANAYİİ",
+"baslik": "t129 atak",
+"sayfa": 1290,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "TÜRK HAVACILIK UZAY SANAYİİ",
+"baslik": "t929 atak ii",
+"sayfa": 1292,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "TÜRK HAVACILIK UZAY SANAYİİ",
+"baslik": "turksat 6a",
+"sayfa": 1293,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "UAVERA",
+"baslik": "uavera",
+"sayfa": 1296,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ULAK",
+"baslik": "ulak",
+"sayfa": 1298,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ULAK",
+"baslik": "32t32r radyo urunu",
+"sayfa": 1300,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ULAK",
+"baslik": "4 5g 5g baz istasyonu",
+"sayfa": 1301,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ULAK",
+"baslik": "4t4r radyo urunu",
+"sayfa": 1302,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ULAK",
+"baslik": "akilli sehir cozumleri",
+"sayfa": 1303,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ULAK",
+"baslik": "kamu guvenligi cozumleri",
+"sayfa": 1304,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ULAK",
+"baslik": "nms network management system",
+"sayfa": 1305,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "ULAK",
+"baslik": "solar sistem altyapi ile",
+"sayfa": 1306,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "UNIROBOTICS",
+"baslik": "unirobotics",
+"sayfa": 1308,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "UNIROBOTICS",
+"baslik": "trakon",
+"sayfa": 1310,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "UNIROBOTICS",
+"baslik": "trakon lite",
+"sayfa": 1311,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "military boots",
+"sayfa": 1318,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "volkan lion havaalani yangin sondurme",
+"sayfa": 1322,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "volkan merdivenli araclar",
+"sayfa": 1323,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "volkan endustriyel itfaiye araclari",
+"sayfa": 1324,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "volkan kurtarma araclari",
+"sayfa": 1325,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "yavuz firearms",
+"sayfa": 1326,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "yavuz 16 classic",
+"sayfa": 1329,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "yds",
+"sayfa": 1330,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "yds tekstil ve outdoor",
+"sayfa": 1332,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "yds teknik tekstil",
+"sayfa": 1333,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "personel parasutu",
+"sayfa": 1336,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "ucak freni parasutu",
+"sayfa": 1337,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "yiltex yelek grubu",
+"sayfa": 1340,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "yiltex kask grubu",
+"sayfa": 1342,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "yiltex eldiven",
+"sayfa": 1343,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "yba03 yiltex 3 gunluk saldiri paketi",
+"sayfa": 1344,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "diger urunler",
+"sayfa": 1345,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "yol bak",
+"sayfa": 1346,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "seyyar tamirhane",
+"sayfa": 1348,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "fuze firlatma platformlari",
+"sayfa": 1349,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "kendini kurtarma vinci",
+"sayfa": 1350,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "zirhli kabin",
+"sayfa": 1351,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "mrtp 34 fpb",
+"sayfa": 1354,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "mrtp15 fic",
+"sayfa": 1355,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "mrtp20 fic",
+"sayfa": 1356,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "mrtp29 c g boat",
+"sayfa": 1357,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "mrtp33 fpb",
+"sayfa": 1358,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "sancar ausv",
+"sayfa": 1359,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "zsr",
+"sayfa": 1360,
+"envanterde_ad_eslesmesi": true
+},
+{
+"firma": "VANEDA",
+"baslik": "12 7x99 mm",
+"sayfa": 1362,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "7 62x39 mm",
+"sayfa": 1363,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "9x19 mm luger ve parabellum",
+"sayfa": 1364,
+"envanterde_ad_eslesmesi": false
+},
+{
+"firma": "VANEDA",
+"baslik": "patlayicilar ve patlaticilar",
+"sayfa": 1365,
+"envanterde_ad_eslesmesi": false
+}
+]
+}
