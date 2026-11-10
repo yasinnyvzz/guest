@@ -4,17 +4,26 @@ import sys
 from PIL import Image, ImageDraw, ImageFont
 
 BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+CJK = "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"
+
+
+def _cjk(text):
+    return any("\u3040" <= ch <= "\u9fff" or "\uac00" <= ch <= "\ud7af" for ch in text)
 GOLD, NAVY1, NAVY2, WHITE = (201, 162, 74), (11, 22, 42), (22, 36, 60), (240, 244, 252)
 
 
 def wrap(draw, text, font, maxw, rtl):
     lines, cur = [], ""
-    for w in text.split():
-        t = (cur + " " + w).strip()
+    # Boşluksuz yazılarda (Çince vb.) karakter karakter böl
+    words = text.split() if not _cjk(text) else list(text)
+    sep = " " if not _cjk(text) else ""
+    for w in words:
+        t = (cur + sep + w).strip()
         if draw.textlength(t, font=font, direction="rtl" if rtl else None) <= maxw:
             cur = t
         else:
-            lines.append(cur)
+            if cur:
+                lines.append(cur)
             cur = w
     if cur:
         lines.append(cur)
@@ -34,12 +43,13 @@ def make(out, label, headline, brand="ENVANTER MEDYA", rtl=False):
         d.line([(0, y), (W, y)], fill=(24, 38, 62))
     d.rectangle([0, 0, W, 9], fill=GOLD)
     direction = "rtl" if rtl else None
-    lab = ImageFont.truetype(BOLD, 26)
+    font = CJK if _cjk(headline + label) else BOLD
+    lab = ImageFont.truetype(font, 26)
     d.text((W / 2, 150), label.upper() if not rtl else label, font=lab, fill=GOLD, anchor="mm", direction=direction)
     d.rectangle([W / 2 - 50, 185, W / 2 + 50, 189], fill=GOLD)
     size = 56
     while size > 30:
-        f = ImageFont.truetype(BOLD, size)
+        f = ImageFont.truetype(font, size)
         lines = wrap(d, headline, f, 960, rtl)
         if len(lines) <= 4:
             break
