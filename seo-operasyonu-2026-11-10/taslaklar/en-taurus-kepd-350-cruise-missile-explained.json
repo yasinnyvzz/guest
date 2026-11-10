@@ -1,0 +1,272 @@
+{
+  "decision": "NEW",
+  "update_post_id": null,
+  "content_type": "explainer",
+  "lang": "en",
+  "title": "Taurus KEPD 350 Explained: Range, Warhead, Operators and Taurus Neo",
+  "slug": "en-taurus-kepd-350-cruise-missile-explained",
+  "excerpt": "The Taurus KEPD 350 is a 1,400 kg German-Swedish bunker-busting cruise missile with a range of more than 500 km. Here is how it works, who flies it, what Taurus Neo will change and how it compares with Storm Shadow and JASSM-ER.",
+  "content_html": "<p>The Taurus KEPD 350 is a German-Swedish air-launched cruise missile built by TAURUS Systems GmbH, a joint venture of MBDA Deutschland and Saab Dynamics. It weighs about 1,400 kg, carries a 480 kg two-stage MEPHISTO warhead designed to break into bunkers, and its makers give its range as \"more than 500 km\". Germany, Spain and South Korea have operated it for years. Sweden is adding it to the Gripen, and in December 2025 Germany ordered production preparation for an upgraded Taurus Neo.</p>\n\n<h2>Who builds Taurus and what the name means</h2>\n<p>TAURUS Systems GmbH (TSG), based in Schrobenhausen, Bavaria, was founded in 1998 by MBDA Deutschland and Saab Dynamics and is the weapon's prime contractor and design authority; a Seoul subsidiary followed in 2014. The partners do not currently publish the split, but Saab's 2002 announcement of the German series order gave Saab 33% and EADS-LFK (later part of MBDA Deutschland) 67%.</p>\n<p>The Bundeswehr expands TAURUS as \"Target Adaptive Unitary and Dispenser Robotic Ubiquity System\" and KEPD as \"Kinetic Energy Penetrator and Destroyer\". The German journal ES&amp;T says \"350\" is an internal project number, not a range figure.</p>\n\n<h2>How the missile works</h2>\n<h3>Navigation that does not depend on GPS</h3>\n<p>MBDA's \"Tri-Tec\" package uses an inertial system updated by terrain-referenced navigation, image-based navigation (IBN) and GPS; TSG's factsheet adds an imaging infrared seeker and radar altimeter and markets the missile as GPS-independent. After release, Taurus drops, levels off and flies to the target at very low altitude, following the terrain.</p>\n<h3>MEPHISTO warhead and PIMPF fuze</h3>\n<p>MEPHISTO is a dual-stage warhead: a precharge clears the way for a kinetic penetrator built for hardened and deeply buried targets, with blast-and-fragmentation effect against area targets. The PIMPF programmable multi-purpose fuze counts layers and senses voids, so the penetrator can detonate on a floor chosen before launch.</p>\n<h3>Engine and speed</h3>\n<p>MBDA describes a high-thrust turbofan; German outlet hartpunkt identifies it as the US-built Williams P8300-15 and reports that a German alternative is being developed because of US export rules. Saab gives a speed of Mach 0.6–0.95.</p>\n\n<table>\n<thead><tr><th>Taurus KEPD 350</th><th>Specification</th></tr></thead>\n<tbody>\n<tr><td>Manufacturer</td><td>TAURUS Systems GmbH (MBDA Deutschland / Saab Dynamics)</td></tr>\n<tr><td>Range</td><td>More than 500 km (TSG, MBDA, Saab); Bundeswehr: \"up to 500 km\"</td></tr>\n<tr><td>Launch weight</td><td>1,400 kg (TSG, MBDA, Saab); Bundeswehr: 1.35 t</td></tr>\n<tr><td>Length / wingspan</td><td>5 m (MBDA); Bundeswehr: 5.1 m, span 2.06 m</td></tr>\n<tr><td>Warhead</td><td>480 kg two-stage MEPHISTO (Saab: 481 kg)</td></tr>\n<tr><td>Fuze</td><td>PIMPF, programmable, layer counting and void sensing</td></tr>\n<tr><td>Engine</td><td>Turbofan; Williams P8300-15 (hartpunkt)</td></tr>\n<tr><td>Speed</td><td>Subsonic, Mach 0.6–0.95 (Saab)</td></tr>\n<tr><td>Navigation</td><td>INS with terrain-referenced navigation, image-based navigation and GPS; IIR seeker, radar altimeter</td></tr>\n</tbody>\n</table>\n\n<h2>Launch platforms</h2>\n<ul>\n<li><strong>Tornado IDS (Germany):</strong> according to ES&amp;T, this is still the only Bundeswehr aircraft cleared to fire Taurus as of December 2025.</li>\n<li><strong>Eurofighter:</strong> carriage trials flown, but electronic integration not done as of 2019 (TSG). The BAAINBw says Taurus Neo will be integrated on the Eurofighter; Spain plans Taurus for its new Halcón Eurofighters, El Español reported, citing Infodefensa.</li>\n<li><strong>EF-18 Hornet (Spain):</strong> operational. TSG said in 2018 that Taurus had been in the Spanish inventory for ten years.</li>\n<li><strong>F-15K (South Korea):</strong> on 12 September 2017 an F-15K-launched Taurus flew about 400 km to hit a target in the Yellow Sea (TSG).</li>\n<li><strong>Gripen C/D (Sweden):</strong> first live launch from a Gripen C at Vidsel on 21 August 2026; TSG announced successful integration in September 2026. Operational use is tied to the MS20 Block 4 upgrade expected in 2028 (Defence Industry Europe); Gripen E later.</li>\n</ul>\n\n<h2>Operators and order history</h2>\n<table>\n<thead><tr><th>Operator</th><th>Aircraft</th><th>Reported quantity</th><th>Key dates</th></tr></thead>\n<tbody>\n<tr><td>Germany</td><td>Tornado IDS</td><td>600</td><td>Series contract August 2002 (about €570 million, per Saab); final delivery reported February 2011</td></tr>\n<tr><td>Spain</td><td>EF-18</td><td>43 (€57.3 million including integration, per El Español)</td><td>First export customer, 2005 decision; upgrade contract signed 26 September 2018, just under €30 million</td></tr>\n<tr><td>South Korea</td><td>F-15K</td><td>170 + 90</td><td>DAPA contract November 2013, deliveries from 2016; 90 more signed February 2018 (Defense News)</td></tr>\n<tr><td>Sweden</td><td>Gripen C/D</td><td>Not disclosed</td><td>FMV tasked in early 2025; missiles from German stocks delivered in November 2026</td></tr>\n</tbody>\n</table>\n<p>Sweden is the newest user: its Armed Forces' 2024 annual report said FMV had opened talks with Germany, with initial capability on the Gripen C planned for 2028. In November 2026 <a href=\"https://envantermedya.com/en/en-sweden-receives-taurus-kepd-350-from-german-stocks-gripen/\">Sweden took delivery of Taurus missiles from German stocks</a>, in an undisclosed quantity, giving the air force a deep-strike capability it had lacked (see <a href=\"https://envantermedya.com/en/en-sweden-military-inventory/\">Sweden's military strength</a>).</p>\n\n<h2>Taurus Neo: the next generation</h2>\n<p>In December 2024 Germany's procurement office BAAINBw awarded TSG a maintenance and modernisation contract to keep existing missiles in service into the 2040s; Saab's share was a SEK 1.7 billion order for 2025–2035. On 18 December 2025 the BAAINBw signed with TSG to prepare a series production line for Taurus Neo, to be procured through OCCAR so partner nations can join.</p>\n<p>No value was published. Hartpunkt reported that the Bundestag budget committee had approved about €450 million the day before, around €415 million for production preparation; a plan for 600 Neo missiles at roughly €2.1 billion, reported by Der Spiegel in October 2024, is not contracted. ES&amp;T says series production is planned from 2029. The goals – more range, better jamming resistance, improved seeker and navigation – are development targets, not proven capabilities. Spain will take part, defence minister Boris Pistorius said in August 2025, and Sweden plans Neo for the Gripen E. MBDA plans to invest €2.4 billion in 2025–2029 to expand production. A 2026 TSG flyer also promotes a \"TAURUS Mk4\" with \"700+ km\" range, without saying how it relates to the Neo order.</p>\n\n<h2>The Ukraine debate in Germany</h2>\n<p>Kyiv has repeatedly asked Berlin for Taurus, while Britain and France have supplied <a href=\"https://envantermedya.com/en/storm-shadow-scalp-eg-cruise-missile/\">Storm Shadow/SCALP-EG</a> since 2023. On 22 February 2024 the Bundestag rejected an opposition CDU/CSU motion that named Taurus, while approving a broader resolution on long-range weapons, AP reported. Chancellor Olaf Scholz said German soldiers \"must not be linked\" to the system's targets, arguing that targeting would need German personnel – a claim coalition critics disputed, The Irish Times reported. In March 2024 Russian state media published a leaked call in which Luftwaffe chief Ingo Gerhartz and other officers discussed Taurus.</p>\n<p>Friedrich Merz backed deliveries in opposition. As chancellor he told Tagesschau on 1 July 2025 that Taurus \"is and remains an option\", with training taking at least six months. On 25 March 2026 he told the Bundestag that Ukraine now has its own long-range systems that are \"significantly more effective than the relatively small number of Taurus cruise missiles we could provide\", n-tv reported. On 4 October 2026 President Volodymyr Zelensky said he had raised Taurus with Merz again; Berlin has announced no supply decision. Britain, by contrast, is <a href=\"https://envantermedya.com/en/en-uk-mbda-scalp-storm-shadow-classified-data-ukraine-assembly/\">sharing classified Storm Shadow data and an assembly line with Ukraine</a>.</p>\n\n<h2>Taurus vs Storm Shadow vs JASSM-ER</h2>\n<table>\n<thead><tr><th></th><th>Taurus KEPD 350</th><th>Storm Shadow / SCALP-EG</th><th>AGM-158B JASSM-ER</th></tr></thead>\n<tbody>\n<tr><td>Maker</td><td>TAURUS Systems (MBDA Deutschland / Saab)</td><td>MBDA</td><td>Lockheed Martin</td></tr>\n<tr><td>Published range</td><td>More than 500 km</td><td>\"In excess of 250 km\" (MBDA export datasheet); full range not disclosed</td><td>More than 500 nautical miles (about 925 km)</td></tr>\n<tr><td>Launch weight</td><td>1,400 kg</td><td>1,300 kg</td><td>About 1,021 kg (CSIS)</td></tr>\n<tr><td>Length</td><td>5–5.1 m</td><td>5.10 m</td><td>About 4.27 m (CSIS)</td></tr>\n<tr><td>Warhead</td><td>480 kg MEPHISTO, two-stage, layer-counting fuze</td><td>Tandem blast/penetrator; weight not disclosed by MBDA</td><td>1,000-lb class WDU-42/B penetrator</td></tr>\n<tr><td>Engine</td><td>Turbofan</td><td>Turbojet</td><td>Williams F107-WR-105 turbofan</td></tr>\n<tr><td>Guidance</td><td>INS, TRN, IBN, GPS; IIR seeker</td><td>INS, GPS, TRN; IIR seeker with target recognition</td><td>GPS/INS; IIR seeker</td></tr>\n<tr><td>Main aircraft</td><td>Tornado, EF-18, F-15K, Gripen C/D</td><td>Typhoon, Rafale, Mirage 2000, Tornado</td><td>B-1B, B-2, B-52H, F-15E, F-16</td></tr>\n</tbody>\n</table>\n<p>On published figures JASSM-ER reaches furthest. Taurus and Storm Shadow are close in size and both pair tandem warheads with infrared seekers; Taurus stands out for its floor-selecting fuze and GPS-independent navigation. MBDA's \"in excess of 250 km\" is a minimum, not a ceiling. Our <a href=\"https://envantermedya.com/en/en-lockheed-jassm-er-lrasm-826-million-contract-2026/\">report on Lockheed's JASSM-ER and LRASM contracts</a> covers the US missile's production ramp-up.</p>\n\n<h2>FAQ</h2>\n<h3>What is the range of the Taurus KEPD 350?</h3>\n<p>More than 500 km, according to TAURUS Systems, MBDA and Saab; the Bundeswehr says \"up to 500 km\". No exact figure is published.</p>\n<h3>Who makes the Taurus missile?</h3>\n<p>TAURUS Systems GmbH of Schrobenhausen, Germany, a 1998 joint venture of MBDA Deutschland and Saab Dynamics.</p>\n<h3>Which countries use the Taurus missile?</h3>\n<p>Germany (Tornado), Spain (EF-18) and South Korea (F-15K); Sweden is adding it to the Gripen C/D.</p>\n<h3>What is Taurus Neo?</h3>\n<p>The upgraded successor. Germany signed for a production line on 18 December 2025; series production is planned from 2029, with the Eurofighter as carrier.</p>\n<h3>Taurus vs Storm Shadow: what is the difference?</h3>\n<p>They are similar in size. Taurus has the higher published range (over 500 km vs MBDA's \"in excess of 250 km\") and a layer-counting bunker fuze; Storm Shadow is combat-proven, including in Ukraine.</p>\n<h3>Has Germany sent Taurus to Ukraine?</h3>\n<p>No. In March 2026 Chancellor Merz said Ukraine no longer needs it. Kyiv continues to ask.</p>\n\n<h2>Sources</h2>\n<ul>\n<li><a href=\"https://taurus-systems.de/company/\">TAURUS Systems – Company</a></li>\n<li><a href=\"https://taurus-systems.de/wp-content/uploads/2025/04/Taurus-Flyer-A5-en_sm_250408.pdf\">TAURUS Systems – KEPD 350 factsheet (2025)</a></li>\n<li><a href=\"https://taurus-systems.de/wp-content/uploads/2026/07/G26_TSAG_M001_Flyer_140x210mm_v07_4_web-1.pdf\">TAURUS Systems – TAURUS Mk4 flyer (2026)</a></li>\n<li><a href=\"https://taurus-systems.de/successful-taurus-integration-onto-gripen/\">TAURUS Systems – Integration onto Gripen (Sept 2026)</a></li>\n<li><a href=\"https://taurus-systems.de/south-korea-announces-successful-missile-test-firing/\">TAURUS Systems – South Korea test firing (2017)</a></li>\n<li><a href=\"https://taurus-systems.de/taurus-systems-gmbh-signs-contract-with-spanish-ministry-of-defence/\">TAURUS Systems – Spanish MoD contract (2018)</a></li>\n<li><a href=\"https://taurus-systems.de/prazisionsbewaffnung-mit-perspektive/\">TAURUS Systems / ES&amp;T – Eurofighter and F/A-18 adaptability (2019)</a></li>\n<li><a href=\"https://www.mbda-deutschland.de/wp-content/uploads/2018/03/Taurus-e-18.pdf\">MBDA Deutschland – TAURUS KEPD 350 brochure</a></li>\n<li><a href=\"https://www.mbda-systems.com/mbda-jv-receives-taurus-neo-contract-strengthen-deep-strike-capabilities\">MBDA – TAURUS NEO contract (Dec 2025)</a></li>\n<li><a href=\"https://www.mbda-systems.com/media/19203/download\">MBDA – Storm Shadow/SCALP datasheet</a></li>\n<li><a href=\"https://www.saab.com/products/taurus-kepd-350\">Saab – TAURUS KEPD 350</a></li>\n<li><a href=\"https://www.saab.com/newsroom/press-releases/2025/saab-receives-order-for-taurus-kepd-350-sub-components\">Saab – SEK 1.7bn order (Mar 2025)</a></li>\n<li><a href=\"https://www.saab.com/newsroom/press-releases/2002/saab-receives-sek-500-million-order-for-aircraft-weapons-to-germany\">Saab – German series order (Aug 2002)</a></li>\n<li><a href=\"https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/ausruestung-bewaffnung/marschflugkoerper-taurus-kepd-350\">Bundeswehr – Marschflugkörper Taurus KEPD 350</a></li>\n<li><a href=\"https://esut.de/en/2025/12/meldungen/66515/serienvorbereitung-fuer-die-modulare-abstandswaffe-taurus-neo/\">ES&amp;T – Series preparation for Taurus Neo (Dec 2025)</a></li>\n<li><a href=\"https://www.hartpunkt.de/taurus-neo-beschaffung-laeuft-ueber-die-occar/\">hartpunkt – Taurus Neo procurement via OCCAR (Dec 2025)</a></li>\n<li><a href=\"https://defence-network.com/taurus-neo-vertrag-schlagkraft-eurofighter/\">defence-network – Taurus Neo contract (Dec 2025)</a></li>\n<li><a href=\"https://www.defensenews.com/global/asia-pacific/2018/03/13/south-korea-quietly-orders-90-more-taurus-bunker-busting-missiles/\">Defense News – South Korea orders 90 more Taurus (Mar 2018)</a></li>\n<li><a href=\"https://www.australiandefence.com.au/news/news-review-mbda-delivers-600th-taurus-kepd-350-to-the-luftwaffe-adm-feb-2011\">Australian Defence Magazine – 600th Taurus delivered (Feb 2011)</a></li>\n<li><a href=\"https://elespanol.com/omicrono/defensa-y-espacio/20240508/taurus-nuevo-misil-crucero-cazas-eurofighter-espanoles-km-alcance-kmh/851664915_0.html\">El Español – Spain's Taurus and Halcón Eurofighters (May 2024)</a></li>\n<li><a href=\"https://theaviationist.com/2025/02/28/sweden-taurus-kepd-350-gripen/\">The Aviationist – Sweden to acquire Taurus (Feb 2025)</a></li>\n<li><a href=\"https://theaviationist.com/2026/08/21/swedish-gripen-launch-taurus-missile/\">The Aviationist – First Gripen Taurus launch (Aug 2026)</a></li>\n<li><a href=\"https://defence-industry.eu/sweden-receives-taurus-cruise-missiles-from-germany-ahead-of-planned-2028-gripen-c-d-upgrade\">Defence Industry Europe – Sweden receives Taurus (Nov 2026)</a></li>\n<li><a href=\"https://gazette.com/?p=845688\">AP via The Gazette – Taurus and the leaked audio (Mar 2024)</a></li>\n<li><a href=\"https://www.irishtimes.com/world/europe/2024/02/27/scholz-under-pressure-after-blocking-taurus-cruise-missile-delivery-to-ukraine\">The Irish Times – Scholz blocks Taurus (Feb 2024)</a></li>\n<li><a href=\"https://kyivindependent.com/germany-still-weighing-taurus-missile-supply-to-ukraine-merz-says/\">Kyiv Independent – Merz on Taurus (Jul 2025)</a></li>\n<li><a href=\"https://united24media.com/latest-news/merz-flags-taurus-missiles-redundant-amid-ukraines-weapons-breakthrough-17278\">UNITED24 Media, citing n-tv – Merz in the Bundestag (Mar 2026)</a></li>\n<li><a href=\"https://ua.news/en/ukraine/zelenskii-obgovoriuvav-iz-mertsom-peredachu-ukrayini-raket-taurus\">UA.News – Zelensky on Taurus talks with Merz (Oct 2026)</a></li>\n<li><a href=\"https://news.lockheedmartin.com/2018-02-06-Lockheed-Martins-JASSM-R-ER-Declared-Operational-on-F-15E-Strike-Eagle\">Lockheed Martin – JASSM-ER operational on F-15E (Feb 2018)</a></li>\n<li><a href=\"https://www.airandspaceforces.com/weapons/agm-158-jassm/\">Air &amp; Space Forces Magazine – AGM-158 JASSM</a></li>\n<li><a href=\"https://missilethreat.csis.org/missile/jassm/\">CSIS Missile Threat – JASSM / JASSM-ER</a></li>\n</ul>\n<p><em>Last updated: 10 November 2026</em></p>",
+  "rank_math_title": "Taurus KEPD 350: Range, Warhead, Operators & Taurus Neo",
+  "rank_math_description": "Taurus KEPD 350 explained: German-Swedish cruise missile with 500+ km range and 480 kg MEPHISTO warhead, its operators, Taurus Neo and Storm Shadow compared.",
+  "rank_math_focus_keyword": "taurus kepd 350",
+  "target_query": "taurus kepd 350",
+  "secondary_queries": [
+    "taurus missile range",
+    "taurus kepd 350 range",
+    "taurus vs storm shadow",
+    "taurus neo",
+    "which countries use taurus missile"
+  ],
+  "demand_evidence": "GSC, last 24h to 10 Nov 2026: \"taurus kepd 350\" 177 impressions @6.9, 0 clicks. Envanter EN only has a news story (https://envantermedya.com/en/en-sweden-receives-taurus-kepd-350-from-german-stocks-gripen/, 9 Nov 2026, 267 impr). Turkish explainer exists: https://envantermedya.com/taurus-kepd-350-stand-off-seyir-fuzesi/",
+  "category_hint": "Savunma Sözlüğü / Hava",
+  "sources": [
+    {
+      "name": "TAURUS Systems – Company page",
+      "url": "https://taurus-systems.de/company/",
+      "date": "n/a",
+      "supports": "Founded 1998 by MBDA Deutschland and Saab Dynamics; prime contractor/design authority; Korean subsidiary 2014; Schrobenhausen HQ (contact page)"
+    },
+    {
+      "name": "TAURUS Systems – KEPD 350 factsheet",
+      "url": "https://taurus-systems.de/wp-content/uploads/2025/04/Taurus-Flyer-A5-en_sm_250408.pdf",
+      "date": "2025-04-08",
+      "supports": "Range >500 km, 1,400 kg, 480 kg warhead, INS/GPS/IIR seeker/radar altimeter, GPS-independent, layer-counting fuze, platforms"
+    },
+    {
+      "name": "TAURUS Systems – TAURUS Mk4 flyer",
+      "url": "https://taurus-systems.de/wp-content/uploads/2026/07/G26_TSAG_M001_Flyer_140x210mm_v07_4_web-1.pdf",
+      "date": "2026-07",
+      "supports": "Mk4 'next generation', 700+ km claim"
+    },
+    {
+      "name": "TAURUS Systems – Successful TAURUS integration onto Gripen",
+      "url": "https://taurus-systems.de/successful-taurus-integration-onto-gripen/",
+      "date": "2026-09-24",
+      "supports": "Gripen integration completed"
+    },
+    {
+      "name": "TAURUS Systems – South Korea test firing",
+      "url": "https://taurus-systems.de/south-korea-announces-successful-missile-test-firing/",
+      "date": "2017-10-10",
+      "supports": "12 Sep 2017 F-15K firing ~400 km; DAPA contract Nov 2013; deliveries since 2016"
+    },
+    {
+      "name": "TAURUS Systems – Spanish MoD contract",
+      "url": "https://taurus-systems.de/taurus-systems-gmbh-signs-contract-with-spanish-ministry-of-defence/",
+      "date": "2018-10-08",
+      "supports": "26 Sep 2018 contract just under €30m; EF-18; 10 years in Spanish inventory"
+    },
+    {
+      "name": "TAURUS Systems (ES&T reprint) – Präzisionsbewaffnung mit Perspektive",
+      "url": "https://taurus-systems.de/prazisionsbewaffnung-mit-perspektive/",
+      "date": "2019-04-09",
+      "supports": "Eurofighter carriage trials, no electronic integration (2019)"
+    },
+    {
+      "name": "MBDA Deutschland – TAURUS KEPD 350 brochure",
+      "url": "https://www.mbda-deutschland.de/wp-content/uploads/2018/03/Taurus-e-18.pdf",
+      "date": "2018-04",
+      "supports": "MEPHISTO dual-stage warhead, PIMPF fuze, Tri-Tec navigation (INS+TRN+IBN+GPS), turbofan, 5 m, 1,400 kg, 480 kg, platforms Tornado/EF-18/F-15K"
+    },
+    {
+      "name": "MBDA – MBDA JV receives TAURUS NEO contract",
+      "url": "https://www.mbda-systems.com/mbda-jv-receives-taurus-neo-contract-strengthen-deep-strike-capabilities",
+      "date": "2025-12-18",
+      "supports": "18 Dec 2025 BAAINBw contract; €2.4bn MBDA investment 2025–2029; Dec 2024 modernisation contract"
+    },
+    {
+      "name": "MBDA – Storm Shadow/SCALP datasheet",
+      "url": "https://www.mbda-systems.com/media/19203/download",
+      "date": "2019-03",
+      "supports": "1,300 kg, 5.10 m, turbojet, INS/GPS/TRN, IIR seeker/ATR, blast/penetrator, range in excess of 250 km, platforms"
+    },
+    {
+      "name": "Saab – TAURUS KEPD 350 product page",
+      "url": "https://www.saab.com/products/taurus-kepd-350",
+      "date": "n/a",
+      "supports": "481 kg MEPHISTO, Mach 0.6–0.95, >500 km, 1,400 kg, 5 m"
+    },
+    {
+      "name": "Saab – Saab receives order for TAURUS KEPD 350 sub-components",
+      "url": "https://www.saab.com/newsroom/press-releases/2025/saab-receives-order-for-taurus-kepd-350-sub-components",
+      "date": "2025-03-03",
+      "supports": "SEK 1.7bn, 2025–2035 modernisation/maintenance"
+    },
+    {
+      "name": "Saab – SEK 500 million order for aircraft weapons to Germany",
+      "url": "https://www.saab.com/newsroom/press-releases/2002/saab-receives-sek-500-million-order-for-aircraft-weapons-to-germany",
+      "date": "2002-08-09",
+      "supports": "600 missiles, ~€570m German order, Saab 33% / EADS-LFK 67%"
+    },
+    {
+      "name": "Bundeswehr – Marschflugkörper Taurus KEPD 350",
+      "url": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/ausruestung-bewaffnung/marschflugkoerper-taurus-kepd-350",
+      "date": "2019-10-02",
+      "supports": "Name expansions TAURUS/KEPD; up to 500 km; 1.35 t; 5.1 m; span 2.06 m; four navigation systems; launch profile"
+    },
+    {
+      "name": "ES&T – Serienvorbereitung für die modulare Abstandswaffe Taurus Neo",
+      "url": "https://esut.de/en/2025/12/meldungen/66515/serienvorbereitung-fuer-die-modulare-abstandswaffe-taurus-neo/",
+      "date": "2025-12-22",
+      "supports": "'350' internal project number; Tornado only cleared Bundeswehr platform; series production from 2029; Neo goals; Spain/Sweden upgrades; into 2040s"
+    },
+    {
+      "name": "hartpunkt – TAURUS NEO: Beschaffung läuft über die OCCAR",
+      "url": "https://www.hartpunkt.de/taurus-neo-beschaffung-laeuft-ueber-die-occar/",
+      "date": "2025-12-18",
+      "supports": "~€450m/€415m budget approval (informed circles); OCCAR; Spiegel 600/€2.1bn; Williams P8300-15; German engine; Eurofighter; Spain (Pistorius 28 Aug 2025)"
+    },
+    {
+      "name": "defence-network – Taurus Neo Vertrag",
+      "url": "https://defence-network.com/taurus-neo-vertrag-schlagkraft-eurofighter/",
+      "date": "2025-12-18",
+      "supports": "Contract value undisclosed; Neo for Eurofighter; current missiles Tornado-only"
+    },
+    {
+      "name": "Defense News – South Korea quietly orders 90 more Taurus",
+      "url": "https://www.defensenews.com/global/asia-pacific/2018/03/13/south-korea-quietly-orders-90-more-taurus-bunker-busting-missiles/",
+      "date": "2018-03-13",
+      "supports": "170 ordered 2013; 90 more Feb 2018, DAPA spokesman"
+    },
+    {
+      "name": "Australian Defence Magazine – MBDA delivers 600th Taurus",
+      "url": "https://www.australiandefence.com.au/news/news-review-mbda-delivers-600th-taurus-kepd-350-to-the-luftwaffe-adm-feb-2011",
+      "date": "2011-02-01",
+      "supports": "600th and final German missile delivered"
+    },
+    {
+      "name": "El Español – Taurus and Spanish Eurofighters",
+      "url": "https://elespanol.com/omicrono/defensa-y-espacio/20240508/taurus-nuevo-misil-crucero-cazas-eurofighter-espanoles-km-alcance-kmh/851664915_0.html",
+      "date": "2024-05-08",
+      "supports": "43 missiles, €57.3m incl. F-18 integration; Halcón integration (citing Infodefensa); 2005 contract"
+    },
+    {
+      "name": "Flight Global – Spain to place first export order for Taurus",
+      "url": "https://www.flightglobal.com/spain-to-place-first-export-order-for-taurus-missile/61553.article",
+      "date": "2005-07-05",
+      "supports": "Spain first export customer, EF-18/Eurofighter"
+    },
+    {
+      "name": "The Aviationist – Sweden to acquire Taurus KEPD-350",
+      "url": "https://theaviationist.com/2025/02/28/sweden-taurus-kepd-350-gripen/",
+      "date": "2025-02-28",
+      "supports": "FMV talks with Germany, Saab integration studies, IOC Gripen C 2028 (Försvarsmakten annual report 2024)"
+    },
+    {
+      "name": "The Aviationist – Swedish Gripen launches Taurus for first time",
+      "url": "https://theaviationist.com/2026/08/21/swedish-gripen-launch-taurus-missile/",
+      "date": "2026-08-21",
+      "supports": "First live launch, Vidsel, Gripen C"
+    },
+    {
+      "name": "Defence Industry Europe – Sweden receives Taurus from Germany",
+      "url": "https://defence-industry.eu/sweden-receives-taurus-cruise-missiles-from-germany-ahead-of-planned-2028-gripen-c-d-upgrade",
+      "date": "2026-11-09",
+      "supports": "Delivery from German stocks (Dagens Industri/FMV); MS20 Block 4 2028; Neo for Gripen E"
+    },
+    {
+      "name": "AP via The Gazette – A look at Taurus missiles",
+      "url": "https://gazette.com/?p=845688",
+      "date": "2024-03-04",
+      "supports": "22 Feb 2024 Bundestag vote; leaked Gerhartz call (19 Feb); Scholz quotes; UK/France supply"
+    },
+    {
+      "name": "The Irish Times – Scholz under pressure after blocking Taurus",
+      "url": "https://www.irishtimes.com/world/europe/2024/02/27/scholz-under-pressure-after-blocking-taurus-cruise-missile-delivery-to-ukraine",
+      "date": "2024-02-27",
+      "supports": "Scholz targeting argument; Strack-Zimmermann rebuttal"
+    },
+    {
+      "name": "Kyiv Independent – Germany still weighing Taurus, Merz says",
+      "url": "https://kyivindependent.com/germany-still-weighing-taurus-missile-supply-to-ukraine-merz-says/",
+      "date": "2025-07-02",
+      "supports": "Merz Tagesschau 1 Jul 2025: 'is and remains an option', training ≥6 months"
+    },
+    {
+      "name": "UNITED24 Media (citing n-tv) – Merz flags Taurus redundant",
+      "url": "https://united24media.com/latest-news/merz-flags-taurus-missiles-redundant-amid-ukraines-weapons-breakthrough-17278",
+      "date": "2026-03-25",
+      "supports": "Merz Bundestag quote 25 Mar 2026"
+    },
+    {
+      "name": "UA.News – Zelensky discussed Taurus with Merz",
+      "url": "https://ua.news/en/ukraine/zelenskii-obgovoriuvav-iz-mertsom-peredachu-ukrayini-raket-taurus",
+      "date": "2026-10-04",
+      "supports": "Zelensky raised Taurus with Merz"
+    },
+    {
+      "name": "Lockheed Martin – JASSM-ER declared operational on F-15E",
+      "url": "https://news.lockheedmartin.com/2018-02-06-Lockheed-Martins-JASSM-R-ER-Declared-Operational-on-F-15E-Strike-Eagle",
+      "date": "2018-02-06",
+      "supports": "JASSM-ER range >500 nautical miles; platforms"
+    },
+    {
+      "name": "Air & Space Forces Magazine – AGM-158 JASSM",
+      "url": "https://www.airandspaceforces.com/weapons/agm-158-jassm/",
+      "date": "n/a",
+      "supports": "1,000-lb class penetrator, Williams F107-WR-105 turbofan, GPS/INS + IIR, platforms"
+    },
+    {
+      "name": "CSIS Missile Threat – JASSM",
+      "url": "https://missilethreat.csis.org/missile/jassm/",
+      "date": "2024-04-23",
+      "supports": "JASSM-ER launch weight ~1,021 kg, length ~4.27 m, WDU-42/B"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://envantermedya.com/en/en-sweden-receives-taurus-kepd-350-from-german-stocks-gripen/",
+      "anchor": "Sweden took delivery of Taurus missiles from German stocks"
+    },
+    {
+      "url": "https://envantermedya.com/en/en-sweden-military-inventory/",
+      "anchor": "Sweden's military strength"
+    },
+    {
+      "url": "https://envantermedya.com/en/storm-shadow-scalp-eg-cruise-missile/",
+      "anchor": "Storm Shadow/SCALP-EG"
+    },
+    {
+      "url": "https://envantermedya.com/en/en-uk-mbda-scalp-storm-shadow-classified-data-ukraine-assembly/",
+      "anchor": "sharing classified Storm Shadow data and an assembly line with Ukraine"
+    },
+    {
+      "url": "https://envantermedya.com/en/en-lockheed-jassm-er-lrasm-826-million-contract-2026/",
+      "anchor": "report on Lockheed's JASSM-ER and LRASM contracts"
+    }
+  ],
+  "hreflang_equivalents": {
+    "tr": "https://envantermedya.com/taurus-kepd-350-stand-off-seyir-fuzesi/",
+    "en": null,
+    "es": null,
+    "ar": null,
+    "ru": null
+  },
+  "image": {
+    "type": "cc_photo",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Taurus_KEPD_350.jpg",
+    "direct_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Taurus_KEPD_350.jpg",
+    "licence": "CC BY-SA 3.0 Unported (dual-licensed with GFDL 1.2+); attribution and share-alike required",
+    "credit": "Photo: SKopp / Wikimedia Commons, CC BY-SA 3.0 (retouched version by Jonnmann, 2023)",
+    "alt": "Taurus KEPD 350 cruise missile displayed on a stand beneath the wing of a Eurofighter Typhoon at the ILA air show in Berlin, 2004"
+  },
+  "last_updated_note": "'Last updated: 10 November 2026' line is included at the end of content_html",
+  "word_count": 1466,
+  "verification_notes": [
+    "Ownership split 67% MBDA Deutschland / 33% Saab is sourced only to Saab's 2002 press release (EADS-LFK 67%, Saab Bofors Dynamics 33%); no current official source states the split, so the text presents it as the 2002 figure.",
+    "Weight/length differ by source: TSG/MBDA/Saab 1,400 kg and 5 m vs Bundeswehr 1.35 t and 5.1 m; warhead 480 kg (TSG/MBDA) vs 481 kg (Saab). Both shown.",
+    "Engine: MBDA brochure says turbofan; Saab product page says 'turbojet'. The Williams P8300-15 designation comes from hartpunkt (not a manufacturer source). The text uses turbofan + hartpunkt attribution.",
+    "MEPHISTO acronym expansion was not found in a primary source and was deliberately left out. PIMPF is given as MBDA writes it ('programmable multi-purpose fuze').",
+    "Taurus Neo contract (18 Dec 2025) value is undisclosed; the ~€450m/€415m budget-committee figure is hartpunkt citing informed circles; 600 missiles/€2.1bn is a Der Spiegel (Oct 2024) report, not a contract.",
+    "'TAURUS Mk4' (TSG flyer, 2026, 700+ km) – its relationship to TAURUS NEO is not confirmed (OCCAR's Taurus Neo page returned 403). Treated as a company marketing claim.",
+    "Spain quantity (43) and cost (€57.3m) are from El Español (2024); Spanish MoD original not opened. El Español also says the MoD reported 39 units in 2018 – not used.",
+    "South Korea 170 + 90 from Defense News (2018); no DAPA press release exists for the 2018 contract (per Defense News).",
+    "Merz 25 Mar 2026 Bundestag quote is the English rendering reported by UNITED24, citing n-tv; original German wording not checked. Reuters/DW/AP direct pages were not reachable from this environment (blocked); AP text was read via The Gazette reprint.",
+    "Sweden: delivery quantity undisclosed; MS20 Block 4 / 2028 timing per Defence Industry Europe and The Aviationist. Turkey was listed as an operator on Wikipedia via an Infodefensa slug, but the Infodefensa article body does not mention Taurus – Turkey deliberately not listed.",
+    "Storm Shadow range: MBDA's own datasheet gives 'in excess of 250 km'; other Envanter pages use 560 km for Ukrainian-use reports – editor may want to keep the comparison on the manufacturer figure as written.",
+    "Image: Commons file page read via fetch; direct upload URL could not be HEAD-checked (Wikimedia rate-limited, 429). Photo shows the missile on a display stand under a Eurofighter wing (not mounted).",
+    "word_count 1466 = article body incl. tables and FAQ, excluding the Sources list (1,723 with Sources)."
+  ],
+  "duplicate_check": "No EN explainer on Taurus exists. EN has only the 9 Nov 2026 news story on Sweden's delivery (linked inline as the news hook). The TR explainer (taurus-kepd-350-stand-off-seyir-fuzesi) covers the same topic in Turkish and is set as the hreflang tr equivalent. EN Storm Shadow explainers and the SOM vs Tomahawk vs Storm Shadow comparison target different missiles; this page owns the 'taurus kepd 350' evergreen intent incl. Taurus Neo and Taurus vs Storm Shadow/JASSM-ER."
+}

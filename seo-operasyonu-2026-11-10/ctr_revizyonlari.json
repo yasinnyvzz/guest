@@ -1,0 +1,370 @@
+[
+ {
+  "post_id": 85083,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/en-rheinmetall-shares-drop-16-percent-european-defense-stocks/",
+  "target_query": "rheinmetall stock",
+  "gsc_10nov": "page 1.731 impr / 17 clk / p4.9; query cluster rheinmetall stock 944@4.5, share price 149, stock price 75, rhm stock 37, etr: rhm 27",
+  "problem": "Snippet answers 'why did it drop' but the dominant query is the ticker/price intent ('rheinmetall stock'); the title never says 'stock'.",
+  "rank_math_title": {
+   "from": "Why Did Rheinmetall Shares Drop 16%?",
+   "to": "Rheinmetall Stock Falls 16%: Q3 2026 Guidance Cut Explained"
+  },
+  "rank_math_description": {
+   "from": "(139 chars, why-question)",
+   "to": "Rheinmetall stock fell about 16% on 5 Nov 2026 after a second 2026 guidance cut; backlog still hit €78bn. What changed, and what investors watch next."
+  },
+  "content_actions": [
+   "Add a dated 'Rheinmetall stock: key figures' box (9M sales €8.38bn, op. result €1.34bn, backlog €78bn, new 2026 sales target ~€13.2bn) linked to rheinmetall.com Q3 2026 statement",
+   "Add 'What to watch next' (FY2026 results date from Rheinmetall IR financial calendar)",
+   "No price targets / investment advice"
+  ],
+  "priority": "P1",
+  "decision": "UPDATE"
+ },
+ {
+  "post_id": 59837,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/en-kenya-defence-forces-recruitment-2026/",
+  "target_query": "kdf recruitment 2026",
+  "gsc_10nov": "page 3.545 impr / 75 clk / p4.8 + anchor URLs #latest-status 2.021, #when-was-the-last 1.989, #categories 1.921 (≈8 clk)",
+  "problem": "Status box still reads 'Updated 13 September 2026'. ~250 daily impressions ask 'is there / when is the next KDF recruitment'. KDF publicly warned on ~20 Oct 2026 that no recruitment exercise was underway (Kenya Times report) — must be verified on mod.go.ke / official KDF channels before the box is changed.",
+  "rank_math_title": {
+   "from": "KDF Recruitment 2026 Dates and Centres PDF: Requirements & Apply",
+   "to": "KDF Recruitment 2026: Latest Status, Dates and Requirements"
+  },
+  "rank_math_description": {
+   "from": "(127 chars)",
+   "to": "Is KDF recruitment open now? Latest status checked 10 November 2026, the official mod.go.ke portal, past dates and centres, requirements by category."
+  },
+  "content_actions": [
+   "Rewrite the status box with the verified October 2026 KDF statement and the check date",
+   "Add H2 'When is the next KDF recruitment?' answering from official past cycles only (no invented dates)",
+   "Fix the '&amp;' entity in the Rank Math title"
+  ],
+  "priority": "P1",
+  "decision": "UPDATE + VERIFY",
+  "meta_kosulu": "Önce KDF durum açıklaması resmî kanaldan doğrulanıp durum kutusu güncellenmeli"
+ },
+ {
+  "post_id": 65052,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/en-kdf-recruitment-requirements/",
+  "target_query": "kdf recruitment 2026 requirements",
+  "gsc_10nov": "1.137 impr / 3 clk / p8.7",
+  "problem": "Same stale 13 September status box; position 8.7 and CTR 0.3%.",
+  "rank_math_title": {
+   "from": "KDF Recruitment Requirements 2026: Age, KCSE, Height, Weight",
+   "to": "KDF Requirements 2026: Age, KCSE Grade, Height by Category"
+  },
+  "rank_math_description": {
+   "from": "(154 chars)",
+   "to": "KDF recruitment requirements for 2026 by category: age limits, minimum KCSE grade, height and weight, documents to carry. Status checked 10 Nov 2026."
+  },
+  "content_actions": [
+   "Sync the status box with page 59837",
+   "Add a single requirements table by category (GSO, specialist, tradesmen, general duty)"
+  ],
+  "priority": "P1",
+  "decision": "UPDATE + VERIFY",
+  "meta_kosulu": "Önce durum kutusu 59837 ile eşitlenmeli"
+ },
+ {
+  "post_id": 54957,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/en-tunisia-military-inventory/",
+  "target_query": "tunisian army",
+  "gsc_10nov": "711 impr / 0 clk / p5.6 (6 Nov: 993 impr / 2 clk) — query 'tunisian army' 601 impr 0 clk",
+  "problem": "Zero clicks in both exports. Title and H1 never contain 'Tunisian Army'; Rank Math title/description are empty, so Google writes its own.",
+  "rank_math_title": {
+   "from": "(empty → 'Tunisia's Military Strength: How Many Tanks, Fighter Jets and Missiles? (2026) - Envanter Medya')",
+   "to": "Tunisian Army 2026: Strength, Tanks, Aircraft and Navy"
+  },
+  "rank_math_description": {
+   "from": "(empty)",
+   "to": "The Tunisian Army and armed forces in 2026: about 89,800 active personnel, M60 tanks, F-5E jets, a patrol navy and Turkish Kirpi vehicles and ANKA-S drones."
+  },
+  "content_actions": [
+   "Change H1 to 'Tunisian Army and Armed Forces 2026: Strength, Tanks, Aircraft and Navy'",
+   "Move the 'Bottom line' paragraph below a one-sentence direct answer that uses the phrase 'Tunisian Army'",
+   "Verify the 89,800 figure against IISS before saving"
+  ],
+  "priority": "P1",
+  "decision": "UPDATE"
+ },
+ {
+  "post_id": 66753,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/en-ecuador-military-inventory/",
+  "target_query": "ecuadorian army",
+  "gsc_10nov": "419 impr / 1 clk / p8.1 — query 'ecuadorian army' 394 impr 0 clk @8.3",
+  "problem": "Same pattern as Tunisia; empty Rank Math fields; 'Ecuadorian Army' absent from title.",
+  "rank_math_title": {
+   "from": "(empty)",
+   "to": "Ecuadorian Army 2026: Strength, Equipment and Air Force"
+  },
+  "rank_math_description": {
+   "from": "(empty)",
+   "to": "Ecuadorian Army and armed forces in 2026: no fighter jets since July 2024, AMX-13 light tanks, helicopters, navy missiles and the war on gangs."
+  },
+  "content_actions": [
+   "H1 with 'Ecuadorian Army'",
+   "Link the ES inventory scheduled for 11 Nov 2026 (post 84647) once published and group translations"
+  ],
+  "priority": "P1",
+  "decision": "UPDATE"
+ },
+ {
+  "post_id": 64085,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/en-bolivia-military-inventory/",
+  "target_query": "bolivian army",
+  "gsc_10nov": "99 impr / 1 clk / p6.2 — query 55 impr 0 clk",
+  "rank_math_title": {
+   "from": "(empty)",
+   "to": "Bolivian Army 2026: Strength, Equipment and Air Force"
+  },
+  "rank_math_description": {
+   "from": "(empty)",
+   "to": "Bolivian Army and armed forces in 2026: one tank type, no fighter jets, no ground-based air-defence missiles, a 13-radar network and a 5,000-strong navy."
+  },
+  "content_actions": [
+   "H1 with 'Bolivian Army'"
+  ],
+  "priority": "P2",
+  "decision": "UPDATE"
+ },
+ {
+  "post_id": 67765,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/en-strongest-military-africa-2026/",
+  "target_query": "top 20 military in africa",
+  "gsc_10nov": "1.057 impr / 14 clk / p5.3; 'top 20 military in africa (2026)' 79 impr, 'top 10 strongest…' 43",
+  "problem": "Searchers ask for a Top 20; the table stops at 15. Three more EN URLs target the same intent (en-strongest-army-africa-2026 189 impr, etc.).",
+  "rank_math_title": {
+   "from": "Strongest Military in Africa 2026 | Full Ranking",
+   "to": "Top 20 Strongest Militaries in Africa 2026: Full Ranking"
+  },
+  "rank_math_description": {
+   "from": "(154 chars)",
+   "to": "Africa's 20 strongest militaries in 2026, ranked with personnel, budget and key equipment. Egypt leads, followed by Algeria and Nigeria. Sources cited."
+  },
+  "content_actions": [
+   "Extend the table to 20 rows with sourced data",
+   "MERGE REVIEW: canonical en-strongest-army-africa-2026 → this URL"
+  ],
+  "priority": "P1",
+  "decision": "UPDATE + MERGE REVIEW",
+  "meta_kosulu": "Önce tablo 20 ülkeye genişletilmeli; aksi hâlde başlık yanıltıcı olur"
+ },
+ {
+  "post_id": 21865,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/en-what-is-apfsds-a-breakdown-of-modern-tank-ammunition/",
+  "target_query": "apfsds",
+  "gsc_10nov": "479 impr / 0 clk / p6.4; query 216 impr 0 clk",
+  "problem": "Published page still contains draft artefacts ('# What is APFSDS?' markdown, 'An analogy for kids', 'Image suggestions'); empty Rank Math fields.",
+  "rank_math_title": {
+   "from": "(empty)",
+   "to": "What Is APFSDS? How Sabot Tank Rounds Penetrate Armour"
+  },
+  "rank_math_description": {
+   "from": "(empty)",
+   "to": "APFSDS explained: a fin-stabilised tungsten or depleted-uranium dart fired at over 1,700 m/s. How it works, famous rounds, and its limits against armour."
+  },
+  "content_actions": [
+   "Delete the 'An analogy for kids' and 'Image suggestions' sections and the markdown '#' line",
+   "Verify the 600–800 mm penetration claim or attribute it"
+  ],
+  "priority": "P1",
+  "decision": "UPDATE",
+  "meta_kosulu": "Taslak artıkları aynı anda temizlenmeli"
+ },
+ {
+  "post_id": 66108,
+  "type": "posts",
+  "lang": "tr",
+  "url": "https://envantermedya.com/silah-ruhsati-harclari/",
+  "target_query": "bulundurma ruhsat harcı 2026",
+  "gsc_10nov": "999 impr / 5 clk / p5.9; 'bulundurma ruhsat harcı 2026' 167 impr @1.1, 0 tık",
+  "problem": "Sorguda 1. sıradayız ama tık yok: tutar snippet'te görünüyor, başlık bulundurmayı öne çıkarmıyor. 2027 tutarları yeniden değerleme oranı Resmî Gazete'de yayımlanınca güncellenmeli (tarih doğrulanmalı).",
+  "rank_math_title": {
+   "from": "Silah Ruhsatı Harcı 2026: Taşıma, Bulundurma, Yivsiz Tüfek",
+   "to": "Silah Ruhsatı Harcı 2026: Bulundurma ve Taşıma Ücretleri"
+  },
+  "rank_math_description": {
+   "from": "(158 karakter)",
+   "to": "2026 silah bulundurma ve taşıma ruhsatı harcı ne kadar? Güncel harç tablosu, kart bedeli, yenileme ve yivsiz tüfek ücretleri; 2027 güncellemesi notu."
+  },
+  "content_actions": [
+   "Tablonun hemen üstüne tek cümlelik doğrudan cevap (bulundurma ve taşıma 2026 tutarları — sayfadaki tablodan, 492 sayılı Kanun tarifesiyle doğrulanarak)",
+   "2027 tutarları açıklanınca aynı URL'de güncelle, yeni URL açma"
+  ],
+  "priority": "P1",
+  "decision": "UPDATE"
+ },
+ {
+  "post_id": 7234,
+  "type": "savunma_terimi",
+  "lang": "tr",
+  "url": "https://envantermedya.com/savunma-sozluk/savunma-nedir/",
+  "target_query": "savunma ne demek",
+  "gsc_10nov": "260 impr / 0 clk / p9.1; 'savunma ne demek' 123 @9.8, 'savunma nedir' 52 @9.1",
+  "problem": "Şablon metin ('…önemli kavramlarından biridir. Bu yazıda…'), meta boş. Sözlükte 481 sayfada aynı sorun; 'X ne demek' sorgularında 6–10. sıra.",
+  "rank_math_title": {
+   "from": "(boş)",
+   "to": "Savunma Ne Demek? Askerî Anlamı ve Savunma Türleri"
+  },
+  "rank_math_description": {
+   "from": "(boş)",
+   "to": "Savunma ne demek? Askerî terim olarak savunma; ulusal savunma, hava ve füze savunması gibi türleri ve savunma sanayii kavramı örneklerle kısaca."
+  },
+  "content_actions": [
+   "Şablon giriş paragrafını kaldır, ilk cümlede TDK/askerî tanım",
+   "Aynı kalıbı sözlük toplu işinde uygula: deplasman, mühimmat, siper, münhasır ekonomik bölge, hatve, aviyonik, tersane, tabur, muharip, yiv, fırkateyn, kruvazör"
+  ],
+  "priority": "P2",
+  "decision": "UPDATE (toplu sözlük işi)"
+ },
+ {
+  "post_id": 85439,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/en-altinay-venus-4-eo-ir-gimbal/",
+  "target_query": "gimbal",
+  "gsc_10nov": "564 impr / 1 clk / p10.2; 'gimbal' 490 impr @7.2",
+  "problem": "Generic 'gimbal' is mostly consumer camera intent; do not chase it. Make the title clearly military EO/IR so the right searchers click.",
+  "rank_math_title": {
+   "from": "(empty)",
+   "to": "Altınay Venüs-4 EO/IR Drone Gimbal: Specs and Uses"
+  },
+  "rank_math_description": {
+   "from": "(empty)",
+   "to": "Venüs-4 is Altınay's 1,350 g three-axis stabilised EO/IR gimbal for small drones: 30x day camera, LWIR thermal channel, 250 µrad accuracy. Specs explained."
+  },
+  "content_actions": [],
+  "priority": "P4",
+  "decision": "UPDATE (meta only)"
+ },
+ {
+  "post_id": 19568,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/en-what-is-an-icbm/",
+  "target_query": "icbm",
+  "gsc_10nov": "query 'icbm' 28 impr @21.4",
+  "problem": "Draft artefacts ('# What Is an ICBM?' markdown, 'Image Suggestions' section) and absolute claims ('nothing can reliably stop one'); empty Rank Math. Part of a batch of 52 EN explainers with the same artefacts.",
+  "rank_math_title": {
+   "from": "(empty)",
+   "to": "What Is an ICBM? Range, How It Works and Who Has Them"
+  },
+  "rank_math_description": {
+   "from": "(empty)",
+   "to": "An ICBM is a ballistic missile with a range above 5,500 km. How the three flight phases work, MIRVs, missile defence limits and which countries field ICBMs."
+  },
+  "content_actions": [
+   "Remove artefacts",
+   "Soften unverifiable claims and add sources (CSIS Missile Threat, Arms Control Association)"
+  ],
+  "priority": "P3",
+  "decision": "UPDATE",
+  "meta_kosulu": "Taslak artıkları aynı anda temizlenmeli"
+ },
+ {
+  "post_id": 63821,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/worlds-fastest-missiles/",
+  "target_query": "fastest missile in the world",
+  "gsc_10nov": "238 impr / 1 clk / p7.0; query 38 @7.7",
+  "rank_math_title": {
+   "from": "World's Fastest Missiles (2026): The Mach Claims",
+   "to": "Fastest Missile in the World (2026): Top 10 by Speed"
+  },
+  "rank_math_description": {
+   "from": "(146 chars)",
+   "to": "Which is the fastest missile in the world? A 2026 top 10 by stated speed, from ICBM warheads to hypersonic glide weapons, with unverified claims flagged."
+  },
+  "content_actions": [],
+  "priority": "P3",
+  "decision": "UPDATE"
+ },
+ {
+  "post_id": 12550,
+  "type": "posts",
+  "lang": "en",
+  "url": "https://envantermedya.com/en/turkeys-air-defense-power-what-is-the-siper-system-and-how-does-it-work-en/",
+  "target_query": "siper",
+  "gsc_10nov": "262 impr / 1 clk / p4.4; competing EN SİPER explainers: en-siper-long-range-air-defense-explained (152 @3.9), siper-air-defense-system-explained (95 @6.3), en-siper-air-defence",
+  "problem": "Four EN explainers split one intent; 'siper' 344 impr @3.8 and 0 clicks.",
+  "rank_math_title": {
+   "from": "(empty)",
+   "to": "(no change — merge instead)"
+  },
+  "rank_math_description": {
+   "from": "(empty)",
+   "to": "(no change — merge instead)"
+  },
+  "content_actions": [
+   "MERGE REVIEW: keep 69840 (en-siper-long-range-air-defense-explained, most complete, Sept 2026) as the canonical EN SİPER guide; 301 or canonical 12550, siper-air-defense-system-explained and 42812 to it after editor approval",
+   "Publish the EN SİPER hypersonic-radar news draft (85050) after re-verification and link it from 69840"
+  ],
+  "priority": "P2",
+  "decision": "MERGE REVIEW"
+ },
+ {
+  "post_id": 63016,
+  "type": "savunma_sistemi",
+  "lang": "tr",
+  "url": "https://envantermedya.com/envanter/bayraktar-akinci/",
+  "target_query": "bayraktar akıncı",
+  "gsc_10nov": "query 509 impr / 4 clk / p2.5 (CTR %0,8). Hangi URL'nin gösterim aldığı dosyada yok — GSC'de sorgu filtresiyle doğrulanmalı.",
+  "problem": "Sistem kartında meta boş, içerik 1.871 karakter; konum 2,5'te CTR %0,8 snippet'in zayıf olduğuna işaret ediyor. Sayfa eşleşmesi doğrulanmadan değişiklik yapılmamalı.",
+  "rank_math_title": {
+   "from": "(boş)",
+   "to": "Bayraktar AKINCI: Özellikleri, Motoru ve Mühimmatı"
+  },
+  "rank_math_description": {
+   "from": "(boş)",
+   "to": "Bayraktar AKINCI TİHA: 20 m kanat açıklığı, 6.000 kg kalkış ağırlığı, 1.500 kg faydalı yük, motor seçenekleri, mühimmat ve ihracat yapılan ülkeler."
+  },
+  "content_actions": [
+   "VERIFY: GSC > Performans > sorgu = 'bayraktar akıncı' > Sayfalar sekmesi",
+   "Sistem kartına mevcut alt rehberlere bağlantı bloğu: akinci-hangi-muhimmatlari-kullaniyor, tei-pd-170-bayraktar-akinci-motoru, akinci-vs-mq-9b, akinci-teslimat-envanter"
+  ],
+  "priority": "P1",
+  "decision": "UPDATE + VERIFY",
+  "meta_kosulu": "Önce GSC'de 'bayraktar akıncı' sorgusunun bu sayfaya düştüğü doğrulanmalı"
+ },
+ {
+  "post_id": 63220,
+  "type": "posts",
+  "lang": "es",
+  "url": "https://envantermedya.com/es/cuanto-gana-marino-semar-2026/",
+  "target_query": "cuanto gana un marino en méxico 2026 / tabla de haberes sedena 2026",
+  "gsc_10nov": "922 impr / 8 clk / p3.8; es-sueldo-sedena-semar-mexico-2026 753 @6.1; cuanto-gana-soldado-sedena-2026 375 @8.0",
+  "problem": "Rank Math empty; at least three ES URLs compete for Mexican military-pay intent (Mexico: 4.042 impr, CTR 0.42%).",
+  "rank_math_title": {
+   "from": "(empty)",
+   "to": "¿Cuánto gana un marino de la SEMAR en 2026? Sueldo por grado"
+  },
+  "rank_math_description": {
+   "from": "(empty)",
+   "to": "Sueldo de un marino de la SEMAR en 2026 por grado, de marinero a almirante, con prestaciones. Cifras oficiales del tabulador y diferencias con la SEDENA."
+  },
+  "content_actions": [
+   "MERGE REVIEW with es-sueldo-sedena-semar-mexico-2026: keep SEMAR and SEDENA as two clear pages, canonical the rest",
+   "Use only official tabulador figures (gob.mx / DOF) with date"
+  ],
+  "priority": "P2",
+  "decision": "UPDATE + MERGE REVIEW"
+ }
+]

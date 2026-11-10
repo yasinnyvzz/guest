@@ -1,0 +1,184 @@
+{
+  "decision": "NEW ANGLE",
+  "update_post_id": null,
+  "content_type": "explainer",
+  "lang": "ru",
+  "title": "ЗРК Patriot («Пэтриот»): характеристики, ракеты PAC-2 GEM-T и PAC-3 MSE, страны",
+  "slug": "ru-zrk-patriot-harakteristiki-rakety-strany",
+  "excerpt": "Справочник по ЗРК MIM-104 Patriot: из чего состоит батарея, чем ракеты PAC-2 GEM-T отличаются от PAC-3 CRI и PAC-3 MSE, что официально известно о дальности, кто эксплуатирует комплекс и сколько стоят новые контракты.",
+  "content_html": "<p>Девятнадцать государств, по данным производителя RTX, строят противовоздушную оборону вокруг американского зенитного ракетного комплекса MIM-104 Patriot («Пэтриот»). Мобильный ЗРК Армии США предназначен для борьбы с самолётами, беспилотниками, крылатыми и тактическими баллистическими ракетами. Систему в целом и ЗУР PAC-2 GEM-T выпускает RTX (бывшая Raytheon), а перехватчики PAC-3 MSE — Lockheed Martin. Первый дивизион Patriot был сформирован в мае 1982 года, первое боевое применение пришлось на январь 1991-го.</p>\n\n<p>Ниже — справочник о самом комплексе. Сопоставление с российской системой мы разбирали отдельно в материале <a href=\"https://envantermedya.com/ru/ru-patriot-s-400-sravnenie/\">«Patriot или С-400: в чём различия?»</a>.</p>\n\n<h2>Что такое MIM-104 Patriot и кто его производит</h2>\n\n<p>Название Patriot — аббревиатура английской фразы Phased Array Tracking Radar to Intercept on Target («РЛС с фазированной антенной решёткой для сопровождения и перехвата цели»). Разработка началась в 1960-х годах; изначально комплекс создавался против скоростных самолётов и лишь позже получил возможности против баллистических ракет. Генеральным подрядчиком по системе остаётся RTX, а Lockheed Martin выпускает ракеты нового семейства PAC-3, отмечает Исследовательская служба Конгресса США (CRS) в обзоре от 27 августа 2026 года.</p>\n\n<p>По классификации Janes, на которую ссылается CRS, у ракеты MIM-104 двенадцать основных модификаций в двух подсемействах. MIM-104A–E (PAC-1, PAC-2, GEM) несут осколочно-фугасную боевую часть и рассчитаны прежде всего на самолёты; MIM-104F (PAC-3, PAC-3 MSE) — меньшие ракеты, созданные для перехвата баллистических целей. RTX сообщает, что поставила более 240 огневых подразделений (fire units) Patriot.</p>\n\n<h2>Состав батареи и дивизиона</h2>\n\n<p>Согласно CRS, базовая огневая единица Patriot включает четыре основных элемента:</p>\n<ul>\n<li><strong>РЛС AN/MPQ-53/65</strong> — многофункциональная станция C-диапазона с ФАР. По данным Missile Defense Advocacy Alliance и Janes, она обнаруживает, сопровождает и ранжирует более 100 целей на дальности свыше 100 км. Модернизированная AN/MPQ-65A, по оценке CSIS, получила прирост дальности на 30%.</li>\n<li><strong>Пункт управления огнём (ECS) AN/MSQ-104</strong> — единственный элемент с расчётом, обычно из трёх операторов; он управляет РЛС и связывается с пусковыми и вышестоящими штабами.</li>\n<li><strong>Пусковые установки M903</strong> на автомобильном шасси вмещают от 4 до 16 ракет в зависимости от типа. ПУ можно размещать на удалении от РЛС и пункта управления, а к пуску она готова менее чем за 9 секунд.</li>\n<li><strong>Энергообеспечение</strong> — грузовик с двумя генераторами мощностью по 150 кВт питает РЛС и ECS.</li>\n</ul>\n\n<p>Из двух режимов работы — полуавтоматического и автоматического — Армия США, по данным CRS, использует только первый: от автоматического отказались после случаев поражения своих самолётов.</p>\n\n<p>В Армии США сейчас 15 дивизионов Patriot в регулярных войсках; ещё три планируется формировать по одному в год в 2029–2031 финансовых годах. Закупка одного дивизиона из четырёх батарей с системой управления IBCS и новой РЛС LTAMDS оценивается CRS в 1,792 млрд долларов.</p>\n\n<h3>LTAMDS: новая РЛС для Patriot</h3>\n\n<p>Lower Tier Air and Missile Defense Sensor (LTAMDS) — РЛС производства RTX, которая, по словам Армии США, «предназначена для замены РЛС Patriot». У неё три антенных полотна — основное спереди и два вспомогательных сзади — что даёт круговой обзор 360°. Основное полотно, по данным RTX, примерно соответствует по размеру антенне Patriot, но более чем вдвое мощнее. В сентябре 2025 года RTX получила контракт на 1,7 млрд долларов на девять РЛС для Армии США и Польши. Представитель программного офиса в марте 2025 года оценивал стоимость одной LTAMDS в 125–130 млн долларов против 110–115 млн за прежнюю РЛС Patriot (Defense News).</p>\n\n<h2>Ракеты Patriot: PAC-2 GEM-T, PAC-3 CRI и PAC-3 MSE</h2>\n\n<p>Ключевое различие — способ поражения. GEM-T подрывается вблизи цели и поражает её осколками. Ракеты PAC-3 используют кинетический перехват hit-to-kill: прямое столкновение с целью, которое, по утверждению Lockheed Martin, передаёт ей значительно больше энергии, чем осколочно-фугасная боевая часть. PAC-3 MSE отличается от базовой PAC-3 CRI двухимпульсным твердотопливным двигателем, увеличенными рулями и усиленными приводами.</p>\n\n<table>\n<thead>\n<tr><th>Параметр</th><th>PAC-2 GEM-T</th><th>PAC-3 CRI</th><th>PAC-3 MSE</th></tr>\n</thead>\n<tbody>\n<tr><td>Производитель</td><td>RTX (Raytheon); в Германии — COMLOG, СП Raytheon и MBDA Deutschland</td><td>Lockheed Martin</td><td>Lockheed Martin</td></tr>\n<tr><td>Подсемейство</td><td>MIM-104A–E</td><td>MIM-104F</td><td>MIM-104F</td></tr>\n<tr><td>Способ поражения</td><td>Осколочно-фугасная БЧ, подрыв вблизи цели</td><td>Hit-to-kill (прямое попадание)</td><td>Hit-to-kill (прямое попадание)</td></tr>\n<tr><td>Основные цели</td><td>Тактические баллистические и крылатые ракеты, самолёты</td><td>Тактические баллистические и крылатые ракеты, самолёты</td><td>Тактические баллистические и крылатые ракеты, самолёты, БПЛА</td></tr>\n<tr><td>Длина / масса / диаметр*</td><td>5,31 м / 907 кг / 41 см (PAC-2)</td><td>5,20 м / 312 кг / 25 см (PAC-3)</td><td>Производитель не публикует</td></tr>\n<tr><td>Ракет на одной ПУ</td><td>4 (каждая в своём контейнере)</td><td>До 16 (контейнеры по 4 ракеты)</td><td>До 12 либо 6 MSE + 8 CRI</td></tr>\n<tr><td>Дальность и высота</td><td colspan=\"3\">Официально для отдельных ракет не раскрываются. Бундесвер указывает для комплекса дальность поражения около 68 км. По оценке CSIS, PAC-3 прикрывает площадь в семь раз больше, чем PAC-2, а двигатель MSE должен почти удвоить дальность PAC-3.</td></tr>\n</tbody>\n</table>\n<p><em>* Габариты — по данным Бундесвера для ракет PAC-2 и PAC-3 в целом, а не для конкретных модификаций GEM-T и CRI.</em></p>\n\n<p>RTX называет семейство GEM более дешёвым вариантом перехватчика. По данным компании, из более чем 150 баллистических ракет, перехваченных Patriot в боевых условиях с января 2015 года, свыше 90 пришлись на ракеты семейства GEM. Независимой проверки этих цифр нет.</p>\n\n<h2>История: от «Бури в пустыне» до Украины</h2>\n\n<p>В январе 1991 года, по формулировке Армии США, Patriot «успешно перехватил и уничтожил иракскую ракету Scud, выпущенную по Саудовской Аравии» — это было первое боевое применение комплекса. Эффективность в той войне остаётся предметом споров: по оценке CSIS, боевая часть PAC-2 не всегда полностью разрушала цели, а последующие исследования не дали однозначного ответа.</p>\n\n<p>В 2003 году в Ираке ракеты PAC-3, по имеющимся данным, перехватили две иракские Scud. Тогда же расчёты Patriot дважды поразили свои самолёты — британский Tornado и американский F/A-18; погибли три пилота (CSIS). Всего, по данным RTX, пять государств применяли Patriot более чем в 250 боевых эпизодах.</p>\n\n<p>С 2023 года комплексы, переданные США и Германией, применяет Украина. По данным CSIS, первым заявленным эпизодом стал перехват аэробаллистической ракеты Х-47 «Кинжал» над Киевом 4 мая 2023 года. 16 мая того же года Украина заявила о перехвате шести «Кинжалов», что Москва опровергла. Минобороны России, в свою очередь, утверждало, что «Кинжал» уничтожил Patriot в Киеве; представитель ВВС Украины Юрий Игнат назвал это невозможным, а два американских чиновника сообщили Reuters, что система, вероятно, получила повреждения, но не была уничтожена. В апреле 2026 года RTX подписала контракт на 3,7 млрд долларов на поставку Украине ракет GEM-T. Ход дальнейших поставок мы отслеживаем, в том числе <a href=\"https://envantermedya.com/ru/ssha-odobrili-500-raket-patriot-ukraina-jumpstart/\">одобрение США новой партии ракет Patriot для Украины</a>.</p>\n\n<h2>Какие страны используют Patriot</h2>\n\n<p>RTX в апреле 2026 года назвала Patriot основой ПВО 19 стран, а Lockheed Martin в справке 2026 года указывает, что ракеты PAC-3 выбрали 17 государств. CRS приводит список правительств, по которым Госдепартамент уведомлял Конгресс о продаже Patriot с 2001 года по 18 августа 2026 года (часть уже получила комплексы, часть ожидает поставки, и CRS их не разделяет), а также ранних покупателей: Бахрейн, Германия, Греция, Египет, Израиль, Испания, Катар, Кувейт, Нидерланды, ОАЭ, Польша, Румыния, Саудовская Аравия, Тайвань, Турция, Швейцария, Швеция, Южная Корея и Япония. Комплексы эксплуатирует и Украина.</p>\n\n<p>По данным CRS, Дания в сентябре 2025 года отказалась от запроса в пользу франко-итальянской SAMP/T, в том числе из-за сроков поставки, а Швейцария в марте 2026 года, по сообщениям прессы, рассматривала европейскую альтернативу из-за задержек в четыре-пять лет. В Турции сейчас развёрнута батарея Испании в рамках НАТО — недавно её <a href=\"https://envantermedya.com/ru/ru-turkish-f16-adana-spanish-patriot-exercise/\">проверили турецкие F-16 на базе в Адане</a>.</p>\n\n<h2>Производство и стоимость</h2>\n\n<p>Lockheed Martin выпустила более 2500 ракет PAC-3 MSE. 29 июля 2026 года Армия США выдала компании семилетний предварительный контракт (UCA) на 53,86 млрд долларов под многолетнюю закупку PAC-3 MSE на 2026–2032 финансовые годы; предельная сумма выросла до 58,62 млрд долларов, при этом на момент заключения средства не выделялись. Компания обещает утроить мощности к концу 2030 года и вложить 8–9 млрд долларов в модернизацию более 20 предприятий в США. Подробнее — в нашей новости о <a href=\"https://envantermedya.com/ru/ru-lockheed-martin-58-mlrd-pac3-mse-patriot/\">многолетнем контракте на 58,6 млрд долларов</a>; о следующем поколении перехватчика — в материале о <a href=\"https://envantermedya.com/ru/ru-lockheed-martin-pac-3-edge-novyy-perehvatchik-patriot/\">PAC-3 Edge</a>.</p>\n\n<p>Ракеты GEM-T для Украины будет выпускать новый завод в Шробенхаузене (Германия), которым управляет COMLOG. В октябре 2026 года правительство США выбрало Польшу для размещения европейского центра обслуживания перехватчиков PAC-3; Германия, Нидерланды и Швеция возьмут на себя интеграцию цепочки поставок (Defense News). Детали — в материале о <a href=\"https://envantermedya.com/ru/ru-us-poland-pac-3-patriot-maintenance-hub/\">сервисном центре PAC-3 в Польше</a>.</p>\n\n<p>Цена одной ракеты в использованных нами официальных документах не раскрывается. Ориентиры по системе в целом: 1,792 млрд долларов за дивизион из четырёх батарей с IBCS и LTAMDS (CRS), а Польша в 2018 году подписала контракт примерно на 4,75 млрд долларов на две батареи в конфигурации 3+ (Defense News).</p>\n\n<h2>Часто задаваемые вопросы</h2>\n\n<h3>Чем PAC-3 MSE отличается от PAC-2 GEM-T?</h3>\n<p>GEM-T производства RTX поражает цель осколками при подрыве рядом с ней. PAC-3 MSE производства Lockheed Martin уничтожает цель прямым попаданием (hit-to-kill), меньше по размеру, поэтому на одну ПУ помещается до 12 MSE против четырёх ракет PAC-2.</p>\n\n<h3>Какова дальность Patriot?</h3>\n<p>Официальных цифр для отдельных ракет нет. Бундесвер указывает дальность поражения около 68 км, дальность РЛС, по данным CRS, превышает 100 км; реальные значения зависят от ракеты и цели.</p>\n\n<h3>Сколько ракет на одной пусковой установке?</h3>\n<p>От 4 до 16 в зависимости от типа: четыре PAC-2 GEM-T, до 16 PAC-3 CRI или до 12 PAC-3 MSE (возможна смешанная загрузка 6 MSE + 8 CRI).</p>\n\n<h3>Сколько стран используют Patriot?</h3>\n<p>По данным RTX — 19 стран; ракеты PAC-3, по данным Lockheed Martin, выбрали 17 государств. Среди эксплуатантов — США, Германия, Нидерланды, Польша, Япония и Украина.</p>\n\n<h3>Чем LTAMDS отличается от нынешней РЛС?</h3>\n<p>Это новая РЛС RTX с круговым обзором (360°) и тремя антенными полотнами. Армия США намерена заменить ею прежнюю РЛС Patriot; первые заказчики — сама армия и Польша.</p>\n\n<h2>Источники</h2>\n<ul>\n<li><a href=\"https://www.everycrsreport.com/files/2026-08-27_IF13299_299f9ebf8dccb09e5a7f8d4830947a804f9796a2.pdf\">Congressional Research Service, IF13299 «U.S. Army’s Patriot Air and Missile Defense System» (27.08.2026)</a></li>\n<li><a href=\"https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/global-patriot-solutions\">RTX — Global Patriot</a></li>\n<li><a href=\"https://rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/guidance-enhanced-missile\">RTX — Guidance Enhanced Missile (GEM-T)</a></li>\n<li><a href=\"https://rtx.com/news/news-center/2026/04/14/rtxs-raytheon-to-deliver-patriot-interceptors-to-ukraine\">RTX — контракт на GEM-T для Украины (14.04.2026)</a></li>\n<li><a href=\"https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/ltamds\">RTX — LTAMDS</a></li>\n<li><a href=\"https://www.rtx.com/news/2025/09/23/rtx-awarded-contract-for-ltamds\">RTX — контракт на LTAMDS (23.09.2025)</a></li>\n<li><a href=\"https://www.lockheedmartin.com/en-us/products/pac-3-advanced-air-defense-missile.html\">Lockheed Martin — PAC-3 MSE</a></li>\n<li><a href=\"https://sustainability.lockheedmartin.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/26-01176-IAMD-PAC-3-MSE-Fast-Facts.pdf\">Lockheed Martin — PAC-3 Fast Facts (2026)</a></li>\n<li><a href=\"https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/pc/pac3-mse/mfc-pac-3-mse-pc.pdf\">Lockheed Martin — PAC-3 MSE, справка</a></li>\n<li><a href=\"https://news.lockheedmartin.com/2026-07-29-Department-of-War-Awards-Lockheed-Martin-58-62B-for-Multiyear-PAC-3-MSE-Production-to-Strengthen-the-Arsenal-of-Freedom\">Lockheed Martin — многолетний контракт PAC-3 MSE (29.07.2026)</a></li>\n<li><a href=\"https://www.army.mil/article/294215\">U.S. Army — семилетний контракт PAC-3 MSE (29.07.2026)</a></li>\n<li><a href=\"https://www.army.mil/article/281916/successful_flight_tests_for_lower_tier_air_and_missile_defense_sensor_radar\">U.S. Army — лётные испытания LTAMDS (10.12.2024)</a></li>\n<li><a href=\"https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/flugabwehrraketensystem-patriot\">Бундесвер — Flugabwehrraketensystem Patriot</a></li>\n<li><a href=\"https://missilethreat.csis.org/system/patriot/\">CSIS Missile Defense Project — Patriot (обновл. 23.08.2023)</a></li>\n<li><a href=\"https://kathmandupost.com/world/2023/05/17/ukraine-denies-russia-destroyed-patriot-missile-defence-system\">Reuters — Ukraine denies Russia destroyed Patriot missile defence system (17.05.2023)</a></li>\n<li><a href=\"https://www.defensenews.com/land/2025/03/28/army-to-make-new-missile-defense-radars-after-year-of-troubleshooting/\">Defense News — LTAMDS переходит в производство (28.03.2025)</a></li>\n<li><a href=\"https://www.defensenews.com/?p=87072\">Defense News — Польша получит европейский центр обслуживания PAC-3 (27.10.2026)</a></li>\n</ul>\n\n<p>Обновлено: 10 ноября 2026 г.</p>",
+  "rank_math_title": "Пэтриот (ЗРК Patriot): ракеты, дальность и страны",
+  "rank_math_description": "ЗРК Patriot («Пэтриот»): состав батареи, ракеты PAC-2 GEM-T, PAC-3 CRI и PAC-3 MSE, дальность по открытым данным, страны-эксплуатанты и контракты.",
+  "rank_math_focus_keyword": "пэтриот",
+  "target_query": "пэтриот",
+  "secondary_queries": [
+    "зрк patriot",
+    "patriot характеристики",
+    "pac-3 mse",
+    "pac-2 gem-t",
+    "дальность patriot",
+    "какие страны используют patriot"
+  ],
+  "demand_evidence": "Google Search Console, последние 24 ч до 10.11.2026: «пэтриот» — 52 показа, средняя позиция 3,1, 1 клик. В русской версии есть только сравнения (ru-patriot-s-400-sravnenie: 94 показа @3,7; сравнение с SİPER) и новости; отдельного объясняющего материала о комплексе нет.",
+  "category_hint": "Savunma Sözlüğü",
+  "sources": [
+    {
+      "name": "Congressional Research Service, IF13299 'U.S. Army’s Patriot Air and Missile Defense System'",
+      "url": "https://www.everycrsreport.com/files/2026-08-27_IF13299_299f9ebf8dccb09e5a7f8d4830947a804f9796a2.pdf",
+      "date": "2026-08-27",
+      "supports": "Acronym; development since 1960s; first battalion May 1982; Jan 1991 Army quote; RTX prime / LM interceptor; radar AN/MPQ-53/65 C-band, >100 targets, >100 km (citing MDAA/Janes); ECS AN/MSQ-104, crew of 3; two 150 kW generators; launcher 4–16 missiles, <9 s; semi-auto/auto modes; Janes MIM-104 12 variants & subfamilies; GEM explodes near target; MSE description (TBM, air-breathing, CM, UAS); FMS country list 2001–18 Aug 2026; Denmark/Switzerland; 15 active battalions + 3 FY2029–31; $1.792bn four-battery battalion with IBCS+LTAMDS"
+    },
+    {
+      "name": "RTX – Global Patriot",
+      "url": "https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/global-patriot-solutions",
+      "date": "n/a",
+      "supports": "19 nations; 5 nations, 250+ combat engagements; 150+ ballistic missiles intercepted since Jan 2015, 90+ by lower-cost GEM family; 240+ fire units delivered"
+    },
+    {
+      "name": "RTX – Guidance Enhanced Missile (GEM-T)",
+      "url": "https://rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/guidance-enhanced-missile",
+      "date": "n/a",
+      "supports": "GEM-T targets (TBM, cruise missiles, aircraft); complements PAC-3; proven in Operation Iraqi Freedom"
+    },
+    {
+      "name": "RTX – RTX's Raytheon to deliver Patriot interceptors to Ukraine",
+      "url": "https://rtx.com/news/news-center/2026/04/14/rtxs-raytheon-to-deliver-patriot-interceptors-to-ukraine",
+      "date": "2026-04-14",
+      "supports": "$3.7bn GEM-T contract for Ukraine; Schrobenhausen facility run by COMLOG (Raytheon/MBDA Deutschland JV); 'foundation of air defense for 19 countries'"
+    },
+    {
+      "name": "RTX – LTAMDS product page",
+      "url": "https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/ltamds",
+      "date": "n/a",
+      "supports": "Three arrays (one primary front, two secondary rear); 360°; primary array ~Patriot array size with more than twice the power"
+    },
+    {
+      "name": "RTX – RTX awarded $1.7 billion contract for LTAMDS",
+      "url": "https://www.rtx.com/news/2025/09/23/rtx-awarded-contract-for-ltamds",
+      "date": "2025-09-23",
+      "supports": "$1.7bn; nine radars for U.S. Army and Poland; Milestone C"
+    },
+    {
+      "name": "Lockheed Martin – PAC-3 MSE product page",
+      "url": "https://www.lockheedmartin.com/en-us/products/pac-3-advanced-air-defense-missile.html",
+      "date": "n/a (accessed 2026-11-10)",
+      "supports": "17 partner nations; 2,500+ PAC-3 MSE produced; hit-to-kill"
+    },
+    {
+      "name": "Lockheed Martin – PAC-3 Fast Facts (PIRA DAL2026010610)",
+      "url": "https://sustainability.lockheedmartin.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/26-01176-IAMD-PAC-3-MSE-Fast-Facts.pdf",
+      "date": "2026",
+      "supports": "Seventeen nations chose PAC-3; hit-to-kill vs blast-fragmentation; MSE two-pulse motor, larger fins, upgraded actuators; 2,500+ MSEs"
+    },
+    {
+      "name": "Lockheed Martin – PAC-3 MSE product card",
+      "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/pc/pac3-mse/mfc-pac-3-mse-pc.pdf",
+      "date": "2021",
+      "supports": "Up to 12 PAC-3 MSE or 6 MSE + 8 CRI per launcher; CRI/MSE both hit-to-kill"
+    },
+    {
+      "name": "Lockheed Martin – Department of War Awards Lockheed Martin $58.62B for Multiyear PAC-3 MSE Production",
+      "url": "https://news.lockheedmartin.com/2026-07-29-Department-of-War-Awards-Lockheed-Martin-58-62B-for-Multiyear-PAC-3-MSE-Production-to-Strengthen-the-Arsenal-of-Freedom",
+      "date": "2026-07-29",
+      "supports": "Up to $53.86bn UCA; total $58.62bn; triple capacity by end of 2030; $8–9bn investment through 2030 in 20+ U.S. facilities"
+    },
+    {
+      "name": "U.S. Army (army.mil) – 7-year UCA for PAC-3 MSE, Darrell Ames",
+      "url": "https://www.army.mil/article/294215",
+      "date": "2026-07-29",
+      "supports": "$53,859,843,289 modification; NTE ceiling $58,620,843,289; FY2026–2032 multiyear; no funds obligated; MSE hit-to-kill, enhanced range/altitude"
+    },
+    {
+      "name": "U.S. Army (army.mil) – Successful flight tests for LTAMDS, Darrell Ames",
+      "url": "https://www.army.mil/article/281916/successful_flight_tests_for_lower_tier_air_and_missile_defense_sensor_radar",
+      "date": "2024-12-10",
+      "supports": "'LTAMDS is intended to replace the Patriot radar'"
+    },
+    {
+      "name": "Bundeswehr – Flugabwehrraketensystem Patriot",
+      "url": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/flugabwehrraketensystem-patriot",
+      "date": "n/a",
+      "supports": "Engagement range c. 68 km; PAC-2 5.31 m/907 kg/41 cm, each in own container; PAC-3 5.20 m/312 kg/25 cm, FourPack; launcher 4 or 8 missiles"
+    },
+    {
+      "name": "CSIS Missile Defense Project – Patriot",
+      "url": "https://missilethreat.csis.org/system/patriot/",
+      "date": "2023-08-23",
+      "supports": "MPQ-65A +30% range; PAC-3 defended area 7x PAC-2; MSE to nearly double PAC-3 range; four CRI per canister; 1991 warhead debate; 2003 two Scud intercepts and two fratricides (Tornado, F/A-18, three pilots); Ukraine 2023 US/German systems; Kinzhal intercept claim 4 May 2023"
+    },
+    {
+      "name": "Reuters (via The Kathmandu Post) – Ukraine denies Russia destroyed Patriot missile defence system",
+      "url": "https://kathmandupost.com/world/2023/05/17/ukraine-denies-russia-destroyed-patriot-missile-defence-system",
+      "date": "2023-05-17",
+      "supports": "Russian MoD claim of destroying Patriot in Kyiv; Ukraine claim of six Kinzhal intercepts denied by Russia; Ihnat quote; two US officials: probably damaged, not destroyed"
+    },
+    {
+      "name": "Defense News – Army to make new missile-defense radars after year of troubleshooting (Jen Judson)",
+      "url": "https://www.defensenews.com/land/2025/03/28/army-to-make-new-missile-defense-radars-after-year-of-troubleshooting/",
+      "date": "2025-03-28",
+      "supports": "LTAMDS $125–130M per copy vs legacy Patriot radar $110–115M (program office)"
+    },
+    {
+      "name": "Defense News – US taps Poland to host European PAC-3 missile maintenance facility (Jaroslaw Adamowski)",
+      "url": "https://www.defensenews.com/?p=87072",
+      "date": "2026-10-27",
+      "supports": "Poland selected for European PAC-3 maintenance facility; Germany, Netherlands, Sweden lead supply-chain integration; Poland 2018 ~$4.75bn for two Config 3+ batteries"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://envantermedya.com/ru/ru-patriot-s-400-sravnenie/",
+      "anchor": "«Patriot или С-400: в чём различия?»"
+    },
+    {
+      "url": "https://envantermedya.com/ru/ssha-odobrili-500-raket-patriot-ukraina-jumpstart/",
+      "anchor": "одобрение США новой партии ракет Patriot для Украины"
+    },
+    {
+      "url": "https://envantermedya.com/ru/ru-turkish-f16-adana-spanish-patriot-exercise/",
+      "anchor": "проверили турецкие F-16 на базе в Адане"
+    },
+    {
+      "url": "https://envantermedya.com/ru/ru-lockheed-martin-58-mlrd-pac3-mse-patriot/",
+      "anchor": "многолетнем контракте на 58,6 млрд долларов"
+    },
+    {
+      "url": "https://envantermedya.com/ru/ru-lockheed-martin-pac-3-edge-novyy-perehvatchik-patriot/",
+      "anchor": "PAC-3 Edge"
+    },
+    {
+      "url": "https://envantermedya.com/ru/ru-us-poland-pac-3-patriot-maintenance-hub/",
+      "anchor": "сервисном центре PAC-3 в Польше"
+    }
+  ],
+  "hreflang_equivalents": {
+    "tr": null,
+    "en": null,
+    "es": null,
+    "ar": null,
+    "ru": null
+  },
+  "image": {
+    "type": "public_domain_photo",
+    "source_page_url": "https://www.dvidshub.net/image/9277911/tenacious-archer-25-patriot-live-fire-exercise-day-two",
+    "direct_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2508/9277911/2000w_q95.jpg",
+    "licence": "Public domain (U.S. Army / DoD work; DVIDS 'PUBLIC DOMAIN', subject to https://www.dvidshub.net/about/copyright)",
+    "credit": "U.S. Army photo by Capt. Frank Spatt, 38th Air Defense Artillery Brigade (DVIDS, VIRIN 250821-A-TR140-1004)",
+    "alt": "Пуск зенитной ракеты PAC-2 с пусковой установки M903 комплекса Patriot на учениях Tenacious Archer 25 в Палау, 21 августа 2025 года: ракета уходит вверх, установку окутывает облако дыма, рядом стоит тягач"
+  },
+  "last_updated_note": "«Обновлено: 10 ноября 2026 г.» включено в конец content_html",
+  "word_count": 1478,
+  "verification_notes": [
+    "Обозначение LTAMDS как AN/MPQ-79 НЕ подтверждено ни одним открытым официальным источником (RTX, army.mil, Defense News) — в тексте индекс не используется.",
+    "Дальность/высота отдельных ракет (GEM-T, CRI, MSE) официально не публикуются; в тексте только 68 км (Бундесвер, для комплекса), >100 км для РЛС (CRS со ссылкой на MDAA/Janes) и относительные оценки CSIS. Часто цитируемые цифры (напр. 120 км / 35 км для MSE) не включены как непроверенные.",
+    "Габариты 5,31 м/907 кг/41 см и 5,20 м/312 кг/25 см — данные Бундесвера для PAC-2 и PAC-3 в целом, а не именно для GEM-T и CRI (оговорено сноской под таблицей).",
+    "«4 ракеты PAC-2 на ПУ» и «до 16 PAC-3 CRI» выведены из CRS (4–16 в зависимости от типа), Бундесвера (каждая PAC-2 в своём контейнере) и CSIS (4 CRI в контейнере) — редактору стоит сверить формулировку.",
+    "Число стран: RTX — 19 (апрель 2026), Lockheed Martin — 17 стран выбрали PAC-3 (2026). Список CRS основан на уведомлениях DSCA/Госдепа 2001–18.08.2026 и включает и поставленные, и ожидаемые системы (в т. ч. Турцию, Швейцарию); Украина в нём отсутствует, т. к. получала комплексы иными путями. В тексте это оговорено.",
+    "Пентагон в мае 2023 г. подтверждал перехват «Кинжала» Patriot (брифинг Пэта Райдера 9 мая 2023), но страница стенограммы defense.gov/war.gov была недоступна (403), поэтому в тексте эпизод 4 мая подан по CSIS как заявленный.",
+    "Reuters-материал 17.05.2023 открыт в перепечатке The Kathmandu Post (подпись Reuters); при наличии доступа лучше заменить ссылку на reuters.com.",
+    "Сумма польского сервисного центра (в новости Envanter — 230 млн евро; Euronews — 227 млн) в статье не приводится: Defense News её не называет.",
+    "Lockheed: на странице продукта «100+ лётных испытаний», в Fast Facts 2026 — «90+»; число испытаний в текст не включено.",
+    "Ссылка на PAC-3 Edge — внутренняя (новость Envanter); сроки проекта в тексте не приводятся, т. к. не сверены с первоисточником."
+  ],
+  "duplicate_check": "Русские страницы Envanter о Patriot: сравнения ru-patriot-s-400-sravnenie и ru-patriot-siper-sravnenie (интент «сравнение»), десятки новостей о контрактах/поставках (интент «новость»), справочник ru-s-400-triumf-harakteristiki-rakety (другая система). Отдельного справочника о самом ЗРК Patriot (состав, ракеты, дальность, эксплуатанты) в RU нет — новая страница закрывает навигационно-информационный интент «пэтриот / зрк patriot / patriot характеристики» и ссылается на сравнение с С-400 одной ссылкой."
+}

@@ -1,0 +1,280 @@
+{
+  "decision": "UPDATE",
+  "update_post_id": 49720,
+  "content_type": "guide",
+  "lang": "tr",
+  "title": "TUSAŞ KAAN Nedir? Özellikleri, Motoru, Prototipleri ve Son Durumu (2026)",
+  "slug": "kaan-nedir",
+  "current_title": "KAAN Nedir? 5. Nesil Millî Muharip Uçak (MMU) Rehberi 2026",
+  "current_rank_math": {
+    "rank_math_title": "",
+    "rank_math_description": "",
+    "rank_math_focus_keyword": "",
+    "note": "Üçü de boş. Canlı sayfada <title> = 'KAAN Nedir? 5. Nesil Millî Muharip Uçak (MMU) Rehberi 2026 - Envanter Medya', meta description = mevcut excerpt (Rank Math varsayılanı). Canlı sayfada hreflang etiketi yok; canonical https://envantermedya.com/kaan-nedir/. Mevcut öne çıkan görsel (featured_media 49713) bir maket fotoğrafı."
+  },
+  "excerpt": "TUSAŞ'ın geliştirdiği beşinci nesil millî muharip uçak KAAN: resmî teknik veriler, F110'dan TF35000'e motor planı, KAAN-1 testleri, 2028 teslimat hedefi ve Endonezya'ya 48 uçaklık ihracat.",
+  "content_html": "<p>Türk Hava Kuvvetleri'nin F-16 filosunun yerini alması planlanan beşinci nesil, çift motorlu muharip uçak KAAN'ı Türk Havacılık ve Uzay Sanayii (TUSAŞ) ana yüklenici olarak geliştiriyor. İlk prototip KAAN-0 (P0) 21 Şubat 2024'te uçtu. Yeni prototip KAAN-1 (P1) 31 Temmuz 2026'da ilk taksi testini yaptı; 10 Kasım 2026 itibarıyla ilk uçuşu henüz duyurulmadı. Mayıs 2026'da imzalanan sözleşmeye göre ilk 20 seri uçağın 2028–2030 arasında teslimi hedefleniyor. Endonezya ise 48 uçaklık sözleşmeyle programın ilk ihracat müşterisi oldu.</p>\n\n<p>Program, Savunma Sanayii Başkanlığı (SSB) ile TUSAŞ arasında 5 Ağustos 2016'da imzalanan geliştirme sözleşmesiyle başladı. TUSAŞ'a göre amaç, 2030'lu yıllardan itibaren kademeli olarak envanterden çıkarılacak F-16'ların yerini alacak bir savaş uçağını ve bu uçağı tasarlayacak mühendislik altyapısını yurt içinde kurmak. Bu sayfada resmî olarak açıklanan değerler ile hedefler ayrı ayrı veriliyor. Fuarlarda ve TEKNOFEST'te sergilenen KAAN'ların önemli bölümünün tam ölçekli maket olduğunu da baştan not etmek gerekiyor: uçan uçak yalnızca prototiptir.</p>\n\n<h2>KAAN teknik özellikleri: TUSAŞ ne açıkladı?</h2>\n\n<p>KAAN hakkında yaygın bir yanlış, \"teknik değerlerin hiç açıklanmadığı\" düşüncesidir. TUSAŞ, ürün sayfasında boyut, ağırlık ve performans değerlerini paylaşıyor. Menzil, muharebe yarıçapı, radar kesit alanı ve iç silah kapasitesi gibi kalemler ise açıklanmadı. Aşağıdaki tabloda TUSAŞ'ın resmî verisi ile basına yansıyan bilgiler ayrı sütunlarda yer alıyor. Daha ayrıntılı döküm için <a href=\"https://envantermedya.com/kaan-teknik-ozellikleri/\">KAAN teknik özellikleri sayfamıza</a> bakabilirsiniz.</p>\n\n<table>\n<thead><tr><th>Özellik</th><th>TUSAŞ'ın resmî verisi</th><th>Basına yansıyan bilgi / not</th></tr></thead>\n<tbody>\n<tr><td>Sınıf</td><td>5. nesil çok rollü savaş uçağı</td><td>—</td></tr>\n<tr><td>Uzunluk</td><td>20,3 m</td><td>Kamuoyunda eski tasarım aşamasına ait farklı değerler dolaşıyor; esas alınması gereken TUSAŞ verisi</td></tr>\n<tr><td>Kanat açıklığı</td><td>13,4 m</td><td>—</td></tr>\n<tr><td>Yükseklik</td><td>5 m</td><td>—</td></tr>\n<tr><td>Kanat alanı</td><td>71,6 m²</td><td>—</td></tr>\n<tr><td>Azami kalkış ağırlığı</td><td>34.750 kg</td><td>—</td></tr>\n<tr><td>İtki</td><td>2 × 13.150 kgf (2 × 29.000 lb)</td><td>Prototiplerde GE F110; alt tip AA'nın aktardığı Çin ordu gazetesi haberinde F110-GE-129 olarak geçiyor</td></tr>\n<tr><td>Azami hız</td><td>1,8 Mach (40.000 ft'te)</td><td>Hedef değer; prototip uçuşlarında 230 knot'a çıkıldığı açıklandı</td></tr>\n<tr><td>Servis tavanı</td><td>16.764 m (55.000 ft)</td><td>—</td></tr>\n<tr><td>G limiti</td><td>+9 / −3,5 G</td><td>—</td></tr>\n<tr><td>Menzil / muharebe yarıçapı</td><td>Açıklanmadı</td><td>TUSAŞ yalnızca \"genişletilmiş harekât yarıçapı\" ifadesini kullanıyor</td></tr>\n<tr><td>Radar kesit alanı (RCS)</td><td>Açıklanmadı</td><td>Düşük radar ve kızılötesi izi tasarım hedefi</td></tr>\n<tr><td>İç silah kapasitesi</td><td>Açıklanmadı</td><td>Dâhilî silah yuvaları KAAN-1'de bulunuyor</td></tr>\n<tr><td>Yerlilik oranı</td><td>Yaklaşık %90 (Genel Müdür Demiroğlu, Ağustos 2026)</td><td>Motor ve fırlatma koltuğu henüz yerli değil</td></tr>\n<tr><td>Birim fiyat</td><td>Açıklanmadı</td><td>—</td></tr>\n</tbody>\n</table>\n\n<p>Tablodaki performans değerleri TUSAŞ'ın tasarım hedefleridir. Prototiplerle bugüne kadar açıklanan uçuş zarfı bu değerlerin çok altındadır; zarf genişletme testleri 2027'de yapılacak.</p>\n\n<h2>KAAN motoru: bugün F110, hedef TF35000</h2>\n\n<p>KAAN-0 iki General Electric F110 turbofanla uçtu. TUSAŞ'ın açıkladığı 2 × 29.000 lb itki, GE Aerospace'in F110 için verdiği 29.000 lb'lik itki sınıfıyla örtüşüyor. GE'ye göre aynı motor ailesi dünya genelinde F-16 ve F-15 filolarında kullanılıyor. Motor tarafının ayrıntıları için <a href=\"https://envantermedya.com/kaan-motoru/\">KAAN motoru dosyamıza</a> göz atabilirsiniz.</p>\n\n<h3>ABD ihracat lisansı süreci</h3>\n\n<ul>\n<li><strong>Prototip motorları:</strong> FlightGlobal'ın 26 Aralık 2025 tarihli haberine göre prototipler için 10 adet F110 Türkiye'ye teslim edildi. Seri üretim için 80 motorluk görüşmelerin ise Türkiye'nin S-400 alımı nedeniyle engellerle karşılaşabileceği yazıldı.</li>\n<li><strong>Başvuru:</strong> SSB Başkanı Haluk Görgün, Eylül 2025'te ilk blok seri uçaklar için ABD'ye motor tedarik başvurusunun tamamlandığını açıkladı.</li>\n<li><strong>Satış onayı:</strong> The War Zone, Trump yönetiminin değeri 700 milyon doları aştığı bildirilen F110 satışını onaylama yoluna gittiğini aktardı.</li>\n<li><strong>Kongre aşaması:</strong> TUSAŞ Genel Müdürü Mehmet Demiroğlu, Breaking Defense'e 22 Temmuz 2026'da verdiği demeçte ihracat lisansının 9 Temmuz'da Kongre'den geçtiğini, seri üretim için 80 motor alınacağını ve ilk partinin 2027'ye kadar gelmesinin beklendiğini söyledi.</li>\n</ul>\n\n<h3>Yerli motor TF35000</h3>\n\n<p>Seri üretimin ilerleyen bloklarında kullanılacak TF35000, TEI ile TRMOTOR iş ortaklığında geliştiriliyor. Fikrî ve sınai hakları SSB'ye ait olan program, Ağustos 2026'da açıklanan yapılanmayla TRMOTOR'un yeni adı TEI TEKNOLOJİ çatısına taşınıyor. AA Analiz'e göre KAAN, Blok-30'dan itibaren yerli güç sistemiyle göreve girecek. Demiroğlu, yerli motor testlerinin 2032 civarında başlamasını öngörüyor. Bunlar takvim hedefleridir; TF35000 henüz uçuş sertifikası almış bir motor değildir.</p>\n\n<p>Motor meselesi ihracatı da doğrudan ilgilendiriyor. ABD menşeli motorla satılacak uçaklar ABD'nin yeniden ihracat kurallarına tabi oluyor. TUSAŞ, Endonezya'ya teslim edilecek uçakların yerli motor kullanacağını açıkladı.</p>\n\n<h2>KAAN prototipleri ve test takvimi</h2>\n\n<table>\n<thead><tr><th>Tarih</th><th>Gelişme</th><th>Kaynak</th></tr></thead>\n<tbody>\n<tr><td>5 Ağustos 2016</td><td>SSB–TUSAŞ geliştirme sözleşmesi imzalandı</td><td>TUSAŞ</td></tr>\n<tr><td>21 Şubat 2024</td><td>KAAN-0 (P0) ilk uçuş: 13 dakika, 8.000 ft, 230 knot</td><td>TUSAŞ</td></tr>\n<tr><td>6 Mayıs 2024</td><td>İkinci uçuş: 14 dakika, 10.000 ft, 230 knot</td><td>TUSAŞ</td></tr>\n<tr><td>31 Temmuz 2026</td><td>KAAN-1 (P1) yavaş hızda ilk taksi testi</td><td>TUSAŞ, AA</td></tr>\n<tr><td>2 Ekim 2026</td><td>Demiroğlu: P1'in sistem testleri tamam, sırada hızlı taksi; P2 yavaş taksi testlerini bitirdi</td><td>AA</td></tr>\n<tr><td>2 Kasım 2026</td><td>GÖKVATAN'ın 146. sayısında KAAN-1'in öne çıkan yetenekleri paylaşıldı</td><td>TUSAŞ</td></tr>\n<tr><td>2026 sonu (hedef)</td><td>P1'in ve ardından P2'nin ilk uçuşu</td><td>AA</td></tr>\n<tr><td>2027 (hedef)</td><td>Zarf genişletme, ardından silah ve sistem entegrasyonlu test; üç uçaklı test kampanyası</td><td>AA</td></tr>\n</tbody>\n</table>\n\n<p>Adlandırmada dikkat edilmesi gereken bir nokta var: TUSAŞ, Şubat 2024'te uçan aracı \"ilk prototip KAAN-0 (P0)\" olarak anıyor. Bazı yabancı kaynaklar ise P1'i \"ilk prototip\" diye yazıyor. P1 ve P2, TUSAŞ'ın ifadesiyle daha gelişmiş sistem mimarisine sahip prototipler.</p>\n\n<p>Demiroğlu 2 Ekim 2026'da, aksilik olmazsa P1'in ekim ya da kasım ayında, en geç yıl sonuna kadar uçacağını söyledi. P1'in ilk uçuşu için bu tarihten sonra resmî bir tarih açıklanmadı.</p>\n\n<h3>KAAN-1'in açıklanan yetenekleri</h3>\n\n<p>TUSAŞ'ın 2 Kasım 2026'da yayımlanan GÖKVATAN dergisinin 146. sayısına göre KAAN-1 dört başlıkta öne çıkıyor: yapay zekâ entegrasyonu, gelişmiş aviyonik yapı, dâhilî silah yuvaları ve insansız hava araçlarıyla ortak ağ üzerinden haberleşerek harekât icra edebilme. Dergi, bu yeteneklerin teknik ayrıntılarını paylaşmadı. 31 Temmuz'daki taksi testinde ise pist üzerindeki hareket kabiliyeti, motor tepkileri, fren ve burun tekerleği sistemleri değerlendirildi. Haberin ayrıntısı için <a href=\"https://envantermedya.com/kaan-1-prototipi-yetenekleri-gokvatan/\">KAAN-1 prototipinin yetenekleri</a> haberimize bakabilirsiniz.</p>\n\n<h2>KAAN ne zaman envantere girecek? Seri üretim ve teslimat hedefleri</h2>\n\n<p>SSB ile TUSAŞ, 6 Mayıs 2026'da SAHA 2026 fuarında KAAN tedarik sözleşmesini imzaladı. AA Analiz'de yer alan değerlendirmeye göre sözleşmeyle 20 adet Blok-10 KAAN'ın 2028'den başlayarak 2030 sonuna kadar Hava Kuvvetleri'ne teslimi hedefleniyor. Demiroğlu, Temmuz 2026'da 2028 teslimat hedefinin geçerliliğini koruduğunu söyledi. Toplam sipariş adedi ve sözleşme bedeli resmî olarak açıklanmadı.</p>\n\n<p>Üretim kapasitesine dair en somut veri TUSAŞ Millî Muharip Uçak Genel Müdür Yardımcısı Uğur Zengin'den geldi. Zengin, Mayıs 2026'da yılda 6 ila 9 KAAN çıkarabilecek bir üretim ortamına ulaşıldığını ve yılda ilave 24 uçaklık bir alanın tasarlandığını söyledi. Bu ikinci rakam henüz kurulmuş bir kapasite değil, plandır. Teslimat takviminin blok blok dökümü için <a href=\"https://envantermedya.com/kaan-teslimat-envanter-dosyasi/\">KAAN teslimat ve envanter dosyamızı</a> inceleyebilirsiniz.</p>\n\n<h2>KAAN'da hangi yerli alt sistemler var?</h2>\n\n<p>TUSAŞ platformun tasarımından ve sistem entegrasyonundan sorumlu. Alt sistemlerde resmî ağızdan doğrulanan sorumluluklar şöyle:</p>\n\n<ul>\n<li><strong>Radar (ASELSAN):</strong> ASELSAN Genel Müdürü Ahmet Akyol, Mart 2024'te millî AESA burun radarının çalışacağı platformlar arasında KAAN'ı da saydı. Radarın KAAN'a özgü performans değerleri açıklanmadı. Radar ailesi için <a href=\"https://envantermedya.com/murad-radar-nedir/\">MURAD radarı rehberimize</a> bakabilirsiniz.</li>\n<li><strong>Aviyonik bilgisayar (TÜBİTAK BİLGEM):</strong> AA'nın derlediği bilgiye göre uçağın \"beyni\" olarak anılan aviyonik bilgisayar sistemi, gerçek zamanlı işletim sistemi ve aviyonik ağlar BİLGEM'den. Radar görünmezliği analizleri için RASEM yazılımları da aynı kurumun.</li>\n<li><strong>Yaşam destek (TÜBİTAK MAM):</strong> Pilot yaşam destek sistemleri ve yakıt tanklarında patlama önleme sistemleri.</li>\n<li><strong>Mühimmat entegrasyonu (TÜBİTAK SAGE):</strong> Entegrasyonu planlanan mühimmatlar arasında SOM A/B1/B2, HGK 82/83/84, KGK 82/83, NEB, GÖKHAN ile hava-hava füzeleri GÖKDOĞAN ve BOZDOĞAN var.</li>\n<li><strong>ROKETSAN:</strong> Genel Müdür Murat İkinci, IDEF 2025'te görüş ötesi hava-hava füzesi GÖKBORA'nın KAAN ve KIZILELMA'nın iç silah istasyonundan atılabileceğini söyledi.</li>\n<li><strong>Motor ve fırlatma koltuğu:</strong> Demiroğlu'na göre bu iki kalem dışındaki sistemler ya yerli ya da P2 ve P3'te yerli olacak.</li>\n</ul>\n\n<p>TUSAŞ'ın ürün sayfası bütünleşik radyo frekans, elektro-optik ve haberleşme-seyrüsefer-tanımlama sistemlerinden söz ediyor; ancak elektronik harp sisteminin hangi firmadan geldiğini belirtmiyor.</p>\n\n<h2>KAAN ihracatı: Endonezya ve diğer ülkeler</h2>\n\n<p>Endonezya süreci iki aşamada ilerledi ve sık karıştırılıyor:</p>\n\n<ul>\n<li><strong>11 Haziran 2025, Cakarta (Indo Defence):</strong> Endonezya Devlet Başkanı Prabowo Subianto'nun da katıldığı törende hükümetler arası anlaşma imzalandı. TUSAŞ 48 uçaklık satış ve 120 ay içinde teslim açıkladı. Endonezya Savunma Bakanlığı ise ertesi gün imzalanan belgenin henüz sözleşme değil mutabakat zaptı olduğunu, adedin sözleşmede netleşeceğini belirtti.</li>\n<li><strong>26 Temmuz 2025, İstanbul (IDEF 2025):</strong> Endonezya Savunma Bakanlığı'nın açıklamasına göre 48 KAAN için uygulama sözleşmesi Savunma Bakanı Sjafrie Sjamsoeddin'in tanıklığında imzalandı. Bakanlık, sözleşmenin Endonezya'da yerel sanayi tabanı kurulmasını ve teknoloji transferini kapsadığını açıkladı.</li>\n</ul>\n\n<p>TUSAŞ, Endonezya'ya teslim edilecek uçakların yerli üretim motor kullanacağını duyurdu. Sözleşme bedeli iki tarafça da resmî olarak açıklanmadı. Endonezya Savunma Bakanlığı Nisan 2026'da sınırlı adette bir ilk sözleşme bulunduğunu, bunun Maliye Bakanlığı ile dış kredi mekanizması üzerinden yürürlüğe sokulduğunu ve alımın bütçeye göre aşamalı yapılacağını açıkladı. Ülkenin tedarik yapısı için <a href=\"https://envantermedya.com/endonezya-savunma-sanayii-ve-askeri-tedarik-profili/\">Endonezya savunma tedarik profilimize</a> bakabilirsiniz.</p>\n\n<p>Diğer ülkeler tarafında resmî belgeye dayanan bilgi sınırlı. Azerbaycan Savunma Sanayii Bakanlığı ile TUSAŞ, Temmuz 2023'te IDEF'te millî savaş uçağı üretimindeki ortak projeler için mühendis yetiştirmeyi öngören bir niyet protokolü imzaladı. Başka ülkelerin katılımı ya da alımı hakkındaki haberler resmî açıklamayla doğrulanmadığı için bu rehbere alınmadı.</p>\n\n<h2>KAAN, F-35 ve Su-57: kısa karşılaştırma</h2>\n\n<table>\n<thead><tr><th>Özellik</th><th>KAAN</th><th>F-35A</th><th>Su-57</th></tr></thead>\n<tbody>\n<tr><td>Geliştirici</td><td>TUSAŞ (Türkiye)</td><td>Lockheed Martin (ABD)</td><td>Suhoy / UAC (Rusya)</td></tr>\n<tr><td>Motor</td><td>2 × GE F110 (her biri 29.000 lb); hedef TF35000</td><td>1 × F135-PW-100 (40.000 lb, art yakıcılı)</td><td>Birinci aşama motoru 117S; yeni nesil motor geliştirmede</td></tr>\n<tr><td>Azami hız</td><td>1,8 Mach (hedef)</td><td>1,6 Mach</td><td>Bu rehberde resmî kaynakla doğrulanamadı</td></tr>\n<tr><td>Uzunluk / kanat açıklığı</td><td>20,3 m / 13,4 m</td><td>15,7 m / 10,7 m</td><td>Bu rehberde resmî kaynakla doğrulanamadı</td></tr>\n<tr><td>G limiti</td><td>+9 G</td><td>9 G</td><td>—</td></tr>\n<tr><td>İlk uçuş</td><td>21 Şubat 2024</td><td>—</td><td>2010</td></tr>\n<tr><td>Durum (Kasım 2026)</td><td>Prototip testleri; ilk teslimat hedefi 2028</td><td>Seri üretimde, ABD ve çok sayıda ortak ülkede hizmette</td><td>Seri üretim uçakların teslimi Aralık 2020'de başladı</td></tr>\n</tbody>\n</table>\n\n<p>Tablo, olgunluk farkını göstermek için hazırlandı: F-35 ve Su-57 hizmette olan uçaklar, KAAN ise test aşamasında. KAAN'ın değerleri tasarım hedefidir, diğer iki uçağınki ise üreticilerin açıkladığı hizmet değerleridir. Görev sistemleri, stealth ve maliyet karşılaştırması için <a href=\"https://envantermedya.com/kaan-vs-f-35/\">KAAN vs F-35 analizimize</a>, Rus uçağıyla ayrıntılı kıyas için <a href=\"https://envantermedya.com/kaan-vs-su-57-felon-karsilastirma/\">KAAN ve Su-57 Felon karşılaştırmamıza</a> bakabilirsiniz.</p>\n\n<h2>Sık sorulan sorular</h2>\n\n<h3>TUSAŞ KAAN ne zaman envantere girecek?</h3>\n<p>Mayıs 2026'da imzalanan SSB–TUSAŞ sözleşmesine göre 20 Blok-10 KAAN'ın 2028'den itibaren 2030 sonuna kadar Hava Kuvvetleri'ne teslimi hedefleniyor. Bu bir hedef takvimdir; 10 Kasım 2026 itibarıyla teslim edilmiş seri uçak yok.</p>\n\n<h3>KAAN-1 (P1) uçtu mu?</h3>\n<p>Hayır, en azından 10 Kasım 2026 itibarıyla duyurulmadı. KAAN-1 31 Temmuz 2026'da yavaş hızda taksi testini yaptı. TUSAŞ, hızlı taksi testlerinin ardından uçağı 2026 sonuna kadar uçurmayı hedefliyor.</p>\n\n<h3>KAAN'ın motoru yerli mi?</h3>\n<p>Henüz değil. Prototipler iki GE F110 ile uçuyor ve ilk seri bloklar için de ABD'den 80 F110 alınacak. Yerli TF35000'in Blok-30'dan itibaren kullanılması, motor testlerinin ise 2032 civarında başlaması hedefleniyor.</p>\n\n<h3>KAAN'ı hangi ülke satın aldı?</h3>\n<p>İlk ihracat müşterisi Endonezya. 11 Haziran 2025'teki hükümetler arası anlaşmanın ardından 26 Temmuz 2025'te İstanbul'da 48 uçaklık uygulama sözleşmesi imzalandı. TUSAŞ teslimatın 120 ay içinde yapılacağını açıkladı; bedel açıklanmadı.</p>\n\n<h3>KAAN'ın hızı ve boyutları ne kadar?</h3>\n<p>TUSAŞ'ın açıkladığı değerlere göre azami hız 40.000 ft'te 1,8 Mach, uzunluk 20,3 m, kanat açıklığı 13,4 m ve azami kalkış ağırlığı 34.750 kg. Bunlar tasarım hedefleridir; menzil ve muharebe yarıçapı açıklanmadı.</p>\n\n<h3>Fuarlarda görülen KAAN'lar gerçek uçak mı?</h3>\n<p>Çoğu değil. TEKNOFEST ve benzeri etkinliklerde sergilenen KAAN'lar genellikle bire bir ölçekli maketlerdir. Uçan araçlar yalnızca TUSAŞ'ın test ettiği prototiplerdir; maket fotoğrafları uçuş kabiliyeti ya da güncel konfigürasyon hakkında bilgi vermez.</p>\n\n<h2>Kaynaklar</h2>\n<ul>\n<li><a href=\"https://www.tusas.com/urunler/ucak/ozgun-gelistirme/kaan\">TUSAŞ — KAAN ürün sayfası (teknik özellikler, sözleşme ve uçuş verileri)</a></li>\n<li><a href=\"https://www.tusas.com/content/files/uploads/12280/Say%C4%B1_146_TR.pdf\">TUSAŞ — GÖKVATAN Dergisi, 146. sayı (2 Kasım 2026)</a></li>\n<li><a href=\"https://tusas.com/medya-merkezi/haberler/turkiye-ile-endonezya-arasinda-atilan-imzalarla-turkiye-tarihinin-rekor-ihracat-sozlesmesi-gerceklestirildi-anlasma-tusas-tarafindan-milli-imkanlarla-uretilen-48-adet-milli-muharip-ucak-kaan-in-satisini-kapsiyor\">TUSAŞ — Endonezya ile 48 KAAN anlaşması (Cakarta, 11 Haziran 2025)</a></li>\n<li><a href=\"https://www.tusas.com/medya-merkezi/haberler/tusas-ve-endonezya-arasinda-48-adet-kaan-milli-muharip-ucak-satisina-yonelik-resmi-sozlesme-istanbul-da-imzalandi\">TUSAŞ — 48 KAAN için resmî sözleşme İstanbul'da imzalandı (IDEF 2025)</a></li>\n<li><a href=\"https://www.kemhan.go.id/2025/07/28/menhan-ri-saksikan-penandatanganan-kontrak-pengadaan-48-pesawat-tempur-kaan-kembangkan-kapasitas-industri-pertahanan-dalam-negeri.html\">Endonezya Savunma Bakanlığı — 48 KAAN uygulama sözleşmesi (28 Temmuz 2025)</a></li>\n<li><a href=\"https://www.cnnindonesia.com/nasional/20250612180010-32-1239136/kemhan-soal-pembelian-48-jet-tempur-turki-belum-kontrak-masih-mou\">CNN Indonesia — Kemhan: \"Henüz sözleşme değil, mutabakat\" (12 Haziran 2025)</a></li>\n<li><a href=\"https://www.antaranews.com/berita/5506561/kemhan-beli-pesawat-tempur-kaan-dengan-skema-pinjaman-luar-negeri\">ANTARA — Kemhan: KAAN alımı dış krediyle (2 Nisan 2026)</a></li>\n<li><a href=\"https://www.aa.com.tr/tr/savunma-sanayisi/ssb-ile-tusas-arasinda-milli-muharip-ucak-kaan-icin-tedarik-sozlesmesi-imzalandi/3928842\">Anadolu Ajansı — SSB ile TUSAŞ arasında KAAN tedarik sözleşmesi (6 Mayıs 2026)</a></li>\n<li><a href=\"https://aa.com.tr/tr/analiz/turk-savunma-sanayisinin-ulastigi-potansiyel-sahadaydi/3934725\">AA Analiz — Türk savunma sanayisinin ulaştığı potansiyel SAHA'daydı (12 Mayıs 2026)</a></li>\n<li><a href=\"https://www.trthaber.com/haber/savunma/milli-muharip-ucak-projesinde-yilda-ilave-24-ucaklik-yeni-uretim-alani-planlaniyor-944359.html\">TRT Haber / AA — Yılda ilave 24 uçaklık üretim alanı planlanıyor (7 Mayıs 2026)</a></li>\n<li><a href=\"https://www.aa.com.tr/en/turkiye/turkiye-s-kaan-fighter-jet-begins-pre-flight-taxi-tests/4014906\">Anadolu Ajansı — KAAN taksi testlerine başladı (31 Temmuz 2026)</a></li>\n<li><a href=\"https://www.aa.com.tr/tr/bilim-teknoloji/kaan-ve-hurjette-test-trafigi-artacak/4035055\">Anadolu Ajansı — KAAN ve HÜRJET'te test trafiği artacak (23 Ağustos 2026)</a></li>\n<li><a href=\"https://www.aa.com.tr/tr/bilim-teknoloji/kaan-yeni-ucusu-icin-hizlaniyor/4075834\">Anadolu Ajansı — KAAN yeni uçuşu için hızlanıyor (2 Ekim 2026)</a></li>\n<li><a href=\"https://www.aa.com.tr/en/turkiye/turkish-aerospace-industries-readies-kaan-fighter-prototype-for-1st-flight-before-2027/4076368\">Anadolu Ajansı — P1 ve P2 durumu (2 Ekim 2026)</a></li>\n<li><a href=\"https://www.aa.com.tr/tr/savunma-sanayisi/kaan-ve-yerli-motor-calismalari-plana-uygun-ilerliyor/3701699\">Anadolu Ajansı — KAAN ve yerli motor çalışmaları (28 Eylül 2025)</a></li>\n<li><a href=\"https://www.aa.com.tr/tr/bilim-teknoloji/turkiyenin-ozgun-havacilik-motoru-gelistirme-yetenekleri-ayni-cati-altinda-toplaniyor/4021332\">Anadolu Ajansı — TF35000 TEI TEKNOLOJİ çatısında (7 Ağustos 2026)</a></li>\n<li><a href=\"https://breakingdefense.com/2026/07/turkish-aerospace-ceo-us-cleared-kaan-fighter-engines-for-export/\">Breaking Defense — Turkish Aerospace CEO: US cleared KAAN fighter engines for export (22 Temmuz 2026)</a></li>\n<li><a href=\"https://www.flightglobal.com/fixed-wing/turkey-has-ten-f110-engines-for-kaan-fighter-as-it-continues-talks-for-more/165804.article\">FlightGlobal — Turkey has ten F110 engines for Kaan fighter (26 Aralık 2025)</a></li>\n<li><a href=\"https://www.twz.com/air/turkeys-latest-kaan-fighter-prototype-begins-taxi-tests\">The War Zone — Turkey's latest Kaan fighter prototype begins taxi tests (31 Temmuz 2026)</a></li>\n<li><a href=\"https://www.geaerospace.com/military/engines/f110\">GE Aerospace — F110 motor sayfası</a></li>\n<li><a href=\"https://www.aa.com.tr/tr/savunma-sanayisi/turkiyenin-milli-muharip-ucagi-kaan-tubitakin-yerli-teknolojileriyle-benzersiz-olacak/3147717\">Anadolu Ajansı — KAAN'da TÜBİTAK teknolojileri (26 Şubat 2024)</a></li>\n<li><a href=\"https://www.aa.com.tr/tr/savunma-sanayisi/aselsanin-ucaklara-nesil-atlatan-aesa-teknolojisi-hizmete-sunuldu/3175146\">Anadolu Ajansı — ASELSAN AESA burun radarı (26 Mart 2024)</a></li>\n<li><a href=\"https://www.aa.com.tr/tr/idef-2025/roketsan-genel-muduru-ikinci-tayfun-genis-bir-aile-ve-daha-da-genisleyecek/3642743\">Anadolu Ajansı — Roketsan Genel Müdürü İkinci, IDEF 2025 (26 Temmuz 2025)</a></li>\n<li><a href=\"https://www.aa.com.tr/tr/gundem/milli-muharip-ucak-kaan-cin-ordu-gazetesinde-genis-yer-aldi/3311895\">Anadolu Ajansı — KAAN Çin ordu gazetesinde (24 Ağustos 2024)</a></li>\n<li><a href=\"https://azertag.az/en/xeber/Azerbaijans_Ministry_of_Defense_Industry_Turkiyes_TUSAS_company_sign_Protocol_of_Intent-2711032\">AZERTAC — Azerbaycan Savunma Sanayii Bakanlığı ile TUSAŞ niyet protokolü (28 Temmuz 2023)</a></li>\n<li><a href=\"https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/documents/F-35/f35A.pdf\">Lockheed Martin — F-35A ürün kartı</a></li>\n<li><a href=\"https://tass.com/defense/960000\">TASS — Russia's 5th-generation fighter jet named as Su-57 (11 Ağustos 2017)</a></li>\n<li><a href=\"https://tass.com/defense/1239789\">TASS — First batch-produced Su-57 delivered to regiment (25 Aralık 2020)</a></li>\n</ul>\n\n<p><em>Son güncelleme: 10 Kasım 2026</em></p>\n",
+  "rank_math_title": "TUSAŞ KAAN Nedir? Özellikleri, Motoru ve Son Durumu",
+  "rank_math_description": "TUSAŞ KAAN rehberi: resmî teknik veriler, F110 ve TF35000 motor planı, KAAN-1 testleri, 2028 teslimat hedefi ve Endonezya'ya 48 uçaklık ihracat.",
+  "rank_math_focus_keyword": "tusaş kaan",
+  "target_query": "tusaş kaan",
+  "secondary_queries": [
+    "kaan",
+    "kaan nedir",
+    "kaan özellikleri",
+    "kaan motoru",
+    "kaan prototipleri",
+    "kaan ilk uçuş",
+    "kaan ne zaman envantere girecek",
+    "kaan ihracat",
+    "kaan endonezya"
+  ],
+  "demand_evidence": "GSC son 24 saat (10.11.2026): \"tusaş kaan\" 726 gösterim, ortalama konum 10,4, 0 tık. 6 Kasım'da aynı sorgu 1.845 gösterim @3,8 / 25 tık alıyordu; o zaman Google KAAN-1 haberini (/kaan-1-prototipi-yetenekleri-gokvatan/) gösteriyordu, haber eskidikçe konum 10'a düştü. Sitede 7 ayrı \"KAAN nedir\" sayfası ve 5 ayrı \"KAAN vs F-35\" sayfası birbirini yiyor; bu sayfa tekil ana rehber olacak.",
+  "category_hint": "Hava",
+  "change_summary": [
+    "Başlık, H1 ve Rank Math alanları \"tusaş kaan\" sorgusuna göre yeniden yazıldı; boş olan Rank Math başlık/açıklama/odak anahtar kelime dolduruldu (slug kaan-nedir korunuyor). Gerekçe: sorgu konum 3,8'den 10,4'e düştü ve sayfanın başlığında \"TUSAŞ\" geçmiyordu.",
+    "Eski metnin ana iddiası olan \"teknik değerlerin büyük bölümü resmî olarak açıklanmadı\" düzeltildi: TUSAŞ ürün sayfasındaki resmî değerler (20,3 m, 13,4 m, 34.750 kg, 2×29.000 lb, Mach 1.8, 55.000 ft, +9/−3,5 G) tabloya kondu; açıklanmayanlar (menzil, RCS, iç silah kapasitesi, fiyat) ve basına yansıyanlar ayrı sütunda.",
+    "Sayfa 27 Temmuz 2026'da donmuştu; sonrasındaki gelişmeler eklendi: Mayıs 2026 SSB–TUSAŞ sözleşmesi (20 Blok-10, 2028–2030 hedefi), F110 ihracat lisansının 9 Temmuz 2026'da Kongre'den geçmesi, 31 Temmuz 2026 KAAN-1 taksi testi, Ekim 2026 Demiroğlu açıklamaları, 2 Kasım 2026 GÖKVATAN 146'da açıklanan KAAN-1 yetenekleri.",
+    "Eski sayfada hiç olmayan ihracat bölümü eklendi: Endonezya sürecinin iki aşaması (11 Haziran 2025 Cakarta G2G/mutabakat, 26 Temmuz 2025 IDEF uygulama sözleşmesi), Kemhan'ın Nisan 2026 dış kredi açıklaması; diğer ülkeler yalnız resmî belgeyle (Azerbaycan niyet protokolü) sınırlandı.",
+    "Motor bölümü hedef/gerçekleşmiş ayrımıyla yeniden kuruldu: F110 tedarik ve lisans takvimi tarihleriyle; TF35000 için Blok-30 ve ~2032 hedefleri hedef olarak yazıldı; \"TEI TF-35000\" yazımı TEI–TRMOTOR (TEI TEKNOLOJİ) yapısına göre güncellendi.",
+    "Tekrarlar ve dolgu çıkarıldı: eski sayfadaki üç ayrı künye/alt sistem tablosu, aynı uyarının dört kez tekrarlandığı paragraflar ve konu dışı TUSAŞ kurumsal gösterge tablosu (çalışan/mühendis sayısı, Defense News sırası — kaynak açılıp doğrulanmadı) kaldırıldı; içerideki inline stil blokları ve iki maket görseli (spec gereği içerikte görsel yok) temizlendi.",
+    "Alt sistemler yalnız resmî ağızdan doğrulananlarla yazıldı (ASELSAN AESA radar, TÜBİTAK BİLGEM/MAM/SAGE, ROKETSAN GÖKBORA); eski metindeki doğrulanamayan \"elektronik harp ASELSAN\" ifadesi çıkarıldı. F-35 ve Su-57 için kısa karşılaştırma tablosu ve hub yapısına uygun 8 iç bağlantı eklendi (önceki ?p= kısa linkli TUSAŞ kurumsal bağlantılarının yerine).",
+    "Kaynak listesi genel kurum adlarından (ve Wikipedia'dan) tarihli, bağlantılı birincil kaynaklara çevrildi; FAQ \"tusaş kaan ne zaman envantere girecek / KAAN-1 uçtu mu / kim aldı\" gibi güncel sorulara göre yenilendi; son güncelleme tarihi 10 Kasım 2026."
+  ],
+  "sources": [
+    {
+      "name": "TUSAŞ — KAAN ürün sayfası",
+      "url": "https://www.tusas.com/urunler/ucak/ozgun-gelistirme/kaan",
+      "date": "n/a (erişim 2026-11-10)",
+      "supports": "Resmî teknik özellikler tablosu (boyut, ağırlık, itki, Mach 1.8, tavan, G limiti); 5 Ağustos 2016 SSB sözleşmesi; F-16 yerine geçme amacı; 21 Şubat 2024 ilk uçuş (13 dk, 8.000 ft, 230 kt) ve 6 Mayıs 2024 ikinci uçuş (14 dk, 10.000 ft, 230 kt)"
+    },
+    {
+      "name": "TUSAŞ — GÖKVATAN Dergisi 146. sayı (PDF)",
+      "url": "https://www.tusas.com/content/files/uploads/12280/Say%C4%B1_146_TR.pdf",
+      "date": "2026-11-02",
+      "supports": "KAAN-0 (P0) / KAAN-1 (P1) adlandırması; 31 Temmuz 2026 yavaş hızda taksi testi ve test edilen sistemler; KAAN-1'in yapay zekâ, aviyonik, dâhilî silah yuvası, İHA'larla ortak ağ yetenekleri; TEKNOFEST 2026'da bire bir ölçekli maket"
+    },
+    {
+      "name": "TUSAŞ — Endonezya ile 48 KAAN anlaşması (Cakarta)",
+      "url": "https://tusas.com/medya-merkezi/haberler/turkiye-ile-endonezya-arasinda-atilan-imzalarla-turkiye-tarihinin-rekor-ihracat-sozlesmesi-gerceklestirildi-anlasma-tusas-tarafindan-milli-imkanlarla-uretilen-48-adet-milli-muharip-ucak-kaan-in-satisini-kapsiyor",
+      "date": "2025-06-11",
+      "supports": "48 uçak, 120 ay içinde teslim, yerli üretim motor, teknoloji transferi; Prabowo'nun katılımı"
+    },
+    {
+      "name": "TUSAŞ — 48 KAAN için resmî sözleşme İstanbul'da imzalandı",
+      "url": "https://www.tusas.com/medya-merkezi/haberler/tusas-ve-endonezya-arasinda-48-adet-kaan-milli-muharip-ucak-satisina-yonelik-resmi-sozlesme-istanbul-da-imzalandi",
+      "date": "2025-07 (IDEF 2025, 22–27 Temmuz)",
+      "supports": "IDEF 2025'te TUSAŞ ile Endonezya Savunma Bakanlığı arasında bağlayıcı sözleşme; yerel üretim kabiliyeti ve eğitim desteği"
+    },
+    {
+      "name": "Endonezya Savunma Bakanlığı (Kemhan) basın açıklaması",
+      "url": "https://www.kemhan.go.id/2025/07/28/menhan-ri-saksikan-penandatanganan-kontrak-pengadaan-48-pesawat-tempur-kaan-kembangkan-kapasitas-industri-pertahanan-dalam-negeri.html",
+      "date": "2025-07-28",
+      "supports": "Uygulama sözleşmesinin 26 Temmuz 2025'te İstanbul'da Sjafrie Sjamsoeddin tanıklığında imzalandığı; 11 Haziran 2025 G2G anlaşması; 48 uçak; yerel sanayi tabanı ve teknoloji transferi"
+    },
+    {
+      "name": "CNN Indonesia — Kemhan: belum kontrak, masih MoU",
+      "url": "https://www.cnnindonesia.com/nasional/20250612180010-32-1239136/kemhan-soal-pembelian-48-jet-tempur-turki-belum-kontrak-masih-mou",
+      "date": "2025-06-12",
+      "supports": "Kemhan sözcüsü Frega Wenas: Haziran 2025 belgesi sözleşme değil mutabakat; adet sözleşmede belirlenecek"
+    },
+    {
+      "name": "ANTARA — Kemhan beli pesawat tempur KAAN dengan skema pinjaman luar negeri",
+      "url": "https://www.antaranews.com/berita/5506561/kemhan-beli-pesawat-tempur-kaan-dengan-skema-pinjaman-luar-negeri",
+      "date": "2026-04-02",
+      "supports": "Kemhan sözcüsü Rico Sirait: sınırlı adette ilk sözleşme, dış kredi mekanizmasıyla yürürlüğe sokuluyor, aşamalı alım; bedel teyit edilmedi"
+    },
+    {
+      "name": "Anadolu Ajansı — SSB ile TUSAŞ arasında KAAN tedarik sözleşmesi",
+      "url": "https://www.aa.com.tr/tr/savunma-sanayisi/ssb-ile-tusas-arasinda-milli-muharip-ucak-kaan-icin-tedarik-sozlesmesi-imzalandi/3928842",
+      "date": "2026-05-06",
+      "supports": "SAHA 2026'da SSB–TUSAŞ tedarik sözleşmesi ve imzacılar"
+    },
+    {
+      "name": "AA Analiz (Arda Mevlütoğlu) — Türk savunma sanayisinin ulaştığı potansiyel SAHA'daydı",
+      "url": "https://aa.com.tr/tr/analiz/turk-savunma-sanayisinin-ulastigi-potansiyel-sahadaydi/3934725",
+      "date": "2026-05-12",
+      "supports": "20 Blok-10 KAAN'ın 2028–2030 sonu teslim hedefi; TF35000'in TEI–TRMotor iş ortaklığı; Blok-30'dan itibaren yerli motor"
+    },
+    {
+      "name": "TRT Haber (kaynak: AA) — Yılda ilave 24 uçaklık üretim alanı planlanıyor",
+      "url": "https://www.trthaber.com/haber/savunma/milli-muharip-ucak-projesinde-yilda-ilave-24-ucaklik-yeni-uretim-alani-planlaniyor-944359.html",
+      "date": "2026-05-07",
+      "supports": "Uğur Zengin: yılda 6–9 KAAN kapasitesi, ilave 24 uçaklık alan tasarımı; 20 uçaklık sözleşme"
+    },
+    {
+      "name": "Anadolu Ajansı — Türkiye's KAAN fighter jet begins pre-flight taxi tests",
+      "url": "https://www.aa.com.tr/en/turkiye/turkiye-s-kaan-fighter-jet-begins-pre-flight-taxi-tests/4014906",
+      "date": "2026-07-31",
+      "supports": "Taksi testi görüntüleri; P1 ve P2'nin daha gelişmiş sistem mimarisi"
+    },
+    {
+      "name": "Anadolu Ajansı — KAAN ve HÜRJET'te test trafiği artacak",
+      "url": "https://www.aa.com.tr/tr/bilim-teknoloji/kaan-ve-hurjette-test-trafigi-artacak/4035055",
+      "date": "2026-08-23",
+      "supports": "Demiroğlu: ~%90 yerlilik (motor ve fırlatma koltuğu hariç); 2027 zarf genişletme ve silah/sistem testleri, üç uçaklı kampanya; yerli motor testleri ~2032"
+    },
+    {
+      "name": "Anadolu Ajansı — KAAN yeni uçuşu için hızlanıyor",
+      "url": "https://www.aa.com.tr/tr/bilim-teknoloji/kaan-yeni-ucusu-icin-hizlaniyor/4075834",
+      "date": "2026-10-02",
+      "supports": "Demiroğlu: P1 sistem testleri tamam, yavaş taksi bitti, sırada hızlı taksi; bu ay ya da gelecek ay, yıl içinde uçuş hedefi; P2 aynı süreçten geçecek"
+    },
+    {
+      "name": "Anadolu Ajansı — Turkish Aerospace Industries readies 'Kaan' fighter prototype for 1st flight before 2027",
+      "url": "https://www.aa.com.tr/en/turkiye/turkish-aerospace-industries-readies-kaan-fighter-prototype-for-1st-flight-before-2027/4076368",
+      "date": "2026-10-02",
+      "supports": "P2'nin yavaş taksi testlerini tamamladığı; P1'in ardından P2'nin uçurulacağı"
+    },
+    {
+      "name": "Anadolu Ajansı — KAAN ve yerli motor çalışmaları plana uygun ilerliyor",
+      "url": "https://www.aa.com.tr/tr/savunma-sanayisi/kaan-ve-yerli-motor-calismalari-plana-uygun-ilerliyor/3701699",
+      "date": "2025-09-28",
+      "supports": "Görgün: ilk blok için ABD'ye motor başvurusu tamamlandı; Endonezya'ya gidecek KAAN'lar millî motorlu olacak"
+    },
+    {
+      "name": "Anadolu Ajansı — Türkiye'nin özgün havacılık motoru geliştirme yetenekleri aynı çatı altında toplanıyor",
+      "url": "https://www.aa.com.tr/tr/bilim-teknoloji/turkiyenin-ozgun-havacilik-motoru-gelistirme-yetenekleri-ayni-cati-altinda-toplaniyor/4021332",
+      "date": "2026-08-07",
+      "supports": "TF35000'in TEI TEKNOLOJİ (eski TRMOTOR) çatısına taşınması; fikrî haklar SSB'de"
+    },
+    {
+      "name": "Breaking Defense — Turkish Aerospace CEO: US cleared KAAN fighter engines for export",
+      "url": "https://breakingdefense.com/2026/07/turkish-aerospace-ceo-us-cleared-kaan-fighter-engines-for-export/",
+      "date": "2026-07-22",
+      "supports": "Lisansın 9 Temmuz'da Kongre'den geçtiği; 10 prototip motoru, 80 seri üretim motoru; ilk parti 2027; 2028 teslimat hedefi; TF35000 2032"
+    },
+    {
+      "name": "FlightGlobal — Turkey has ten F110 engines for Kaan fighter as it continues talks for more",
+      "url": "https://www.flightglobal.com/fixed-wing/turkey-has-ten-f110-engines-for-kaan-fighter-as-it-continues-talks-for-more/165804.article",
+      "date": "2025-12-26",
+      "supports": "10 F110 teslim edildi; 80 motor görüşmesi ve S-400 kaynaklı engeller"
+    },
+    {
+      "name": "The War Zone — Turkey's latest Kaan fighter prototype begins taxi tests",
+      "url": "https://www.twz.com/air/turkeys-latest-kaan-fighter-prototype-begins-taxi-tests",
+      "date": "2026-07-31",
+      "supports": "P1'de iki F110; Trump yönetiminin 700 milyon doları aştığı bildirilen F110 satışını onaylama süreci; ihracatın ABD motor kısıtlarına tabi olması"
+    },
+    {
+      "name": "GE Aerospace — F110 motor sayfası",
+      "url": "https://www.geaerospace.com/military/engines/f110",
+      "date": "n/a (erişim 2026-11-10)",
+      "supports": "F110 itki sınıfı 29.000 lb; F-15/F-16 filoları"
+    },
+    {
+      "name": "Anadolu Ajansı — Milli muharip uçak KAAN, Çin ordu gazetesinde geniş yer aldı",
+      "url": "https://www.aa.com.tr/tr/gundem/milli-muharip-ucak-kaan-cin-ordu-gazetesinde-genis-yer-aldi/3311895",
+      "date": "2024-08-24",
+      "supports": "Basına yansıyan F110-GE-129 alt tip adı (PLA Daily'ye atıfla)"
+    },
+    {
+      "name": "Anadolu Ajansı — KAAN, TÜBİTAK'ın yerli teknolojileriyle benzersiz olacak",
+      "url": "https://www.aa.com.tr/tr/savunma-sanayisi/turkiyenin-milli-muharip-ucagi-kaan-tubitakin-yerli-teknolojileriyle-benzersiz-olacak/3147717",
+      "date": "2024-02-26",
+      "supports": "TÜBİTAK SAGE mühimmat entegrasyon listesi; BİLGEM aviyonik bilgisayar ve RASEM; MAM yaşam destek ve yakıt tankı sistemleri"
+    },
+    {
+      "name": "Anadolu Ajansı — ASELSAN'ın uçaklara nesil atlatan AESA teknolojisi hizmete sunuldu",
+      "url": "https://www.aa.com.tr/tr/savunma-sanayisi/aselsanin-ucaklara-nesil-atlatan-aesa-teknolojisi-hizmete-sunuldu/3175146",
+      "date": "2024-03-26",
+      "supports": "Ahmet Akyol: AESA burun radarının çalışacağı platformlar arasında KAAN"
+    },
+    {
+      "name": "Anadolu Ajansı — Roketsan Genel Müdürü İkinci: TAYFUN geniş bir aile",
+      "url": "https://www.aa.com.tr/tr/idef-2025/roketsan-genel-muduru-ikinci-tayfun-genis-bir-aile-ve-daha-da-genisleyecek/3642743",
+      "date": "2025-07-26",
+      "supports": "GÖKBORA'nın KAAN ve KIZILELMA iç silah istasyonundan atılabileceği"
+    },
+    {
+      "name": "AZERTAC — Azerbaijan's Ministry of Defense Industry, TUSAŞ sign Protocol of Intent",
+      "url": "https://azertag.az/en/xeber/Azerbaijans_Ministry_of_Defense_Industry_Turkiyes_TUSAS_company_sign_Protocol_of_Intent-2711032",
+      "date": "2023-07-28",
+      "supports": "Millî savaş uçağı ortak projeleri için mühendis yetiştirmeyi öngören niyet protokolü (IDEF 2023)"
+    },
+    {
+      "name": "Lockheed Martin — F-35A ürün kartı (PDF)",
+      "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/documents/F-35/f35A.pdf",
+      "date": "2019 (ürün kartı)",
+      "supports": "F-35A: 15,7 m, 10,7 m, Mach 1.6, 9 G, F135-PW-100 40.000 lb; ABD ve ortak ülkelerde hizmette"
+    },
+    {
+      "name": "TASS — Russia's 5th-generation fighter jet named as Su-57",
+      "url": "https://tass.com/defense/960000",
+      "date": "2017-08-11",
+      "supports": "Su-57 (PAK FA) ilk uçuş 2010; birinci aşama motoru 117S"
+    },
+    {
+      "name": "TASS — First batch-produced Su-57 delivered to regiment in Southern Military District",
+      "url": "https://tass.com/defense/1239789",
+      "date": "2020-12-25",
+      "supports": "İlk seri üretim Su-57'nin teslimi"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://envantermedya.com/kaan-teknik-ozellikleri/",
+      "anchor": "KAAN teknik özellikleri sayfamıza"
+    },
+    {
+      "url": "https://envantermedya.com/kaan-motoru/",
+      "anchor": "KAAN motoru dosyamıza"
+    },
+    {
+      "url": "https://envantermedya.com/kaan-1-prototipi-yetenekleri-gokvatan/",
+      "anchor": "KAAN-1 prototipinin yetenekleri"
+    },
+    {
+      "url": "https://envantermedya.com/kaan-teslimat-envanter-dosyasi/",
+      "anchor": "KAAN teslimat ve envanter dosyamızı"
+    },
+    {
+      "url": "https://envantermedya.com/murad-radar-nedir/",
+      "anchor": "MURAD radarı rehberimize"
+    },
+    {
+      "url": "https://envantermedya.com/endonezya-savunma-sanayii-ve-askeri-tedarik-profili/",
+      "anchor": "Endonezya savunma tedarik profilimize"
+    },
+    {
+      "url": "https://envantermedya.com/kaan-vs-f-35/",
+      "anchor": "KAAN vs F-35 analizimize"
+    },
+    {
+      "url": "https://envantermedya.com/kaan-vs-su-57-felon-karsilastirma/",
+      "anchor": "KAAN ve Su-57 Felon karşılaştırmamıza"
+    }
+  ],
+  "hreflang_equivalents": {
+    "tr": "https://envantermedya.com/kaan-nedir/",
+    "en": "https://envantermedya.com/en/en-kaan-what-is/",
+    "es": "https://envantermedya.com/es/es-kaan-que-es/",
+    "ar": "https://envantermedya.com/ar/ar-kaan-ma-hiya/",
+    "ru": "https://envantermedya.com/ru/ru-kaan-chto-takoe/"
+  },
+  "image": {
+    "type": "cc_photo",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:IMG-TAI-TFX.jpg",
+    "direct_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/IMG-TAI-TFX.jpg",
+    "licence": "CC BY-SA 4.0 (yazarın kendi eseri; Wikimedia VRT izin bileti 2023032110001133)",
+    "credit": "Dimir (Wikimedia Commons: Hindukush2) / CC BY-SA 4.0",
+    "alt": "KAAN'ın ilk prototipi, Mart 2023'teki taksi denemeleri sırasında Ankara'daki TUSAŞ pistinde önden görünüm"
+  },
+  "last_updated_note": "'Son güncelleme: 10 Kasım 2026' satırı content_html'in sonunda yer alıyor.",
+  "word_count": 2071,
+  "verification_notes": [
+    "KAAN-1 (P1) ilk uçuşu: 2 Ekim 2026'daki AA haberinden sonra resmî bir uçuş duyurusu bulunamadı (Envanter'in 4 Kasım haberi de 'henüz açıklanmadı' diyor). Yayından hemen önce TUSAŞ'ın NSosyal/X hesapları kontrol edilmeli; uçuş gerçekleşmişse ilk paragraf, takvim tablosu ve SSS güncellenmeli.",
+    "Brifteki 'Haziran 2025 IDEF'te imza' ifadesi hatalı: 11 Haziran 2025 imzası Cakarta'daki Indo Defence'ta (Kemhan: G2G anlaşma, sözcüye göre mutabakat), bağlayıcı uygulama sözleşmesi ise IDEF 2025'te İstanbul'da. Kemhan tarihi 26 Temmuz 2025 veriyor; AA İngilizce haberi (aa.com.tr/en/.../3641126) 24 Temmuz 2025 tarihli ve sözleşmenin iki Endonezya şirketiyle (PT Republik Aero Dirgantara, PT Dirgantara Indonesia) imzalandığını yazıyor, TUSAŞ ise karşı tarafı Endonezya Savunma Bakanlığı olarak veriyor. Metinde Kemhan/TUSAŞ versiyonu kullanıldı.",
+    "Breaking Defense (22 Temmuz 2026) Endonezya sözleşmesini 'Haziran 2026' olarak yazıyor; diğer tüm kaynaklarla çelişiyor, kullanılmadı.",
+    "F110 alt tipi: TUSAŞ ve GE resmî kaynaklarında 'F110-GE-129' adı geçmiyor; yalnız AA'nın PLA Daily'ye atıfla aktardığı haberde var. Tabloda 'basına yansıyan' sütununda bırakıldı.",
+    "F110 satış onayı: 'değeri 700 milyon doları aşan' rakamı The War Zone'un 'bildirildiğine göre' ifadesine dayanıyor; ABD Dışişleri/DSCA birincil bildirimi açılamadı. Reuters'a erişim (crawler kısıtı) sağlanamadı.",
+    "TF35000 hedef itkisi (35.000 lbf): TEI'nin ürün sayfası artık 404 veriyor ve açılabilen birincil kaynakta rakam bulunamadığı için metne itki değeri yazılmadı.",
+    "MURAD adı: AA'nın Mart 2024 haberi radarı 'Millî AESA Uçak Burun Radarı' olarak anıyor; KAAN'da hangi MURAD sürümünün kullanılacağı resmî olarak açıklanmadı. Metin bu nedenle 'millî AESA burun radarı' diyor.",
+    "Su-57 hız ve boyut değerleri: UAC/Suhoy siteleri bu oturumdan erişilemedi; tabloya 'doğrulanamadı' yazıldı. TASS 1239789 haberinin yılı metinden çıkarıldı (25 Aralık 2020).",
+    "Seri üretim toplam adedi (basında 250 civarı) resmî kaynakta doğrulanamadığı için yazılmadı; Endonezya sözleşme bedeli (10–15 milyar dolar aralığında dolaşan rakamlar) resmî teyit olmadığı için yazılmadı.",
+    "hreflang es: İspanyolca dilde iki yayımlanmış KAAN-nedir sayfası var: /es/es-kaan-que-es/ (7 Ağustos 2026, tr/en/ru/ar ile aynı seri) ve /es/es-que-es-kaan-turkiye-caza-nacional-quinta-generacion/ (3 Temmuz 2026). Seri eşi olduğu için ilki seçildi; ikincisi için kanonik/301 kararı editörde.",
+    "Canlı sayfada hreflang etiketi yok; Polylang çeviri bağlantıları (tr↔en/es/ar/ru) kurulmalı.",
+    "İç bağlantıların hepsi 10 Kasım 2026'da 200 döndü. F-35 için /kaan-ile-f-35-fark/ yerine /kaan-vs-f-35/ seçildi (ötekinde 'ilk uçuş 2023' hatası var, kaynak listesi yok, ~330 kelime)."
+  ],
+  "duplicate_check": "Bu bir UPDATE: mevcut ana sayfa (49720) güçlendiriliyor. Yakın niyetli sayfalar: /kaan-teknik-ozellikleri/ (49894, yalnız teknik döküm — buradan bağlantı verildi), /kaan-motoru/, /kaan-teslimat-envanter-dosyasi/, /kaan-projesi-ihtiyactan-envantere/, /kaan-rakipleri/ ve 5 'KAAN vs F-35' sayfası. Bu sayfa hub: her alt konuda kısa özet + tek en iyi alt sayfaya bağlantı. Diğer 6 'KAAN nedir' sayfası için kanonik/301 bu sayfaya bağlanacak (brif gereği ayrı iş)."
+}

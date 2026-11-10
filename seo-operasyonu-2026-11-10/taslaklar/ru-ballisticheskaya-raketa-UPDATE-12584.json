@@ -1,0 +1,242 @@
+{
+  "decision": "UPDATE",
+  "update_post_id": 12584,
+  "content_type": "explainer",
+  "lang": "ru",
+  "current_title": "Что такое баллистическая ракета? Принцип работы и страны-владельцы",
+  "current_rank_math": {
+    "rank_math_title": "Баллистическая ракета — что это: устройство и дальность",
+    "rank_math_description": "Баллистическая ракета это оружие, летящее по заданной траектории к цели на большой дальности. Узнайте про устройство, типы и применение — читайте далее.",
+    "rank_math_focus_keyword": ""
+  },
+  "title": "Баллистическая ракета: что это, как летит, виды и дальность",
+  "slug": "что-такое-баллистическая-ракета-как-о-ru",
+  "slug_note": "Slug НЕ меняется (UPDATE). Текущий URL: https://envantermedya.com/ru/что-такое-баллистическая-ракета-как-о-ru/ (в WP хранится percent-encoded). ASCII-правило SPEC для ru не применяется, чтобы не ломать ранжируемый URL.",
+  "excerpt": "Как летит баллистическая ракета, на какие классы её делят по дальности — от «Искандера-М» до МБР Minuteman III, «Ярс» и DF-41 — и чем она отличается от крылатой ракеты. Плюс РГЧ ИН, гиперзвуковые блоки и системы перехвата.",
+  "content_html": "<p>Баллистическая ракета разгоняется ракетным двигателем только на начальном участке, а дальше её головная часть летит по инерции, как брошенный камень, и на большой скорости входит в атмосферу над целью. По классификации Arms Control Association такие ракеты делят по дальности: до 1000 км, 1000–3000 км, 3000–5500 км и свыше 5500 км. Последний класс называется межконтинентальными баллистическими ракетами (МБР). Для масштаба: у американской Minuteman III дальность 13 000 км, у российского «Искандера-М» — до 500 км (данные CSIS Missile Threat).</p>\n\n<h2>Как летит баллистическая ракета: три участка траектории</h2>\n<p>Схема полёта в общих чертах одинакова для всех классов:</p>\n<ol>\n<li>Старт из шахты, с подвижной пусковой установки или с подводной лодки.</li>\n<li>Разгон: работают двигатели ступеней, отработавшие ступени отделяются.</li>\n<li>Двигатели выключены, головная часть по дуге уходит к высшей точке траектории (апогею). У МБР эта дуга проходит в космосе.</li>\n<li>Вход в плотные слои атмосферы и удар по цели.</li>\n</ol>\n<h3>Активный участок</h3>\n<p>Ракета набирает скорость и задаёт себе курс. По оценке Национального исследовательского совета США (NRC, доклад 2012 года о ПРО), разгон длится от 60 до 300 секунд в зависимости от дальности и типа топлива. В расчётном примере NRC твердотопливной МБР хватает около 180 секунд, жидкостной требуется около 250. Сбить ракету в эти минуты трудно: перехватчик должен находиться близко к месту пуска.</p>\n<h3>Пассивный, или баллистический, участок</h3>\n<p>Самая длинная часть полёта: траекторию определяют набранная скорость и гравитация. Здесь отделяются боевые блоки и ложные цели. По оценке NRC, именно здесь ловушки наиболее эффективны: в безвоздушном пространстве лёгкая и тяжёлая цели летят одинаково.</p>\n<h3>Вход в атмосферу и конечный участок</h3>\n<p>Атмосфера сортирует объекты: по данным NRC, лёгкие ложные цели заметно тормозятся на высотах примерно 70–100 км, а ниже ~40 км боевой блок испытывает значительные аэродинамические нагрузки. Участок скоротечный, и времени на реакцию у обороны меньше всего. Для МБР, запущенной из центрального Ирана к восточному побережью США, NRC оценил весь полёт примерно в 40 минут.</p>\n\n<h2>Виды баллистических ракет по дальности</h2>\n<p>Шкала Arms Control Association: ракеты <strong>малой (ближней) дальности</strong> — до 1000 км, <strong>средней</strong> — 1000–3000 км, <strong>промежуточной</strong> — 3000–5500 км, <strong>межконтинентальные</strong> — свыше 5500 км. Первые две группы относят к оружию театра военных действий, МБР — к стратегическому.</p>\n<p>В русском языке привычны и термины Договора о ракетах средней и меньшей дальности (РСМД). Подписанный 8 декабря 1987 года, он запрещал США и СССР наземные баллистические и крылатые ракеты дальностью от 500 до 5500 км. Внутри этого диапазона ракеты 500–1000 км назывались ракетами меньшей дальности, а 1000–5500 км — ракетами средней дальности. К 1 июня 1991 года стороны уничтожили 2692 ракеты; 2 августа 2019 года США из договора вышли. Ещё более короткобойные комплексы обычно называют тактическими и оперативно-тактическими.</p>\n<table>\n<thead><tr><th>Класс</th><th>Дальность</th><th>Пример (страна)</th><th>Что известно по открытым данным</th></tr></thead>\n<tbody>\n<tr><td>Тактические и оперативно-тактические (SRBM)</td><td>до 1000 км</td><td>«Точка-У» (СССР/Россия)</td><td>120 км, с 1989 года; в России её заменяет «Искандер» (CSIS)</td></tr>\n<tr><td>SRBM</td><td>до 1000 км</td><td>«Искандер-М», ракета 9М723 (Россия)</td><td>до 500 км, экспортная 9М720 — 280 км; на вооружении с 2006 года (CSIS)</td></tr>\n<tr><td>SRBM</td><td>до 1000 км</td><td>TAYFUN (Турция)</td><td>Roketsan указывает «более 280 км»; в испытании 18 октября 2022 года ракета пролетела 561 км (Arms Control Association)</td></tr>\n<tr><td>Средней дальности (MRBM)</td><td>1000–3000 км</td><td>DF-17 (Китай)</td><td>по оценке разведки США, 1000–1500 миль (около 1600–2400 км); носитель гиперзвукового планирующего блока (CRS)</td></tr>\n<tr><td>Промежуточной дальности (IRBM)</td><td>3000–5500 км</td><td>«Хвасон-12» (КНДР)</td><td>4500 км, жидкостная; первый успешный пуск — 14 мая 2017 года (CSIS)</td></tr>\n<tr><td>МБР</td><td>свыше 5500 км</td><td>Minuteman III (США)</td><td>13 000 км, шахтная, на вооружении с 1970 года; с 2014 года несёт один боевой блок (CSIS)</td></tr>\n<tr><td>МБР</td><td>свыше 5500 км</td><td>LGM-35A Sentinel (США)</td><td>в разработке; должна заменить 400 развёрнутых Minuteman III, начальная готовность — начало 2030-х (CRS, май 2026)</td></tr>\n<tr><td>МБР</td><td>свыше 5500 км</td><td>РС-24 «Ярс» (Россия)</td><td>до 10 500 км, три боевых блока, подвижный грунтовый и шахтный варианты (CSIS)</td></tr>\n<tr><td>МБР</td><td>свыше 5500 км</td><td>DF-41 (Китай)</td><td>12 000–15 000 км, три ступени на твёрдом топливе (CSIS)</td></tr>\n<tr><td>МБР</td><td>свыше 5500 км</td><td>«Хвасон-18» (КНДР)</td><td>около 15 000 км (оценка CSIS); первая твердотопливная МБР КНДР, испытана 13 апреля 2023 года</td></tr>\n<tr><td>БРПЛ (подводного базирования)</td><td>зависит от модели</td><td>Trident II D5 (США, Великобритания)</td><td>до 12 000 км; по ограничениям СНВ-3 — до восьми боевых блоков (CSIS)</td></tr>\n</tbody>\n</table>\n<p>Турецкая <a href=\"https://envantermedya.com/ru/ru-tayfun-ballisticheskaya-raketa/\">баллистическая ракета TAYFUN</a> развивается блоками. Block-4, показанный на IDEF в июле 2025 года, по данным Janes (в пересказе The War Zone), имеет длину около 10 м и массу около 7200 кг; дальность Roketsan не раскрывала, так что его класс пока остаётся оценкой. См. также <a href=\"https://envantermedya.com/ru/ru-iskander-m-harakteristiki/\">характеристики «Искандера-М»</a> и материал об <a href=\"https://envantermedya.com/ru/ru-sentinel-icbm-mk21a-reentry-vehicle-test/\">испытании блока Mk21A для Sentinel</a>.</p>\n\n<h2>Чем баллистическая ракета отличается от крылатой</h2>\n<p>Баллистическая ракета после короткого разгона летит по инерции, крылатая весь путь идёт на работающем двигателе и опирается на крыло, как беспилотный самолёт. Подробно о втором типе — в нашем объяснении <a href=\"https://envantermedya.com/ru/krylataya-raketa/\">как крылатая ракета летит к цели</a>.</p>\n<table>\n<thead><tr><th>Параметр</th><th>Баллистическая ракета</th><th>Крылатая ракета</th></tr></thead>\n<tbody>\n<tr><td>Двигатель</td><td>ракетный (твёрдо- или жидкостный), работает только на активном участке</td><td>воздушно-реактивный, работает весь полёт; у Tomahawk — турбовентиляторный</td></tr>\n<tr><td>Подъёмная сила</td><td>не нужна: после разгона полёт по инерции</td><td>создаётся крылом</td></tr>\n<tr><td>Высота</td><td>высокая дуга, у МБР — выход в космос</td><td>малая высота; Tomahawk рассчитан на полёт на малой высоте</td></tr>\n<tr><td>Скорость</td><td>очень высокая на нисходящем участке</td><td>у большинства моделей дозвуковая; наземный вариант Tomahawk — около 800 км/ч (CSIS)</td></tr>\n<tr><td>Траектория</td><td>предсказуемая дуга, если нет манёвренных блоков</td><td>маршрут с поворотами в обход ПВО</td></tr>\n<tr><td>Пример</td><td>Minuteman III, 13 000 км</td><td>Tomahawk, 1250–2500 км в зависимости от модификации (CSIS)</td></tr>\n</tbody>\n</table>\n\n<h2>Манёвренные боевые блоки, РГЧ ИН и гиперзвуковые планирующие блоки</h2>\n<p>Предсказуемость траектории — слабое место, и её компенсируют тремя способами.</p>\n<ul>\n<li><strong>РГЧ ИН (MIRV)</strong> — разделяющаяся головная часть с боевыми блоками индивидуального наведения: одна ракета поражает несколько целей. По данным CSIS, «Ярс» несёт три блока, Trident II D5 по условиям СНВ-3 — до восьми, а DF-41, по заявлениям китайских госСМИ, — до десяти. Minuteman III, напротив, с 2014 года оснащается одним блоком.</li>\n<li><strong>Манёвр и настильная траектория.</strong> По данным CSIS, «Искандер-М» летит по уплощённой траектории и маневрирует с перегрузкой до 30g, что усложняет расчёт точки перехвата.</li>\n<li><strong>Гиперзвуковой планирующий блок</strong> разгоняется ракетой, а затем планирует к цели и, в отличие от баллистической головной части, может маневрировать по пути (определение Исследовательской службы Конгресса США, CRS). Российский «Авангард» стоит на МБР SS-19 (УР-100Н УТТХ); по российским заявлениям, он на боевом дежурстве с декабря 2019 года, а Владимир Путин называл скорость до 20 М. Китайская DF-17, по оценке разведки США, развёрнута. Чем гиперзвук отличается от сверхзвука, мы объясняли <a href=\"https://envantermedya.com/ru/ru-raznitsa-giperzvukovoi-i-sverkhzvukovoi-rakety/\">в отдельном материале</a>.</li>\n</ul>\n\n<h2>Как перехватывают баллистические ракеты</h2>\n<p>ПРО строят эшелонами, под разные участки траектории. Американские перехватчики в основном работают по принципу hit-to-kill — прямым попаданием, без осколочной боевой части.</p>\n<table>\n<thead><tr><th>Система</th><th>Участок</th><th>Что известно (атрибуция)</th></tr></thead>\n<tbody>\n<tr><td>GMD (США)</td><td>середина траектории, вне атмосферы</td><td>44 перехватчика GBI (40 на Аляске, 4 в Калифорнии) на 2021 год; испытание нового NGI намечено на 2029 год (CSIS)</td></tr>\n<tr><td>Aegis BMD / SM-3 (США, союзники)</td><td>середина траектории, вне атмосферы</td><td>SM-3 Block IIA рассчитана и на ракеты промежуточной дальности, возможно МБР; на конечном участке — SM-6; Aegis Ashore — в Румынии и Польше (CSIS)</td></tr>\n<tr><td>THAAD (США и др.)</td><td>конечный, в атмосфере и за её пределами</td><td>защищаемый радиус 150–200 км; РЛС AN/TPY-2 обнаруживает цели на 870–3000 км (CSIS)</td></tr>\n<tr><td>Patriot PAC-3 / PAC-3 MSE</td><td>конечный</td><td>активная ГСН Ka-диапазона; у MSE увеличенный двигатель почти вдвое увеличивает дальность; в 2017 году MSE перехватывала мишени класса MRBM (CSIS)</td></tr>\n<tr><td>С-400 (Россия)</td><td>конечный</td><td>по данным CSIS, ракеты 48Н6 перехватывают баллистические цели в радиусе около 60 км; противоракета 77Н6 находилась в испытаниях</td></tr>\n<tr><td>А-235 (Россия)</td><td>ПРО Москвы</td><td>в июне 2019 года Минобороны РФ сообщило о пуске «новой ракеты российской системы ПРО» на Сары-Шагане; с А-235 её связывают СМИ, официально комплекс не назван (Интерфакс)</td></tr>\n</tbody>\n</table>\n<p>Спрос растёт: Lockheed Martin <a href=\"https://envantermedya.com/ru/ru-lockheed-martin-8-mlrd-dollarov-proizvodstvo-raket-pac-3-thaad/\">расширяет выпуск PAC-3 и THAAD</a>.</p>\n\n<h2>Какие страны обладают баллистическими ракетами</h2>\n<p>По перечню Arms Control Association (пересмотр августа 2023 года), баллистические ракеты есть более чем у 30 государств, включая Турцию. МБР наземного базирования в этом перечне указаны у США, России и Китая. КНДР испытывает собственные межконтинентальные ракеты, а израильская Jericho-3 оценивается в 4800–6500 км. БРПЛ, по тем же данным, есть у США и Великобритании (Trident II), Франции (M51), России («Синева», «Булава»), Китая (JL-2, JL-3) и Индии (K-15, 700 км).</p>\n<p>Распространение сдерживает добровольный Режим контроля за ракетной технологией (РКРТ, MTCR): он призывает ограничивать экспорт ракет, способных доставить 500 кг на 300 км и дальше. Arms Control Association отмечала, что TAYFUN стала первой испытанной Турцией ракетой, превысившей порог РКРТ по дальности.</p>\n\n<h2>Часто задаваемые вопросы</h2>\n<h3>Какая дальность у баллистической ракеты?</h3>\n<p>От десятков километров до 15 000 км: «Точка-У» — 120 км, «Искандер-М» — до 500 км, DF-41 — 12 000–15 000 км (CSIS).</p>\n<h3>Чем баллистическая ракета отличается от крылатой?</h3>\n<p>Баллистическая после нескольких минут разгона летит по инерции по высокой дуге; крылатая весь полёт идёт на воздушно-реактивном двигателе, обычно низко и с дозвуковой скоростью.</p>\n<h3>Что такое МБР?</h3>\n<p>Межконтинентальная баллистическая ракета дальностью свыше 5500 км. Примеры — Minuteman III, «Ярс», DF-41, «Хвасон-18».</p>\n<h3>Сколько летит межконтинентальная ракета?</h3>\n<p>В расчётном примере NRC (из центрального Ирана к восточному побережью США) — около 40 минут, из них 3–4 минуты разгона.</p>\n<h3>Можно ли сбить баллистическую ракету?</h3>\n<p>Да, но не гарантированно: на середине траектории (GMD, SM-3) и на конечном участке (THAAD, Patriot, С-400). Мешают ложные цели, РГЧ ИН и манёвр.</p>\n<h3>Есть ли у Турции баллистические ракеты?</h3>\n<p>Да. Roketsan выпускает TAYFUN: официально — «более 280 км», в испытании 2022 года — 561 км. Есть и более ранняя BORA.</p>\n\n<h2>Источники</h2>\n<ul>\n<li><a href=\"https://www.armscontrol.org/factsheets/missiles\">Arms Control Association — Worldwide Ballistic Missile Inventories</a></li>\n<li><a href=\"https://www.armscontrol.org/factsheets/intermediate-range-nuclear-forces-inf-treaty-glance\">Arms Control Association — The INF Treaty at a Glance</a></li>\n<li><a href=\"https://www.atomicarchive.com/resources/treaties/inf.html\">Atomic Archive — INF Treaty (1987)</a></li>\n<li><a href=\"https://www.armscontrol.org/act/2022-12/news-briefs/turkey-tests-short-range-ballistic-missile\">Arms Control Today — Turkey Tests Short-Range Ballistic Missile (декабрь 2022)</a></li>\n<li><a href=\"https://missilethreat.csis.org/missile/minuteman-iii/\">CSIS Missile Threat — Minuteman III</a></li>\n<li><a href=\"https://missilethreat.csis.org/missile/ss-29/\">CSIS Missile Threat — RS-24 «Ярс»</a></li>\n<li><a href=\"https://missilethreat.csis.org/missile/df-41/\">CSIS Missile Threat — DF-41</a></li>\n<li><a href=\"https://missilethreat.csis.org/missile/ss-26-2/\">CSIS Missile Threat — «Искандер»</a></li>\n<li><a href=\"https://missilethreat.csis.org/missile/ss-21/\">CSIS Missile Threat — «Точка» / «Точка-У»</a></li>\n<li><a href=\"https://missilethreat.csis.org/missile/trident/\">CSIS Missile Threat — Trident II D5</a></li>\n<li><a href=\"https://missilethreat.csis.org/missile/hwasong-18/\">CSIS Missile Threat — «Хвасон-18»</a></li>\n<li><a href=\"https://missilethreat.csis.org/missile/hwasong-12/\">CSIS Missile Threat — «Хвасон-12»</a></li>\n<li><a href=\"https://missilethreat.csis.org/missile/avangard/\">CSIS Missile Threat — «Авангард»</a></li>\n<li><a href=\"https://missilethreat.csis.org/missile/tomahawk/\">CSIS Missile Threat — Tomahawk</a></li>\n<li><a href=\"https://missilethreat.csis.org/system/gmd/\">CSIS Missile Threat — GMD</a></li>\n<li><a href=\"https://missilethreat.csis.org/system/aegis/\">CSIS Missile Threat — Aegis BMD</a></li>\n<li><a href=\"https://missilethreat.csis.org/system/thaad/\">CSIS Missile Threat — THAAD</a></li>\n<li><a href=\"https://missilethreat.csis.org/system/patriot/\">CSIS Missile Threat — Patriot</a></li>\n<li><a href=\"https://missilethreat.csis.org/defsys/s-400-triumf/\">CSIS Missile Threat — С-400</a></li>\n<li><a href=\"https://www.everycrsreport.com/files/2026-05-06_IF11681_10a4e868c6cf56dc3162d76a76474b253f0d96ce.html\">CRS — Defense Primer: LGM-35A Sentinel (май 2026)</a></li>\n<li><a href=\"https://www.everycrsreport.com/reports/R45811.html\">CRS — Hypersonic Weapons: Background and Issues for Congress (август 2025)</a></li>\n<li><a href=\"https://www.nationalacademies.org/read/13189/chapter/2\">National Research Council — Making Sense of Ballistic Missile Defense (2012)</a></li>\n<li><a href=\"https://www.twz.com/land/super-sized-turkish-tayfun-block-4-ballistic-missile-reflects-global-trends\">The War Zone — TAYFUN Block 4 (июль 2025)</a></li>\n<li><a href=\"https://www.interfax.ru/russia/663623\">Интерфакс — Минобороны о пуске новой противоракеты (июнь 2019)</a></li>\n</ul>\n<p><em>Обновлено: 10 ноября 2026 г.</em></p>",
+  "rank_math_title": "Баллистическая ракета: что это, виды, дальность, МБР",
+  "rank_math_description": "Баллистическая ракета: как летит, классы по дальности от «Искандера» до МБР, отличие от крылатой ракеты, РГЧ ИН и способы перехвата. Таблицы и примеры.",
+  "rank_math_focus_keyword": "баллистическая ракета",
+  "target_query": "баллистическая ракета",
+  "secondary_queries": [
+    "что такое баллистическая ракета",
+    "баллистическая ракета дальность",
+    "чем баллистическая ракета отличается от крылатой",
+    "виды баллистических ракет",
+    "мбр"
+  ],
+  "demand_evidence": "GSC, 24 ч до 10.11.2026: «баллистическая ракета» — 476 показов, позиция 10,1, 0 кликов; страница 12584 — 579 показов, средняя позиция 9,2, 0 кликов.",
+  "category_hint": "Savunma Sözlüğü",
+  "sources": [
+    {
+      "name": "Arms Control Association — Worldwide Ballistic Missile Inventories",
+      "url": "https://www.armscontrol.org/factsheets/missiles",
+      "date": "2023-08 (last reviewed)",
+      "supports": "Классы по дальности (<1000, 1000–3000, 3000–5500, >5500 км); перечень государств с БР; МБР/БРПЛ по странам; Jericho-3 4800–6500 км; K-15 700 км"
+    },
+    {
+      "name": "Arms Control Association — The INF Treaty at a Glance",
+      "url": "https://www.armscontrol.org/factsheets/intermediate-range-nuclear-forces-inf-treaty-glance",
+      "date": "n/a",
+      "supports": "РСМД: 500–5500 км, подписан 08.12.1987, в силе с 01.06.1988, 2692 ракеты уничтожены к 01.06.1991, выход США 02.08.2019"
+    },
+    {
+      "name": "Atomic Archive — INF Treaty (1987)",
+      "url": "https://www.atomicarchive.com/resources/treaties/inf.html",
+      "date": "n/a",
+      "supports": "Деление РСМД на 300–625 миль (500–1000 км) и 625–3500 миль (1000–5500 км)"
+    },
+    {
+      "name": "Arms Control Today — Turkey Tests Short-Range Ballistic Missile",
+      "url": "https://www.armscontrol.org/act/2022-12/news-briefs/turkey-tests-short-range-ballistic-missile",
+      "date": "2022-12",
+      "supports": "TAYFUN: испытание 18.10.2022, Ризе→Синоп, 561 км; первая турецкая ракета сверх порога MTCR; порог MTCR 500 кг/300 км; BORA"
+    },
+    {
+      "name": "CSIS Missile Threat — Minuteman III",
+      "url": "https://missilethreat.csis.org/missile/minuteman-iii/",
+      "date": "2024-04-23",
+      "supports": "13 000 км, шахтная, в строю с 1970 г., один боевой блок с 16.06.2014"
+    },
+    {
+      "name": "CSIS Missile Threat — RS-24 Yars (SS-27 Mod 2)",
+      "url": "https://missilethreat.csis.org/missile/ss-29/",
+      "date": "2024-04-23",
+      "supports": "До 10 500 км, 3 боевых блока, подвижный и шахтный варианты"
+    },
+    {
+      "name": "CSIS Missile Threat — DF-41",
+      "url": "https://missilethreat.csis.org/missile/df-41/",
+      "date": "2024-04-23",
+      "supports": "12 000–15 000 км, 3 ступени, твёрдое топливо, до 10 блоков по госСМИ КНР"
+    },
+    {
+      "name": "CSIS Missile Threat — Iskander",
+      "url": "https://missilethreat.csis.org/missile/ss-26-2/",
+      "date": "2024-04-23",
+      "supports": "9М723 до 500 км, 9М720 280 км, в строю с 2006 г., настильная траектория, манёвр до 30g, замена «Точки-У»"
+    },
+    {
+      "name": "CSIS Missile Threat — SS-21 (Tochka / Tochka-U)",
+      "url": "https://missilethreat.csis.org/missile/ss-21/",
+      "date": "2024-04-23",
+      "supports": "«Точка» 70 км, «Точка-У» 120 км, с 1989 г."
+    },
+    {
+      "name": "CSIS Missile Threat — Trident II D5",
+      "url": "https://missilethreat.csis.org/missile/trident/",
+      "date": "2024-04-23",
+      "supports": "До 12 000 км, до 8 блоков по СНВ-3, США и Великобритания"
+    },
+    {
+      "name": "CSIS Missile Threat — Hwasong-18",
+      "url": "https://missilethreat.csis.org/missile/hwasong-18/",
+      "date": "2026-01-13",
+      "supports": "~15 000 км (оценка), первая твердотопливная МБР КНДР, испытание 13.04.2023"
+    },
+    {
+      "name": "CSIS Missile Threat — Hwasong-12",
+      "url": "https://missilethreat.csis.org/missile/hwasong-12/",
+      "date": "2024-04-23",
+      "supports": "IRBM, 4500 км, жидкостная, первый успешный пуск 14.05.2017"
+    },
+    {
+      "name": "CSIS Missile Threat — Avangard",
+      "url": "https://missilethreat.csis.org/missile/avangard/",
+      "date": "2024-04-23",
+      "supports": "ГПБ на SS-19, заявление Путина о 20 М"
+    },
+    {
+      "name": "CSIS Missile Threat — Tomahawk",
+      "url": "https://missilethreat.csis.org/missile/tomahawk/",
+      "date": "2024-04-23",
+      "supports": "Турбовентиляторный двигатель, дозвуковая, малая высота, Gryphon ~800 км/ч, 1250–2500 км"
+    },
+    {
+      "name": "CSIS Missile Threat — GMD",
+      "url": "https://missilethreat.csis.org/system/gmd/",
+      "date": "2026-09-17",
+      "supports": "44 GBI (40 Форт-Грили, 4 Ванденберг) на 2021 г.; испытание NGI в 2029 г."
+    },
+    {
+      "name": "CSIS Missile Threat — Aegis BMD",
+      "url": "https://missilethreat.csis.org/system/aegis/",
+      "date": "2026-09-17",
+      "supports": "SM-3 середина траектории, hit-to-kill; SM-3 IIA против IRBM и возможно МБР; SM-6 конечный участок; Aegis Ashore в Румынии и Польше"
+    },
+    {
+      "name": "CSIS Missile Threat — THAAD",
+      "url": "https://missilethreat.csis.org/system/thaad/",
+      "date": "2021-06-30",
+      "supports": "Конечный участок, эндо/экзоатмосферный перехват, радиус 150–200 км, AN/TPY-2 870–3000 км"
+    },
+    {
+      "name": "CSIS Missile Threat — Patriot",
+      "url": "https://missilethreat.csis.org/system/patriot/",
+      "date": "2023-08-23",
+      "supports": "PAC-3 hit-to-kill, ГСН Ka-диапазона, MSE почти вдвое дальше, перехваты MRBM в 2017 г."
+    },
+    {
+      "name": "CSIS Missile Threat — S-400 Triumf",
+      "url": "https://missilethreat.csis.org/defsys/s-400-triumf/",
+      "date": "2021-07-06",
+      "supports": "48Н6 — баллистические цели в радиусе ~60 км; 77Н6 в испытаниях"
+    },
+    {
+      "name": "CRS IF11681 — Defense Primer: LGM-35A Sentinel ICBM",
+      "url": "https://www.everycrsreport.com/files/2026-05-06_IF11681_10a4e868c6cf56dc3162d76a76474b253f0d96ce.html",
+      "date": "2026-05-06",
+      "supports": "Sentinel заменит 400 развёрнутых Minuteman III, начальная готовность — начало 2030-х; MMIII с 1970 г."
+    },
+    {
+      "name": "CRS R45811 — Hypersonic Weapons: Background and Issues for Congress",
+      "url": "https://www.everycrsreport.com/reports/R45811.html",
+      "date": "2025-08-27",
+      "supports": "Определение ГПБ (не баллистическая траектория, манёвр); «Авангард» на SS-19, боевое дежурство с 12.2019 по рос. данным; DF-17 — MRBM-носитель ГПБ, 1000–1500 миль, развёрнута"
+    },
+    {
+      "name": "National Research Council — Making Sense of Ballistic Missile Defense (гл. 2)",
+      "url": "https://www.nationalacademies.org/read/13189/chapter/2",
+      "date": "2012",
+      "supports": "Разгон 60–300 с; пример МБР 180 с (тв.)/250 с (жидк.); середина траектории — самая длинная, ловушки эффективнее всего; торможение ловушек на 70–100 км, нагрузки ниже ~40 км; полёт примерной МБР ~40 мин"
+    },
+    {
+      "name": "The War Zone — Turkey's New Super-Sized Ballistic Missile (TAYFUN Block 4)",
+      "url": "https://www.twz.com/land/super-sized-turkish-tayfun-block-4-ballistic-missile-reflects-global-trends",
+      "date": "2025-07-28",
+      "supports": "Официальная дальность TAYFUN по сайту Roketsan >280 км; Block-4 на IDEF 2025, ~10 м, ~7200 кг (по Janes); дальность Block-4 не раскрыта"
+    },
+    {
+      "name": "Интерфакс — Минобороны РФ о пуске новой противоракеты",
+      "url": "https://www.interfax.ru/russia/663623",
+      "date": "2019-06-04",
+      "supports": "Заявление Минобороны о пуске новой ракеты системы ПРО на Сары-Шагане; связь с А-235 — по данным СМИ"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "https://envantermedya.com/ru/ru-tayfun-ballisticheskaya-raketa/",
+      "anchor": "баллистическая ракета TAYFUN"
+    },
+    {
+      "url": "https://envantermedya.com/ru/ru-iskander-m-harakteristiki/",
+      "anchor": "характеристики «Искандера-М»"
+    },
+    {
+      "url": "https://envantermedya.com/ru/ru-sentinel-icbm-mk21a-reentry-vehicle-test/",
+      "anchor": "испытании блока Mk21A для Sentinel"
+    },
+    {
+      "url": "https://envantermedya.com/ru/krylataya-raketa/",
+      "anchor": "как крылатая ракета летит к цели"
+    },
+    {
+      "url": "https://envantermedya.com/ru/ru-raznitsa-giperzvukovoi-i-sverkhzvukovoi-rakety/",
+      "anchor": "в отдельном материале"
+    },
+    {
+      "url": "https://envantermedya.com/ru/ru-lockheed-martin-8-mlrd-dollarov-proizvodstvo-raket-pac-3-thaad/",
+      "anchor": "расширяет выпуск PAC-3 и THAAD"
+    }
+  ],
+  "hreflang_equivalents": {
+    "tr": null,
+    "en": null,
+    "es": null,
+    "ar": null,
+    "ru": "https://envantermedya.com/ru/что-такое-баллистическая-ракета-как-о-ru/"
+  },
+  "image": {
+    "type": "public_domain_photo",
+    "source_page_url": "https://www.dvidshub.net/image/8876198/minuteman-iii-test-launch-showcases-readiness-us-nuclear-forces-safe-effective-deterrent",
+    "direct_image_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2502/8876198/1000w_q95.jpg",
+    "licence": "Public domain (работа военнослужащего ВС США; DVIDS помечает как Public Domain, с учётом условий https://www.dvidshub.net/about/copyright — без намёка на одобрение DoD)",
+    "credit": "U.S. Space Force photo by Airman 1st Class Olya Houtsma (DVIDS)",
+    "alt": "Ночной испытательный пуск невооружённой МБР Minuteman III с базы Ванденберг: ракета выходит из облака дыма над пусковой площадкой, 19 февраля 2025 года"
+  },
+  "last_updated_note": "Строка «Обновлено: 10 ноября 2026 г.» включена в конец content_html",
+  "word_count": 1496,
+  "word_count_note": "1496 слов без списка источников (вкл. таблицы и FAQ); 1667 — со списком источников",
+  "change_summary": [
+    "Первый абзац переписан как прямой ответ (78 слов): принцип полёта, четыре класса дальности по ACA и два контрастных примера с цифрами CSIS — под запросы «баллистическая ракета» и «что такое баллистическая ракета».",
+    "Исправлены ошибки старой версии: классы дальности (было SRBM 300–1000 и MRBM 1000–3500 км, теперь по ACA <1000 / 1000–3000 / 3000–5500 / >5500 км); удалены неподтверждённые скорости (3500–5000 и 24 000 км/ч); турецкий раздел больше не утверждает, что сведений о дальнобойных программах мало — добавлены TAYFUN (>280 км официально, 561 км в испытании 2022 г.) и Block-4.",
+    "Траектория описана схемой из 4 шагов и тремя H3 (активный, пассивный/баллистический, вход в атмосферу) с цифрами NRC: 60–300 с разгона, высоты 70–100 и ~40 км, ~40 мин полёта примерной МБР.",
+    "Добавлены критерии Договора РСМД (500–1000 / 1000–5500 км, даты, 2692 ракеты) и большая таблица классов с 11 примерами из 6 стран (Точка-У, Искандер-М, TAYFUN, DF-17, Хвасон-12, Minuteman III, Sentinel, Ярс, DF-41, Хвасон-18, Trident II) — под «виды баллистических ракет», «баллистическая ракета дальность», «мбр».",
+    "Сравнение с крылатой ракетой оформлено таблицей с атрибутированными данными Tomahawk; ссылка на русский explainer о крылатой ракете.",
+    "Новые разделы: РГЧ ИН, манёвр и гиперзвуковые планирующие блоки (Авангард, DF-17 — с атрибуцией заявлений), а также таблица систем ПРО (GMD, Aegis/SM-3, THAAD, PAC-3, С-400, А-235) с источниками.",
+    "Раздел о странах переписан по перечню ACA (более 30 государств, МБР и БРПЛ по странам) вместо списка без источников; добавлен порог MTCR.",
+    "Добавлены FAQ (6 вопросов), список из 24 источников, 6 внутренних ссылок (TAYFUN, Искандер-М, Sentinel, крылатая ракета, гиперзвук, PAC-3/THAAD), строка обновления; новый rank_math_title с запросом в начале и непустой focus keyword. Объём: ~3,8 тыс. знаков → ~1500 слов."
+  ],
+  "verification_notes": [
+    "Сайт Минобороны РФ (mil.ru) открыть не удалось; российские системы атрибутированы через CSIS Missile Threat и Интерфакс (заявление МО РФ 04.06.2019). Ключевые цифры Ярса/Искандера — западные оценки, не официальные данные МО РФ.",
+    "Перечень ACA последний раз пересматривался в августе 2023 г.; в тексте фактшита сказано «31 страна», а в списке 33 названия — поэтому в статье формулировка «более чем у 30 государств».",
+    "Официальную страницу Roketsan о TAYFUN открыть не удалось (404); цифра «более 280 км» взята из TWZ/Janes со ссылкой на сайт Roketsan. Дальность Block-2/Block-4 официально не раскрыта — в тексте не указана.",
+    "Диапазон DF-17 — оценка разведки США в милях (1000–1500), пересчёт в км (≈1600–2400) редакционный.",
+    "Страница CSIS о THAAD обновлена в 2021 г., о С-400 — в 2021 г., о Patriot — в 2023 г.; цифры могли устареть (например, число батарей). В статье использованы только технические параметры.",
+    "Время полёта ~40 мин — конкретный расчётный пример NRC (центр Ирана → восточное побережье США), а не общая норма для МБР.",
+    "Изображение: на DVIDS подпись «U.S. Space Force photo by Airman 1st Class Olya Houtsma», в блоке лицензии — «SrA Olya Houtsma»; в кредите указано звание из подписи. Полноразмерный файл (2813×1738) на DVIDS требует входа; прямая ссылка — версия 1000 px.",
+    "Hreflang-эквиваленты на других языках не проверялись (нет в брифе) — редактору проверить связь в Polylang.",
+    "Дубликат 39449 (/ru/ballisticheskaya-raketa/) не залинкован; склейка через canonical — отдельная задача."
+  ],
+  "duplicate_check": "Тот же интент на ru покрывает 39449 (https://envantermedya.com/ru/ballisticheskaya-raketa/) — длинная, не ранжируется, будет склеена с 12584 через canonical (вне рамок задачи); ссылка на неё не ставится. Соседние ru-страницы: TAYFUN, «Искандер-М», «Аналоги TAYFUN», «Крылатая ракета», «Гиперзвуковая vs сверхзвуковая» — узкие профили/другие интенты; эта страница остаётся общим explainer'ом и ссылается на них."
+}
