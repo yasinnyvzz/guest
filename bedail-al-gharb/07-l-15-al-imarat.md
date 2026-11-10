@@ -5,7 +5,7 @@ series: بدائل الغرب (Western Alternatives)
 series_code: AMBARGO DELENLER
 article_no: 7
 format: "FROM WEST TO EAST"
-facts_checked: 2026-09-30
+facts_checked: 2026-11-10
 slug: l-15-al-imarat-mudarriba-siniya-f-35
 seo_title: "L-15 في الإمارات: هل اشترت أبوظبي المدرّبة الصينية ردّاً على تعليق F-35؟"
 meta_description: "أعلنت الإمارات في فبراير 2022 نيتها شراء 12 طائرة L-15 صينية بعد شهرين من تعليق محادثات F-35. ماذا تقول الأدلة عن العلاقة بين القرارين؟ وأين ذهبت الطائرات فعلاً؟"
@@ -243,4 +243,4 @@ secondary_keywords:
 - Asia Financial — UAE's China jets purchase shows US relations in crisis (7 مارس 2022): https://www.asiafinancial.com/uaes-china-jets-purchase-shows-us-relations-in-crisis
 
 ---
-*آخر تحقق من الحقائق: 30 سبتمبر 2026. سيُحدَّث المقال عند تسليم الطائرات الخمس المتبقية، أو تفعيل خيار الـ36، أو دخول L-15 وحدات التدريب، أو استئناف محادثات F-35 الإماراتية.*
+*آخر تحقق من الحقائق: 10 نوفمبر 2026 (لا إعلان عن تفعيل خيار الـ36 أو تسليمات جديدة حتى هذا التاريخ). سيُحدَّث المقال عند تسليم الطائرات الخمس المتبقية، أو تفعيل خيار الـ36، أو دخول L-15 وحدات التدريب، أو استئناف محادثات F-35 الإماراتية.*

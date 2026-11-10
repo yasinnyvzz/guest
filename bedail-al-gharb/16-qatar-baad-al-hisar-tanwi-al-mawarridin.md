@@ -5,7 +5,7 @@ series: بدائل الغرب (Western Alternatives)
 series_code: AMBARGO DELENLER
 article_no: 16
 format: "WHAT HAPPENED AFTER THE EXPORT RESTRICTION?"
-facts_checked: 2026-10-27
+facts_checked: 2026-11-10
 slug: qatar-baad-al-hisar-tanwi-mawarridi-al-silah
 seo_title: "قطر بعد الحصار: كيف بنت أكثر سلّة موردي سلاح تنوعاً في الخليج؟"
 meta_description: "من رافال وF-15QA ويوروفايتر إلى القاعدة التركية وBayraktar وطلب Cheongung الكوري: ماذا تقول الأدلة عن تنويع قطر لموردي السلاح، وهل كان الحصار سببه أم مسرّعه؟"
@@ -111,7 +111,7 @@ secondary_keywords:
 
 **الغرب أولاً بفارق كبير.** المقاتلات الثلاث والبحرية الإيطالية والدبابات الألمانية والدفاع الجوي الأمريكي تشكّل القيمة الكبرى. أما تركيا فاختيرت **شريكاً أمنياً** (القاعدة) و**مورداً تكميلياً** (مسيّرات ومدرعات وسفن صغيرة، الحلقة 8)، لا بديلاً عن الغرب.
 
-**مفارقة 2025:** صار التبادل في الاتجاهين. قال الرئيس أردوغان في أكتوبر 2025 إن تركيا تتفاوض مع قطر وعُمان لشراء مقاتلات يوروفايتر مستعملة ([AP عبر News4JAX](https://www.news4jax.com/business/2025/10/24/turkey-in-talks-with-qatar-and-oman-to-buy-used-eurofighter-jets-erdogan-says/)). وتذكر MP-IDSA طلباً تركياً لـ24 طائرة (12 من كل بلد)، لكننا **لم نعثر على عقد رسمي منشور**.
+**مفارقة 2025:** صار التبادل في الاتجاهين. قال الرئيس أردوغان في أكتوبر 2025 إن تركيا تتفاوض مع قطر وعُمان لشراء مقاتلات يوروفايتر مستعملة ([AP عبر News4JAX](https://www.news4jax.com/business/2025/10/24/turkey-in-talks-with-qatar-and-oman-to-buy-used-eurofighter-jets-erdogan-says/)). وتذكر MP-IDSA طلباً تركياً لـ24 طائرة (12 من كل بلد)، لكننا **لم نعثر على عقد رسمي منشور**. وفي 22 أكتوبر 2026 أعلنت وزارة الدفاع التركية أنها **تنتظر مسودة عقد بيع وبرنامج تدريب من قطر**، بعد اجتماعات في أغسطس وسبتمبر 2026، دون كشف العدد أو القيمة ([TURDEF](https://turdef.com/article/turkiye-orders-new-uk-typhoons-awaits-qatar-s-jets)). **التصنيف: مفاوضات متقدمة، لا عقد.**
 
 ## 6. ماذا شملت الصفقات؟
 
@@ -252,8 +252,9 @@ secondary_keywords:
 - Quwa — BMC says Altay MBT will be ready in two years (2019): https://quwa.org/daily-news/bmc-says-altay-mbt-will-be-ready-in-two-years/
 - AP عبر News4JAX — Turkey in talks with Qatar and Oman to buy used Eurofighter jets (24 أكتوبر 2025): https://www.news4jax.com/business/2025/10/24/turkey-in-talks-with-qatar-and-oman-to-buy-used-eurofighter-jets-erdogan-says/
 - MP-IDSA — Turkish Defence Exports to the GCC States (يوليو 2026): https://idsa.in/publisher/comments/turkish-defence-exports-to-the-gcc-states
+- TURDEF — Türkiye orders new UK Typhoons, awaits Qatar's jets (22 أكتوبر 2026): https://turdef.com/article/turkiye-orders-new-uk-typhoons-awaits-qatar-s-jets
 
 **مصادر الحلقات السابقة:** الحلقة 3 (طلب Cheongung القطري)، والحلقة 8 (السفن التركية).
 
 ---
-*آخر تحقق من الحقائق: 27 أكتوبر 2026. سيُحدَّث المقال عند توقيع عقد Cheongung II، أو تسليم Altay، أو إعلان عقد بيع اليوروفايتر لتركيا.*
+*آخر تحقق من الحقائق: 10 نوفمبر 2026 (تحديث: بيان وزارة الدفاع التركية بشأن اليوروفايتر القطرية). سيُحدَّث المقال عند توقيع عقد Cheongung II، أو تسليم Altay، أو إعلان عقد بيع اليوروفايتر لتركيا.*
