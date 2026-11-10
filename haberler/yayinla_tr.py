@@ -45,12 +45,17 @@ def call(method, path, data=None, raw=None, headers=None):
         sys.exit(f"{method} {path} -> {e.code}: {e.read()[:400].decode(errors='replace')}")
 
 
-def upload(item):
+def upload(item, name):
+    """`name`: sunucudaki dosya adı. Her haber için benzersiz olmalı (ör. "<slug>-kapak.png").
+    Sitedeki WebP dönüştürücü aynı adlı dosyanın üzerine yazar; "kapak.png" gibi ortak bir ad
+    verilirse bütün haberler aynı kapak.webp dosyasını gösterir."""
     f = HERE / item["file"]
     media = call("POST", "/wp/v2/media", raw=f.read_bytes(), headers={
         "Content-Type": mimetypes.guess_type(f.name)[0] or "image/jpeg",
-        "Content-Disposition": f'attachment; filename="{f.name}"',
+        "Content-Disposition": f'attachment; filename="{name}"',
     })
+    if Path(media["source_url"]).stem != Path(name).stem:
+        sys.exit(f"Kapak beklenen adla kaydedilmedi: {media['source_url']} (beklenen {name})")
     call("POST", f"/wp/v2/media/{media['id']}", {
         "alt_text": item["alt"], "title": item.get("caption", item["alt"]), "caption": item.get("caption", ""),
     })
@@ -84,7 +89,8 @@ def main():
     if var:
         sys.exit(f"Bu slug zaten var: post {var[0]['id']} ({var[0]['status']}). Önce onu kontrol edin.")
 
-    cover = upload({"file": h["cover"]["file"], "alt": h["title"], "caption": ""})
+    ext = Path(h["cover"]["file"]).suffix or ".png"
+    cover = upload({"file": h["cover"]["file"], "alt": h["title"], "caption": ""}, f"{h['slug']}-kapak{ext}")
     content = (HERE / h["content_file"]).read_text(encoding="utf-8")
     post = call("POST", "/wp/v2/posts", {
         "title": h["title"], "slug": h["slug"], "status": "draft", "content": content,

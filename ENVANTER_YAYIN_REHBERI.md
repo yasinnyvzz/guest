@@ -9,6 +9,10 @@ Kimlik bilgileri dosyaya, commit'e yazılmaz. Oturumda ortam değişkeni olarak 
 - SEO: Rank Math meta alanları `rank_math_title`, `rank_math_description`, `rank_math_focus_keyword`.
 - Haber kategorileri: TR `53` HABERLER + `24795` Savunma Haberleri (+ şirket kategorisi, ör. `385` Canik).
 - Kapak: 1200×675 başlık kartı (lacivert zemin, altın şerit, "ENVANTER MEDYA"), her dile ayrı.
+- **Kapak dosya adı her haber için benzersiz olmalı** (`<slug>-kapak.png`). Sitedeki WebP dönüştürücü
+  aynı adlı dosyanın üzerine yazıyor: Kasım 2026'da TR kapaklar hep `kapak.png` adıyla yüklendiği için
+  8 TR haber aynı `kapak.webp`'yi (SUNGUR kartı) gösterdi. Onarım: `yayin-araclari/kapak_onar.py`.
+  Yüklemeden sonra dönen `source_url` adının beklenen adla aynı olduğu doğrulanır.
 
 ## Polylang eşitlemesi (önemli)
 `taxonomies`, `post_meta` ve `_thumbnail_id` çeviriler arasında eşitleniyor:
