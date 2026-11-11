@@ -1,0 +1,42 @@
+{
+ "before_home": {
+  "lcp": 2784,
+  "cls": 0.048,
+  "scripts": 26,
+  "dom": 1274,
+  "requests": 107,
+  "jsFiles": 23,
+  "cssFiles": 7,
+  "declaredKB": 2991
+ },
+ "before_article": {
+  "lcp": 1428,
+  "cls": 0.049,
+  "scripts": 32,
+  "dom": 1357,
+  "requests": 80,
+  "jsFiles": 17,
+  "cssFiles": 8,
+  "declaredKB": 3493
+ },
+ "after_home": {
+  "lcp": 168,
+  "cls": 0,
+  "scripts": 2,
+  "dom": 383,
+  "requests": 13,
+  "jsFiles": 1,
+  "cssFiles": 3,
+  "declaredKB": 125
+ },
+ "after_article": {
+  "lcp": 152,
+  "cls": 0,
+  "scripts": 3,
+  "dom": 422,
+  "requests": 6,
+  "jsFiles": 1,
+  "cssFiles": 3,
+  "declaredKB": 82
+ }
+}

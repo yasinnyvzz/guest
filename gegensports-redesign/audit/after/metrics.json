@@ -1,0 +1,452 @@
+{
+ "360_home": {
+  "overflowX": false,
+  "sw": 360,
+  "h1": 1,
+  "title": "Gegen Pres",
+  "h": 5952,
+  "small": 3,
+  "bad": false
+ },
+ "360_article": {
+  "overflowX": false,
+  "sw": 360,
+  "h1": 1,
+  "title": "Nico Paz kimdir? Kaç yaşında, nereli, hangi takımda oynuyor? – Gegen Pres",
+  "h": 11985,
+  "small": 0,
+  "bad": false
+ },
+ "360_scout_center": {
+  "overflowX": false,
+  "sw": 360,
+  "h1": 1,
+  "title": "Gegen Scout – Gegen Pres",
+  "h": 4429,
+  "small": 0,
+  "bad": false
+ },
+ "360_dossier": {
+  "overflowX": false,
+  "sw": 360,
+  "h1": 1,
+  "title": "Emirhan Acar – Gegen Dossier – Gegen Pres",
+  "h": 4900,
+  "small": 3,
+  "bad": false
+ },
+ "360_rankings": {
+  "overflowX": false,
+  "sw": 360,
+  "h1": 1,
+  "title": "Kasım 2026 GPScout Arşivinde Öne Çıkan Stoper Dosyaları – Gegen Pres",
+  "h": 4311,
+  "small": 0,
+  "bad": false
+ },
+ "360_team_league": {
+  "overflowX": false,
+  "sw": 360,
+  "h1": 1,
+  "title": "Süper Lig – Gegen Pres",
+  "h": 3564,
+  "small": 0,
+  "bad": false
+ },
+ "360_home_en": {
+  "overflowX": false,
+  "sw": 360,
+  "h1": 1,
+  "title": "Gegen Pres",
+  "h": 3699,
+  "small": 1,
+  "bad": false
+ },
+ "360_search": {
+  "overflowX": false,
+  "sw": 376,
+  "h1": 1,
+  "title": "Search Results for “stoper” – Gegen Pres",
+  "h": 1934,
+  "small": 0,
+  "bad": false
+ },
+ "360_news": {
+  "overflowX": false,
+  "sw": 360,
+  "h1": 1,
+  "title": "Tüm haberler – Gegen Pres",
+  "h": 4430,
+  "small": 0,
+  "bad": false
+ },
+ "360_dossier_index": {
+  "overflowX": false,
+  "sw": 360,
+  "h1": 1,
+  "title": "Güncel oyuncu dosyaları – Gegen Pres",
+  "h": 4564,
+  "small": 0,
+  "bad": false
+ },
+ "390_home": {
+  "overflowX": false,
+  "sw": 390,
+  "h1": 1,
+  "title": "Gegen Pres",
+  "h": 5874,
+  "small": 3,
+  "bad": false
+ },
+ "390_article": {
+  "overflowX": false,
+  "sw": 390,
+  "h1": 1,
+  "title": "Nico Paz kimdir? Kaç yaşında, nereli, hangi takımda oynuyor? – Gegen Pres",
+  "h": 11226,
+  "small": 0,
+  "bad": false
+ },
+ "390_scout_center": {
+  "overflowX": false,
+  "sw": 390,
+  "h1": 1,
+  "title": "Gegen Scout – Gegen Pres",
+  "h": 4368,
+  "small": 0,
+  "bad": false
+ },
+ "390_dossier": {
+  "overflowX": false,
+  "sw": 390,
+  "h1": 1,
+  "title": "Emirhan Acar – Gegen Dossier – Gegen Pres",
+  "h": 4691,
+  "small": 3,
+  "bad": false
+ },
+ "390_rankings": {
+  "overflowX": false,
+  "sw": 390,
+  "h1": 1,
+  "title": "Kasım 2026 GPScout Arşivinde Öne Çıkan Stoper Dosyaları – Gegen Pres",
+  "h": 4212,
+  "small": 0,
+  "bad": false
+ },
+ "390_team_league": {
+  "overflowX": false,
+  "sw": 390,
+  "h1": 1,
+  "title": "Süper Lig – Gegen Pres",
+  "h": 3559,
+  "small": 1,
+  "bad": false
+ },
+ "390_home_en": {
+  "overflowX": false,
+  "sw": 390,
+  "h1": 1,
+  "title": "Gegen Pres",
+  "h": 3725,
+  "small": 1,
+  "bad": false
+ },
+ "390_search": {
+  "overflowX": false,
+  "sw": 390,
+  "h1": 1,
+  "title": "Search Results for “stoper” – Gegen Pres",
+  "h": 1827,
+  "small": 0,
+  "bad": false
+ },
+ "390_news": {
+  "overflowX": false,
+  "sw": 390,
+  "h1": 1,
+  "title": "Tüm haberler – Gegen Pres",
+  "h": 4579,
+  "small": 0,
+  "bad": false
+ },
+ "390_dossier_index": {
+  "overflowX": false,
+  "sw": 390,
+  "h1": 1,
+  "title": "Güncel oyuncu dosyaları – Gegen Pres",
+  "h": 4416,
+  "small": 0,
+  "bad": false
+ },
+ "768_home": {
+  "overflowX": false,
+  "sw": 768,
+  "h1": 1,
+  "title": "Gegen Pres",
+  "h": 4767,
+  "small": 3,
+  "bad": false
+ },
+ "768_article": {
+  "overflowX": false,
+  "sw": 768,
+  "h1": 1,
+  "title": "Nico Paz kimdir? Kaç yaşında, nereli, hangi takımda oynuyor? – Gegen Pres",
+  "h": 7588,
+  "small": 5,
+  "bad": false
+ },
+ "768_scout_center": {
+  "overflowX": false,
+  "sw": 768,
+  "h1": 1,
+  "title": "Gegen Scout – Gegen Pres",
+  "h": 2392,
+  "small": 0,
+  "bad": false
+ },
+ "768_dossier": {
+  "overflowX": false,
+  "sw": 768,
+  "h1": 1,
+  "title": "Emirhan Acar – Gegen Dossier – Gegen Pres",
+  "h": 3152,
+  "small": 3,
+  "bad": false
+ },
+ "768_rankings": {
+  "overflowX": false,
+  "sw": 768,
+  "h1": 1,
+  "title": "Kasım 2026 GPScout Arşivinde Öne Çıkan Stoper Dosyaları – Gegen Pres",
+  "h": 2602,
+  "small": 0,
+  "bad": false
+ },
+ "768_team_league": {
+  "overflowX": false,
+  "sw": 768,
+  "h1": 1,
+  "title": "Süper Lig – Gegen Pres",
+  "h": 2737,
+  "small": 8,
+  "bad": false
+ },
+ "768_home_en": {
+  "overflowX": false,
+  "sw": 768,
+  "h1": 1,
+  "title": "Gegen Pres",
+  "h": 2981,
+  "small": 1,
+  "bad": false
+ },
+ "768_search": {
+  "overflowX": false,
+  "sw": 768,
+  "h1": 1,
+  "title": "Search Results for “stoper” – Gegen Pres",
+  "h": 1194,
+  "small": 0,
+  "bad": false
+ },
+ "768_news": {
+  "overflowX": false,
+  "sw": 768,
+  "h1": 1,
+  "title": "Tüm haberler – Gegen Pres",
+  "h": 2431,
+  "small": 0,
+  "bad": false
+ },
+ "768_dossier_index": {
+  "overflowX": false,
+  "sw": 768,
+  "h1": 1,
+  "title": "Güncel oyuncu dosyaları – Gegen Pres",
+  "h": 2413,
+  "small": 0,
+  "bad": false
+ },
+ "1280_home": {
+  "overflowX": false,
+  "sw": 1280,
+  "h1": 1,
+  "title": "Gegen Pres",
+  "h": 3871,
+  "small": 3,
+  "bad": false
+ },
+ "1280_article": {
+  "overflowX": false,
+  "sw": 1280,
+  "h1": 1,
+  "title": "Nico Paz kimdir? Kaç yaşında, nereli, hangi takımda oynuyor? – Gegen Pres",
+  "h": 6930,
+  "small": 0,
+  "bad": false
+ },
+ "1280_scout_center": {
+  "overflowX": false,
+  "sw": 1280,
+  "h1": 1,
+  "title": "Gegen Scout – Gegen Pres",
+  "h": 1934,
+  "small": 0,
+  "bad": false
+ },
+ "1280_dossier": {
+  "overflowX": false,
+  "sw": 1280,
+  "h1": 1,
+  "title": "Emirhan Acar – Gegen Dossier – Gegen Pres",
+  "h": 2397,
+  "small": 3,
+  "bad": false
+ },
+ "1280_rankings": {
+  "overflowX": false,
+  "sw": 1280,
+  "h1": 1,
+  "title": "Kasım 2026 GPScout Arşivinde Öne Çıkan Stoper Dosyaları – Gegen Pres",
+  "h": 2622,
+  "small": 0,
+  "bad": false
+ },
+ "1280_team_league": {
+  "overflowX": false,
+  "sw": 1280,
+  "h1": 1,
+  "title": "Süper Lig – Gegen Pres",
+  "h": 2080,
+  "small": 0,
+  "bad": false
+ },
+ "1280_home_en": {
+  "overflowX": false,
+  "sw": 1280,
+  "h1": 1,
+  "title": "Gegen Pres",
+  "h": 2227,
+  "small": 1,
+  "bad": false
+ },
+ "1280_search": {
+  "overflowX": false,
+  "sw": 1280,
+  "h1": 1,
+  "title": "Search Results for “stoper” – Gegen Pres",
+  "h": 1158,
+  "small": 0,
+  "bad": false
+ },
+ "1280_news": {
+  "overflowX": false,
+  "sw": 1280,
+  "h1": 1,
+  "title": "Tüm haberler – Gegen Pres",
+  "h": 2125,
+  "small": 0,
+  "bad": false
+ },
+ "1280_dossier_index": {
+  "overflowX": false,
+  "sw": 1280,
+  "h1": 1,
+  "title": "Güncel oyuncu dosyaları – Gegen Pres",
+  "h": 1898,
+  "small": 0,
+  "bad": false
+ },
+ "1440_home": {
+  "overflowX": false,
+  "sw": 1440,
+  "h1": 1,
+  "title": "Gegen Pres",
+  "h": 3871,
+  "small": 3,
+  "bad": false
+ },
+ "1440_article": {
+  "overflowX": false,
+  "sw": 1440,
+  "h1": 1,
+  "title": "Nico Paz kimdir? Kaç yaşında, nereli, hangi takımda oynuyor? – Gegen Pres",
+  "h": 6936,
+  "small": 0,
+  "bad": false
+ },
+ "1440_scout_center": {
+  "overflowX": false,
+  "sw": 1440,
+  "h1": 1,
+  "title": "Gegen Scout – Gegen Pres",
+  "h": 1934,
+  "small": 0,
+  "bad": false
+ },
+ "1440_dossier": {
+  "overflowX": false,
+  "sw": 1440,
+  "h1": 1,
+  "title": "Emirhan Acar – Gegen Dossier – Gegen Pres",
+  "h": 2399,
+  "small": 3,
+  "bad": false
+ },
+ "1440_rankings": {
+  "overflowX": false,
+  "sw": 1440,
+  "h1": 1,
+  "title": "Kasım 2026 GPScout Arşivinde Öne Çıkan Stoper Dosyaları – Gegen Pres",
+  "h": 2622,
+  "small": 0,
+  "bad": false
+ },
+ "1440_team_league": {
+  "overflowX": false,
+  "sw": 1440,
+  "h1": 1,
+  "title": "Süper Lig – Gegen Pres",
+  "h": 2080,
+  "small": 0,
+  "bad": false
+ },
+ "1440_home_en": {
+  "overflowX": false,
+  "sw": 1440,
+  "h1": 1,
+  "title": "Gegen Pres",
+  "h": 2227,
+  "small": 1,
+  "bad": false
+ },
+ "1440_search": {
+  "overflowX": false,
+  "sw": 1440,
+  "h1": 1,
+  "title": "Search Results for “stoper” – Gegen Pres",
+  "h": 1158,
+  "small": 0,
+  "bad": false
+ },
+ "1440_news": {
+  "overflowX": false,
+  "sw": 1440,
+  "h1": 1,
+  "title": "Tüm haberler – Gegen Pres",
+  "h": 2125,
+  "small": 0,
+  "bad": false
+ },
+ "1440_dossier_index": {
+  "overflowX": false,
+  "sw": 1440,
+  "h1": 1,
+  "title": "Güncel oyuncu dosyaları – Gegen Pres",
+  "h": 1898,
+  "small": 0,
+  "bad": false
+ }
+}

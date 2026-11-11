@@ -1,0 +1,11 @@
+/*
+Theme Name: GegenSports Editorial Pro
+Theme URI: https://gegensports.com/
+Author: GegenSports
+Description: Editoryal spor yayıncılığı + futbol veri platformu teması. Tasarım token'ları assets/css/tokens.css içindedir. Veri ve iş mantığı eklentilerde (GPScout, Polylang, Rank Math/GSX) kalır; tema yalnızca sunum katmanıdır.
+Version: 0.1.0
+Requires at least: 6.4
+Requires PHP: 8.0
+License: GPL-2.0-or-later
+Text Domain: gsx
+*/

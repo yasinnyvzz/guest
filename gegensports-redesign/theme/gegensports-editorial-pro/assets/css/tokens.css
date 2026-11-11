@@ -1,0 +1,49 @@
+/* GEGENSPORTS EDITORIAL PRO — tüm tasarım değerleri yalnızca burada. */
+:root {
+  /* Renk */
+  --color-primary: #101820;
+  --color-background: #F4F6F8;
+  --color-surface: #FFFFFF;
+  --color-text: #17212B;
+  --color-muted: #64748B;      /* #FFFFFF üzerinde 4.76:1 (AA) */
+  --color-border: #E2E7EC;
+  --color-accent: #E85D3F;     /* yalnızca vurgu: kategori etiketi, aktif durum, tek CTA */
+  --color-accent-text: #B8431F;/* beyaz üzerinde metin olarak AA (5.3:1) */
+  --color-success: #168569;
+  --color-danger: #C74B50;
+  --color-neutral: #EDF1F5;
+  --color-on-dark: #F4F6F8;
+  --color-on-dark-muted: #A9B4C0;
+  --color-dark-line: #2A3642;
+
+  /* Boşluk */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 24px; --space-6: 32px; --space-7: 48px; --space-8: 64px;
+
+  /* Köşe */
+  --radius-sm: 6px; --radius-md: 10px; --radius-lg: 14px;
+
+  /* Tipografi — sistem fontları + Inter varsa; harici font isteği yok (performans, tam Türkçe karakter) */
+  --font-sans: Inter, "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --fs-h1-lead: clamp(1.75rem, 1.2rem + 2.4vw, 2.625rem);   /* 28 → 42 */
+  --fs-h1: clamp(1.75rem, 1.3rem + 2vw, 2.5rem);            /* 28 → 40 */
+  --fs-h2: clamp(1.3125rem, 1.1rem + 0.9vw, 1.75rem);       /* 21 → 28 */
+  --fs-card-lead: clamp(1.25rem, 1.05rem + 0.8vw, 1.5rem);
+  --fs-card: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);    /* 17 → 19 */
+  --fs-body: clamp(0.96875rem, 0.94rem + 0.15vw, 1.0625rem);/* 15.5 → 17 */
+  --fs-small: 0.8125rem;                                    /* 13 */
+  --fs-xs: 0.75rem;                                         /* 12 */
+  --lh-tight: 1.2; --lh-body: 1.65;
+
+  /* Yerleşim */
+  --container: 1200px;
+  --gutter: var(--space-4);
+  --header-h: 72px;
+  --header-h-mobile: 56px;
+  --bottom-nav-h: 56px;
+  --read-max: 800px;
+  --side-w: 300px;
+  --border: 1px solid var(--color-border);
+  --focus: 0 0 0 3px rgba(232, 93, 63, .45);
+}
+@media (min-width: 900px) { :root { --gutter: var(--space-5); } }

@@ -1,0 +1,580 @@
+{
+ "desktop_home": {
+  "title": "Gegen Pres — Futbol Analizi, Scout Raporları ve Genç Yetenekler",
+  "h1": [
+   "Gegen Pres | Türkiye Futbolu, Scout Raporları ve Taktik Analiz"
+  ],
+  "bgColors": 34,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Bebas Neue\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter"
+  ],
+  "fontSizes": 30,
+  "ozet": false,
+  "navLinks": 47,
+  "imgs": 29,
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 5066,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 26,
+  "h2": 5,
+  "zero": 0,
+  "status": 200,
+  "ms": 8707
+ },
+ "desktop_article": {
+  "title": "Nico Paz kimdir? Kaç yaşında, nereli, hangi takımda oynuyor? – Gegen Pres",
+  "h1": [
+   "Nico Paz kimdir? Kaç yaşında, nereli, hangi takımda oynuyor?"
+  ],
+  "bgColors": 40,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Google Sans Text\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 26,
+  "ozet": false,
+  "navLinks": 49,
+  "imgs": 16,
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 9531,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 32,
+  "h2": 12,
+  "zero": 0,
+  "status": 200,
+  "ms": 4954
+ },
+ "desktop_scout_report": {
+  "title": "Mahmut Sarıhasan Scout Raporu — Diyarbekir Spor | TFF 3.Lig 24 Yaş Sağ Bek – Gegen Pres",
+  "h1": [
+   "Mahmut Sarıhasan Scout Raporu — Diyarbekir Spor | TFF 3.Lig 24 Yaş Sağ Bek",
+   "Innsbruck’tan Torino’ya, Oradan Erzurum’a: Emirhan Acar’ın Yolu"
+  ],
+  "bgColors": 46,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Segoe UI\"",
+   "\"Google Sans Text\"",
+   "-apple-system",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 32,
+  "ozet": false,
+  "navLinks": 49,
+  "imgs": 19,
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 6254,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 32,
+  "h2": 0,
+  "zero": 0,
+  "status": 200,
+  "ms": 4951
+ },
+ "desktop_scout_hub": {
+  "title": "GPScout — Saha Gözlem Merkezi · Gegen Pres",
+  "h1": [
+   "Futbolu izle.\nAnaliz et.\nKeşfet. Paylaş.",
+   "Tekrar hoş geldin",
+   "Hesap oluştur",
+   "Dünya Gözlem Haritası",
+   "Kulüpler",
+   "Eğitim, Sınav ve Lisans",
+   "Rapor Onay Merkezi"
+  ],
+  "bgColors": 40,
+  "fonts": [
+   "\"Noto Sans\""
+  ],
+  "fontSizes": 24,
+  "ozet": false,
+  "navLinks": 20,
+  "imgs": 839,
+  "scrollW": 1722,
+  "innerW": 1440,
+  "height": 1859,
+  "bodyBg": "rgb(7, 17, 43)",
+  "bodyFont": "\"Noto Sans\", ui-sans-serif, system-ui, sans-serif",
+  "scripts": 17,
+  "h2": 21,
+  "zero": 0,
+  "status": 200,
+  "ms": 6467
+ },
+ "desktop_talent_hub": {
+  "title": "Genç Yetenek Hub – Gegen Pres",
+  "h1": [
+   "Genç Yetenek Hub",
+   "Genç Yetenek Hub"
+  ],
+  "bgColors": 48,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Helvetica Neue\"",
+   "\"Lucida Console\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 25,
+  "ozet": false,
+  "navLinks": 53,
+  "imgs": 570,
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 64553,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 27,
+  "h2": 6,
+  "zero": 0,
+  "status": 200,
+  "ms": 5407
+ },
+ "desktop_league": {
+  "title": "Süper Lig – Gegen Pres",
+  "h1": [
+   "Süper Lig"
+  ],
+  "bgColors": 29,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 20,
+  "ozet": false,
+  "navLinks": 48,
+  "imgs": 30,
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 3913,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 23,
+  "h2": 8,
+  "zero": 0,
+  "status": 200,
+  "ms": 6109
+ },
+ "desktop_home_en": {
+  "title": "Gegen Pres — Football Analysis, Scout Reports & Young Talents",
+  "h1": [
+   "Gegen Pres | Turkish Football, Scout Reports & Tactical Analysis"
+  ],
+  "bgColors": 34,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Bebas Neue\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter"
+  ],
+  "fontSizes": 30,
+  "ozet": false,
+  "navLinks": 47,
+  "imgs": 29,
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 5030,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 26,
+  "h2": 5,
+  "zero": 0,
+  "status": 200,
+  "ms": 5785
+ },
+ "desktop_search": {
+  "title": "“stoper” için arama sonuçları – Gegen Pres",
+  "h1": [
+   "stoper"
+  ],
+  "bgColors": 27,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 19,
+  "ozet": false,
+  "navLinks": 47,
+  "imgs": 11,
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 1803,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 23,
+  "h2": 0,
+  "zero": 0,
+  "status": 200,
+  "ms": 4593
+ },
+ "desktop_author": {
+  "title": "Ali Üçpunar – Gegen Pres",
+  "h1": [],
+  "bgColors": 32,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 18,
+  "ozet": false,
+  "navLinks": 47,
+  "imgs": 11,
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 2065,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 23,
+  "h2": 1,
+  "zero": 0,
+  "status": 200,
+  "ms": 6188
+ },
+ "desktop_ranking_like": {
+  "title": "FM27’nin Yeni Yüzleri: 22 Genç Yetenek, 100 Üzerinden Puan – Gegen Pres",
+  "h1": [
+   "FM27’nin Yeni Yüzleri: 22 Genç Yetenek, 100 Üzerinden Puan"
+  ],
+  "bgColors": 44,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Google Sans Text\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 32,
+  "ozet": false,
+  "navLinks": 49,
+  "imgs": 16,
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 15511,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 32,
+  "h2": 4,
+  "zero": 0,
+  "status": 200,
+  "ms": 4686
+ },
+ "mobile_home": {
+  "title": "Gegen Pres — Futbol Analizi, Scout Raporları ve Genç Yetenekler",
+  "h1": [
+   "Gegen Pres | Türkiye Futbolu, Scout Raporları ve Taktik Analiz"
+  ],
+  "bgColors": 35,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Bebas Neue\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter"
+  ],
+  "fontSizes": 29,
+  "ozet": false,
+  "navLinks": 47,
+  "imgs": 29,
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 9909,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 26,
+  "h2": 5,
+  "zero": 0,
+  "status": 200,
+  "ms": 7202
+ },
+ "mobile_article": {
+  "title": "Nico Paz kimdir? Kaç yaşında, nereli, hangi takımda oynuyor? – Gegen Pres",
+  "h1": [
+   "Nico Paz kimdir? Kaç yaşında, nereli, hangi takımda oynuyor?"
+  ],
+  "bgColors": 42,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Google Sans Text\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 29,
+  "ozet": false,
+  "navLinks": 49,
+  "imgs": 16,
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 14093,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 32,
+  "h2": 12,
+  "zero": 0,
+  "status": 200,
+  "ms": 4855
+ },
+ "mobile_scout_report": {
+  "title": "Mahmut Sarıhasan Scout Raporu — Diyarbekir Spor | TFF 3.Lig 24 Yaş Sağ Bek – Gegen Pres",
+  "h1": [
+   "Mahmut Sarıhasan Scout Raporu — Diyarbekir Spor | TFF 3.Lig 24 Yaş Sağ Bek",
+   "Innsbruck’tan Torino’ya, Oradan Erzurum’a: Emirhan Acar’ın Yolu"
+  ],
+  "bgColors": 48,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Segoe UI\"",
+   "\"Google Sans Text\"",
+   "-apple-system",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 35,
+  "ozet": false,
+  "navLinks": 49,
+  "imgs": 19,
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 8946,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 32,
+  "h2": 0,
+  "zero": 0,
+  "status": 200,
+  "ms": 4389
+ },
+ "mobile_scout_hub": {
+  "title": "GPScout — Saha Gözlem Merkezi · Gegen Pres",
+  "h1": [
+   "Futbolu izle.\nAnaliz et.\nKeşfet. Paylaş.",
+   "Tekrar hoş geldin",
+   "Hesap oluştur",
+   "Dünya Gözlem Haritası",
+   "Kulüpler",
+   "Eğitim, Sınav ve Lisans",
+   "Rapor Onay Merkezi"
+  ],
+  "bgColors": 42,
+  "fonts": [
+   "\"Noto Sans\""
+  ],
+  "fontSizes": 23,
+  "ozet": false,
+  "navLinks": 20,
+  "imgs": 844,
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 7435,
+  "bodyBg": "rgb(7, 17, 43)",
+  "bodyFont": "\"Noto Sans\", ui-sans-serif, system-ui, sans-serif",
+  "scripts": 17,
+  "h2": 21,
+  "zero": 5,
+  "status": 200,
+  "ms": 5167
+ },
+ "mobile_talent_hub": {
+  "title": "Genç Yetenek Hub – Gegen Pres",
+  "h1": [
+   "Genç Yetenek Hub",
+   "Genç Yetenek Hub"
+  ],
+  "bgColors": 50,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Helvetica Neue\"",
+   "\"Lucida Console\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 23,
+  "ozet": false,
+  "navLinks": 53,
+  "imgs": 558,
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 143648,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 27,
+  "h2": 6,
+  "zero": 0,
+  "status": 200,
+  "ms": 4390
+ },
+ "mobile_league": {
+  "title": "Süper Lig – Gegen Pres",
+  "h1": [
+   "Süper Lig"
+  ],
+  "bgColors": 31,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 22,
+  "ozet": false,
+  "navLinks": 48,
+  "imgs": 30,
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 6414,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 23,
+  "h2": 8,
+  "zero": 0,
+  "status": 200,
+  "ms": 4705
+ },
+ "mobile_home_en": {
+  "title": "Gegen Pres — Football Analysis, Scout Reports & Young Talents",
+  "h1": [
+   "Gegen Pres | Turkish Football, Scout Reports & Tactical Analysis"
+  ],
+  "bgColors": 35,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Bebas Neue\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter"
+  ],
+  "fontSizes": 29,
+  "ozet": false,
+  "navLinks": 47,
+  "imgs": 29,
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 9847,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 26,
+  "h2": 5,
+  "zero": 0,
+  "status": 200,
+  "ms": 4386
+ },
+ "mobile_search": {
+  "title": "“stoper” için arama sonuçları – Gegen Pres",
+  "h1": [
+   "stoper"
+  ],
+  "bgColors": 29,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 20,
+  "ozet": false,
+  "navLinks": 47,
+  "imgs": 11,
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 3329,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 23,
+  "h2": 0,
+  "zero": 0,
+  "status": 200,
+  "ms": 4674
+ },
+ "mobile_author": {
+  "title": "Ali Üçpunar – Gegen Pres",
+  "h1": [],
+  "bgColors": 34,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 20,
+  "ozet": false,
+  "navLinks": 47,
+  "imgs": 11,
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 3816,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 23,
+  "h2": 1,
+  "zero": 0,
+  "status": 200,
+  "ms": 4980
+ },
+ "mobile_ranking_like": {
+  "title": "FM27’nin Yeni Yüzleri: 22 Genç Yetenek, 100 Üzerinden Puan – Gegen Pres",
+  "h1": [
+   "FM27’nin Yeni Yüzleri: 22 Genç Yetenek, 100 Üzerinden Puan"
+  ],
+  "bgColors": 46,
+  "fonts": [
+   "\"Noto Sans\"",
+   "\"Font Awesome 6 Pro\"",
+   "\"Google Sans Text\"",
+   "\"Font Awesome 6 Brands\"",
+   "Inter",
+   "\"Bebas Neue\""
+  ],
+  "fontSizes": 34,
+  "ozet": false,
+  "navLinks": 49,
+  "imgs": 16,
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 22797,
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyFont": "\"Noto Sans\", sans-serif",
+  "scripts": 32,
+  "h2": 4,
+  "zero": 0,
+  "status": 200,
+  "ms": 3740
+ }
+}
