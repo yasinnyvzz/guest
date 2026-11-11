@@ -44,7 +44,7 @@ if ($cards || $scout_posts) : ?>
 <section class="panel-dark scout-feature" aria-labelledby="scout-h">
   <div class="container">
     <div class="section-head"><div><h2 id="scout-h"><?php echo esc_html(gsx_t('scout_spot')); ?></h2><p class="muted"><?php echo esc_html(gsx_t('scout_spot_sub')); ?></p></div>
-      <a href="<?php echo esc_url(gsx_page_url('gegen-scout') ?: home_url('/dossier/')); ?>" style="color:#fff"><?php echo esc_html(gsx_t('scout_center')); ?> →</a></div>
+      <a href="<?php echo esc_url(gsx_page_url('gegen-scout') ?: home_url('/dossier/')); ?>"><?php echo esc_html(gsx_t('scout_center')); ?> →</a></div>
     <div class="player-grid">
       <?php if ($cards) { foreach ($cards as $c) gsx_player_card($c); }
       else { foreach ($scout_posts as $i) { $t = gsx_primary_term($i); gsx_player_card(['title' => get_the_title($i), 'url' => get_permalink($i), 'excerpt' => gsx_blurb($i, 24), 'player' => ['position' => '', 'photo' => get_the_post_thumbnail_url($i, 'gsx-thumb')]]); } } ?>

@@ -8,7 +8,7 @@ $ll = gsx_lang_links();
   <div class="container">
     <div class="footer-grid">
       <div>
-        <a class="brand" href="<?php echo esc_url($home); ?>" style="color:#fff"><span class="brand__mark" style="background:#fff;color:var(--color-primary)" aria-hidden="true">G</span>GEGENSPORTS</a>
+        <a class="brand" href="<?php echo esc_url($home); ?>"><span class="brand__mark" aria-hidden="true">G</span>GEGENSPORTS</a>
         <p style="margin-top:12px;max-width:36ch"><?php echo esc_html(gsx_t('footer_about')); ?></p>
       </div>
       <div><h2><?php echo esc_html(gsx_t('corporate')); ?></h2><ul>

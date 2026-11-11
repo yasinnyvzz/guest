@@ -13,7 +13,7 @@ $first = $items[0] ?? 0; $grid = array_slice($items, 1, 2); $more = array_slice(
 ?>
 <header class="archive-head panel-dark" style="padding-block:32px 28px;margin-bottom:32px"><div class="container">
   <div class="breadcrumbs" style="color:var(--color-on-dark-muted)"><?php gsx_breadcrumbs([[gsx_t('home'), home_url('/')], [$title, '']]); ?></div>
-  <h1 style="color:#fff"><?php echo esc_html($title); ?></h1>
+  <h1><?php echo esc_html($title); ?></h1>
   <?php if ($desc) echo '<div class="muted" style="max-width:64ch">' . wp_kses_post($desc) . '</div>'; ?>
   <p class="meta" style="margin-top:12px"><span class="cat"><?php echo esc_html($kicker); ?></span><?php if ($term) echo '<span>' . number_format_i18n((int) $term->count) . ' ' . esc_html(gsx_t('posts')) . '</span>'; ?></p>
 </div></header>

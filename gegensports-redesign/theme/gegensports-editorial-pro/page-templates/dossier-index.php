@@ -14,8 +14,8 @@ $facets = $res['facets']['positions'] ?? [];
   <form class="filters" method="get" action="<?php echo esc_url(home_url('/dossier/')); ?>" style="grid-template-columns:1fr">
     <?php if ($facets) : ?>
     <div class="chip-row" role="group" aria-label="<?php echo esc_attr(gsx_t('pos')); ?>">
-      <a class="chip" href="<?php echo esc_url(home_url('/dossier/')); ?>"<?php echo !$pos ? ' aria-current="true" style="background:#fff;color:var(--color-primary)"' : ''; ?>><?php echo esc_html(gsx_t('all_pos')); ?></a>
-      <?php foreach ($facets as $k => $c) echo '<a class="chip" href="' . esc_url(add_query_arg('mevki', $k, home_url('/dossier/'))) . '"' . ($pos === $k ? ' aria-current="true" style="background:#fff;color:var(--color-primary)"' : '') . '>' . esc_html($k) . '<small>' . (int) $c . '</small></a>'; ?>
+      <a class="chip" href="<?php echo esc_url(home_url('/dossier/')); ?>"<?php echo !$pos ? ' aria-current="true" style="background:var(--color-primary);color:#fff;border-color:var(--color-primary)"' : ''; ?>><?php echo esc_html(gsx_t('all_pos')); ?></a>
+      <?php foreach ($facets as $k => $c) echo '<a class="chip" href="' . esc_url(add_query_arg('mevki', $k, home_url('/dossier/'))) . '"' . ($pos === $k ? ' aria-current="true" style="background:var(--color-primary);color:#fff;border-color:var(--color-primary)"' : '') . '>' . esc_html($k) . '<small>' . (int) $c . '</small></a>'; ?>
     </div><?php endif; ?>
   </form>
 </div></section>

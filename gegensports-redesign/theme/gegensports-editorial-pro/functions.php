@@ -5,7 +5,7 @@
  */
 defined('ABSPATH') || exit;
 
-define('GSX_VER', '0.2.0');
+define('GSX_VER', '0.3.0');
 define('GSX_DIR', get_template_directory());
 
 require_once GSX_DIR . '/inc/i18n.php';
@@ -54,7 +54,7 @@ add_filter('wp_img_tag_add_loading_attr', function ($v, $tag, $ctx) {
 }, 10, 3);
 
 add_action('wp_head', function () {
-    echo '<link rel="preload" as="font" type="font/woff2" crossorigin href="' . esc_url(get_template_directory_uri() . '/assets/fonts/archivo-latin-wght-normal.woff2') . '">' . "\n";
+    echo '<link rel="preload" as="font" type="font/woff2" crossorigin href="' . esc_url(get_template_directory_uri() . '/assets/fonts/host-grotesk-latin-wght-normal.woff2') . '">' . "\n";
 }, 1);
 
 // Gövde sınıfları

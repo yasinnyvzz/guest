@@ -2,11 +2,11 @@
 
 Tüm değerler tek dosyada: `theme/gegensports-editorial-pro/assets/css/tokens.css`.
 
-**Renk (v0.2, logo ile uyumlu):** primary `#0B1F3A` (logo laciverti), background `#F6F4EF` (sıcak kâğıt), surface `#FFFFFF`, text `#14202B`, muted `#5F6B76`, border `#E4E0D6`, accent `#F2A900` (logo kehribarı; yalnızca çizgi/dolgu), accent-text `#8F5E00` (metin, AA), success `#0F7B5F`, danger `#B83A3F`, neutral `#EFECE4`. İlk brief'teki mercan `#E85D3F` paleti, "yapay zekâ gibi duruyor" geri bildirimi üzerine bırakıldı.
-**Boşluk:** 4/8/12/16/24/32/48/64. **Köşe:** 6/10/14. Gölge yok; ince border.
-**Tipografi:** başlıklar **Archivo Variable** (temada barındırılır, 2 dosya ≈ 67 KB, OFL lisans, tam Türkçe karakter); gövde sistem fontu/Inter. `clamp()` ölçeği: H1 28→40/42, bölüm 21→28, kart 17→19, gövde 15,5→17, ikincil 12–13. Okuma sütunu 70 karakter.
-**Ayrıntı:** başlık üstünde büyük harfli etiket yok — kategori tarih satırında; bölüm başlıkları üstte kalın çizgiyle açılır; seçim rengi, imleç ve kaydırma çubuğu paletten; görseli olmayan haberde boş kutu basılmaz.
-**Kurallar:** açık tema; koyu panel yalnızca scouting bağlamında (Gegen Scout bölümü, Dossier üst paneli, arşiv başlığı). Gradient, glow, animasyon yok.
+**Renk (v0.3 — sakin editoryal):** zemin ve kartlar beyaz `#FFFFFF`, mürekkep `#111111`, metin `#1A1A1A`, ikincil `#666B70`, ince çizgi `#E4E4E1`, sakin bant `#F5F5F2`. Tek renkli vurgu koyu saha yeşili `#0B6B50` (yalnız kategori adı, odak halkası, olumlu veri); olumsuz veri `#B3261E`. Lacivert, sarı ve koyu bölümler geri bildirim üzerine kaldırıldı; renk fotoğraflardan gelir.
+**Boşluk:** 4/8/12/16/24/32/48/64. **Köşe:** 3/4/6 (daha keskin, gazete hissi). Gölge yok; kutu yerine ince çizgi.
+**Tipografi:** başlıklar **Host Grotesk Variable** (referans sitedeki font; temada barındırılır, 2 dosya ≈ 32 KB, OFL, tam Türkçe karakter); gövde sistem fontu/Inter. `clamp()` ölçeği: H1 28→40/42, bölüm 21→28, kart 17→19, gövde 15,5→17. Okuma sütunu 70 karakter.
+**Ayrıntı:** kategori tarih satırında; son haberler kutusuz, ince çizgili liste; scouting bölümleri açık gri bant; alt bilgi beyaz, üstte tek siyah çizgi.
+**Kurallar:** tamamen açık tema; scouting bağlamı (Gegen Scout bölümü, Dossier üst paneli, arşiv başlığı) açık gri bantla ayrılır. Gradient, glow, animasyon yok.
 
 ## Bileşen → dosya
 | Bileşen | Yer |
