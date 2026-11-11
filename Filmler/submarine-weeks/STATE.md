@@ -6,11 +6,11 @@ Method: this chat coordinates and builds what it holds the context for; a fresh 
 
 ## Resume here
 <!-- Updated at every gate and before every handoff. A new chat starts with "STATE.md'den devam et" / "Continue from STATE.md". -->
-- **Phase:** 6 draft v2 rendering (v1 held TOO DARK, fixed by lifting light/fog/dome/post brightness)
+- **Phase:** 6a draft v2 delivered, waiting for the user's notes or final
 - **Pace:** through (user: "Film modu, taslağa kadar")
 - **Approved gates:** none
 - **Open notes:** none (notes/round-N.md)
-- **Next action:** when renders/draft-v2.status.json says done: python3 tools/make.py check renders/draft-v2-picture.mp4 (silent by choice), qc sheet, copy to <Title>-draft.mp4, SendUserFile, ask Final / Notes. Known: action flags 0-2 s and 12-16 s (slow camera only). Render needs Chrome flags --use-angle=swiftshader --enable-unsafe-swiftshader (no GPU here)
+- **Next action:** notes -> notes/round-1.md and targeted edits in engine/film.html; final -> full size 1080x1920 render (about 60-80 min on this CPU) with the swiftshader flags
 - **Budget so far:** <~estimate> of the <Balanced> ceiling (<n>%)
 
 ## Now
@@ -28,7 +28,7 @@ Method: this chat coordinates and builds what it holds the context for; a fresh 
 - **Sound:** silent by choice (user brief: no VO, no music; editor adds Turkish narration later)
 - **Type:** Saira 700/400 (OFL), caps, end card only; echoes the Defence MENA wordmark
 - **Subtitles:** off
-- **Last output:** renders/draft-v1-picture.mp4 (held: too dark, not shown)
+- **Last output:** renders/Denizalti-Haftalarca-draft.mp4 (= draft-v2, checks passed)
 - **Disk free at last check:** <GB, date>
 
 ## Running jobs
