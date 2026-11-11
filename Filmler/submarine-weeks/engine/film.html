@@ -49,14 +49,14 @@ renderer.outputColorSpace = THREE.SRGBColorSpace;
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(48, W / H, 0.05, 400);
 const C = {
-  deep: new THREE.Color('#01060c'), mid: new THREE.Color('#06263d'), up: new THREE.Color('#1d6f96'),
-  hull: new THREE.Color('#171b20'), ghost: new THREE.Color('#9ec3d9'), steel: new THREE.Color('#7c8a95'),
+  deep: new THREE.Color('#041624'), mid: new THREE.Color('#0d4466'), up: new THREE.Color('#2b8cb8'),
+  hull: new THREE.Color('#2a3138'), ghost: new THREE.Color('#9ec3d9'), steel: new THREE.Color('#7c8a95'),
   warm: new THREE.Color('#e8b27a'), red: new THREE.Color('#e3232c'), cool: new THREE.Color('#cdeeff'), co2: new THREE.Color('#d2453c'),
 };
 scene.fog = new THREE.FogExp2(C.mid.clone().multiplyScalar(0.55), 0.03);
 
 // Lights: surface key from above, cool hemisphere, rim from behind, warm practical inside.
-const hemi = new THREE.HemisphereLight(0x5fb4d8, 0x02070c, 1.0);
+const hemi = new THREE.HemisphereLight(0x6cc2e6, 0x0a2230, 1.0);
 const key = new THREE.DirectionalLight(0xbfe6ff, 2.2); key.position.set(3, 20, 4);
 const rim = new THREE.DirectionalLight(0x8fd0ff, 1.4); rim.position.set(-8, 3, -10);
 const fill = new THREE.DirectionalLight(0x2a6d92, 0.5); fill.position.set(6, -4, 8);
@@ -435,7 +435,7 @@ track.material.uniforms.uCol.value.multiplyScalar(0.6); scene.add(track);
 // ------------------------------------------------------------------ look (buildLook chain: AgX, bloom, vignette, grain, msaa)
 const LOOK = {
   palette: ['#020b14', '#0b3a5c', '#15191d', '#9ec3d9', '#e3232c'],
-  post: { tone: 'AGX', saturation: 0.02, contrast: 0.1, brightness: 0, msaa: +(q.get('msaa') ?? 4),
+  post: { tone: 'AGX', saturation: 0.06, contrast: 0.06, brightness: 0.07, msaa: +(q.get('msaa') ?? 4),
     bloom: { threshold: 0.62, smoothing: 0.25, intensity: 0.9, radius: 0.72 },
     vignette: { offset: 0.32, darkness: 0.62 }, grain: { intensity: 0.035, size: 1.3 } },
 };
@@ -491,11 +491,11 @@ function setTime(t) {
   surface.position.y = sink; surface.material.uniforms.uT.value = t;
   surface.material.uniforms.uAmt.value = c === 0 ? 1 - ss(5.0, 7.0, t) * 0.7 : (c >= 9 ? 0.6 : 0);
   const dark = c === 8 ? win(t, 63.6, 65.8, 0.9) * 0.85 : 0;
-  dome.material.uniforms.uBright.value = (c === 0 ? lerp(1.3, 0.8, ss(0, 7, t)) : c >= 9 ? 0.9 : 0.55) * (1 - dark);
+  dome.material.uniforms.uBright.value = (c === 0 ? lerp(1.4, 1.0, ss(0, 7, t)) : c >= 9 ? 1.1 : 0.8) * (1 - dark);
   dome.material.uniforms.uDark.value = dark;
   const fogD = [0.018, 0.022, 0.015, 0.015, 0.024, 0.022, 0.028, 0.016, 0.03, 0.03][c] + dark * 0.05;
   scene.fog.density = fogD;
-  scene.fog.color.copy(C.mid).multiplyScalar((c === 0 ? lerp(1.3, 0.6, ss(0, 7, t)) : 0.5) * (1 - dark));
+  scene.fog.color.copy(C.mid).multiplyScalar((c === 0 ? lerp(1.3, 0.8, ss(0, 7, t)) : 0.75) * (1 - dark));
   const rayAmt = (c === 0 ? 1.3 : c === 7 ? 0.7 : c >= 8 ? 1.0 - dark : 0.45);
   for (const m of RAYS) { const d = m.userData; m.visible = !d.hidden; m.position.set(d.x, sink - 35, d.z);
     m.rotation.set(0, Math.atan2(camera.position.x - d.x, camera.position.z - d.z), d.tilt);
@@ -535,7 +535,7 @@ function setTime(t) {
   INT.forEach((m) => { m.opacity = interior; });
   crewMat.opacity = interior * ss(12.4, 14, t);
   screenMat.opacity = interior * 0.95;
-  practical.intensity = interior * (c <= 3 ? 4.0 : 0.8); practical2.intensity = ss(37.5, 40, t) * ins * 1.6;
+  practical.intensity = interior * (c <= 3 ? 6.0 : 1.2); practical2.intensity = ss(37.5, 40, t) * ins * 1.6;
   crew.forEach((g) => { const b = 1 + 0.045 * Math.sin(t * 2 * Math.PI / 3.6 + g.userData.phase) * (c === 2 ? 1.6 : 1);
     g.userData.torso.scale.set(b, 1 + (b - 1) * 0.4, b); });
   const airOn = win(t, 14.3, 30.0, 0.8) * ins;
@@ -585,9 +585,9 @@ function setTime(t) {
   { const p = echoGeo.attributes.position; if (!echoGeo.userData.y) { for (let i = 0; i < p.count; i++) p.setY(i, seabedY(p.getX(i) - 30, p.getZ(i)) + 0.05); p.needsUpdate = true; echoGeo.userData.y = 1; } }
   track.visible = c === 7; fl(track, 57.4, 59.6, 63);
   // light for the reveal: into darkness, then rim and key return
-  key.intensity = (c === 8 ? lerp(2.2, 0, dark) : c >= 9 ? 1.4 : 2.2);
+  key.intensity = (c === 8 ? lerp(3.4, 0, dark) : c >= 9 ? 2.4 : 3.4);
   rim.intensity = c === 8 ? lerp(1.4, 0.2, dark) + ss(65.4, 67, t) * 1.6 : c >= 9 ? 2.4 : 1.4;
-  hemi.intensity = c === 0 ? lerp(1.4, 0.9, ss(0, 7, t)) : (1 - dark) * (c >= 2 && c <= 3 ? 0.55 : 0.9);
+  hemi.intensity = (c === 0 ? lerp(2.4, 1.7, ss(0, 7, t)) : (1 - dark) * (c >= 2 && c <= 3 ? 1.0 : 1.7));
   return c;
 }
 
