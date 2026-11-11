@@ -1,0 +1,2819 @@
+{
+ "_surum": "2026-11-11",
+ "_aciklama": "Envanter Medya yayın ağı varlık sözlüğü. Her varlık TEK arşive karşılık gelir; eşanlamlılar ayrı arşiv açmaz. alias alanları: t=metin, cs=büyük/küçük harfe duyarlı (özgün metinde aranır), amb=çok anlamlı (yalnız ctx desenlerinden biri yazıda varsa sayılır), suf=Türkçe/İngilizce çekim ekine izin ver (ön ek eşleşmesi). ctx/neg desenleri katlanmış metinde (küçük harf, aksansız, Arapça hemze/te merbuta normalize) düzenli ifadedir. neg desenleri eşleşmenin ±60 karakter yakınında aranır.",
+ "tipler": {
+  "kategori": {
+   "tr": "Ana konu",
+   "en": "Section",
+   "ar": "قسم",
+   "oncelik": 5
+  },
+  "sirket": {
+   "tr": "Şirket / kurum",
+   "en": "Company",
+   "ar": "شركة",
+   "oncelik": 2
+  },
+  "platform": {
+   "tr": "Platform / ürün",
+   "en": "Platform",
+   "ar": "منظومة",
+   "oncelik": 1
+  },
+  "teknoloji": {
+   "tr": "Teknoloji / sistem",
+   "en": "Technology",
+   "ar": "تقنية",
+   "oncelik": 3
+  },
+  "ulke": {
+   "tr": "Ülke",
+   "en": "Country",
+   "ar": "دولة",
+   "oncelik": 4
+  }
+ },
+ "varliklar": [
+  {
+   "id": "turk-savunma-sanayii",
+   "tip": "kategori",
+   "ad": {
+    "tr": "Türk Savunma Sanayii",
+    "en": "Turkish Defence Industry",
+    "ar": "الصناعات الدفاعية التركية"
+   },
+   "alias": [
+    {
+     "t": "türk savunma sanayii"
+    },
+    {
+     "t": "türk savunma sanayi"
+    },
+    {
+     "t": "turkish defense industry"
+    },
+    {
+     "t": "turkish defence industry"
+    },
+    {
+     "t": "الصناعات الدفاعية التركية"
+    },
+    {
+     "t": "صناعة الدفاع التركية"
+    },
+    {
+     "t": "الصناعة الدفاعية التركية"
+    }
+   ],
+   "yalniz_cikarim": false
+  },
+  {
+   "id": "askeri-havacilik",
+   "tip": "kategori",
+   "ad": {
+    "tr": "Askerî Havacılık",
+    "en": "Military Aviation",
+    "ar": "الطيران العسكري"
+   },
+   "alias": [
+    {
+     "t": "askeri havacilik"
+    },
+    {
+     "t": "military aviation"
+    },
+    {
+     "t": "الطيران العسكري"
+    }
+   ],
+   "ust": []
+  },
+  {
+   "id": "kara-sistemleri",
+   "tip": "kategori",
+   "ad": {
+    "tr": "Kara Sistemleri",
+    "en": "Land Systems",
+    "ar": "الأنظمة البرية"
+   },
+   "alias": [
+    {
+     "t": "kara sistemleri"
+    },
+    {
+     "t": "land systems"
+    },
+    {
+     "t": "الأنظمة البرية"
+    }
+   ]
+  },
+  {
+   "id": "deniz-sistemleri",
+   "tip": "kategori",
+   "ad": {
+    "tr": "Deniz Sistemleri",
+    "en": "Naval Systems",
+    "ar": "الأنظمة البحرية"
+   },
+   "alias": [
+    {
+     "t": "deniz sistemleri"
+    },
+    {
+     "t": "naval systems"
+    },
+    {
+     "t": "الأنظمة البحرية"
+    }
+   ]
+  },
+  {
+   "id": "hava-savunma",
+   "tip": "kategori",
+   "ad": {
+    "tr": "Hava Savunma",
+    "en": "Air Defence",
+    "ar": "الدفاع الجوي"
+   },
+   "alias": [
+    {
+     "t": "hava savunma",
+     "suf": true
+    },
+    {
+     "t": "air defense"
+    },
+    {
+     "t": "air defence"
+    },
+    {
+     "t": "الدفاع الجوي"
+    }
+   ]
+  },
+  {
+   "id": "iha-siha",
+   "tip": "kategori",
+   "ad": {
+    "tr": "İHA ve SİHA",
+    "en": "Drones and UAVs",
+    "ar": "الطائرات المسيرة"
+   },
+   "alias": [
+    {
+     "t": "İHA",
+     "cs": true
+    },
+    {
+     "t": "SİHA",
+     "cs": true
+    },
+    {
+     "t": "insansiz hava araci",
+     "suf": true
+    },
+    {
+     "t": "silahli insansiz hava araci",
+     "suf": true
+    },
+    {
+     "t": "drone",
+     "suf": true
+    },
+    {
+     "t": "uav",
+     "suf": true
+    },
+    {
+     "t": "ucav",
+     "suf": true
+    },
+    {
+     "t": "الطائرات المسيرة"
+    },
+    {
+     "t": "طائرة مسيرة"
+    },
+    {
+     "t": "مسيرات"
+    },
+    {
+     "t": "المسيرات"
+    }
+   ],
+   "neg": [
+    "anti.?drone",
+    "anti.?iha",
+    "counter.?(uas|drone|uav)",
+    "defeat.{0,40}drone",
+    "dron.?savar",
+    "drone.{0,20}defeat",
+    "iha.?savar",
+    "jamm",
+    "karsi.?dron",
+    "karsi.?iha",
+    "التصدي للمسيرات",
+    "مضاد للمسيرات",
+    "مضادة للمسيرات",
+    "مكافحه المسيرات"
+   ]
+  },
+  {
+   "id": "uzay-uydu",
+   "tip": "kategori",
+   "ad": {
+    "tr": "Uzay ve Uydu",
+    "en": "Space and Satellites",
+    "ar": "الفضاء والأقمار الصناعية"
+   },
+   "alias": [
+    {
+     "t": "uydu",
+     "suf": true
+    },
+    {
+     "t": "satellite",
+     "suf": true
+    },
+    {
+     "t": "uzay",
+     "suf": true,
+     "amb": true
+    },
+    {
+     "t": "قمر صناعي"
+    },
+    {
+     "t": "الأقمار الصناعية"
+    }
+   ],
+   "ctx": [
+    "uydu",
+    "satellite",
+    "yorunge",
+    "orbit",
+    "firlatma",
+    "launch",
+    "قمر"
+   ],
+   "neg": [
+    "aerospace",
+    "gnss",
+    "gps",
+    "havacilik ve uzay",
+    "satellite.?guided",
+    "uydu gudumlu",
+    "uzay sanayi"
+   ]
+  },
+  {
+   "id": "savunma-elektronigi",
+   "tip": "kategori",
+   "ad": {
+    "tr": "Savunma Elektroniği",
+    "en": "Defence Electronics",
+    "ar": "الإلكترونيات الدفاعية"
+   },
+   "alias": [
+    {
+     "t": "savunma elektronigi"
+    },
+    {
+     "t": "defense electronics"
+    },
+    {
+     "t": "defence electronics"
+    },
+    {
+     "t": "الإلكترونيات الدفاعية"
+    }
+   ]
+  },
+  {
+   "id": "savunma-ihracati",
+   "tip": "kategori",
+   "ad": {
+    "tr": "Savunma İhracatı",
+    "en": "Defence Exports",
+    "ar": "صادرات الدفاع"
+   },
+   "alias": [
+    {
+     "t": "ihracat",
+     "suf": true
+    },
+    {
+     "t": "export",
+     "suf": true
+    },
+    {
+     "t": "ihrac",
+     "suf": true
+    },
+    {
+     "t": "صادرات"
+    },
+    {
+     "t": "تصدير"
+    }
+   ],
+   "ctx": [
+    "savunma",
+    "defen[cs]e",
+    "silah",
+    "arms",
+    "دفاع",
+    "عسكري"
+   ]
+  },
+  {
+   "id": "aselsan",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "ASELSAN",
+    "en": "ASELSAN",
+    "ar": "أسيلسان"
+   },
+   "alias": [
+    {
+     "t": "aselsan"
+    },
+    {
+     "t": "أسيلسان"
+    },
+    {
+     "t": "اسيلسان"
+    },
+    {
+     "t": "أسلسان"
+    }
+   ],
+   "ust": [
+    "savunma-elektronigi",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "korkut",
+    "siper",
+    "hisar",
+    "aesa-radar",
+    "elektronik-harp",
+    "celik-kubbe"
+   ]
+  },
+  {
+   "id": "tusas",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "TUSAŞ",
+    "en": "Turkish Aerospace (TUSAŞ)",
+    "ar": "توساش"
+   },
+   "alias": [
+    {
+     "t": "tusas"
+    },
+    {
+     "t": "turk havacilik ve uzay sanayii"
+    },
+    {
+     "t": "turkish aerospace",
+     "suf": false
+    },
+    {
+     "t": "turkish aerospace industries"
+    },
+    {
+     "t": "TAI",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "توساش"
+    },
+    {
+     "t": "الصناعات الجوية والفضائية التركية"
+    },
+    {
+     "t": "شركة الصناعات الجوية التركية"
+    }
+   ],
+   "ctx": [
+    "kaan",
+    "hurjet",
+    "hurkus",
+    "gokbey",
+    "anka",
+    "aksungur",
+    "aircraft",
+    "ucak",
+    "طائر",
+    "مقاتل",
+    "turk"
+   ],
+   "ust": [
+    "askeri-havacilik",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "kaan",
+    "hurjet",
+    "hurkus",
+    "gokbey",
+    "anka",
+    "tei"
+   ]
+  },
+  {
+   "id": "roketsan",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "ROKETSAN",
+    "en": "ROKETSAN",
+    "ar": "روكيتسان"
+   },
+   "alias": [
+    {
+     "t": "roketsan"
+    },
+    {
+     "t": "روكيتسان"
+    },
+    {
+     "t": "روكتسان"
+    }
+   ],
+   "ust": [
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "atmaca",
+    "tayfun",
+    "siper",
+    "hisar",
+    "balistik-fuze",
+    "seyir-fuzesi"
+   ]
+  },
+  {
+   "id": "baykar",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "BAYKAR",
+    "en": "Baykar",
+    "ar": "بايكار"
+   },
+   "alias": [
+    {
+     "t": "baykar"
+    },
+    {
+     "t": "بايكار"
+    }
+   ],
+   "ust": [
+    "iha-siha",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "tb2",
+    "akinci",
+    "kizilelma",
+    "tb3"
+   ]
+  },
+  {
+   "id": "bmc",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "BMC",
+    "en": "BMC",
+    "ar": "بي إم سي"
+   },
+   "alias": [
+    {
+     "t": "BMC",
+     "cs": true
+    },
+    {
+     "t": "bmc otomotiv"
+    },
+    {
+     "t": "بي إم سي"
+    }
+   ],
+   "neg": [
+    "bmc software",
+    "bmc medical",
+    "bmc helix",
+    "bmc public health"
+   ],
+   "ust": [
+    "kara-sistemleri",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "altay",
+    "tank"
+   ]
+  },
+  {
+   "id": "havelsan",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "HAVELSAN",
+    "en": "HAVELSAN",
+    "ar": "هافلسان"
+   },
+   "alias": [
+    {
+     "t": "havelsan"
+    },
+    {
+     "t": "هافلسان"
+    }
+   ],
+   "ust": [
+    "savunma-elektronigi",
+    "turk-savunma-sanayii"
+   ]
+  },
+  {
+   "id": "stm",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "STM",
+    "en": "STM",
+    "ar": "STM"
+   },
+   "alias": [
+    {
+     "t": "STM",
+     "cs": true
+    },
+    {
+     "t": "savunma teknolojileri muhendislik"
+    },
+    {
+     "t": "STM Savunma",
+     "cs": true
+    }
+   ],
+   "ctx": [
+    "savunma",
+    "defen[cs]e",
+    "milgem",
+    "denizalti",
+    "submarine",
+    "kargu",
+    "korvet",
+    "corvette",
+    "دفاع",
+    "turk"
+   ],
+   "ust": [
+    "turk-savunma-sanayii"
+   ]
+  },
+  {
+   "id": "fnss",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "FNSS",
+    "en": "FNSS",
+    "ar": "FNSS"
+   },
+   "alias": [
+    {
+     "t": "FNSS",
+     "cs": true
+    }
+   ],
+   "ust": [
+    "kara-sistemleri",
+    "turk-savunma-sanayii"
+   ]
+  },
+  {
+   "id": "otokar",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "OTOKAR",
+    "en": "Otokar",
+    "ar": "أوتوكار"
+   },
+   "alias": [
+    {
+     "t": "otokar"
+    },
+    {
+     "t": "أوتوكار"
+    },
+    {
+     "t": "اوتوكار"
+    }
+   ],
+   "ust": [
+    "kara-sistemleri",
+    "turk-savunma-sanayii"
+   ]
+  },
+  {
+   "id": "nurol-makina",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "NUROL MAKİNA",
+    "en": "Nurol Makina",
+    "ar": "نورول ماكينا"
+   },
+   "alias": [
+    {
+     "t": "nurol makina"
+    },
+    {
+     "t": "nurol makine"
+    },
+    {
+     "t": "نورول ماكينا"
+    },
+    {
+     "t": "نورول"
+    }
+   ],
+   "ust": [
+    "kara-sistemleri",
+    "turk-savunma-sanayii"
+   ]
+  },
+  {
+   "id": "tei",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "TEI",
+    "en": "TEI (TUSAŞ Engine Industries)",
+    "ar": "TEI"
+   },
+   "alias": [
+    {
+     "t": "TEI",
+     "cs": true
+    },
+    {
+     "t": "tusas motor sanayii"
+    },
+    {
+     "t": "tusas engine industries"
+    }
+   ],
+   "ctx": [
+    "motor",
+    "engine",
+    "turboshaft",
+    "turbofan",
+    "محرك",
+    "tusas",
+    "ts1400",
+    "pd170",
+    "tf6000"
+   ],
+   "ust": [
+    "askeri-havacilik",
+    "turk-savunma-sanayii"
+   ]
+  },
+  {
+   "id": "aspilsan",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "ASPİLSAN",
+    "en": "ASPİLSAN Energy",
+    "ar": "أسبيلسان"
+   },
+   "alias": [
+    {
+     "t": "aspilsan"
+    },
+    {
+     "t": "أسبيلسان"
+    }
+   ],
+   "ust": [
+    "turk-savunma-sanayii"
+   ]
+  },
+  {
+   "id": "mke",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "MKE",
+    "en": "MKE",
+    "ar": "MKE"
+   },
+   "alias": [
+    {
+     "t": "MKE",
+     "cs": true
+    },
+    {
+     "t": "makine ve kimya endustrisi"
+    },
+    {
+     "t": "makina ve kimya endustrisi"
+    }
+   ],
+   "ust": [
+    "turk-savunma-sanayii"
+   ]
+  },
+  {
+   "id": "ssb",
+   "tip": "sirket",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "Savunma Sanayii Başkanlığı (SSB)",
+    "en": "Turkish Defence Industry Agency (SSB)",
+    "ar": "رئاسة الصناعات الدفاعية التركية"
+   },
+   "alias": [
+    {
+     "t": "savunma sanayii baskanligi",
+     "suf": true
+    },
+    {
+     "t": "savunma sanayi baskanligi",
+     "suf": true
+    },
+    {
+     "t": "SSB",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "presidency of defense industries"
+    },
+    {
+     "t": "defence industry agency"
+    },
+    {
+     "t": "رئاسة الصناعات الدفاعية"
+    }
+   ],
+   "ctx": [
+    "savunma",
+    "defen[cs]e",
+    "gorgun",
+    "دفاع"
+   ],
+   "ust": [
+    "turk-savunma-sanayii"
+   ]
+  },
+  {
+   "id": "kaan",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "KAAN",
+    "en": "KAAN Fighter Jet",
+    "ar": "مقاتلة KAAN"
+   },
+   "alias": [
+    {
+     "t": "KAAN",
+     "cs": true
+    },
+    {
+     "t": "Kaan",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "milli muharip ucak",
+     "suf": true
+    },
+    {
+     "t": "MMU",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "TF-X",
+     "cs": true
+    },
+    {
+     "t": "TFX",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "national combat aircraft"
+    },
+    {
+     "t": "كآن"
+    },
+    {
+     "t": "قآن"
+    }
+   ],
+   "ctx": [
+    "tusas",
+    "muharip",
+    "savas ucag",
+    "fighter",
+    "f110",
+    "prototip",
+    "prototype",
+    "5\\. nesil",
+    "fifth.generation",
+    "مقاتل"
+   ],
+   "neg": [
+    "kaan onuk",
+    "kaan 717",
+    "canik"
+   ],
+   "yapan": [
+    "tusas"
+   ],
+   "ust": [
+    "savas-ucagi",
+    "askeri-havacilik",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "tusas",
+    "hurjet",
+    "tei",
+    "savas-ucagi"
+   ]
+  },
+  {
+   "id": "hurjet",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "HÜRJET",
+    "en": "HÜRJET Jet Trainer",
+    "ar": "هورجيت"
+   },
+   "alias": [
+    {
+     "t": "hurjet"
+    },
+    {
+     "t": "هورجيت"
+    },
+    {
+     "t": "حرجيت"
+    }
+   ],
+   "yapan": [
+    "tusas"
+   ],
+   "ust": [
+    "askeri-havacilik",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "tusas",
+    "kaan",
+    "hurkus"
+   ]
+  },
+  {
+   "id": "hurkus",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "HÜRKUŞ",
+    "en": "HÜRKUŞ Trainer",
+    "ar": "هوركوش"
+   },
+   "alias": [
+    {
+     "t": "hurkus"
+    },
+    {
+     "t": "هوركوش"
+    },
+    {
+     "t": "حركوش"
+    }
+   ],
+   "yapan": [
+    "tusas"
+   ],
+   "ust": [
+    "askeri-havacilik",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "tusas",
+    "hurjet"
+   ]
+  },
+  {
+   "id": "gokbey",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "GÖKBEY",
+    "en": "GÖKBEY Helicopter",
+    "ar": "غوكبي"
+   },
+   "alias": [
+    {
+     "t": "GÖKBEY",
+     "cs": true
+    },
+    {
+     "t": "GOKBEY",
+     "cs": true
+    },
+    {
+     "t": "Gökbey",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "t625",
+     "suf": false
+    },
+    {
+     "t": "غوكبي"
+    },
+    {
+     "t": "جوكباي"
+    }
+   ],
+   "ctx": [
+    "helikopter",
+    "helicopter",
+    "tusas",
+    "هليكوبتر",
+    "مروحي"
+   ],
+   "yapan": [
+    "tusas"
+   ],
+   "ust": [
+    "helikopter",
+    "askeri-havacilik",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "tusas",
+    "helikopter"
+   ]
+  },
+  {
+   "id": "anka",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "ANKA",
+    "en": "ANKA UAV",
+    "ar": "أنكا"
+   },
+   "alias": [
+    {
+     "t": "ANKA",
+     "cs": true
+    },
+    {
+     "t": "Anka",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "أنكا"
+    },
+    {
+     "t": "عنقاء"
+    }
+   ],
+   "ctx": [
+    "tusas",
+    "iha",
+    "siha",
+    "uav",
+    "drone",
+    "مسير"
+   ],
+   "yapan": [
+    "tusas"
+   ],
+   "ust": [
+    "iha-siha",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "tusas",
+    "akinci",
+    "tb2"
+   ]
+  },
+  {
+   "id": "akinci",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "Bayraktar AKINCI",
+    "en": "Bayraktar AKINCI",
+    "ar": "بيرقدار أقنجي"
+   },
+   "alias": [
+    {
+     "t": "AKINCI",
+     "cs": true
+    },
+    {
+     "t": "Akıncı",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "bayraktar akinci"
+    },
+    {
+     "t": "أقنجي"
+    },
+    {
+     "t": "أكينجي"
+    },
+    {
+     "t": "اكينجي"
+    },
+    {
+     "t": "آقنجي"
+    }
+   ],
+   "ctx": [
+    "baykar",
+    "bayraktar",
+    "siha",
+    "iha",
+    "uav",
+    "ucav",
+    "drone",
+    "مسير",
+    "بيرقدار"
+   ],
+   "neg": [
+    "akinci us",
+    "akinci ussu",
+    "akinci air base"
+   ],
+   "yapan": [
+    "baykar"
+   ],
+   "ust": [
+    "iha-siha",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "baykar",
+    "tb2",
+    "kizilelma"
+   ]
+  },
+  {
+   "id": "tb2",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "Bayraktar TB2",
+    "en": "Bayraktar TB2",
+    "ar": "بيرقدار TB2"
+   },
+   "alias": [
+    {
+     "t": "TB2",
+     "cs": true
+    },
+    {
+     "t": "bayraktar tb2"
+    },
+    {
+     "t": "تي بي 2"
+    }
+   ],
+   "yapan": [
+    "baykar"
+   ],
+   "ust": [
+    "iha-siha",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "baykar",
+    "akinci",
+    "tb3"
+   ]
+  },
+  {
+   "id": "tb3",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "Bayraktar TB3",
+    "en": "Bayraktar TB3",
+    "ar": "بيرقدار TB3"
+   },
+   "alias": [
+    {
+     "t": "TB3",
+     "cs": true
+    },
+    {
+     "t": "bayraktar tb3"
+    }
+   ],
+   "yapan": [
+    "baykar"
+   ],
+   "ust": [
+    "iha-siha",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "baykar",
+    "tb2",
+    "tcg-anadolu"
+   ]
+  },
+  {
+   "id": "kizilelma",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "Bayraktar KIZILELMA",
+    "en": "Bayraktar KIZILELMA",
+    "ar": "قيزيل إلما"
+   },
+   "alias": [
+    {
+     "t": "kizilelma"
+    },
+    {
+     "t": "kizil elma",
+     "amb": true
+    },
+    {
+     "t": "قيزيل إلما"
+    },
+    {
+     "t": "كيزيل إلما"
+    },
+    {
+     "t": "قيزيل ألما"
+    }
+   ],
+   "ctx": [
+    "baykar",
+    "bayraktar",
+    "insansiz",
+    "unmanned",
+    "muharip",
+    "uav",
+    "ucav",
+    "مسير"
+   ],
+   "yapan": [
+    "baykar"
+   ],
+   "ust": [
+    "iha-siha",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "baykar",
+    "akinci",
+    "kaan"
+   ]
+  },
+  {
+   "id": "altay",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "ALTAY Tankı",
+    "en": "ALTAY Main Battle Tank",
+    "ar": "دبابة ألتاي"
+   },
+   "alias": [
+    {
+     "t": "ALTAY",
+     "cs": true
+    },
+    {
+     "t": "Altay",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "altay tanki",
+     "suf": true
+    },
+    {
+     "t": "altay tank",
+     "suf": true
+    },
+    {
+     "t": "ألتاي"
+    }
+   ],
+   "ctx": [
+    "tank",
+    "bmc",
+    "muharebe",
+    "battle",
+    "zirh",
+    "armou?r",
+    "دباب",
+    "t1",
+    "t2"
+   ],
+   "neg": [
+    "altay da[gğ]",
+    "altay mountains",
+    "altay krai",
+    "altay sk",
+    "altay spor",
+    "gorno-altay",
+    "altay cumhuriyeti",
+    "altay republic",
+    "jeneratör"
+   ],
+   "yapan": [
+    "bmc"
+   ],
+   "ust": [
+    "tank",
+    "kara-sistemleri",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "bmc",
+    "tank",
+    "aktif-koruma-sistemi"
+   ]
+  },
+  {
+   "id": "korkut",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "KORKUT",
+    "en": "KORKUT Air Defence System",
+    "ar": "كوركوت"
+   },
+   "alias": [
+    {
+     "t": "KORKUT",
+     "cs": true
+    },
+    {
+     "t": "Korkut",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "كوركوت"
+    }
+   ],
+   "ctx": [
+    "hava savunma",
+    "air defen[cs]e",
+    "aselsan",
+    "35 ?mm",
+    "namlulu",
+    "الدفاع الجوي"
+   ],
+   "neg": [
+    "dede korkut",
+    "korkut ata"
+   ],
+   "yapan": [
+    "aselsan"
+   ],
+   "ust": [
+    "hava-savunma-sistemi",
+    "hava-savunma",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "aselsan",
+    "hisar",
+    "celik-kubbe"
+   ]
+  },
+  {
+   "id": "siper",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "SİPER",
+    "en": "SİPER Long-Range Air Defence",
+    "ar": "منظومة سيبر"
+   },
+   "alias": [
+    {
+     "t": "SİPER",
+     "cs": true
+    },
+    {
+     "t": "SIPER",
+     "cs": true
+    },
+    {
+     "t": "Siper",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "سيبر",
+     "amb": true
+    }
+   ],
+   "ctx": [
+    "hava savunma",
+    "air defen[cs]e",
+    "roketsan",
+    "aselsan",
+    "uzun menzil",
+    "long.range",
+    "celik kubbe",
+    "steel dome",
+    "الدفاع الجوي",
+    "صاروخ"
+   ],
+   "neg": [
+    "سيبراني",
+    "cyber"
+   ],
+   "yapan": [
+    "roketsan",
+    "aselsan"
+   ],
+   "ust": [
+    "hava-savunma-sistemi",
+    "hava-savunma",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "hisar",
+    "korkut",
+    "celik-kubbe",
+    "roketsan"
+   ]
+  },
+  {
+   "id": "hisar",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "HİSAR",
+    "en": "HİSAR Air Defence Systems",
+    "ar": "منظومة حصار"
+   },
+   "alias": [
+    {
+     "t": "HİSAR",
+     "cs": true
+    },
+    {
+     "t": "HISAR",
+     "cs": true
+    },
+    {
+     "t": "Hisar",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "hisar-a",
+     "suf": true
+    },
+    {
+     "t": "hisar-o",
+     "suf": true
+    },
+    {
+     "t": "حصار",
+     "amb": true
+    }
+   ],
+   "ctx": [
+    "hava savunma",
+    "air defen[cs]e",
+    "roketsan",
+    "aselsan",
+    "fuze",
+    "missile",
+    "الدفاع الجوي",
+    "صاروخ"
+   ],
+   "neg": [
+    "anadolu hisar",
+    "corvette",
+    "hisar class",
+    "hisar sinifi",
+    "hisar-class",
+    "korvet",
+    "opv",
+    "rumeli hisar",
+    "الحصار",
+    "الحصار البحري",
+    "حصار على",
+    "حصار غزة",
+    "حصار قطر",
+    "فرض حصار"
+   ],
+   "yapan": [
+    "roketsan",
+    "aselsan"
+   ],
+   "ust": [
+    "hava-savunma-sistemi",
+    "hava-savunma",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "siper",
+    "korkut",
+    "celik-kubbe"
+   ]
+  },
+  {
+   "id": "celik-kubbe",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "Çelik Kubbe",
+    "en": "Steel Dome",
+    "ar": "القبة الفولاذية"
+   },
+   "alias": [
+    {
+     "t": "celik kubbe",
+     "suf": true
+    },
+    {
+     "t": "steel dome"
+    },
+    {
+     "t": "القبة الفولاذية"
+    },
+    {
+     "t": "القبة الحديدية التركية"
+    }
+   ],
+   "ust": [
+    "hava-savunma",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "siper",
+    "hisar",
+    "korkut",
+    "aselsan"
+   ]
+  },
+  {
+   "id": "atmaca",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "ATMACA",
+    "en": "ATMACA Anti-Ship Missile",
+    "ar": "صاروخ أتماجا"
+   },
+   "alias": [
+    {
+     "t": "ATMACA",
+     "cs": true
+    },
+    {
+     "t": "Atmaca",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "kara atmaca",
+     "suf": true
+    },
+    {
+     "t": "أتماجا"
+    },
+    {
+     "t": "اتماجا"
+    }
+   ],
+   "ctx": [
+    "fuze",
+    "missile",
+    "roketsan",
+    "gemisavar",
+    "anti-ship",
+    "صاروخ"
+   ],
+   "yapan": [
+    "roketsan"
+   ],
+   "ust": [
+    "seyir-fuzesi",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "roketsan",
+    "seyir-fuzesi",
+    "tayfun"
+   ]
+  },
+  {
+   "id": "tayfun",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "TAYFUN",
+    "en": "TAYFUN Ballistic Missile",
+    "ar": "صاروخ تايفون"
+   },
+   "alias": [
+    {
+     "t": "TAYFUN",
+     "cs": true
+    },
+    {
+     "t": "Tayfun",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "تايفون",
+     "amb": true
+    }
+   ],
+   "ctx": [
+    "roketsan",
+    "balistik",
+    "ballistic",
+    "fuze",
+    "missile",
+    "باليستي",
+    "روكيتسان"
+   ],
+   "neg": [
+    "eurofighter",
+    "typhoon",
+    "يوروفايتر",
+    "ural",
+    "kamaz",
+    "tayfun-k",
+    "tayfun-u"
+   ],
+   "yapan": [
+    "roketsan"
+   ],
+   "ust": [
+    "balistik-fuze",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "roketsan",
+    "balistik-fuze",
+    "atmaca"
+   ]
+  },
+  {
+   "id": "tcg-anadolu",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "TCG Anadolu",
+    "en": "TCG Anadolu",
+    "ar": "السفينة TCG Anadolu"
+   },
+   "alias": [
+    {
+     "t": "tcg anadolu"
+    },
+    {
+     "t": "Anadolu",
+     "cs": true,
+     "amb": true
+    },
+    {
+     "t": "الأناضول",
+     "amb": true
+    }
+   ],
+   "ctx": [
+    "tcg",
+    "amfibi",
+    "amphibious",
+    "gemi",
+    "ship",
+    "lhd",
+    "deniz kuvvet",
+    "navy",
+    "سفينة",
+    "حاملة",
+    "برمائي"
+   ],
+   "neg": [
+    "anadolu ajans",
+    "anadolu agency",
+    "وكالة الأناضول",
+    "anadolu hisar",
+    "anadolu isuzu",
+    "anadolu universite",
+    "anadolu lise",
+    "dogu anadolu",
+    "anadolu yakas"
+   ],
+   "ust": [
+    "deniz-sistemleri",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "tb3",
+    "milgem",
+    "firkateyn"
+   ]
+  },
+  {
+   "id": "milgem",
+   "tip": "platform",
+   "ulke": "turkiye",
+   "ad": {
+    "tr": "MİLGEM",
+    "en": "MILGEM Programme",
+    "ar": "برنامج ميلغم"
+   },
+   "alias": [
+    {
+     "t": "milgem"
+    },
+    {
+     "t": "istif sinifi",
+     "suf": true
+    },
+    {
+     "t": "istif-class"
+    },
+    {
+     "t": "ada sinifi",
+     "suf": true,
+     "amb": true
+    },
+    {
+     "t": "ميلغم"
+    },
+    {
+     "t": "ميلجم"
+    }
+   ],
+   "ctx": [
+    "korvet",
+    "corvette",
+    "firkateyn",
+    "frigate",
+    "stm",
+    "deniz",
+    "navy",
+    "فرقاطة"
+   ],
+   "ust": [
+    "firkateyn",
+    "deniz-sistemleri",
+    "turk-savunma-sanayii"
+   ],
+   "ilgili": [
+    "stm",
+    "firkateyn",
+    "tcg-anadolu"
+   ]
+  },
+  {
+   "id": "turkiye",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Türkiye",
+    "en": "Türkiye",
+    "ar": "تركيا"
+   },
+   "alias": [
+    {
+     "t": "Türkiye",
+     "cs": true
+    },
+    {
+     "t": "Turkey",
+     "cs": true
+    },
+    {
+     "t": "Turkiye",
+     "cs": true
+    },
+    {
+     "t": "تركيا"
+    }
+   ],
+   "ozel": "ev_tr_atla"
+  },
+  {
+   "id": "abd",
+   "tip": "ulke",
+   "ad": {
+    "tr": "ABD",
+    "en": "United States",
+    "ar": "الولايات المتحدة"
+   },
+   "alias": [
+    {
+     "t": "ABD",
+     "cs": true
+    },
+    {
+     "t": "amerika birlesik devletleri"
+    },
+    {
+     "t": "united states"
+    },
+    {
+     "t": "U.S.",
+     "cs": true
+    },
+    {
+     "t": "الولايات المتحدة"
+    },
+    {
+     "t": "واشنطن"
+    }
+   ]
+  },
+  {
+   "id": "rusya",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Rusya",
+    "en": "Russia",
+    "ar": "روسيا"
+   },
+   "alias": [
+    {
+     "t": "rusya"
+    },
+    {
+     "t": "russia"
+    },
+    {
+     "t": "russian federation"
+    },
+    {
+     "t": "روسيا"
+    }
+   ]
+  },
+  {
+   "id": "cin",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Çin",
+    "en": "China",
+    "ar": "الصين"
+   },
+   "alias": [
+    {
+     "t": "Çin",
+     "cs": true
+    },
+    {
+     "t": "china"
+    },
+    {
+     "t": "الصين"
+    }
+   ]
+  },
+  {
+   "id": "almanya",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Almanya",
+    "en": "Germany",
+    "ar": "ألمانيا"
+   },
+   "alias": [
+    {
+     "t": "almanya"
+    },
+    {
+     "t": "germany"
+    },
+    {
+     "t": "ألمانيا"
+    }
+   ]
+  },
+  {
+   "id": "fransa",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Fransa",
+    "en": "France",
+    "ar": "فرنسا"
+   },
+   "alias": [
+    {
+     "t": "fransa"
+    },
+    {
+     "t": "France",
+     "cs": true
+    },
+    {
+     "t": "فرنسا"
+    }
+   ]
+  },
+  {
+   "id": "italya",
+   "tip": "ulke",
+   "ad": {
+    "tr": "İtalya",
+    "en": "Italy",
+    "ar": "إيطاليا"
+   },
+   "alias": [
+    {
+     "t": "italya"
+    },
+    {
+     "t": "italy"
+    },
+    {
+     "t": "إيطاليا"
+    }
+   ]
+  },
+  {
+   "id": "birlesik-krallik",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Birleşik Krallık",
+    "en": "United Kingdom",
+    "ar": "المملكة المتحدة"
+   },
+   "alias": [
+    {
+     "t": "birlesik krallik"
+    },
+    {
+     "t": "ingiltere"
+    },
+    {
+     "t": "united kingdom"
+    },
+    {
+     "t": "britain"
+    },
+    {
+     "t": "U.K.",
+     "cs": true
+    },
+    {
+     "t": "المملكة المتحدة"
+    },
+    {
+     "t": "بريطانيا"
+    }
+   ]
+  },
+  {
+   "id": "suudi-arabistan",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Suudi Arabistan",
+    "en": "Saudi Arabia",
+    "ar": "السعودية"
+   },
+   "alias": [
+    {
+     "t": "suudi arabistan"
+    },
+    {
+     "t": "saudi arabia"
+    },
+    {
+     "t": "السعودية"
+    },
+    {
+     "t": "المملكة العربية السعودية"
+    },
+    {
+     "t": "السعودي"
+    }
+   ],
+   "ust": [
+    "orta-dogu"
+   ]
+  },
+  {
+   "id": "misir",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Mısır",
+    "en": "Egypt",
+    "ar": "مصر"
+   },
+   "alias": [
+    {
+     "t": "Mısır",
+     "cs": true
+    },
+    {
+     "t": "egypt"
+    },
+    {
+     "t": "egyptian",
+     "suf": false
+    },
+    {
+     "t": "مصر"
+    },
+    {
+     "t": "المصري"
+    },
+    {
+     "t": "المصرية"
+    }
+   ],
+   "ust": [
+    "kuzey-afrika"
+   ]
+  },
+  {
+   "id": "bae",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Birleşik Arap Emirlikleri",
+    "en": "United Arab Emirates",
+    "ar": "الإمارات"
+   },
+   "alias": [
+    {
+     "t": "BAE",
+     "cs": true
+    },
+    {
+     "t": "birlesik arap emirlikleri"
+    },
+    {
+     "t": "united arab emirates"
+    },
+    {
+     "t": "UAE",
+     "cs": true
+    },
+    {
+     "t": "الإمارات"
+    },
+    {
+     "t": "الإماراتي"
+    },
+    {
+     "t": "الإماراتية"
+    }
+   ],
+   "neg": [
+    "bae systems",
+    "bae sistem"
+   ],
+   "ust": [
+    "orta-dogu"
+   ]
+  },
+  {
+   "id": "katar",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Katar",
+    "en": "Qatar",
+    "ar": "قطر"
+   },
+   "alias": [
+    {
+     "t": "Katar",
+     "cs": true
+    },
+    {
+     "t": "qatar"
+    },
+    {
+     "t": "قطر"
+    },
+    {
+     "t": "القطري"
+    },
+    {
+     "t": "القطرية"
+    }
+   ],
+   "neg": [
+    "بقطر",
+    "قطر [0-9]",
+    "قطره",
+    "قطرها"
+   ],
+   "ust": [
+    "orta-dogu"
+   ]
+  },
+  {
+   "id": "pakistan",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Pakistan",
+    "en": "Pakistan",
+    "ar": "باكستان"
+   },
+   "alias": [
+    {
+     "t": "pakistan"
+    },
+    {
+     "t": "باكستان"
+    }
+   ]
+  },
+  {
+   "id": "endonezya",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Endonezya",
+    "en": "Indonesia",
+    "ar": "إندونيسيا"
+   },
+   "alias": [
+    {
+     "t": "endonezya"
+    },
+    {
+     "t": "indonesia"
+    },
+    {
+     "t": "إندونيسيا"
+    }
+   ]
+  },
+  {
+   "id": "cezayir",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Cezayir",
+    "en": "Algeria",
+    "ar": "الجزائر"
+   },
+   "alias": [
+    {
+     "t": "cezayir"
+    },
+    {
+     "t": "algeria"
+    },
+    {
+     "t": "الجزائر"
+    },
+    {
+     "t": "الجزائري"
+    },
+    {
+     "t": "الجزائرية"
+    }
+   ],
+   "ust": [
+    "kuzey-afrika"
+   ]
+  },
+  {
+   "id": "fas",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Fas",
+    "en": "Morocco",
+    "ar": "المغرب"
+   },
+   "alias": [
+    {
+     "t": "Fas",
+     "cs": true
+    },
+    {
+     "t": "morocco"
+    },
+    {
+     "t": "المغرب",
+     "amb": true
+    },
+    {
+     "t": "المغربي"
+    },
+    {
+     "t": "المغربية"
+    }
+   ],
+   "ctx": [
+    "rabat",
+    "maroc",
+    "fas",
+    "morocc",
+    "مغرب"
+   ],
+   "neg": [
+    "صلاة المغرب",
+    "المغرب العربي"
+   ],
+   "ust": [
+    "kuzey-afrika"
+   ]
+  },
+  {
+   "id": "nijerya",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Nijerya",
+    "en": "Nigeria",
+    "ar": "نيجيريا"
+   },
+   "alias": [
+    {
+     "t": "nijerya"
+    },
+    {
+     "t": "nigeria"
+    },
+    {
+     "t": "نيجيريا"
+    }
+   ],
+   "ust": []
+  },
+  {
+   "id": "ukrayna",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Ukrayna",
+    "en": "Ukraine",
+    "ar": "أوكرانيا"
+   },
+   "alias": [
+    {
+     "t": "ukrayna"
+    },
+    {
+     "t": "ukraine"
+    },
+    {
+     "t": "أوكرانيا"
+    }
+   ]
+  },
+  {
+   "id": "polonya",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Polonya",
+    "en": "Poland",
+    "ar": "بولندا"
+   },
+   "alias": [
+    {
+     "t": "polonya"
+    },
+    {
+     "t": "poland"
+    },
+    {
+     "t": "بولندا"
+    }
+   ]
+  },
+  {
+   "id": "yunanistan",
+   "tip": "ulke",
+   "ad": {
+    "tr": "Yunanistan",
+    "en": "Greece",
+    "ar": "اليونان"
+   },
+   "alias": [
+    {
+     "t": "yunanistan"
+    },
+    {
+     "t": "greece"
+    },
+    {
+     "t": "اليونان"
+    }
+   ]
+  },
+  {
+   "id": "israil",
+   "tip": "ulke",
+   "ad": {
+    "tr": "İsrail",
+    "en": "Israel",
+    "ar": "إسرائيل"
+   },
+   "alias": [
+    {
+     "t": "israil"
+    },
+    {
+     "t": "israel"
+    },
+    {
+     "t": "إسرائيل"
+    }
+   ],
+   "ust": [
+    "orta-dogu"
+   ]
+  },
+  {
+   "id": "iran",
+   "tip": "ulke",
+   "ad": {
+    "tr": "İran",
+    "en": "Iran",
+    "ar": "إيران"
+   },
+   "alias": [
+    {
+     "t": "İran",
+     "cs": true
+    },
+    {
+     "t": "Iran",
+     "cs": true
+    },
+    {
+     "t": "إيران"
+    }
+   ],
+   "ust": [
+    "orta-dogu"
+   ]
+  },
+  {
+   "id": "aesa-radar",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "AESA Radar",
+    "en": "AESA Radar",
+    "ar": "رادار AESA"
+   },
+   "alias": [
+    {
+     "t": "AESA",
+     "cs": true
+    },
+    {
+     "t": "aktif elektronik taramali",
+     "suf": true
+    },
+    {
+     "t": "active electronically scanned"
+    }
+   ],
+   "ust": [
+    "radar",
+    "savunma-elektronigi"
+   ]
+  },
+  {
+   "id": "radar",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Radar",
+    "en": "Radar",
+    "ar": "الرادار"
+   },
+   "alias": [
+    {
+     "t": "radar",
+     "suf": true
+    },
+    {
+     "t": "رادار"
+    },
+    {
+     "t": "الرادار"
+    },
+    {
+     "t": "رادارات"
+    }
+   ],
+   "ust": [
+    "savunma-elektronigi"
+   ]
+  },
+  {
+   "id": "elektronik-harp",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Elektronik Harp",
+    "en": "Electronic Warfare",
+    "ar": "الحرب الإلكترونية"
+   },
+   "alias": [
+    {
+     "t": "elektronik harp",
+     "suf": true
+    },
+    {
+     "t": "electronic warfare"
+    },
+    {
+     "t": "EH sistem",
+     "cs": true,
+     "suf": true
+    },
+    {
+     "t": "الحرب الإلكترونية"
+    }
+   ],
+   "ust": [
+    "savunma-elektronigi"
+   ]
+  },
+  {
+   "id": "hipersonik-fuze",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Hipersonik Füze",
+    "en": "Hypersonic Missile",
+    "ar": "الصواريخ فرط الصوتية"
+   },
+   "alias": [
+    {
+     "t": "hipersonik",
+     "suf": true
+    },
+    {
+     "t": "hypersonic"
+    },
+    {
+     "t": "فرط صوتي"
+    },
+    {
+     "t": "فرط الصوتية"
+    },
+    {
+     "t": "فرط صوتية"
+    }
+   ]
+  },
+  {
+   "id": "balistik-fuze",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Balistik Füze",
+    "en": "Ballistic Missile",
+    "ar": "الصواريخ الباليستية"
+   },
+   "alias": [
+    {
+     "t": "balistik fuze",
+     "suf": true
+    },
+    {
+     "t": "ballistic missile",
+     "suf": true
+    },
+    {
+     "t": "صاروخ باليستي"
+    },
+    {
+     "t": "الصواريخ الباليستية"
+    },
+    {
+     "t": "صواريخ باليستية"
+    }
+   ]
+  },
+  {
+   "id": "seyir-fuzesi",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Seyir Füzesi",
+    "en": "Cruise Missile",
+    "ar": "صواريخ كروز"
+   },
+   "alias": [
+    {
+     "t": "seyir fuze",
+     "suf": true
+    },
+    {
+     "t": "cruise missile",
+     "suf": true
+    },
+    {
+     "t": "صاروخ كروز"
+    },
+    {
+     "t": "صواريخ كروز"
+    },
+    {
+     "t": "الصواريخ الجوالة"
+    }
+   ]
+  },
+  {
+   "id": "aktif-koruma-sistemi",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Aktif Koruma Sistemi",
+    "en": "Active Protection System",
+    "ar": "نظام الحماية النشطة"
+   },
+   "alias": [
+    {
+     "t": "aktif koruma sistem",
+     "suf": true
+    },
+    {
+     "t": "active protection system",
+     "suf": true
+    },
+    {
+     "t": "AKKOR",
+     "cs": true
+    },
+    {
+     "t": "الحماية النشطة"
+    }
+   ]
+  },
+  {
+   "id": "insansiz-deniz-araci",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "İnsansız Deniz Aracı",
+    "en": "Unmanned Surface Vessel",
+    "ar": "الزوارق غير المأهولة"
+   },
+   "alias": [
+    {
+     "t": "insansiz deniz arac",
+     "suf": true
+    },
+    {
+     "t": "insansiz deniz ustu",
+     "suf": true
+    },
+    {
+     "t": "unmanned surface vessel",
+     "suf": true
+    },
+    {
+     "t": "USV",
+     "cs": true
+    },
+    {
+     "t": "İDA",
+     "cs": true
+    },
+    {
+     "t": "زورق غير مأهول"
+    },
+    {
+     "t": "الزوارق المسيرة"
+    }
+   ],
+   "ust": [
+    "deniz-sistemleri"
+   ]
+  },
+  {
+   "id": "tank",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Tank",
+    "en": "Tank",
+    "ar": "الدبابات"
+   },
+   "alias": [
+    {
+     "t": "tank",
+     "suf": true
+    },
+    {
+     "t": "ana muharebe tank",
+     "suf": true
+    },
+    {
+     "t": "main battle tank",
+     "suf": true
+    },
+    {
+     "t": "دبابة"
+    },
+    {
+     "t": "دبابات"
+    },
+    {
+     "t": "الدبابات"
+    },
+    {
+     "t": "الدبابة"
+    }
+   ],
+   "neg": [
+    "anti.?tank",
+    "antitank",
+    "fuel tank",
+    "su tank",
+    "tank savar",
+    "tanker",
+    "tankmen",
+    "tankodrom",
+    "tanksavar",
+    "think tank",
+    "yakit tank",
+    "المضادة للدروع",
+    "مضاد للدبابات",
+    "مضاد للدروع",
+    "مضادة للدبابات"
+   ],
+   "ust": [
+    "kara-sistemleri"
+   ]
+  },
+  {
+   "id": "firkateyn",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Fırkateyn",
+    "en": "Frigate",
+    "ar": "الفرقاطات"
+   },
+   "alias": [
+    {
+     "t": "firkateyn",
+     "suf": true
+    },
+    {
+     "t": "frigate",
+     "suf": true
+    },
+    {
+     "t": "فرقاطة"
+    },
+    {
+     "t": "فرقاطات"
+    },
+    {
+     "t": "الفرقاطة"
+    },
+    {
+     "t": "الفرقاطات"
+    }
+   ],
+   "ust": [
+    "deniz-sistemleri"
+   ]
+  },
+  {
+   "id": "denizalti",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Denizaltı",
+    "en": "Submarine",
+    "ar": "الغواصات"
+   },
+   "alias": [
+    {
+     "t": "denizalti",
+     "suf": true
+    },
+    {
+     "t": "submarine",
+     "suf": true
+    },
+    {
+     "t": "غواصة"
+    },
+    {
+     "t": "غواصات"
+    },
+    {
+     "t": "الغواصة"
+    },
+    {
+     "t": "الغواصات"
+    }
+   ],
+   "neg": [
+    "\\basw\\b",
+    "anti-submarine",
+    "anti.?denizalti",
+    "denizalti savunma",
+    "denizalti savunma harbi",
+    "denizaltisavar",
+    "مضاد للغواصات",
+    "مكافحه الغواصات"
+   ],
+   "ust": [
+    "deniz-sistemleri"
+   ]
+  },
+  {
+   "id": "savas-ucagi",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Savaş Uçağı",
+    "en": "Fighter Jet",
+    "ar": "الطائرات المقاتلة"
+   },
+   "alias": [
+    {
+     "t": "savas ucag",
+     "suf": true
+    },
+    {
+     "t": "muharip ucak",
+     "suf": true
+    },
+    {
+     "t": "fighter jet",
+     "suf": true
+    },
+    {
+     "t": "fighter aircraft"
+    },
+    {
+     "t": "مقاتلة"
+    },
+    {
+     "t": "المقاتلة"
+    },
+    {
+     "t": "مقاتلات"
+    },
+    {
+     "t": "الطائرات المقاتلة"
+    }
+   ],
+   "ust": [
+    "askeri-havacilik"
+   ]
+  },
+  {
+   "id": "helikopter",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Helikopter",
+    "en": "Military Helicopter",
+    "ar": "المروحيات العسكرية"
+   },
+   "alias": [
+    {
+     "t": "helikopter",
+     "suf": true
+    },
+    {
+     "t": "helicopter",
+     "suf": true
+    },
+    {
+     "t": "مروحية"
+    },
+    {
+     "t": "مروحيات"
+    },
+    {
+     "t": "المروحيات"
+    },
+    {
+     "t": "هليكوبتر"
+    }
+   ],
+   "ust": [
+    "askeri-havacilik"
+   ]
+  },
+  {
+   "id": "hava-savunma-sistemi",
+   "tip": "teknoloji",
+   "ad": {
+    "tr": "Hava Savunma Sistemi",
+    "en": "Air Defence System",
+    "ar": "منظومات الدفاع الجوي"
+   },
+   "alias": [
+    {
+     "t": "hava savunma sistem",
+     "suf": true
+    },
+    {
+     "t": "air defense system",
+     "suf": true
+    },
+    {
+     "t": "air defence system",
+     "suf": true
+    },
+    {
+     "t": "منظومة الدفاع الجوي"
+    },
+    {
+     "t": "منظومات الدفاع الجوي"
+    },
+    {
+     "t": "أنظمة الدفاع الجوي"
+    }
+   ],
+   "ust": [
+    "hava-savunma"
+   ]
+  },
+  {
+   "id": "kuzey-afrika",
+   "tip": "kategori",
+   "ad": {
+    "tr": "Kuzey Afrika",
+    "en": "North Africa",
+    "ar": "شمال أفريقيا",
+    "fr": "Afrique du Nord",
+    "pt": "Norte de África"
+   },
+   "alias": [
+    {
+     "t": "kuzey afrika"
+    },
+    {
+     "t": "north africa",
+     "suf": true
+    },
+    {
+     "t": "maghreb"
+    },
+    {
+     "t": "شمال أفريقيا"
+    },
+    {
+     "t": "شمال افريقيا"
+    },
+    {
+     "t": "afrique du nord"
+    }
+   ]
+  },
+  {
+   "id": "orta-dogu",
+   "tip": "kategori",
+   "ad": {
+    "tr": "Orta Doğu",
+    "en": "Middle East",
+    "ar": "الشرق الأوسط",
+    "fr": "Moyen-Orient",
+    "pt": "Médio Oriente"
+   },
+   "alias": [
+    {
+     "t": "orta dogu"
+    },
+    {
+     "t": "middle east",
+     "suf": true
+    },
+    {
+     "t": "الشرق الأوسط"
+    },
+    {
+     "t": "moyen-orient"
+    }
+   ]
+  }
+ ]
+}

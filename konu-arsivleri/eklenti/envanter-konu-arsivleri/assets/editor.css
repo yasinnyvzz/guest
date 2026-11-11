@@ -1,0 +1,10 @@
+#eka-box .eka-liste{margin:.5rem 0;padding:0;list-style:none}
+#eka-box .eka-liste li{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem .5rem;padding:.35rem 0;border-bottom:1px solid #eee}
+#eka-box .eka-liste label{flex:1 1 auto;font-weight:600}
+#eka-box .eka-liste small{flex:1 0 100%;color:#646970}
+#eka-box .eka-rozet{font-size:11px;padding:0 .4rem;border-radius:3px;background:#f0f0f1}
+#eka-box .eka-yuksek .eka-rozet{background:#d1f0d8}
+#eka-box .eka-orta .eka-rozet{background:#fcf0c3}
+#eka-box .eka-dusuk{opacity:.7}
+#eka-box .eka-uyari{color:#b32d2e}
+#eka-box .eka-tamam{color:#007017}

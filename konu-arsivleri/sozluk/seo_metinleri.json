@@ -1,0 +1,432 @@
+{
+ "ev:tr:turk-savunma-sanayii": {
+  "hedef_sorgu": [
+   "türk savunma sanayii haberleri",
+   "türk savunma sanayi haberleri",
+   "savunma sanayii haberleri",
+   "savunma sanayi haberleri",
+   "savunma haberleri"
+  ],
+  "h1": "Türk Savunma Sanayii Haberleri",
+  "seo_title": "Türk Savunma Sanayii Haberleri ve Son Gelişmeler",
+  "meta_description": "ASELSAN, TUSAŞ, ROKETSAN, BAYKAR ve diğer şirketlerden savunma sanayii haberleri: projeler, testler, teslimatlar, ihracat ve SSB kararları.",
+  "tanitim": "Türk savunma sanayiinin günlük akışı bu arşivde toplanıyor. ASELSAN'ın elektronik sistemlerinden TUSAŞ'ın hava platformlarına, ROKETSAN'ın füze programlarından BAYKAR'ın insansız sistemlerine kadar şirket açıklamaları, test ve teslimat haberleri, Savunma Sanayii Başkanlığı'nın proje kararları ve ihracat sözleşmeleri burada yer alıyor. Belirli bir şirketi ya da platformu izlemek isteyenler aşağıdaki ilgili arşivlerden ilgili sayfaya geçebilir."
+ },
+ "ev:tr:aselsan": {
+  "hedef_sorgu": [
+   "aselsan haberleri",
+   "aselsan son dakika",
+   "aselsan"
+  ],
+  "h1": "ASELSAN Haberleri",
+  "seo_title": "ASELSAN Haberleri: Radar, Elektronik Harp ve Sözleşmeler",
+  "meta_description": "ASELSAN'ın radar, elektronik harp, haberleşme ve hava savunma sistemlerine ilişkin son haberler, yeni sözleşmeler, KAP açıklamaları ve ihracat gelişmeleri.",
+  "tanitim": "ASELSAN, Türkiye'nin savunma elektroniği alanındaki en büyük şirketi. Bu sayfada şirketin radar ve elektronik harp sistemleri, askerî haberleşme ürünleri, elektro-optik çözümleri ve Çelik Kubbe kapsamındaki hava savunma çalışmalarıyla ilgili haberler yer alıyor. KAP'a bildirilen sözleşmeler, ihracat anlaşmaları, fuarlarda tanıtılan yeni ürünler ve yönetim açıklamaları da aynı arşivde. KORKUT, SİPER ve AESA radar gibi alt konular için ilgili arşivlere bakabilirsiniz."
+ },
+ "ev:tr:tusas": {
+  "hedef_sorgu": [
+   "tusaş haberleri",
+   "tusaş son dakika",
+   "tusaş kaan"
+  ],
+  "h1": "TUSAŞ Haberleri",
+  "seo_title": "TUSAŞ Haberleri: KAAN, HÜRJET, GÖKBEY ve ANKA",
+  "meta_description": "TUSAŞ'ın KAAN, HÜRJET, HÜRKUŞ, GÖKBEY ve ANKA programlarına ilişkin son haberler; test uçuşları, üretim, teslimatlar ve şirket açıklamaları.",
+  "tanitim": "TUSAŞ haberleri; şirketin geliştirdiği KAAN, HÜRJET, HÜRKUŞ ve GÖKBEY gibi hava platformlarına ilişkin son gelişmeler, test faaliyetleri, üretim süreçleri ve savunma sanayii anlaşmalarıyla birlikte bu sayfada yer alıyor. ANKA ve AKSUNGUR insansız hava araçları, uydu çalışmaları ve yurt dışı iş birlikleri de bu arşivin konuları arasında. Tek bir platformu izlemek isteyenler KAAN ve HÜRJET arşivlerine doğrudan geçebilir."
+ },
+ "ev:tr:roketsan": {
+  "hedef_sorgu": [
+   "roketsan haberleri",
+   "roketsan son dakika",
+   "roketsan füze"
+  ],
+  "h1": "ROKETSAN Haberleri",
+  "seo_title": "ROKETSAN Haberleri: Füze Testleri, TAYFUN ve ATMACA",
+  "meta_description": "ROKETSAN'ın TAYFUN, ATMACA, SOM, HİSAR ve SİPER programlarına dair test atışları, teslimatlar, ihracat ve uzay çalışmaları üzerine son haberler.",
+  "tanitim": "ROKETSAN, Türkiye'nin roket ve füze sistemleri geliştiren ana şirketi. Bu arşivde TAYFUN balistik füzesi, ATMACA gemisavar füzesi, SOM seyir füzesi ve ASELSAN ile birlikte yürütülen HİSAR ve SİPER hava savunma programlarına ilişkin test atışları, teslimatlar ve ihracat haberleri bulunuyor. Şirketin uzaya erişim çalışmaları ve tesis yatırımları da bu sayfada izlenebilir."
+ },
+ "ev:tr:baykar": {
+  "hedef_sorgu": [
+   "baykar haberleri",
+   "bayraktar haberleri",
+   "baykar son dakika"
+  ],
+  "h1": "BAYKAR Haberleri",
+  "seo_title": "BAYKAR Haberleri: TB2, TB3, AKINCI ve KIZILELMA",
+  "meta_description": "BAYKAR'ın Bayraktar TB2, TB3, AKINCI ve KIZILELMA platformlarına ilişkin test uçuşları, ihracat anlaşmaları, teslimatlar ve şirket açıklamaları.",
+  "tanitim": "BAYKAR haberleri bu sayfada bir arada. Bayraktar TB2'nin yurt dışı satışlarından TCG Anadolu'dan kalkış yapabilen TB3'e, AKINCI'nın mühimmat entegrasyonlarından insansız savaş uçağı KIZILELMA'nın test uçuşlarına kadar şirketin programlarıyla ilgili gelişmeler burada yer alıyor. Yurt dışı ortaklıklar ve yeni ihracat sözleşmeleri de bu arşive bağlanıyor."
+ },
+ "ev:tr:kaan": {
+  "hedef_sorgu": [
+   "kaan haberleri",
+   "milli muharip uçak haberleri",
+   "kaan savaş uçağı",
+   "tusaş kaan"
+  ],
+  "h1": "KAAN Haberleri",
+  "seo_title": "KAAN Haberleri: Son Gelişmeler ve Test Uçuşları",
+  "meta_description": "KAAN savaş uçağına ilişkin son haberler, test uçuşları, prototipler, motor geliştirme çalışmaları ve TUSAŞ açıklamaları Envanter Medya'da.",
+  "tanitim": "KAAN, TUSAŞ tarafından geliştirilen ve Millî Muharip Uçak (MMU) programı olarak da bilinen beşinci nesil savaş uçağı. Bu sayfada prototiplerin test faaliyetleri, uçuş ve yer testleri, yerli motor geliştirme çalışmaları, alt sistem tedarikçileri ve programla ilgili resmî açıklamalar takip ediliyor. KAAN'ın yurt dışı iş birlikleri ve olası ihracat görüşmelerine ilişkin haberler de bu arşive ekleniyor."
+ },
+ "ev:tr:hurjet": {
+  "hedef_sorgu": [
+   "hürjet haberleri",
+   "hürjet",
+   "hürjet son durum"
+  ],
+  "h1": "HÜRJET Haberleri",
+  "seo_title": "HÜRJET Haberleri: Jet Eğitim Uçağı Son Durum",
+  "meta_description": "TUSAŞ'ın HÜRJET jet eğitim ve hafif taarruz uçağına ilişkin test uçuşları, üretim, teslimat takvimi ve ihracat görüşmeleri üzerine son haberler.",
+  "tanitim": "HÜRJET, TUSAŞ'ın geliştirdiği jet eğitim ve hafif taarruz uçağı. Arşivde prototip uçuşları, test kampanyası, seri üretim hazırlıkları ve Hava Kuvvetleri'ne teslimat takvimine ilişkin haberler yer alıyor. Uçağın yurt dışı müşterilerle yürütülen görüşmeleri ve eğitim uçağı pazarındaki rakiplerle karşılaştırmaları da bu sayfada."
+ },
+ "ev:tr:bmc": {
+  "hedef_sorgu": [
+   "bmc haberleri",
+   "bmc savunma",
+   "bmc altay"
+  ],
+  "h1": "BMC Haberleri",
+  "seo_title": "BMC Haberleri: ALTAY Tankı, KİRPİ ve VURAN",
+  "meta_description": "BMC'nin ALTAY tankı üretimi, KİRPİ ve VURAN zırhlı araçları, motor çalışmaları ve ihracat anlaşmalarına ilişkin son savunma haberleri.",
+  "tanitim": "BMC, Türkiye'nin zırhlı kara araçları üreticilerinden biri ve ALTAY ana muharebe tankının seri üretim yüklenicisi. Bu sayfada ALTAY üretim süreci, KİRPİ ve VURAN gibi zırhlı araçların siparişleri, BMC Power'ın motor ve güç grubu çalışmaları ve şirketin ihracat bağlantıları yer alıyor. Haberin yalnızca BMC'yi örnek olarak andığı içerikler bu arşive eklenmez."
+ },
+ "ev:tr:altay": {
+  "hedef_sorgu": [
+   "altay tankı haberleri",
+   "altay tankı",
+   "altay tankı son durum"
+  ],
+  "h1": "ALTAY Tankı Haberleri",
+  "seo_title": "ALTAY Tankı Haberleri: Seri Üretim ve Teslimatlar",
+  "meta_description": "ALTAY ana muharebe tankının seri üretimi, teslimatları, motor ve güç grubu, zırh ve aktif koruma sistemlerine ilişkin son haberler.",
+  "tanitim": "ALTAY, Türk Kara Kuvvetleri için geliştirilen ana muharebe tankı. Bu arşivde BMC'nin yürüttüğü seri üretim süreci, teslimat takvimi, güç grubu ve yerli motor çalışmaları, zırh ve aktif koruma sistemleri ile tankın konfigürasyonlarına ilişkin haberler bulunuyor. Tank teknolojisi ve kara sistemlerine dair daha geniş haberler için ilgili arşivlere geçebilirsiniz."
+ },
+ "ev:tr:iha-siha": {
+  "hedef_sorgu": [
+   "siha haberleri",
+   "iha haberleri",
+   "insansız hava aracı haberleri"
+  ],
+  "h1": "İHA ve SİHA Haberleri",
+  "seo_title": "İHA ve SİHA Haberleri: Türk ve Dünya İnsansız Sistemler",
+  "meta_description": "Bayraktar TB2, AKINCI, ANKA, AKSUNGUR ve KIZILELMA başta olmak üzere İHA ve SİHA haberleri; testler, ihracat ve sahadaki kullanım.",
+  "tanitim": "İnsansız hava araçları (İHA) ve silahlı insansız hava araçları (SİHA) bu arşivde toplanıyor. BAYKAR ve TUSAŞ platformlarının test ve ihracat haberleri, yeni mühimmat entegrasyonları, insansız savaş uçağı programları ve dünyadaki İHA kullanımına ilişkin gelişmeler burada. Karşı-İHA sistemleri ayrı bir konu olarak değerlendirilir ve bu arşive yalnızca İHA'nın kendisi haberin konusuysa eklenir."
+ },
+ "ev:en:turk-savunma-sanayii": {
+  "hedef_sorgu": [
+   "turkish defense industry news",
+   "turkish defence industry news",
+   "turkey defense industry"
+  ],
+  "h1": "Turkish Defence Industry News",
+  "seo_title": "Turkish Defence Industry News and Analysis",
+  "meta_description": "News from ASELSAN, TUSAŞ, ROKETSAN, Baykar and other Turkish defence firms: programmes, test campaigns, deliveries, export deals and SSB decisions.",
+  "tanitim": "This archive follows Türkiye's defence industry day by day. It brings together company announcements from ASELSAN, Turkish Aerospace (TUSAŞ), ROKETSAN and Baykar, test and delivery milestones, procurement decisions by the Defence Industry Agency (SSB) and export contracts signed abroad. For a single company or platform, use the related topic pages below."
+ },
+ "ev:en:aselsan": {
+  "hedef_sorgu": [
+   "aselsan news",
+   "aselsan"
+  ],
+  "h1": "ASELSAN News",
+  "seo_title": "ASELSAN News: Radars, Electronic Warfare and Contracts",
+  "meta_description": "Latest ASELSAN news on radars, electronic warfare, communications and air defence systems, plus new contracts, stock exchange disclosures and exports.",
+  "tanitim": "ASELSAN is Türkiye's largest defence electronics company. This page tracks news about its radar and electronic warfare systems, military communications, electro-optics and its role in the Steel Dome air defence architecture. Contract disclosures, export agreements and product launches at international exhibitions are collected here, with separate topic pages for systems such as KORKUT and SİPER."
+ },
+ "ev:en:tusas": {
+  "hedef_sorgu": [
+   "tai news",
+   "turkish aerospace news",
+   "tusas news"
+  ],
+  "h1": "Turkish Aerospace (TUSAŞ) News",
+  "seo_title": "Turkish Aerospace (TUSAŞ/TAI) News: KAAN, HÜRJET, ANKA",
+  "meta_description": "News on Turkish Aerospace (TUSAŞ, also known as TAI): the KAAN fighter, HÜRJET trainer, GÖKBEY helicopter and ANKA drones, tests and deliveries.",
+  "tanitim": "Turkish Aerospace, known in Turkish as TUSAŞ and internationally also as TAI, builds Türkiye's main crewed and uncrewed aircraft. This archive covers the KAAN fighter, the HÜRJET jet trainer, the HÜRKUŞ turboprop trainer, the GÖKBEY utility helicopter and the ANKA and AKSUNGUR drones, along with production, delivery and export news."
+ },
+ "ev:en:roketsan": {
+  "hedef_sorgu": [
+   "roketsan news",
+   "roketsan missile"
+  ],
+  "h1": "ROKETSAN News",
+  "seo_title": "ROKETSAN News: TAYFUN, ATMACA and Missile Tests",
+  "meta_description": "ROKETSAN news on the TAYFUN ballistic missile, ATMACA anti-ship missile, SOM cruise missile and the HİSAR and SİPER air defence programmes.",
+  "tanitim": "ROKETSAN is Türkiye's principal developer of rockets and guided missiles. Here you will find test firings, deliveries and export news for the TAYFUN ballistic missile, the ATMACA anti-ship missile and the SOM cruise missile, together with the HİSAR and SİPER air defence programmes it runs with ASELSAN and its space access work."
+ },
+ "ev:en:baykar": {
+  "hedef_sorgu": [
+   "baykar news",
+   "bayraktar news"
+  ],
+  "h1": "Baykar News",
+  "seo_title": "Baykar News: Bayraktar TB2, TB3, AKINCI and KIZILELMA",
+  "meta_description": "Baykar news on the Bayraktar TB2, TB3, AKINCI and KIZILELMA: flight tests, weapons integration, export deals and deliveries.",
+  "tanitim": "Baykar is the Turkish manufacturer behind the Bayraktar family of drones. This page follows export sales of the TB2, ship-based operations of the TB3 from TCG Anadolu, weapons integration on the AKINCI and the test programme of the KIZILELMA uncrewed fighter, as well as the company's partnerships abroad."
+ },
+ "ev:en:kaan": {
+  "hedef_sorgu": [
+   "kaan fighter jet news",
+   "kaan news",
+   "tf-x news",
+   "turkish fighter jet"
+  ],
+  "h1": "KAAN Fighter Jet News",
+  "seo_title": "KAAN Fighter Jet News, Updates and Developments",
+  "meta_description": "Latest news and updates on Türkiye's KAAN fighter jet, including flight testing, engine development, programme milestones and official announcements.",
+  "tanitim": "KAAN is the fifth-generation fighter jet developed by Turkish Aerospace (TUSAŞ), previously known as the TF-X or National Combat Aircraft programme. This archive tracks prototype testing, the indigenous engine effort, subsystem suppliers, programme milestones and official statements, along with reports on international cooperation and potential export customers."
+ },
+ "ev:en:tb2": {
+  "hedef_sorgu": [
+   "bayraktar tb2 news",
+   "tb2 drone"
+  ],
+  "h1": "Bayraktar TB2 News",
+  "seo_title": "Bayraktar TB2 News: Exports, Operators and Upgrades",
+  "meta_description": "Bayraktar TB2 news: new export customers, deliveries, combat use, upgrades and comparisons with other medium-altitude drones.",
+  "tanitim": "The Bayraktar TB2 is Baykar's medium-altitude, long-endurance armed drone and one of the most widely exported Turkish defence products. This page collects news on new operators and deliveries, reported combat use, payload and munition upgrades and analysis of how the TB2 compares with competing drones."
+ },
+ "ev:en:iha-siha": {
+  "hedef_sorgu": [
+   "drone news",
+   "uav news",
+   "military drone news"
+  ],
+  "h1": "Military Drone and UAV News",
+  "seo_title": "Military Drone and UAV News: Turkish and Global",
+  "meta_description": "Military drone news covering Bayraktar TB2, AKINCI, ANKA and KIZILELMA, plus global UAV and UCAV programmes, exports and battlefield use.",
+  "tanitim": "This archive covers military drones: uncrewed aerial vehicles (UAVs) and armed UCAVs. Turkish programmes such as the Bayraktar TB2, AKINCI, ANKA, AKSUNGUR and KIZILELMA sit alongside international developments, export deals and lessons from the battlefield. Counter-drone systems are treated as a separate subject and appear here only when a drone is the focus of the story."
+ },
+ "ev:en:hava-savunma": {
+  "hedef_sorgu": [
+   "air defense news",
+   "air defence news",
+   "turkish air defense"
+  ],
+  "h1": "Air Defence News",
+  "seo_title": "Air Defence News: Steel Dome, SİPER, HİSAR and KORKUT",
+  "meta_description": "Air defence news on Türkiye's Steel Dome, SİPER, HİSAR and KORKUT systems, plus radar, missile tests and air defence procurement worldwide.",
+  "tanitim": "This page tracks air defence developments with a focus on Türkiye's layered Steel Dome architecture: the long-range SİPER, the HİSAR family, the KORKUT gun system and the radars that tie them together. It also follows air defence procurement and missile tests elsewhere when they matter to Turkish industry or its export markets."
+ },
+ "ev:en:savas-ucagi": {
+  "hedef_sorgu": [
+   "fighter jet news",
+   "fighter aircraft news"
+  ],
+  "h1": "Fighter Jet News",
+  "seo_title": "Fighter Jet News: KAAN, F-16, F-35 and Eurofighter",
+  "meta_description": "Fighter jet news: Türkiye's KAAN programme, F-16 and Eurofighter procurement, fifth- and sixth-generation programmes and air force modernisation.",
+  "tanitim": "Fighter aircraft news is collected here, from Türkiye's KAAN programme and its F-16 and Eurofighter procurement to fifth- and sixth-generation fighter projects in Europe and Asia. The archive also covers air force modernisation decisions, engine programmes and export competitions that shape the combat aircraft market."
+ },
+ "da:ar:suudi-arabistan": {
+  "hedef_sorgu": [
+   "أخبار الجيش السعودي",
+   "الدفاع السعودي",
+   "القوات المسلحة السعودية"
+  ],
+  "h1": "أخبار الجيش السعودي",
+  "seo_title": "أخبار الجيش السعودي والدفاع السعودي اليوم",
+  "meta_description": "آخر أخبار القوات المسلحة السعودية وصفقات التسليح وتوطين الصناعات العسكرية والدفاع الجوي السعودي ضمن مستهدفات رؤية 2030.",
+  "tanitim": "تتابع هذه الصفحة أخبار القوات المسلحة السعودية بفروعها البرية والجوية والبحرية وقوات الدفاع الجوي، إلى جانب صفقات التسليح الجديدة ومشاريع توطين الصناعات العسكرية التي تقودها الهيئة العامة للصناعات العسكرية والشركة السعودية للصناعات العسكرية. كما تضم الأخبار المتعلقة بالشراكات مع الشركات التركية والأوروبية والأمريكية والمناورات المشتركة في المنطقة."
+ },
+ "da:ar:misir": {
+  "hedef_sorgu": [
+   "أخبار الجيش المصري",
+   "تسليح الجيش المصري",
+   "القوات المسلحة المصرية"
+  ],
+  "h1": "أخبار الجيش المصري",
+  "seo_title": "أخبار الجيش المصري والتسليح والصناعات الدفاعية المصرية",
+  "meta_description": "أخبار القوات المسلحة المصرية: صفقات التسليح، القوات الجوية والبحرية المصرية، والتصنيع العسكري المحلي والتعاون الدفاعي مع الشركاء.",
+  "tanitim": "في هذه الصفحة أخبار القوات المسلحة المصرية وصفقات تسليحها، من مقاتلات القوات الجوية وقطع القوات البحرية إلى منظومات الدفاع الجوي والمدرعات. وتغطي أيضاً مشاريع التصنيع العسكري المحلي والإنتاج المشترك مع الشركاء الأجانب، والمناورات المشتركة، وتطور العلاقات الدفاعية بين مصر وتركيا والدول الأخرى."
+ },
+ "da:ar:bae": {
+  "hedef_sorgu": [
+   "أخبار الدفاع الإماراتي",
+   "القوات المسلحة الإماراتية",
+   "مجموعة إيدج"
+  ],
+  "h1": "أخبار الدفاع الإماراتي",
+  "seo_title": "أخبار الدفاع الإماراتي والقوات المسلحة الإماراتية",
+  "meta_description": "أخبار القوات المسلحة الإماراتية ومجموعة إيدج وصفقات التسليح ومعرض آيدكس، والتعاون الدفاعي بين الإمارات وشركائها.",
+  "tanitim": "تجمع هذه الصفحة أخبار القوات المسلحة الإماراتية وقطاع الصناعات الدفاعية في الإمارات، وفي مقدمته مجموعة إيدج وشركاتها. وتشمل صفقات التسليح الكبرى، والإعلانات التي تصدر خلال معرضي آيدكس ونافدكس، ومشاريع التطوير المشترك مع الشركات الأجنبية ومنها الشركات التركية. وتتابع الصفحة كذلك دور الإمارات في أمن البحر الأحمر والقرن الأفريقي، وبرامج التدريب والتعاون مع القوات المسلحة في المنطقة."
+ },
+ "da:ar:katar": {
+  "hedef_sorgu": [
+   "أخبار الدفاع القطري",
+   "القوات المسلحة القطرية"
+  ],
+  "h1": "أخبار الدفاع القطري",
+  "seo_title": "أخبار الدفاع القطري والقوات المسلحة القطرية",
+  "meta_description": "أخبار القوات المسلحة القطرية وصفقات المقاتلات والسفن والدفاع الجوي، وشركة برزان القابضة ومعرض ديمدكس والتعاون مع تركيا.",
+  "tanitim": "تغطي هذه الصفحة أخبار القوات المسلحة القطرية، بما فيها صفقات المقاتلات الحديثة وتطوير القوات البحرية ومنظومات الدفاع الجوي. كما تتابع نشاط شركة برزان القابضة في التوطين الدفاعي، وإعلانات معرض ديمدكس البحري، والتعاون العسكري الوثيق بين قطر وتركيا. كما تتناول برامج تدريب الطيارين والبحارة القطريين، والاستعدادات الأمنية للفعاليات الكبرى التي تستضيفها الدوحة."
+ },
+ "da:ar:cezayir": {
+  "hedef_sorgu": [
+   "أخبار الجيش الجزائري",
+   "التسليح الجزائري"
+  ],
+  "h1": "أخبار الجيش الجزائري",
+  "seo_title": "أخبار الجيش الجزائري والتسليح الجزائري",
+  "meta_description": "أخبار الجيش الوطني الشعبي الجزائري وصفقات التسليح والقوات الجوية والبحرية الجزائرية والتصنيع العسكري المحلي.",
+  "tanitim": "تتابع هذه الصفحة أخبار الجيش الوطني الشعبي الجزائري، من تحديث القوات البرية والجوية والبحرية إلى صفقات التسليح ومصادرها المتنوعة. وتشمل أيضاً مشاريع التصنيع العسكري المحلي، والمناورات، والتوازن العسكري في منطقة شمال أفريقيا والساحل. وتتناول الصفحة أيضاً برامج تحديث الأسطول البحري الجزائري، والتعاون العسكري مع روسيا والصين وتركيا، وتأمين الحدود الجنوبية الطويلة للبلاد."
+ },
+ "da:ar:fas": {
+  "hedef_sorgu": [
+   "أخبار الجيش المغربي",
+   "القوات المسلحة الملكية"
+  ],
+  "h1": "أخبار الجيش المغربي",
+  "seo_title": "أخبار الجيش المغربي والقوات المسلحة الملكية",
+  "meta_description": "أخبار القوات المسلحة الملكية المغربية: تحديث القوات الجوية، صفقات الطائرات المسيرة والمدرعات، والتصنيع الدفاعي في المغرب.",
+  "tanitim": "في هذه الصفحة أخبار القوات المسلحة الملكية المغربية وبرامج تحديثها، بما في ذلك تطوير أسطول المقاتلات، واقتناء الطائرات المسيرة ومنها المسيرات التركية، وصفقات المدرعات والدفاع الجوي. وتتابع أيضاً مشاريع إنشاء صناعة دفاعية محلية والشراكات الدولية للمغرب. كما تتابع المناورات المشتركة مثل الأسد الأفريقي، والتعاون العسكري بين المغرب وشركائه الأوروبيين والأمريكيين."
+ },
+ "da:ar:hava-savunma": {
+  "hedef_sorgu": [
+   "أخبار الدفاع الجوي",
+   "أخبار الصواريخ",
+   "منظومات الدفاع الجوي"
+  ],
+  "h1": "أخبار الصواريخ والدفاع الجوي",
+  "seo_title": "أخبار الصواريخ والدفاع الجوي: آخر المستجدات والتحليلات",
+  "meta_description": "أخبار منظومات الدفاع الجوي والصواريخ في المنطقة: باتريوت وثاد ومنظومات القبة الفولاذية التركية، وصفقات الاعتراض والتجارب الصاروخية.",
+  "tanitim": "يجمع هذا الأرشيف أخبار منظومات الدفاع الجوي والصواريخ في الشرق الأوسط وشمال أفريقيا، من باتريوت وثاد إلى المنظومات التركية ضمن مشروع القبة الفولاذية مثل حصار وسيبر. ويغطي صفقات الشراء، وتجارب الاعتراض، والتهديدات الصاروخية والجوية التي تدفع دول المنطقة إلى بناء دفاعات متعددة الطبقات."
+ },
+ "da:ar:savas-ucagi": {
+  "hedef_sorgu": [
+   "أخبار الطائرات المقاتلة",
+   "أخبار المقاتلات"
+  ],
+  "h1": "أخبار الطائرات المقاتلة",
+  "seo_title": "أخبار الطائرات المقاتلة: إف-35 ورافال وتايفون وكآن",
+  "meta_description": "أخبار المقاتلات في الشرق الأوسط والعالم: صفقات رافال وتايفون وإف-15 وإف-35، والمقاتلة التركية KAAN وبرامج الجيل السادس.",
+  "tanitim": "تتابع هذه الصفحة أخبار الطائرات المقاتلة وصفقاتها في المنطقة والعالم، من رافال وتايفون وإف-15 وإف-35 إلى المقاتلة التركية KAAN وبرامج الجيل السادس الأوروبية والآسيوية. وتشمل أيضاً قرارات تحديث القوات الجوية العربية والمنافسات على صفقات المقاتلات الجديدة. ويتناول الأرشيف كذلك برامج المحركات والتسليح الجوي، وتجارب الطيران التي تعلنها الشركات المصنعة."
+ },
+ "da:ar:iha-siha": {
+  "hedef_sorgu": [
+   "أخبار الطائرات المسيرة",
+   "أخبار المسيرات",
+   "بيرقدار"
+  ],
+  "h1": "أخبار الطائرات المسيرة",
+  "seo_title": "أخبار الطائرات المسيرة: بيرقدار وأقنجي وأنكا والمسيرات العربية",
+  "meta_description": "أخبار الطائرات المسيرة العسكرية: بيرقدار TB2 وأقنجي وأنكا وقيزيل إلما، والمسيرات العربية والصينية وصفقاتها في المنطقة.",
+  "tanitim": "يجمع هذا الأرشيف أخبار الطائرات المسيرة العسكرية، من المسيرات التركية مثل بيرقدار TB2 وأقنجي وأنكا وقيزيل إلما إلى المسيرات الصينية والأمريكية وبرامج التصنيع العربية. ويغطي صفقات الشراء في المنطقة واستخداماتها الميدانية. أما منظومات مكافحة المسيرات فلها موضوعها المستقل. وتتناول الصفحة أيضاً تسليح المسيرات بالذخائر الموجهة الصغيرة، وبرامج التدريب على تشغيلها في الجيوش العربية."
+ },
+ "da:ar:roketsan": {
+  "hedef_sorgu": [
+   "أخبار روكيتسان",
+   "روكيتسان"
+  ],
+  "h1": "أخبار روكيتسان",
+  "seo_title": "أخبار روكيتسان ROKETSAN: الصواريخ والصفقات مع الدول العربية",
+  "meta_description": "أخبار شركة روكيتسان التركية: صواريخ تايفون وأتماجا وسوم، ومنظومات حصار وسيبر، وصفقاتها وشراكاتها مع الدول العربية.",
+  "tanitim": "روكيتسان هي الشركة التركية الرئيسية في تطوير الصواريخ والقذائف الموجهة. تتابع هذه الصفحة تجارب صواريخ تايفون الباليستية وأتماجا المضادة للسفن وسوم الجوالة، ومنظومتي حصار وسيبر للدفاع الجوي، إضافة إلى صفقات الشركة وشراكاتها مع الدول العربية. كما تغطي أعمال الشركة في مجال الوصول إلى الفضاء، واستثماراتها في منشآت الإنتاج والاختبار داخل تركيا."
+ },
+ "dm:en:misir": {
+  "hedef_sorgu": [
+   "egypt defense news",
+   "egypt military news",
+   "egyptian armed forces"
+  ],
+  "h1": "Egypt Defence News",
+  "seo_title": "Egypt Military News: Egyptian Armed Forces and Arms Deals",
+  "meta_description": "Egypt defence news: Egyptian Air Force and Navy acquisitions, local production, air defence and Egypt's defence ties with Türkiye and other partners.",
+  "tanitim": "This page follows the Egyptian Armed Forces: Air Force fighter acquisitions, Navy surface and submarine programmes, air defence and armoured vehicle procurement, and the growth of local defence production with foreign partners. Egypt's evolving defence relationship with Türkiye and its role in North African security are covered here as well."
+ },
+ "dm:en:fas": {
+  "hedef_sorgu": [
+   "morocco defense news",
+   "morocco military news",
+   "royal armed forces morocco"
+  ],
+  "h1": "Morocco Defence News",
+  "seo_title": "Morocco Military News: Royal Armed Forces and Arms Deals",
+  "meta_description": "Morocco defence news: Royal Armed Forces modernisation, fighter upgrades, Turkish and Israeli drone acquisitions and Morocco's emerging defence industry.",
+  "tanitim": "Morocco's Royal Armed Forces are in the middle of a broad modernisation. This archive tracks fighter fleet upgrades, drone acquisitions including Turkish platforms, air defence and armour purchases, and Rabat's effort to build a domestic defence industry through foreign partnerships."
+ },
+ "dm:en:cezayir": {
+  "hedef_sorgu": [
+   "algeria military news",
+   "algerian army"
+  ],
+  "h1": "Algeria Military News",
+  "seo_title": "Algeria Military News: Algerian Army and Arms Procurement",
+  "meta_description": "Algeria military news: People's National Army procurement, air force and navy modernisation, local production and the regional military balance.",
+  "tanitim": "This page covers Algeria's People's National Army, one of Africa's largest militaries. It follows air force and navy modernisation, arms procurement from a range of suppliers, local manufacturing programmes and the military balance with Morocco and across the Sahel. Coverage also includes cooperation with Russian, Chinese and Turkish suppliers."
+ },
+ "dm:en:nijerya": {
+  "hedef_sorgu": [
+   "nigeria military news",
+   "nigerian army news",
+   "nigerian air force"
+  ],
+  "h1": "Nigeria Military News",
+  "seo_title": "Nigeria Military News: Army, Air Force and Navy Equipment",
+  "meta_description": "Nigeria military news: Nigerian Army operations, Air Force aircraft and drone acquisitions, Navy patrol vessels and local defence production.",
+  "tanitim": "Nigeria's armed forces are engaged on several internal security fronts. This archive tracks Nigerian Army operations, Nigerian Air Force aircraft and drone acquisitions, Navy patrol vessel programmes and the work of Nigeria's defence industry, including deals with Turkish, Chinese and Western suppliers."
+ },
+ "dm:en:suudi-arabistan": {
+  "hedef_sorgu": [
+   "saudi defense news",
+   "saudi arabia military news"
+  ],
+  "h1": "Saudi Defence News",
+  "seo_title": "Saudi Defense News: Armed Forces, SAMI and Localisation",
+  "meta_description": "Saudi defence news: armed forces procurement, SAMI and GAMI localisation targets under Vision 2030, air defence and partnerships with Türkiye.",
+  "tanitim": "Saudi Arabia is one of the world's largest defence spenders and is pushing to localise a large share of that spending. This page follows procurement by the Saudi armed forces, the work of SAMI and the General Authority for Military Industries, air defence upgrades and industrial partnerships with Turkish, European and US firms."
+ },
+ "dm:en:bae": {
+  "hedef_sorgu": [
+   "uae defense news",
+   "uae military news",
+   "edge group news"
+  ],
+  "h1": "UAE Defence News",
+  "seo_title": "UAE Defense News: Armed Forces, EDGE Group and IDEX",
+  "meta_description": "UAE defence news: UAE Armed Forces procurement, EDGE Group products and partnerships, IDEX announcements and the UAE's role in African security.",
+  "tanitim": "The United Arab Emirates combines a well-equipped military with a fast-growing defence industry led by EDGE Group. This archive tracks UAE Armed Forces procurement, EDGE products and joint ventures, announcements made at IDEX and NAVDEX, and the UAE's security footprint in Africa and the Red Sea."
+ },
+ "dm:en:katar": {
+  "hedef_sorgu": [
+   "qatar defense news",
+   "qatar military news"
+  ],
+  "h1": "Qatar Defence News",
+  "seo_title": "Qatar Defense News: Armed Forces, Barzan and DIMDEX",
+  "meta_description": "Qatar defence news: fighter and naval acquisitions, air defence, Barzan Holdings localisation and Qatar's close defence cooperation with Türkiye.",
+  "tanitim": "Qatar has rebuilt its armed forces over the past decade with new fighters, warships and air defence systems. This page follows those programmes, Barzan Holdings' localisation work, announcements at the DIMDEX exhibition and Qatar's defence cooperation with Türkiye, including the Turkish military presence in the country."
+ },
+ "dm:en:kuzey-afrika": {
+  "hedef_sorgu": [
+   "north africa military news",
+   "north africa defence news"
+  ],
+  "h1": "North Africa Defence News",
+  "seo_title": "North Africa Defence News: Egypt, Algeria, Morocco and Libya",
+  "meta_description": "North Africa defence news covering Egypt, Algeria, Morocco, Libya and Tunisia: procurement, regional rivalries, border security and the Sahel.",
+  "tanitim": "This archive brings together defence news from Egypt, Algeria, Morocco, Libya and Tunisia. It covers procurement and modernisation, the Algeria–Morocco military balance, Libya's divided security landscape and the spill-over of instability from the Sahel. Each country also has its own page, linked below."
+ },
+ "dm:en:orta-dogu": {
+  "hedef_sorgu": [
+   "middle east defense news",
+   "middle east military news",
+   "gulf defense news"
+  ],
+  "h1": "Middle East Defence News",
+  "seo_title": "Middle East Defence News: Gulf Militaries and Arms Deals",
+  "meta_description": "Middle East defence news on Gulf militaries, arms deals, air and missile defence and how Middle Eastern powers shape security in Africa.",
+  "tanitim": "Gulf states and other Middle Eastern powers are major arms buyers and increasingly active security actors in Africa. This page tracks their procurement, air and missile defence programmes and industrial partnerships, with a particular eye on Saudi Arabia, the UAE, Qatar and Türkiye's defence relations in the region."
+ },
+ "dm:en:turk-savunma-sanayii": {
+  "hedef_sorgu": [
+   "turkish defense exports",
+   "turkish defence in africa",
+   "turkish drones africa"
+  ],
+  "h1": "Turkish Defence in Africa",
+  "seo_title": "Turkish Defence in Africa: Baykar, ASELSAN and Otokar Deals",
+  "meta_description": "Turkish defence exports to Africa: Baykar drones, ASELSAN electronics, Otokar and Nurol armoured vehicles, training missions and new contracts.",
+  "tanitim": "Türkiye has become one of Africa's most active arms suppliers. This archive follows Baykar drone sales, ASELSAN electronics, armoured vehicles from Otokar, Nurol Makina and BMC, naval exports, training missions and defence cooperation agreements signed between Ankara and African governments."
+ }
+}
