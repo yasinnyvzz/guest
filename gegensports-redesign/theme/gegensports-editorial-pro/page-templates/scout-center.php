@@ -7,9 +7,8 @@ $res = gsx_reports(['page' => $page, 'per_page' => 12] + ($pos ? ['position' => 
 $facets = $res['facets']['positions'] ?? [];
 ?>
 <section class="panel-dark scout-hero"><div class="container">
-  <div class="kicker" style="color:#ff9a80">GEGEN SCOUT</div>
-  <h1><?php echo esc_html(gsx_t('scout_sub')); ?></h1>
-  <p><?php echo esc_html(gsx_lang() === 'tr' ? 'Oyuncu ara, mevkiye göre filtrele, scout dosyalarını incele.' : 'Search players, filter by position, browse scouting files.'); ?></p>
+  <h1>Gegen Scout</h1>
+  <p><?php echo esc_html(gsx_t('scout_sub')); ?>. <?php echo esc_html(gsx_lang() === 'tr' ? 'Oyuncu ara, mevkiye göre filtrele, scout dosyalarını incele.' : 'Search players, filter by position, browse scouting files.'); ?></p>
   <form class="filters" method="get" action="<?php echo esc_url(get_permalink()); ?>">
     <input type="search" name="q" placeholder="<?php echo esc_attr(gsx_t('search_ph')); ?>" aria-label="<?php echo esc_attr(gsx_t('search')); ?>">
     <select name="mevki" aria-label="<?php echo esc_attr(gsx_t('pos')); ?>"><option value=""><?php echo esc_html(gsx_t('all_pos')); ?></option><?php foreach ($facets as $k => $c) echo '<option' . selected($pos, $k, false) . ' value="' . esc_attr($k) . '">' . esc_html($k) . ' (' . (int) $c . ')</option>'; ?></select>

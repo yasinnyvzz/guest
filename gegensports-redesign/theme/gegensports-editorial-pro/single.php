@@ -17,13 +17,12 @@ $is_scout = gsx_is_scout_post($id);
     <article class="article">
       <header class="article__head">
         <?php gsx_breadcrumbs($trail); ?>
-        <?php if ($term) echo '<a class="kicker" href="' . esc_url(get_term_link($term)) . '">' . esc_html(html_entity_decode($term->name)) . '</a>'; ?>
-        <?php if ($is_scout) echo '<span class="meta" style="display:inline-flex;margin-left:12px">' . esc_html(gsx_lang() === 'tr' ? 'Editoryal scouting analizi' : 'Editorial scouting analysis') . '</span>'; ?>
         <h1><?php the_title(); ?></h1>
         <?php if ($dek) echo '<p class="article__dek">' . esc_html($dek) . '</p>'; ?>
         <div class="byline">
           <span><?php echo esc_html(gsx_t('by')); ?> <strong><a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"><?php echo esc_html($author); ?></a></strong></span>
           <span><?php echo gsx_time_tag($id); ?></span>
+          <?php if ($is_scout) echo '<span>' . esc_html(gsx_lang() === 'tr' ? 'Editoryal scouting analizi' : 'Editorial scouting analysis') . '</span>'; ?>
           <?php if ($upd) echo '<span>' . esc_html(gsx_t('updated')) . ': <time datetime="' . esc_attr(gmdate('c', $upd)) . '">' . esc_html(gsx_date($upd)) . '</time></span>'; ?>
           <span><?php echo (int) gsx_reading_minutes(get_the_content()); ?> <?php echo esc_html(gsx_t('min_read')); ?></span>
         </div>

@@ -2,9 +2,10 @@
 
 Tüm değerler tek dosyada: `theme/gegensports-editorial-pro/assets/css/tokens.css`.
 
-**Renk:** primary `#101820`, background `#F4F6F8`, surface `#FFFFFF`, text `#17212B`, muted `#64748B`, border `#E2E7EC`, accent `#E85D3F`, success `#168569`, danger `#C74B50`, neutral `#EDF1F5`. Not: beyaz üzerinde metin olarak accent yerine `--color-accent-text #B8431F` (AA 5.3:1) kullanılır; `#E85D3F` yalnızca çizgi/arka plan vurgusudur.
+**Renk (v0.2, logo ile uyumlu):** primary `#0B1F3A` (logo laciverti), background `#F6F4EF` (sıcak kâğıt), surface `#FFFFFF`, text `#14202B`, muted `#5F6B76`, border `#E4E0D6`, accent `#F2A900` (logo kehribarı; yalnızca çizgi/dolgu), accent-text `#8F5E00` (metin, AA), success `#0F7B5F`, danger `#B83A3F`, neutral `#EFECE4`. İlk brief'teki mercan `#E85D3F` paleti, "yapay zekâ gibi duruyor" geri bildirimi üzerine bırakıldı.
 **Boşluk:** 4/8/12/16/24/32/48/64. **Köşe:** 6/10/14. Gölge yok; ince border.
-**Tipografi:** sistem fontu + Inter (harici font isteği yok), `clamp()` ile H1 28→40/42, bölüm 21→28, kart 17→19, gövde 15,5→17, ikincil 12–13.
+**Tipografi:** başlıklar **Archivo Variable** (temada barındırılır, 2 dosya ≈ 67 KB, OFL lisans, tam Türkçe karakter); gövde sistem fontu/Inter. `clamp()` ölçeği: H1 28→40/42, bölüm 21→28, kart 17→19, gövde 15,5→17, ikincil 12–13. Okuma sütunu 70 karakter.
+**Ayrıntı:** başlık üstünde büyük harfli etiket yok — kategori tarih satırında; bölüm başlıkları üstte kalın çizgiyle açılır; seçim rengi, imleç ve kaydırma çubuğu paletten; görseli olmayan haberde boş kutu basılmaz.
 **Kurallar:** açık tema; koyu panel yalnızca scouting bağlamında (Gegen Scout bölümü, Dossier üst paneli, arşiv başlığı). Gradient, glow, animasyon yok.
 
 ## Bileşen → dosya

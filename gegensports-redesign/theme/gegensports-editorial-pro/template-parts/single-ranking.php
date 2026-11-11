@@ -7,7 +7,6 @@ foreach ((array) ($cfg['items'] ?? []) as $it) { $r = gsx_report((string) ($it['
 ?>
 <header class="archive-head"><div class="container">
   <?php gsx_breadcrumbs([[gsx_t('home'), home_url('/')], [gsx_t('rankings'), gsx_page_url('gegen-rankings')], [get_the_title(), '']]); ?>
-  <div class="kicker"><?php echo esc_html(gsx_t('rankings')); ?></div>
   <h1 style="max-width:22ch"><?php the_title(); ?></h1>
   <?php $d = gsx_dek($id); if ($d) echo '<p>' . esc_html($d) . '</p>'; ?>
   <dl class="kv" style="max-width:640px;margin-top:20px;text-align:left">

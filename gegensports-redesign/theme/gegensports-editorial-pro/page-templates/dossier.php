@@ -17,12 +17,11 @@ $kind = ($r['reportKind'] ?? '') === 'mac' ? 'Maç gözlemi' : (($r['reportKind'
   <div class="dossier-head__grid">
     <div class="dossier-photo"><?php if (!empty($p['photo'])) echo '<img src="' . esc_url($p['photo']) . '" alt="' . esc_attr($name) . '" width="160" height="160" fetchpriority="high">'; ?></div>
     <div>
-      <div class="kicker" style="color:#ff9a80"><?php echo esc_html(gsx_t('dossier')); ?> · <?php echo esc_html($kind); ?></div>
       <h1><?php echo esc_html($name); ?></h1>
       <ul class="fact-strip">
         <?php foreach ([[gsx_t('club'), $p['club'] ?? ''], [gsx_t('pos'), $p['position'] ?? ''], [gsx_t('age'), !empty($p['age']) ? (int) $p['age'] : ''], [gsx_t('nation'), (isset($p['nationality']) && strlen($p['nationality']) > 2) ? $p['nationality'] : ''], [gsx_t('foot'), $p['foot'] ?? ''], [gsx_t('height'), !empty($p['height']) ? (int) $p['height'] . ' cm' : '']] as [$k, $v]) if ($v !== '') echo '<li>' . esc_html($k) . '<strong>' . esc_html((string) $v) . '</strong></li>'; ?>
       </ul>
-      <?php if ($created) echo '<p class="meta" style="margin:16px 0 0">' . esc_html(gsx_t('author')) . ': ' . esc_html($r['author']['displayName'] ?? '—') . ' · ' . esc_html(gsx_date($created)) . '</p>'; ?>
+      <?php if ($created) echo '<p class="meta" style="margin:16px 0 0"><span class="cat">' . esc_html($kind) . '</span><span>' . esc_html(gsx_t('author')) . ': ' . esc_html($r['author']['displayName'] ?? '—') . ' · ' . esc_html(gsx_date($created)) . '</span></p>'; ?>
     </div>
   </div>
 </div></section>
@@ -31,7 +30,7 @@ $kind = ($r['reportKind'] ?? '') === 'mac' ? 'Maç gözlemi' : (($r['reportKind'
   <div>
     <?php if ($strong || $weak || !empty($ev['tactical_fit']) || !empty($ev['observation_confidence'])) : ?>
     <section class="verdict" aria-labelledby="verdict-h">
-      <h2 id="verdict-h"><?php echo esc_html(gsx_t('verdict')); ?> · <?php echo esc_html(gsx_t('verdict_sub')); ?></h2>
+      <h2 id="verdict-h"><?php echo esc_html(gsx_t('verdict')); ?></h2><p class="verdict__sub"><?php echo esc_html(gsx_t('verdict_sub')); ?></p>
       <?php if (!empty($r['tactic'][0])) echo '<p style="font-size:1.125rem;font-weight:700;margin:0 0 16px">' . esc_html(gsx_t('role')) . ': ' . esc_html(implode(' · ', array_slice((array) $r['tactic'], 0, 2))) . '</p>'; ?>
       <div class="verdict__grid">
         <?php if ($strong) { echo '<div class="verdict__good"><h3>' . esc_html(gsx_t('strengths')) . '</h3><ul>'; foreach ($strong as $s) echo '<li>' . esc_html($s) . '</li>'; echo '</ul></div>'; } ?>

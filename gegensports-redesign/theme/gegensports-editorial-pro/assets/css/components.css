@@ -2,7 +2,7 @@
 .site-header{position:sticky;top:0;z-index:100;background:var(--color-surface);border-bottom:var(--border)}
 .site-header__bar{display:flex;align-items:center;gap:var(--space-5);height:var(--header-h-mobile)}
 @media(min-width:900px){.site-header__bar{height:var(--header-h)}}
-.brand{display:inline-flex;align-items:center;gap:var(--space-2);flex:none;font-weight:800;letter-spacing:.02em;color:var(--color-primary);font-size:1.0625rem}
+.brand{display:inline-flex;align-items:center;gap:var(--space-2);flex:none;font-family:var(--font-display);font-weight:800;letter-spacing:.01em;color:var(--color-primary);font-size:1.0625rem}
 .brand img{height:36px;width:auto;border-radius:var(--radius-sm)}
 .brand__mark{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:var(--radius-sm);background:var(--color-primary);color:#fff;font-size:.9rem}
 .brand__word span{color:var(--color-accent-text)}
@@ -38,11 +38,11 @@
 .search-form{display:flex;gap:var(--space-2)}
 .search-form input[type=search]{flex:1;min-height:44px;padding:0 var(--space-4);border:var(--border);border-radius:var(--radius-md);font:inherit;background:var(--color-background)}
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 var(--space-5);border:1px solid var(--color-primary);border-radius:var(--radius-md);background:var(--color-primary);color:#fff;font-weight:700;font-size:.9375rem}
-.btn:hover{color:#fff;background:#1b2833}
+.btn:hover{color:#fff;background:#13294a}
 .btn--ghost{background:transparent;color:var(--color-primary)}
 .btn--ghost:hover{background:var(--color-neutral);color:var(--color-primary)}
-.btn--accent{background:var(--color-accent-text);border-color:var(--color-accent-text)}
-.btn--accent:hover{background:#9c3718}
+.btn--accent{background:var(--color-accent);border-color:var(--color-accent);color:var(--color-primary)}
+.btn--accent:hover{background:var(--color-accent-strong);border-color:var(--color-accent-strong);color:var(--color-primary)}
 /* Mobil çekmece + alt navigasyon */
 .drawer{position:fixed;inset:0;z-index:200;display:none}
 .drawer.is-open{display:block}
@@ -59,12 +59,15 @@
 .bottom-nav [aria-current="page"]{color:var(--color-primary);box-shadow:inset 0 2px 0 var(--color-accent)}
 
 /* ---------- Bölüm başlığı ---------- */
-.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-4);margin-bottom:var(--space-5);padding-bottom:var(--space-3);border-bottom:2px solid var(--color-primary)}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-4);margin-bottom:var(--space-5);padding-top:var(--space-3);border-top:3px solid var(--color-primary)}
 .section-head h2{font-size:var(--fs-h2)}
 .section-head p{margin:0;color:var(--color-muted);font-size:var(--fs-small)}
 .section-head a{font-size:var(--fs-small);font-weight:700;white-space:nowrap}
-.kicker{font-size:var(--fs-xs);font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--color-accent-text)}
-.meta{display:flex;flex-wrap:wrap;gap:var(--space-1) var(--space-3);font-size:var(--fs-small);color:var(--color-muted)}
+.cat{font-weight:700;color:var(--color-accent-text)}
+.panel-dark .cat{color:var(--color-kicker-dark)}
+.meta .cat+time::before{content:"·";margin-right:var(--space-3);color:var(--color-line-strong)}
+.meta .cat{margin-right:var(--space-1)}
+.meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-1) var(--space-3);font-size:var(--fs-small);color:var(--color-muted)}
 .meta time{white-space:nowrap}
 
 /* ---------- Haber kartları ---------- */
@@ -74,8 +77,8 @@
 /* A — Lead */
 .lead-story{position:relative;display:flex;flex-direction:column;gap:var(--space-4)}
 .lead-story .media{aspect-ratio:16/10}
-.lead-story h2,.lead-story h1{font-size:var(--fs-h1-lead);letter-spacing:-.02em}
-.lead-story__dek{font-size:clamp(1rem,.95rem + .3vw,1.1875rem);color:#33414f;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lead-story h2,.lead-story h1{font-size:var(--fs-h1-lead);letter-spacing:-.025em;font-weight:720}
+.lead-story__dek{font-size:clamp(1rem,.95rem + .3vw,1.1875rem);color:var(--color-text-soft);margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 /* B — Standard */
 .card{display:flex;flex-direction:column;gap:var(--space-3);min-width:0}
 .card h3{font-size:var(--fs-card);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
@@ -88,7 +91,8 @@
 .side-story:first-child{padding-top:0}
 .side-story:last-child{border-bottom:0}
 .side-story .media{aspect-ratio:4/3;border-radius:var(--radius-sm)}
-.side-story h3{font-size:1rem;margin:var(--space-1) 0}
+.side-story h3{font-size:1.0625rem;margin:0 0 var(--space-2)}
+.side-story--text{grid-template-columns:1fr}
 @media(min-width:1100px){.side-story{grid-template-columns:132px 1fr}}
 /* C — Compact row */
 .news-list{list-style:none;background:var(--color-surface);border:var(--border);border-radius:var(--radius-lg)}
@@ -96,7 +100,6 @@
 .news-row:last-child{border-bottom:0}
 .news-row time{font-size:var(--fs-small);font-weight:700;color:var(--color-muted);font-variant-numeric:tabular-nums}
 .news-row h3{font-size:1rem;font-weight:600;line-height:1.35}
-.news-row .kicker{display:block;margin-bottom:2px}
 .news-row a:hover{color:var(--color-accent-text)}
 
 /* ---------- Scout oyuncu kartı (haber kartından bilinçli olarak farklı) ---------- */
@@ -104,13 +107,13 @@
 @media(min-width:640px){.player-grid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:980px){.player-grid{grid-template-columns:repeat(3,1fr)}}
 .player-card{display:grid;grid-template-columns:88px 1fr;gap:var(--space-4);background:var(--color-surface);border:var(--border);border-radius:var(--radius-lg);padding:var(--space-4)}
-.player-card:hover{border-color:#c5cdd6}
+.player-card:hover{border-color:var(--color-line-strong)}
 .player-card__photo{width:88px;height:88px;border-radius:var(--radius-md);overflow:hidden;background:var(--color-neutral)}
 .player-card__photo img{width:100%;height:100%;object-fit:cover}
 .player-card h3{font-size:var(--fs-card);margin-bottom:2px}
 .player-card__facts{display:flex;flex-wrap:wrap;gap:var(--space-1) var(--space-3);font-size:var(--fs-small);color:var(--color-muted);margin:0 0 var(--space-2);list-style:none}
 .player-card__facts strong{color:var(--color-text);font-weight:600}
-.player-card p{grid-column:1/-1;margin:0;font-size:.9375rem;color:#33414f;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.player-card p{grid-column:1/-1;margin:0;font-size:.9375rem;color:var(--color-text-soft);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .pos{display:inline-block;padding:2px 8px;border-radius:var(--radius-sm);background:var(--color-neutral);font-size:var(--fs-xs);font-weight:700;color:var(--color-primary)}
 
 /* ---------- Koyu panel (yalnızca scouting bağlamı) ---------- */
@@ -119,12 +122,12 @@
 .panel-dark .muted,.panel-dark .meta{color:var(--color-on-dark-muted)}
 .panel-dark a:hover{color:#fff;text-decoration:underline}
 .scout-feature{padding-block:var(--space-7)}
-.scout-feature .player-card{background:#16212b;border-color:var(--color-dark-line)}
+.scout-feature .player-card{background:var(--color-dark-surface);border-color:var(--color-dark-line)}
 .scout-feature .player-card p{color:var(--color-on-dark-muted)}
 .scout-feature .player-card__facts{color:var(--color-on-dark-muted)}
 .scout-feature .player-card__facts strong{color:#fff}
-.scout-feature .pos{background:#223140;color:#fff}
-.scout-feature .section-head{border-color:var(--color-dark-line)}
+.scout-feature .pos{background:var(--color-dark-chip);color:#fff}
+.scout-feature .section-head{border-color:var(--color-accent)}
 .scout-feature .section-head h2{color:#fff}
 
 /* ---------- Lig şeridi / kutular ---------- */
@@ -151,7 +154,7 @@
 .table th{background:var(--color-neutral);text-align:left;font-size:var(--fs-xs);text-transform:uppercase;letter-spacing:.05em;color:var(--color-muted);padding:var(--space-3) var(--space-4);white-space:nowrap}
 .table td{padding:var(--space-3) var(--space-4);border-top:var(--border);vertical-align:top}
 .table td.num,.table th.num{text-align:right;font-variant-numeric:tabular-nums}
-.table tbody tr:hover{background:#fafbfc}
+.table tbody tr:hover{background:var(--color-neutral)}
 .na{color:var(--color-muted)}
 .rank-item{display:grid;grid-template-columns:44px 1fr;gap:var(--space-4);padding-block:var(--space-5);border-bottom:var(--border)}
 .rank-item__no{font-size:1.75rem;font-weight:800;color:var(--color-muted);font-variant-numeric:tabular-nums;line-height:1}
@@ -160,16 +163,17 @@
 
 /* ---------- Dossier ---------- */
 .dossier-head{padding-block:var(--space-6)}
-.dossier-head__grid{display:grid;gap:var(--space-5);grid-template-columns:96px 1fr;align-items:center}
+.dossier-head__grid{display:grid;gap:var(--space-5);grid-template-columns:96px 1fr;align-items:start}
 @media(min-width:760px){.dossier-head__grid{grid-template-columns:160px 1fr}}
-.dossier-photo{border-radius:var(--radius-lg);overflow:hidden;background:#16212b;aspect-ratio:1/1}
+.dossier-photo{border-radius:var(--radius-lg);overflow:hidden;background:var(--color-dark-surface);aspect-ratio:1/1}
 .dossier-photo img{width:100%;height:100%;object-fit:cover}
 .dossier-head h1{font-size:var(--fs-h1);margin:var(--space-2) 0}
 .fact-strip{display:flex;flex-wrap:wrap;gap:var(--space-2) var(--space-5);list-style:none;margin-top:var(--space-4)}
 .fact-strip li{font-size:var(--fs-small);color:var(--color-on-dark-muted)}
 .fact-strip strong{display:block;color:#fff;font-size:1rem;font-weight:600}
-.verdict{background:var(--color-surface);border:var(--border);border-left:4px solid var(--color-accent);border-radius:var(--radius-lg);padding:var(--space-5);margin-block:var(--space-5)}
-.verdict h2{font-size:var(--fs-small);text-transform:uppercase;letter-spacing:.08em;color:var(--color-muted);margin-bottom:var(--space-4)}
+.verdict{background:var(--color-surface);border:var(--border);border-radius:var(--radius-lg);padding:var(--space-5);margin-block:var(--space-5)}
+.verdict h2{font-size:1.25rem;margin-bottom:var(--space-1)}
+.verdict__sub{color:var(--color-muted);font-size:var(--fs-small);margin:0 0 var(--space-4);padding-bottom:var(--space-4);border-bottom:var(--border)}
 .verdict__grid{display:grid;gap:var(--space-5);grid-template-columns:1fr}
 @media(min-width:720px){.verdict__grid{grid-template-columns:1fr 1fr}}
 .verdict h3{font-size:var(--fs-small);margin-bottom:var(--space-2)}
@@ -199,12 +203,12 @@
 /* ---------- Makale ---------- */
 .breadcrumbs{font-size:var(--fs-small);color:var(--color-muted);margin-bottom:var(--space-4)}
 .breadcrumbs ol{display:flex;flex-wrap:wrap;gap:var(--space-1) var(--space-2);list-style:none}
-.breadcrumbs li+li::before{content:"/";margin-right:var(--space-2);color:#b4bdc7}
+.breadcrumbs li+li::before{content:"/";margin-right:var(--space-2);color:var(--color-line-strong)}
 .breadcrumbs a:hover{color:var(--color-primary);text-decoration:underline}
 .article{background:var(--color-surface);border:var(--border);border-radius:var(--radius-lg);padding:var(--space-4)}
 @media(min-width:760px){.article{padding:var(--space-6)}}
 .article__head h1{font-size:var(--fs-h1);margin:var(--space-2) 0 var(--space-3)}
-.article__dek{font-size:clamp(1.0625rem,1rem + .4vw,1.25rem);color:#33414f;margin:0 0 var(--space-4)}
+.article__dek{font-size:clamp(1.0625rem,1rem + .4vw,1.25rem);color:var(--color-text-soft);margin:0 0 var(--space-4)}
 .byline{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2) var(--space-4);padding-block:var(--space-3);border-block:var(--border);font-size:var(--fs-small);color:var(--color-muted);margin-bottom:var(--space-5)}
 .byline strong{color:var(--color-text)}
 .article__cover{margin:0 0 var(--space-5)}
@@ -219,7 +223,7 @@
 .prose table{display:block;overflow-x:auto;max-width:100%;border-collapse:collapse;font-size:.9375rem}
 .prose th,.prose td{border:var(--border);padding:var(--space-2) var(--space-3);text-align:left}
 .prose th{background:var(--color-neutral)}
-.prose blockquote{margin:var(--space-5) 0;padding:var(--space-2) var(--space-5);border-left:3px solid var(--color-accent);color:#33414f}
+.prose blockquote{margin:var(--space-5) 0;padding:var(--space-2) var(--space-5);border-left:3px solid var(--color-accent);color:var(--color-text-soft)}
 .prose iframe{max-width:100%}
 .layout{display:grid;gap:var(--space-5);grid-template-columns:minmax(0,1fr)}
 @media(min-width:1000px){.layout{grid-template-columns:minmax(0,1fr) var(--side-w);gap:var(--space-6);align-items:start}}
@@ -242,7 +246,7 @@
 .pagination{display:flex;flex-wrap:wrap;gap:var(--space-2);justify-content:center;margin-top:var(--space-6)}
 .pagination a,.pagination span{display:inline-flex;min-width:44px;min-height:44px;align-items:center;justify-content:center;border:var(--border);border-radius:var(--radius-md);background:var(--color-surface);font-weight:600;padding:0 var(--space-3)}
 .pagination .current{background:var(--color-primary);border-color:var(--color-primary);color:#fff}
-.state{padding:var(--space-7) var(--space-5);text-align:center;background:var(--color-surface);border:1px dashed #c5cdd6;border-radius:var(--radius-lg)}
+.state{padding:var(--space-7) var(--space-5);text-align:center;background:var(--color-surface);border:1px dashed var(--color-line-strong);border-radius:var(--radius-lg)}
 .state h2,.state h3{font-size:1.25rem;margin-bottom:var(--space-2)}
 .state p{color:var(--color-muted);margin:0 auto var(--space-4);max-width:48ch}
 .skeleton{background:linear-gradient(90deg,var(--color-neutral),#f8fafb,var(--color-neutral));background-size:200% 100%;border-radius:var(--radius-sm);min-height:1em}
@@ -266,3 +270,8 @@
 .site-footer ul{list-style:none;display:grid;gap:var(--space-1)}
 .site-footer li a{display:inline-flex;min-height:32px;align-items:center}
 .footer-base{margin-top:var(--space-6);padding-top:var(--space-5);border-top:1px solid var(--color-dark-line);display:flex;flex-wrap:wrap;gap:var(--space-3) var(--space-5);justify-content:space-between;font-size:var(--fs-small)}
+.archive-head .kv{max-width:640px}
+.archive-head .kv dd{text-align:left;font-weight:500}
+.news-row .meta{margin-top:2px;font-size:var(--fs-xs)}
+.archive-head .kv{align-items:baseline}
+.archive-head .kv dt{margin-top:0;font-size:inherit}

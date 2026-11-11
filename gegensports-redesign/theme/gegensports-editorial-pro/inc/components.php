@@ -7,6 +7,13 @@ function gsx_section_head(string $title, string $sub = '', string $url = '', str
     echo '</div>';
 }
 
+/** Kategori + tarih tek satırda (başlık üstünde büyük harfli etiket yok). */
+function gsx_meta(int $id, string $fmt = 'long'): string {
+    $t = gsx_primary_term($id);
+    $cat = $t ? '<a class="cat" href="' . esc_url(get_term_link($t)) . '">' . esc_html(html_entity_decode($t->name)) . '</a>' : '';
+    return '<div class="meta">' . $cat . gsx_time_tag($id, $fmt) . '</div>';
+}
+
 function gsx_time_tag(int $id, string $fmt = 'long'): string {
     $ts = (int) get_post_time('U', true, $id);
     return '<time datetime="' . esc_attr(get_post_time('c', true, $id)) . '">' . esc_html(gsx_date($ts, $fmt)) . '</time>';
@@ -17,24 +24,22 @@ function gsx_lead_story(int $id): void {
     $dek = gsx_blurb($id, 30); ?>
     <article class="lead-story">
       <?php $img = gsx_thumb($id, 'gsx-lead', true); ?>
-      <a class="media<?php echo $img ? '' : ' media--empty'; ?>" href="<?php echo esc_url(get_permalink($id)); ?>" tabindex="-1" aria-hidden="true"><?php echo $img ?: 'GEGENSPORTS'; ?></a>
+      <?php if ($img) : ?><a class="media" href="<?php echo esc_url(get_permalink($id)); ?>" tabindex="-1" aria-hidden="true"><?php echo $img; ?></a><?php endif; ?>
       <div>
-        <div class="kicker"><?php echo gsx_kicker($id); ?></div>
-        <h2 style="margin:6px 0 12px"><a href="<?php echo esc_url(get_permalink($id)); ?>"><?php echo esc_html(get_the_title($id)); ?></a></h2>
+        <h2 style="margin:0 0 12px"><a href="<?php echo esc_url(get_permalink($id)); ?>"><?php echo esc_html(get_the_title($id)); ?></a></h2>
         <?php if ($dek) echo '<p class="lead-story__dek">' . esc_html($dek) . '</p>'; ?>
-        <div class="meta" style="margin-top:12px"><?php echo gsx_time_tag($id); ?></div>
+        <div style="margin-top:12px"><?php echo gsx_meta($id); ?></div>
       </div>
     </article>
 <?php }
 
 /** Lead yanındaki küçük haber. */
 function gsx_side_story(int $id): void { ?>
-    <article class="side-story">
-      <?php $img = gsx_thumb($id, 'gsx-thumb'); ?>
-      <a class="media<?php echo $img ? '' : ' media--empty'; ?>" href="<?php echo esc_url(get_permalink($id)); ?>" tabindex="-1" aria-hidden="true"><?php echo $img ?: 'GS'; ?></a>
-      <div><div class="kicker"><?php echo gsx_kicker($id); ?></div>
-        <h3><a href="<?php echo esc_url(get_permalink($id)); ?>"><?php echo esc_html(get_the_title($id)); ?></a></h3>
-        <div class="meta"><?php echo gsx_time_tag($id); ?></div></div>
+    <?php $img = gsx_thumb($id, 'gsx-thumb'); ?>
+    <article class="side-story<?php echo $img ? '' : ' side-story--text'; ?>">
+      <?php if ($img) : ?><a class="media" href="<?php echo esc_url(get_permalink($id)); ?>" tabindex="-1" aria-hidden="true"><?php echo $img; ?></a><?php endif; ?>
+      <div><h3><a href="<?php echo esc_url(get_permalink($id)); ?>"><?php echo esc_html(get_the_title($id)); ?></a></h3>
+        <?php echo gsx_meta($id); ?></div>
     </article>
 <?php }
 
@@ -42,10 +47,9 @@ function gsx_side_story(int $id): void { ?>
 function gsx_card(int $id): void { ?>
     <article class="card">
       <?php $img = gsx_thumb($id, 'gsx-card'); ?>
-      <a class="media<?php echo $img ? '' : ' media--empty'; ?>" href="<?php echo esc_url(get_permalink($id)); ?>" tabindex="-1" aria-hidden="true"><?php echo $img ?: 'GEGENSPORTS'; ?></a>
-      <div class="kicker"><?php echo gsx_kicker($id); ?></div>
+      <?php if ($img) : ?><a class="media" href="<?php echo esc_url(get_permalink($id)); ?>" tabindex="-1" aria-hidden="true"><?php echo $img; ?></a><?php endif; ?>
       <h3><a href="<?php echo esc_url(get_permalink($id)); ?>"><?php echo esc_html(get_the_title($id)); ?></a></h3>
-      <div class="meta"><?php echo gsx_time_tag($id); ?></div>
+      <?php echo gsx_meta($id); ?>
     </article>
 <?php }
 
@@ -55,7 +59,7 @@ function gsx_news_row(int $id): void {
     $today = wp_date('Ymd', $ts) === wp_date('Ymd');
     $when = $today ? wp_date('H:i', $ts) : gsx_date($ts, 'short'); ?>
     <li class="news-row"><time datetime="<?php echo esc_attr(get_post_time('c', true, $id)); ?>"><?php echo esc_html($when); ?></time>
-      <div><span class="kicker"><?php echo gsx_kicker($id); ?></span><h3><a href="<?php echo esc_url(get_permalink($id)); ?>"><?php echo esc_html(get_the_title($id)); ?></a></h3></div></li>
+      <div><h3><a href="<?php echo esc_url(get_permalink($id)); ?>"><?php echo esc_html(get_the_title($id)); ?></a></h3><?php $k = gsx_kicker($id); if ($k) echo '<div class="meta"><span class="cat">' . $k . '</span></div>'; ?></div></li>
 <?php }
 
 /** Scout oyuncu kartı — veri dizisinden (GPScout API) ya da yazıdan. */

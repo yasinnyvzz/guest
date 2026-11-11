@@ -1,20 +1,26 @@
 /* GEGENSPORTS EDITORIAL PRO — tüm tasarım değerleri yalnızca burada. */
 :root {
   /* Renk */
-  --color-primary: #101820;
-  --color-background: #F4F6F8;
+  --color-primary: #0B1F3A;   /* logo lacivertine uyumlu */
+  --color-background: #F6F4EF; /* sıcak kâğıt zemin */
   --color-surface: #FFFFFF;
-  --color-text: #17212B;
-  --color-muted: #64748B;      /* #FFFFFF üzerinde 4.76:1 (AA) */
-  --color-border: #E2E7EC;
-  --color-accent: #E85D3F;     /* yalnızca vurgu: kategori etiketi, aktif durum, tek CTA */
-  --color-accent-text: #B8431F;/* beyaz üzerinde metin olarak AA (5.3:1) */
-  --color-success: #168569;
-  --color-danger: #C74B50;
-  --color-neutral: #EDF1F5;
-  --color-on-dark: #F4F6F8;
-  --color-on-dark-muted: #A9B4C0;
-  --color-dark-line: #2A3642;
+  --color-text: #14202B;
+  --color-muted: #5F6B76;      /* beyaz üzerinde 5.5:1 (AA) */
+  --color-border: #E4E0D6;
+  --color-accent: #F2A900;     /* logo kehribarı: yalnızca vurgu çizgisi/CTA dolgusu */
+  --color-accent-text: #8F5E00;/* beyaz/kâğıt üzerinde metin olarak AA (5.9:1) */
+  --color-success: #0F7B5F;
+  --color-danger: #B83A3F;
+  --color-neutral: #EFECE4;
+  --color-on-dark: #F6F4EF;
+  --color-on-dark-muted: #AEBBCC;
+  --color-dark-line: #243B5A;
+  --color-dark-surface: #11294A;
+  --color-dark-chip: #1B3659;
+  --color-kicker-dark: #F2B93B;
+  --color-text-soft: #3A4754;
+  --color-line-strong: #CFC9BB;
+  --color-accent-strong: #C98A00;
 
   /* Boşluk */
   --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
@@ -24,6 +30,7 @@
   --radius-sm: 6px; --radius-md: 10px; --radius-lg: 14px;
 
   /* Tipografi — sistem fontları + Inter varsa; harici font isteği yok (performans, tam Türkçe karakter) */
+  --font-display: "Archivo Variable", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
   --font-sans: Inter, "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
   --fs-h1-lead: clamp(1.75rem, 1.2rem + 2.4vw, 2.625rem);   /* 28 → 42 */
   --fs-h1: clamp(1.75rem, 1.3rem + 2vw, 2.5rem);            /* 28 → 40 */
@@ -41,9 +48,9 @@
   --header-h: 72px;
   --header-h-mobile: 56px;
   --bottom-nav-h: 56px;
-  --read-max: 800px;
+  --read-max: 70ch;
   --side-w: 300px;
   --border: 1px solid var(--color-border);
-  --focus: 0 0 0 3px rgba(232, 93, 63, .45);
+  --focus: 0 0 0 3px rgba(242, 169, 0, .5);
 }
 @media (min-width: 900px) { :root { --gutter: var(--space-5); } }
