@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>How can a submarine stay underwater for weeks? (Defence MENA)</title>
+<style>html,body{margin:0;background:#000}canvas{display:block;max-width:100vw;max-height:100vh;height:auto;margin:0 auto}</style>
+<script type="importmap">{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.186.1/examples/jsm/",
+  "postprocessing": "https://cdn.jsdelivr.net/npm/postprocessing@6.39.5/build/index.js" } }</script>
+</head>
+<body>
+<script type="module">
+// One film page, frame contract of tools/capture.mjs. Every pixel = f(frame). Boat at the origin, bow +X, up +Y.
+// 1 unit ~ 5 m. Ten chapters (ROADMAP.md). URL: w, h, seed, capture=1, msaa.
+import * as THREE from 'three';
+import { buildLook } from './looks.mjs';
+import { loadType, typeCheck, TYPE_FALLBACK } from './type.mjs';
+import { ICON, WORDMARK } from './brand.mjs';
+
+const q = new URLSearchParams(location.search);
+const W = +q.get('w') || 1080, H = +q.get('h') || 1920, SEED = +q.get('seed') || 7;
+const FPS = 30, DURATION = 76, FRAMES = FPS * DURATION;
+const S = H / 1920;                                   // pixel scale for point sizes and overlay
+
+// ------------------------------------------------------------------ helpers (pure)
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const lerp = (a, b, k) => a + (b - a) * k;
+const ss = (a, b, x) => { const k = clamp((x - a) / (b - a)); return k * k * (3 - 2 * k); };
+const ease = (k) => { k = clamp(k); return k < 0.5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2; };   // heavy, damped
+const win = (t, a, b, f = 0.6) => ss(a, a + f, t) * (1 - ss(b - f, b, t));
+const hash = (n) => { const s = Math.sin(n * 127.1 + SEED * 311.7) * 43758.5453; return s - Math.floor(s); };
+const V = (x, y, z) => new THREE.Vector3(x, y, z);
+const vl = (a, b, k) => a.clone().lerp(b, k);
+function vnoise(x, y) { const xi = Math.floor(x), yi = Math.floor(y), xf = x - xi, yf = y - yi;
+  const h = (i, j) => hash(i * 57.0 + j * 131.0 + 0.5); const u = xf * xf * (3 - 2 * xf), v = yf * yf * (3 - 2 * yf);
+  return lerp(lerp(h(xi, yi), h(xi + 1, yi), u), lerp(h(xi, yi + 1), h(xi + 1, yi + 1), u), v); }
+const fbm = (x, y) => { let a = 0.5, s = 0; for (let o = 0; o < 5; o++) { s += a * vnoise(x, y); x *= 2.03; y *= 2.03; a *= 0.5; } return s; };
+
+// Chapter times (s)
+const CH = [0, 7, 14, 22, 30, 37, 47, 55, 63, 69, 76];
+const chapterOf = (t) => { for (let i = CH.length - 2; i >= 0; i--) if (t >= CH[i]) return i; return 0; };
+
+// ------------------------------------------------------------------ renderer, scene
+const renderer = new THREE.WebGLRenderer({ antialias: false, preserveDrawingBuffer: true, powerPreference: 'high-performance' });
+renderer.setPixelRatio(1); renderer.setSize(W, H, false);
+renderer.localClippingEnabled = true;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(48, W / H, 0.05, 400);
+const C = {
+  deep: new THREE.Color('#041624'), mid: new THREE.Color('#0d4466'), up: new THREE.Color('#2b8cb8'),
+  hull: new THREE.Color('#2a3138'), ghost: new THREE.Color('#9ec3d9'), steel: new THREE.Color('#7c8a95'),
+  warm: new THREE.Color('#e8b27a'), red: new THREE.Color('#e3232c'), cool: new THREE.Color('#cdeeff'), co2: new THREE.Color('#d2453c'),
+};
+scene.fog = new THREE.FogExp2(C.mid.clone().multiplyScalar(0.55), 0.03);
+
+// Lights: surface key from above, cool hemisphere, rim from behind, warm practical inside.
+const hemi = new THREE.HemisphereLight(0x6cc2e6, 0x0a2230, 1.0);
+const key = new THREE.DirectionalLight(0xbfe6ff, 2.2); key.position.set(3, 20, 4);
+const rim = new THREE.DirectionalLight(0x8fd0ff, 1.4); rim.position.set(-8, 3, -10);
+const fill = new THREE.DirectionalLight(0x2a6d92, 0.5); fill.position.set(6, -4, 8);
+const practical = new THREE.PointLight(0xffb36b, 0, 3.2, 1.4); practical.position.set(0.25, 0.3, -0.3);
+const practical2 = new THREE.PointLight(0xffb36b, 0, 2.6, 1.6); practical2.position.set(-1.9, 0.1, -0.1);
+scene.add(hemi, key, rim, fill, practical, practical2);
+
+// ------------------------------------------------------------------ water: sky dome, surface, light shafts, snow
+const dome = new THREE.Mesh(new THREE.SphereGeometry(300, 48, 24), new THREE.ShaderMaterial({
+  side: THREE.BackSide, depthWrite: false, fog: false,
+  uniforms: { uDeep: { value: C.deep }, uMid: { value: C.mid }, uUp: { value: C.up }, uBright: { value: 1 }, uDark: { value: 0 } },
+  vertexShader: `varying vec3 vDir; void main(){ vDir = normalize(position); gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }`,
+  fragmentShader: `uniform vec3 uDeep,uMid,uUp; uniform float uBright,uDark; varying vec3 vDir;
+    void main(){ float y = vDir.y;
+      vec3 c = mix(uDeep, uMid, smoothstep(-0.55, 0.15, y));
+      c = mix(c, uUp, smoothstep(0.15, 0.95, y) * uBright);
+      c += vec3(0.55,0.85,1.0) * pow(max(y,0.0), 8.0) * 0.35 * uBright;
+      c *= (1.0 - uDark);
+      gl_FragColor = vec4(c, 1.0); }`,
+}));
+dome.renderOrder = -10; scene.add(dome);
+
+const surface = new THREE.Mesh(new THREE.PlaneGeometry(400, 400, 1, 1), new THREE.ShaderMaterial({
+  transparent: true, depthWrite: false, side: THREE.DoubleSide, fog: false,
+  uniforms: { uT: { value: 0 }, uAmt: { value: 1 } },
+  vertexShader: `varying vec3 vW; void main(){ vec4 w = modelMatrix * vec4(position,1.0); vW = w.xyz; gl_Position = projectionMatrix * viewMatrix * w; }`,
+  fragmentShader: `uniform float uT,uAmt; varying vec3 vW;
+    float r(vec2 p){ return sin(p.x*1.7+uT*0.9)*sin(p.y*1.3-uT*0.7) + 0.5*sin(p.x*3.1-p.y*2.3+uT*1.6); }
+    void main(){ vec2 p = vW.xz*0.55; float c = r(p) + 0.6*r(p*2.3+7.0);
+      float cau = pow(clamp(0.5 + 0.35*c, 0.0, 1.0), 3.0);
+      vec3 vd = normalize(vW - cameraPosition); float win = smoothstep(0.62, 0.86, abs(vd.y));
+      vec3 col = mix(vec3(0.10,0.42,0.58), vec3(0.85,0.97,1.0), cau);
+      vec3 mir = vec3(0.02,0.09,0.14);
+      gl_FragColor = vec4(mix(mir, col * (0.55 + 0.9*cau), win), (0.15 + 0.8*win) * uAmt); }`,
+}));
+surface.rotation.x = Math.PI / 2; scene.add(surface);
+
+const RAYS = [];
+const rayMat = (i) => new THREE.ShaderMaterial({
+  transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, fog: false, side: THREE.DoubleSide,
+  uniforms: { uT: { value: 0 }, uAmt: { value: 1 }, uPh: { value: hash(i + 3) * 6.28 } },
+  vertexShader: `varying vec2 vUv; varying vec3 vW; void main(){ vUv = uv; vec4 w = modelMatrix*vec4(position,1.0); vW = w.xyz; gl_Position = projectionMatrix*viewMatrix*w; }`,
+  fragmentShader: `uniform float uT,uAmt,uPh; varying vec2 vUv; varying vec3 vW;
+    void main(){ float across = pow(sin(3.14159*vUv.x), 2.0);
+      float down = pow(vUv.y, 2.2);
+      float fl = 0.6 + 0.4*sin(uT*0.55 + uPh + vUv.y*3.0);
+      float d = length(vW - cameraPosition); float fade = smoothstep(1.5, 5.0, d) * exp(-d*0.03);
+      gl_FragColor = vec4(vec3(0.55,0.82,1.0) * across * down * fl * fade * 0.11 * uAmt, 1.0); }`,
+});
+for (let i = 0; i < 14; i++) {
+  const w = 1.2 + hash(i) * 2.6, m = new THREE.Mesh(new THREE.PlaneGeometry(w, 70), rayMat(i));
+  m.userData = { x: (hash(i + 20) - 0.5) * 30, z: (hash(i + 40) - 0.5) * 26 - 2, tilt: (hash(i + 60) - 0.5) * 0.25 };
+  m.renderOrder = 5; RAYS.push(m); scene.add(m);
+}
+
+function pointsMat(color, size, extra = {}) {
+  return new THREE.ShaderMaterial({
+    transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, fog: false,
+    uniforms: { uCol: { value: color.clone() }, uSize: { value: size * S }, uAmt: { value: 1 }, uOff: { value: new THREE.Vector3() },
+      uCam: { value: new THREE.Vector3() }, uBox: { value: 18 }, uT: { value: 0 }, ...extra.uniforms },
+    vertexShader: extra.vertex || `attribute float aR; uniform vec3 uOff,uCam; uniform float uBox,uSize,uT; varying float vA;
+      void main(){ vec3 p = position + uOff; p.x += sin(uT*0.3 + aR*40.0)*0.15; p.y += cos(uT*0.23 + aR*31.0)*0.12;
+        p = mod(p - uCam + uBox*0.5, uBox) - uBox*0.5 + uCam;
+        vec4 mv = viewMatrix * vec4(p,1.0); float d = -mv.z; gl_Position = projectionMatrix*mv;
+        gl_PointSize = uSize * (0.6 + aR) * 6.0 / max(d, 0.4);
+        vA = smoothstep(0.6, 2.0, d) * (1.0 - smoothstep(5.0, uBox*0.5, d)); }`,
+    fragmentShader: extra.fragment || `uniform vec3 uCol; uniform float uAmt; varying float vA;
+      void main(){ vec2 c = gl_PointCoord - 0.5; float r = length(c); if (r > 0.5) discard;
+        float a = smoothstep(0.5, 0.0, r); gl_FragColor = vec4(uCol * a * vA * uAmt * 0.55, 1.0); }`,
+  });
+}
+const snowGeo = new THREE.BufferGeometry(); {
+  const n = 2600, pos = new Float32Array(n * 3), r = new Float32Array(n);
+  for (let i = 0; i < n; i++) { pos[3 * i] = (hash(i * 3.1) - 0.5) * 18; pos[3 * i + 1] = (hash(i * 5.7) - 0.5) * 18; pos[3 * i + 2] = (hash(i * 9.3) - 0.5) * 18; r[i] = hash(i * 1.9); }
+  snowGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3)); snowGeo.setAttribute('aR', new THREE.BufferAttribute(r, 1));
+}
+const snow = new THREE.Points(snowGeo, pointsMat(new THREE.Color('#bcd9e8'), 1.5)); snow.frustumCulled = false; scene.add(snow);
+
+// ------------------------------------------------------------------ the boat (one model for the whole film)
+const boat = new THREE.Group(); scene.add(boat);
+const R = 0.66, XB = 6.5, XM = 4.4, XT = -3.2, XS = -6.45;
+function hullProfile(r0, xb, xm, xt, xs, rEnd) {
+  const pts = [];
+  for (let i = 0; i <= 28; i++) { const k = i / 28, x = lerp(xs, xt, k);   // tail cone
+    const u = (xt - x) / (xt - xs); pts.push(new THREE.Vector2(lerp(r0, rEnd, Math.pow(u, 1.7)), x)); }
+  for (let i = 1; i <= 8; i++) pts.push(new THREE.Vector2(r0, lerp(xt, xm, i / 8)));
+  for (let i = 1; i <= 30; i++) { const k = i / 30, x = lerp(xm, xb, k);    // faired bow
+    pts.push(new THREE.Vector2(r0 * Math.pow(Math.max(0, 1 - Math.pow(k, 2.3)), 1 / 2.3), x)); }
+  pts[pts.length - 1].x = 0.0001;
+  const g = new THREE.LatheGeometry(pts, 96); g.rotateZ(-Math.PI / 2); g.computeVertexNormals(); return g;
+}
+// Anechoic tiles: a bump texture of offset tiles with slight variation (tile ~0.22 u).
+const tileTex = (() => { const c = document.createElement('canvas'); c.width = 512; c.height = 512; const g = c.getContext('2d');
+  g.fillStyle = '#808080'; g.fillRect(0, 0, 512, 512);
+  for (let j = 0; j < 16; j++) for (let i = 0; i < 16; i++) { const v = 118 + Math.floor(hash(i * 17 + j * 31) * 20);
+    g.fillStyle = `rgb(${v},${v},${v})`; g.fillRect(i * 32 + (j % 2) * 16 + 1.5, j * 32 + 1.5, 29, 29); }
+  const t = new THREE.CanvasTexture(c); t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(10, 20); return t; })();
+
+const solidMat = new THREE.MeshStandardMaterial({ color: C.hull, roughness: 0.62, metalness: 0.2, bumpMap: tileTex, bumpScale: 0.6,
+  transparent: true, opacity: 1 });
+const ghostMat = (col = C.ghost, power = 2.6, base = 0.03) => new THREE.ShaderMaterial({
+  transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, side: THREE.FrontSide, fog: false,
+  uniforms: { uCol: { value: col.clone() }, uAmt: { value: 0 } },
+  vertexShader: `varying vec3 vN; varying vec3 vV; void main(){ vec4 w = modelMatrix*vec4(position,1.0);
+    vN = normalize(mat3(modelMatrix)*normal); vV = normalize(cameraPosition - w.xyz); gl_Position = projectionMatrix*viewMatrix*w; }`,
+  fragmentShader: `uniform vec3 uCol; uniform float uAmt; varying vec3 vN; varying vec3 vV;
+    void main(){ float f = pow(1.0 - abs(dot(normalize(vN), normalize(vV))), ${power.toFixed(2)});
+      gl_FragColor = vec4(uCol * (f*0.75 + ${base.toFixed(3)}) * uAmt, 1.0); }`,
+});
+const outerGeo = hullProfile(R, XB, XM, XT, XS, 0.13);
+const outerSolid = new THREE.Mesh(outerGeo, solidMat);
+const GHOSTS = [];
+const outerGhost = new THREE.Mesh(outerGeo, ghostMat()); outerGhost.renderOrder = 8; GHOSTS.push(outerGhost);
+boat.add(outerSolid, outerGhost);
+
+// Casing (deck), sail, planes, propulsor: each has a solid and a ghost twin.
+function twin(geo, pos, rot = [0, 0, 0], parent = boat) {
+  const s = new THREE.Mesh(geo, solidMat), g = new THREE.Mesh(geo, ghostMat()); g.renderOrder = 8; GHOSTS.push(g);
+  for (const m of [s, g]) { m.position.copy(pos); m.rotation.set(...rot); parent.add(m); }
+  return s;
+}
+const roundedBox = (w, h, d, r) => { const sh = new THREE.Shape(); const x = -w / 2, y = -h / 2;
+  sh.moveTo(x + r, y); sh.lineTo(x + w - r, y); sh.quadraticCurveTo(x + w, y, x + w, y + r); sh.lineTo(x + w, y + h - r);
+  sh.quadraticCurveTo(x + w, y + h, x + w - r, y + h); sh.lineTo(x + r, y + h); sh.quadraticCurveTo(x, y + h, x, y + h - r);
+  sh.lineTo(x, y + r); sh.quadraticCurveTo(x, y, x + r, y);
+  const g = new THREE.ExtrudeGeometry(sh, { depth: d, bevelEnabled: true, bevelThickness: 0.02, bevelSize: 0.02, bevelSegments: 3, curveSegments: 10 });
+  g.translate(0, 0, -d / 2); return g; };
+// deck casing along the top
+twin(roundedBox(8.0, 0.16, 0.5, 0.06), V(0.8, R - 0.03, 0));
+// sail: stadium plan, extruded upward, slight taper by scale
+{ const sh = new THREE.Shape(); const L = 1.55, Wd = 0.34;
+  sh.absarc(L / 2 - Wd / 2, 0, Wd / 2, -Math.PI / 2, Math.PI / 2, false); sh.lineTo(-L / 2 + Wd * 0.9, Wd / 2);
+  sh.quadraticCurveTo(-L / 2, Wd * 0.25, -L / 2, 0); sh.quadraticCurveTo(-L / 2, -Wd * 0.25, -L / 2 + Wd * 0.9, -Wd / 2); sh.closePath();
+  const g = new THREE.ExtrudeGeometry(sh, { depth: 1.0, bevelEnabled: true, bevelThickness: 0.03, bevelSize: 0.03, bevelSegments: 4, curveSegments: 24 });
+  g.rotateX(-Math.PI / 2); twin(g, V(2.15, 0.52, 0)); }
+// masts (raised only for the reveal)
+const masts = new THREE.Group(); boat.add(masts);
+for (const [x, h, r] of [[2.55, 0.62, 0.035], [2.25, 0.5, 0.03], [1.95, 0.42, 0.04], [1.7, 0.3, 0.022]]) {
+  const m = new THREE.Mesh(new THREE.CylinderGeometry(r * 0.8, r, h, 16), solidMat); m.position.set(x, 1.55 + h / 2 - 0.1, 0); masts.add(m);
+  const hd = new THREE.Mesh(new THREE.SphereGeometry(r * 1.25, 16, 10), solidMat); hd.position.set(x, 1.55 + h - 0.1, 0); hd.scale.set(1, 1.6, 1); masts.add(hd);
+}
+// cruciform stern planes and bow planes
+const finGeo = (root, tip, span, sweep) => { const sh = new THREE.Shape(); sh.moveTo(0, 0); sh.lineTo(root, 0);
+  sh.lineTo(root - sweep, span); sh.lineTo(root - sweep - tip, span); sh.closePath();
+  const g = new THREE.ExtrudeGeometry(sh, { depth: 0.035, bevelEnabled: true, bevelThickness: 0.012, bevelSize: 0.012, bevelSegments: 2 });
+  g.translate(0, 0, -0.0175); return g; };
+const sternFin = finGeo(1.05, 0.45, 0.82, 0.25);
+for (let k = 0; k < 4; k++) { const a = k * Math.PI / 2;
+  const s = twin(sternFin, V(-6.0, 0, 0), [a, 0, 0]); s.geometry = sternFin;
+  const grp = boat.children.slice(-2); for (const m of grp) { m.position.set(-6.05, Math.cos(a) * 0.18, Math.sin(a) * 0.18); } }
+const bowFin = finGeo(0.42, 0.24, 0.32, 0.08);
+for (const z of [1, -1]) { twin(bowFin, V(4.95, 0.12, z * 0.55), [z * Math.PI / 2, 0, 0]); }
+// propulsor: 7 skewed blades on a hub
+const prop = new THREE.Group(); prop.position.set(-6.62, 0, 0); boat.add(prop);
+const propMat = new THREE.MeshStandardMaterial({ color: '#8a7a5e', roughness: 0.35, metalness: 0.85, side: THREE.DoubleSide });
+{ const hub = new THREE.Mesh(new THREE.ConeGeometry(0.13, 0.42, 32), propMat); hub.rotation.z = Math.PI / 2; hub.position.x = -0.16; prop.add(hub);
+  const sh = new THREE.Shape(); sh.moveTo(0, 0.08);
+  sh.bezierCurveTo(0.12, 0.25, 0.2, 0.45, 0.06, 0.62); sh.bezierCurveTo(-0.02, 0.66, -0.1, 0.6, -0.12, 0.5);
+  sh.bezierCurveTo(-0.05, 0.35, -0.08, 0.2, -0.1, 0.08); sh.closePath();
+  const bg = new THREE.ShapeGeometry(sh, 16);
+  for (let k = 0; k < 7; k++) { const b = new THREE.Mesh(bg, propMat); const piv = new THREE.Group();
+    b.rotation.y = Math.PI / 2 - 0.5; piv.add(b); piv.rotation.x = k * Math.PI * 2 / 7; prop.add(piv); } }
+
+// ------------------------------------------------------------------ inside: pressure hull, frames, decks, crew
+const cutPlane = new THREE.Plane(new THREE.Vector3(0, 0, -1), 2.0);   // removes z > constant
+const CLIP = [cutPlane];
+const inner = new THREE.Group(); boat.add(inner);
+const phMat = new THREE.MeshStandardMaterial({ color: C.steel, roughness: 0.42, metalness: 0.65, side: THREE.DoubleSide,
+  clippingPlanes: CLIP, transparent: true, opacity: 0 });
+const phGeo = (() => { const pts = []; const r0 = 0.56, a = -4.35, b = 4.15, ea = 0.42, eb = 0.38;
+  for (let i = 0; i <= 16; i++) { const k = i / 16; pts.push(new THREE.Vector2(r0 * Math.sin(k * Math.PI / 2) + 1e-4, a - ea * Math.cos(k * Math.PI / 2))); }
+  for (let i = 0; i <= 16; i++) { const k = i / 16; pts.push(new THREE.Vector2(r0 * Math.cos(k * Math.PI / 2) + 1e-4, b + eb * Math.sin(k * Math.PI / 2))); }
+  const g = new THREE.LatheGeometry(pts, 96); g.rotateZ(-Math.PI / 2); return g; })();
+const pHull = new THREE.Mesh(phGeo, phMat); inner.add(pHull);
+const pGhost = new THREE.Mesh(phGeo, ghostMat(C.ghost, 2.0, 0.02)); pGhost.renderOrder = 7; inner.add(pGhost);
+// ring frames
+const NF = 26, frameXs = [...Array(NF)].map((_, i) => lerp(-4.05, 3.95, i / (NF - 1)));
+const frameMat = new THREE.MeshStandardMaterial({ color: '#5d6872', roughness: 0.4, metalness: 0.7, clippingPlanes: CLIP, transparent: true, opacity: 0 });
+const frameEmis = new THREE.MeshBasicMaterial({ color: C.red, clippingPlanes: CLIP, transparent: true, opacity: 0, blending: THREE.AdditiveBlending, depthWrite: false });
+const frameGeo = new THREE.TorusGeometry(0.54, 0.013, 8, 72); frameGeo.rotateY(Math.PI / 2);
+const frames = [], frameGlows = [];
+for (const x of frameXs) { const m = new THREE.Mesh(frameGeo, frameMat); m.position.x = x; inner.add(m); frames.push(m);
+  const gm = new THREE.Mesh(frameGeo, frameEmis.clone()); gm.position.x = x; gm.scale.setScalar(1.002); inner.add(gm); frameGlows.push(gm); }
+// pressure arrows (S01)
+const arrows = new THREE.Group(); boat.add(arrows);
+const arrowMat = new THREE.MeshBasicMaterial({ color: '#d7ecf7', transparent: true, opacity: 0, depthWrite: false });
+{ const shaft = new THREE.CylinderGeometry(0.028, 0.028, 0.5, 10); shaft.translate(0, 0.25 + 0.18, 0);
+  const head = new THREE.ConeGeometry(0.1, 0.2, 16); head.rotateZ(Math.PI); head.translate(0, 0.1, 0);
+  for (const x of [-4.2, -1.8, 0.6, 3.0]) for (let k = 0; k < 10; k++) { const a = k / 10 * Math.PI * 2 + x * 0.3;
+    const g = new THREE.Group(); g.add(new THREE.Mesh(shaft, arrowMat), new THREE.Mesh(head, arrowMat));
+    g.position.set(x, 0, 0); g.rotation.x = a; g.userData = { a, x }; arrows.add(g); } }
+
+// Interior (lit by the practicals): deck, bulkheads, consoles, pipes, crew.
+const intMat = new THREE.MeshStandardMaterial({ color: '#66717b', roughness: 0.8, metalness: 0.2, clippingPlanes: CLIP, transparent: true, opacity: 0 });
+const INT = [intMat];
+const deck = new THREE.Mesh(new THREE.BoxGeometry(8.0, 0.035, 0.94), intMat); deck.position.set(-0.1, -0.2, 0); inner.add(deck);
+for (const x of [-3.15, -1.15, 1.55, 3.2]) { const bh = new THREE.Mesh(new THREE.CylinderGeometry(0.54, 0.54, 0.03, 48), intMat);
+  bh.rotation.z = Math.PI / 2; bh.position.x = x; inner.add(bh);
+  const door = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 0.04, 32), new THREE.MeshStandardMaterial({ color: '#20262c', roughness: 0.6, clippingPlanes: CLIP, transparent: true, opacity: 0 }));
+  door.rotation.z = Math.PI / 2; door.position.set(x, 0.02, -0.05); door.scale.set(1, 1, 1.25); inner.add(door); INT.push(door.material); }
+const screenMat = new THREE.MeshBasicMaterial({ color: '#3fa8b8', transparent: true, opacity: 0 });
+for (let i = 0; i < 7; i++) { const x = lerp(-0.95, 1.3, i / 6);
+  const c = new THREE.Mesh(new THREE.BoxGeometry(0.24, 0.26, 0.12), intMat); c.position.set(x, -0.05, -0.38); c.rotation.x = 0.12; inner.add(c);
+  const s = new THREE.Mesh(new THREE.PlaneGeometry(0.16, 0.09), screenMat); s.position.set(x, 0.0, -0.315); s.rotation.x = 0.12; inner.add(s); }
+for (let i = 0; i < 4; i++) { const p = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.012, 7.6, 8), intMat);
+  p.rotation.z = Math.PI / 2; p.position.set(-0.2, 0.42 - i * 0.03, -0.3 + i * 0.07); inner.add(p); }
+const crewMat = new THREE.MeshStandardMaterial({ color: '#0a0e12', roughness: 0.85, metalness: 0.0, transparent: true, opacity: 0 });
+const crew = [];
+function person(x, z, rotY, seated, phase) {
+  const g = new THREE.Group(); g.position.set(x, -0.183, z); g.rotation.y = rotY;
+  const legH = seated ? 0.0 : 0.16;
+  const torso = new THREE.Mesh(new THREE.CapsuleGeometry(0.042, 0.11, 6, 12), crewMat); torso.position.y = legH + 0.11; g.add(torso);
+  const head = new THREE.Mesh(new THREE.SphereGeometry(0.036, 16, 12), crewMat); head.position.y = legH + 0.235; g.add(head);
+  for (const s of [-1, 1]) { const leg = new THREE.Mesh(new THREE.CapsuleGeometry(0.018, seated ? 0.05 : 0.13, 4, 8), crewMat);
+    leg.position.set(seated ? 0.05 : 0, seated ? 0.03 : 0.08, s * 0.022); if (seated) leg.rotation.z = Math.PI / 2; g.add(leg);
+    const arm = new THREE.Mesh(new THREE.CapsuleGeometry(0.014, 0.1, 4, 8), crewMat); arm.position.set(0.02, legH + 0.11, s * 0.055); arm.rotation.z = 0.5; g.add(arm); }
+  if (seated) { const seat = new THREE.Mesh(new THREE.BoxGeometry(0.1, 0.06, 0.1), intMat); seat.position.set(0.01, 0.03, 0); g.add(seat); g.position.y = -0.183; torso.position.y = 0.17; head.position.y = 0.295; }
+  g.userData = { torso, phase }; inner.add(g); crew.push(g); return g; }
+person(-0.55, -0.1, 0.3, true, 0.0); person(0.15, -0.06, -0.2, false, 1.3); person(0.75, -0.12, 0.6, true, 2.1); person(1.15, 0.05, -1.4, false, 3.0);
+
+// Air particles in the crew space (box x -1.0..1.45, y -0.15..0.45, z -0.4..0.0)
+const AIR = { x: [-1.0, 1.45], y: [-0.15, 0.42], z: [-0.42, 0.02] };
+function airPoints(n, color, seedOff) {
+  const geo = new THREE.BufferGeometry(), pos = new Float32Array(n * 3), r = new Float32Array(n);
+  for (let i = 0; i < n; i++) { pos[3 * i] = lerp(AIR.x[0], AIR.x[1], hash(i * 2.3 + seedOff)); pos[3 * i + 1] = lerp(AIR.y[0], AIR.y[1], hash(i * 4.1 + seedOff));
+    pos[3 * i + 2] = lerp(AIR.z[0], AIR.z[1], hash(i * 6.7 + seedOff)); r[i] = hash(i * 8.9 + seedOff); }
+  geo.setAttribute('position', new THREE.BufferAttribute(pos, 3)); geo.setAttribute('aR', new THREE.BufferAttribute(r, 1));
+  const m = pointsMat(color, 2.2, {
+    uniforms: { uFrac: { value: 1 }, uSink: { value: new THREE.Vector3() }, uPull: { value: 0 } },
+    vertex: `attribute float aR; uniform float uSize,uT,uFrac,uPull; uniform vec3 uSink; varying float vA;
+      void main(){ vec3 p = position; p.x += sin(uT*0.6 + aR*50.0)*0.03; p.y += sin(uT*0.45 + aR*37.0)*0.025;
+        float k = smoothstep(uFrac - 0.12, uFrac + 0.02, aR);                     // this dot is leaving (or not yet here)
+        p = mix(p, uSink, k * uPull);
+        vec4 mv = modelViewMatrix * vec4(p,1.0); gl_Position = projectionMatrix*mv;
+        gl_PointSize = uSize * 9.0 / max(-mv.z, 0.3) * (0.7 + 0.6*aR);
+        vA = 1.0 - k; }`,
+    fragment: `uniform vec3 uCol; uniform float uAmt; varying float vA;
+      void main(){ vec2 c = gl_PointCoord - 0.5; float r = length(c); if (r > 0.5) discard;
+        float a = smoothstep(0.5, 0.1, r); gl_FragColor = vec4(uCol * a * vA * uAmt, 1.0); }`,
+  });
+  const p = new THREE.Points(geo, m); p.frustumCulled = false; inner.add(p); return p;
+}
+const o2Pts = airPoints(420, C.cool, 11.0), co2Pts = airPoints(420, C.co2, 77.0);
+
+// Life support units (slide in from above at S04)
+const unitMat = new THREE.MeshStandardMaterial({ color: '#c9d3da', roughness: 0.35, metalness: 0.5 });
+const unitEdge = new THREE.MeshBasicMaterial({ color: C.red, transparent: true, opacity: 0, blending: THREE.AdditiveBlending, depthWrite: false });
+const o2Unit = new THREE.Group(), scrub = new THREE.Group(); inner.add(o2Unit, scrub);
+{ for (let i = 0; i < 3; i++) { const c = new THREE.Mesh(new THREE.CapsuleGeometry(0.045, 0.22, 6, 16), unitMat); c.position.set(-0.07 + i * 0.07, 0.0, 0); o2Unit.add(c); }
+  const base = new THREE.Mesh(new THREE.BoxGeometry(0.26, 0.04, 0.12), new THREE.MeshStandardMaterial({ color: '#2b3239', roughness: 0.6 })); base.position.y = -0.16; o2Unit.add(base);
+  const band = new THREE.Mesh(new THREE.BoxGeometry(0.27, 0.025, 0.125), unitEdge); band.position.y = 0.05; o2Unit.add(band);
+  const box = new THREE.Mesh(new THREE.BoxGeometry(0.3, 0.3, 0.18), new THREE.MeshStandardMaterial({ color: '#59636c', roughness: 0.5, metalness: 0.4 })); scrub.add(box);
+  for (let i = 0; i < 7; i++) { const s = new THREE.Mesh(new THREE.BoxGeometry(0.008, 0.22, 0.012), new THREE.MeshStandardMaterial({ color: '#1b1f24' })); s.position.set(-0.11 + i * 0.036, 0.0, 0.092); scrub.add(s); }
+  const sEdge = new THREE.Mesh(new THREE.BoxGeometry(0.305, 0.02, 0.185), unitEdge); sEdge.position.y = 0.16; scrub.add(sEdge); }
+const O2POS = V(1.32, -0.02, -0.25), SCRUBPOS = V(-0.88, -0.03, -0.24);
+
+// Flow lines: a tube with moving dashes, revealed along its length
+function flowLine(points, color, radius = 0.007, closed = false, speed = 0.5, dashes = 30) {
+  const curve = new THREE.CatmullRomCurve3(points, closed, 'centripetal');
+  const m = new THREE.Mesh(new THREE.TubeGeometry(curve, 240, radius, 6, closed), new THREE.ShaderMaterial({
+    transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, fog: false,
+    uniforms: { uCol: { value: color.clone() }, uT: { value: 0 }, uGrow: { value: 0 }, uAmt: { value: 0 } },
+    vertexShader: `varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix*modelViewMatrix*vec4(position,1.0); }`,
+    fragmentShader: `uniform vec3 uCol; uniform float uT,uGrow,uAmt; varying vec2 vUv;
+      void main(){ if (vUv.x > uGrow) discard; float d = fract(vUv.x*${dashes.toFixed(1)} - uT*${speed.toFixed(2)});
+        float a = smoothstep(0.0, 0.15, d) * (1.0 - smoothstep(0.45, 0.6, d));
+        float tip = 1.0 - smoothstep(uGrow - 0.03, uGrow, vUv.x) * 0.0;
+        gl_FragColor = vec4(uCol * (0.25 + 0.9*a) * uAmt * tip, 1.0); }`,
+  }));
+  m.renderOrder = 9; return m;
+}
+const airflow = flowLine([V(1.3, 0.2, -0.25), V(0.9, 0.38, -0.15), V(0.0, 0.4, -0.1), V(-0.8, 0.36, -0.15), V(-0.92, 0.12, -0.24),
+  V(-0.6, -0.08, -0.08), V(0.2, -0.1, -0.02), V(0.9, -0.06, -0.1), V(1.25, 0.05, -0.2)], C.cool, 0.006, true, 1.2, 24);
+inner.add(airflow);
+
+// Batteries along the keel under the deck; tops glow with charge
+const NB = 46, NR = 5, cellTopMat = new THREE.MeshBasicMaterial({ color: 0xffffff });
+const cells = new THREE.InstancedMesh(new THREE.BoxGeometry(0.11, 0.075, 0.09), new THREE.MeshStandardMaterial({ color: '#30373e', roughness: 0.6, metalness: 0.3 }), NB * NR);
+const tops = new THREE.InstancedMesh(new THREE.BoxGeometry(0.1, 0.006, 0.08), cellTopMat, NB * NR);
+{ const m = new THREE.Matrix4(); let k = 0;
+  for (let i = 0; i < NB; i++) for (let j = 0; j < NR; j++) { const x = lerp(-3.0, 3.0, i / (NB - 1)), z = (j - 2) * 0.1;
+    m.makeTranslation(x, -0.37, z); cells.setMatrixAt(k, m); m.makeTranslation(x, -0.33, z); tops.setMatrixAt(k, m); tops.setColorAt(k, new THREE.Color(0)); k++; } }
+inner.add(cells, tops); cells.userData.late = tops.userData.late = 1;
+const powerLine = flowLine([V(-3.0, -0.3, 0.05), V(-3.6, -0.25, 0.05), V(-3.95, -0.05, 0.02), V(-4.05, 0, 0)], C.cool, 0.012, false, 1.5, 10);
+inner.add(powerLine);
+
+// Motor, shaft, isolation mounts
+const motor = new THREE.Group(); motor.position.set(-3.95, 0, 0); inner.add(motor);
+const motorMat = new THREE.MeshStandardMaterial({ color: '#56616b', roughness: 0.35, metalness: 0.75, transparent: true, opacity: 0 });
+{ const body = new THREE.Mesh(new THREE.CylinderGeometry(0.27, 0.27, 0.62, 40), motorMat); body.rotation.z = Math.PI / 2; motor.add(body);
+  for (let i = 0; i < 8; i++) { const f = new THREE.Mesh(new THREE.TorusGeometry(0.275, 0.012, 6, 40), motorMat); f.rotation.y = Math.PI / 2; f.position.x = -0.26 + i * 0.075; motor.add(f); } }
+const shaft = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.035, 2.5, 16), new THREE.MeshStandardMaterial({ color: '#9aa4ac', roughness: 0.25, metalness: 0.9 }));
+shaft.rotation.z = Math.PI / 2; shaft.position.set(-5.4, 0, 0); inner.add(shaft);
+const shaftMarks = new THREE.Group(); shaftMarks.position.set(-5.4, 0, 0); inner.add(shaftMarks);
+for (let i = 0; i < 6; i++) { const mk = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.01, 0.075), new THREE.MeshStandardMaterial({ color: '#3a4249' })); mk.position.set(-0.6 + i * 0.24, 0.033, 0); shaftMarks.add(mk); }
+const mountMat = new THREE.MeshStandardMaterial({ color: '#2a3036', roughness: 0.9, emissive: C.red, emissiveIntensity: 0, transparent: true, opacity: 0 });
+for (const x of [-0.2, 0.2]) for (const z of [-0.16, 0.16]) { const mt = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.06, 0.1, 16), mountMat); mt.position.set(x, -0.3, z); motor.add(mt); }
+
+// AIP module: fuel-cell stack + liquid oxygen tank (inside), hydrogen storage cylinders (between the hulls)
+const aip = new THREE.Group(); aip.position.set(-2.15, 0, 0); inner.add(aip);
+const stackMat = new THREE.MeshStandardMaterial({ color: '#b9c4cc', roughness: 0.3, metalness: 0.6 });
+const stackGlowMat = new THREE.MeshBasicMaterial({ color: C.red, transparent: true, opacity: 0, blending: THREE.AdditiveBlending, depthWrite: false });
+const stack = new THREE.Group(); stack.position.set(0.25, 0.06, -0.12); aip.add(stack);
+for (let i = 0; i < 18; i++) { const pl = new THREE.Mesh(new THREE.BoxGeometry(0.014, 0.2, 0.22), i % 2 ? stackMat : new THREE.MeshStandardMaterial({ color: '#3b434a', roughness: 0.5 }));
+  pl.position.x = -0.15 + i * 0.018; stack.add(pl); }
+{ const end1 = new THREE.Mesh(new THREE.BoxGeometry(0.03, 0.24, 0.26), new THREE.MeshStandardMaterial({ color: '#69747d', metalness: 0.6, roughness: 0.4 }));
+  end1.position.x = -0.17; const end2 = end1.clone(); end2.position.x = 0.17; stack.add(end1, end2);
+  const glow = new THREE.Mesh(new THREE.BoxGeometry(0.36, 0.215, 0.235), stackGlowMat); stack.add(glow); }
+const loxMat = new THREE.MeshStandardMaterial({ color: '#d8e4ea', roughness: 0.35, metalness: 0.15 });
+const lox = new THREE.Mesh(new THREE.CapsuleGeometry(0.13, 0.5, 8, 24), loxMat); lox.rotation.z = Math.PI / 2; lox.position.set(-0.32, 0.12, -0.18); aip.add(lox);
+const loxBand = new THREE.Mesh(new THREE.TorusGeometry(0.133, 0.008, 6, 40), new THREE.MeshBasicMaterial({ color: C.cool })); loxBand.rotation.y = Math.PI / 2; loxBand.position.set(-0.32, 0.12, -0.18); aip.add(loxBand);
+const h2Mat = new THREE.MeshStandardMaterial({ color: '#8d989f', roughness: 0.45, metalness: 0.7, emissive: C.red, emissiveIntensity: 0 });
+const h2 = new THREE.Group(); boat.add(h2);
+for (let i = 0; i < 9; i++) for (const s of [1, -1]) { const c = new THREE.Mesh(new THREE.CapsuleGeometry(0.035, 0.42, 4, 12), h2Mat);
+  c.rotation.z = Math.PI / 2; c.position.set(-3.0 + i * 0.12 * 0 + (i % 3) * 0.5, -0.5 - Math.floor(i / 3) * 0.06, s * (0.4 - Math.floor(i / 3) * 0.06)); h2.add(c); }
+const h2Line = flowLine([V(-2.5, -0.52, 0.32), V(-2.2, -0.45, 0.18), V(-2.0, -0.2, 0.0), V(-1.9, 0.0, -0.08)], new THREE.Color('#ffd9a0'), 0.01, false, 1.6, 12);
+const o2Line = flowLine([V(-2.2, 0.12, -0.18), V(-2.05, 0.18, -0.15), V(-1.95, 0.12, -0.12)], C.cool, 0.01, false, 1.6, 6);
+const currentLine = flowLine([V(-1.75, 0.0, -0.1), V(-1.65, -0.18, -0.05), V(-1.8, -0.3, 0.0), V(-2.6, -0.3, 0.02), V(-3.6, -0.25, 0.04), V(-3.95, -0.05, 0.02)], C.red, 0.012, false, 2.2, 14);
+const waterLine = flowLine([V(-1.82, -0.04, -0.2), V(-1.7, -0.14, -0.3), V(-1.55, -0.22, -0.32)], new THREE.Color('#6fb7d6'), 0.006, false, 1.0, 5);
+inner.add(h2Line, o2Line, currentLine, waterLine);
+
+// Bow sonar array (cylindrical staves), noise rings, sonar field, seabed, echo dots, track
+const sonarArr = new THREE.Group(); sonarArr.position.set(5.45, -0.05, 0); boat.add(sonarArr);
+const staveMat = new THREE.MeshStandardMaterial({ color: '#4a545c', roughness: 0.5, emissive: C.red, emissiveIntensity: 0 });
+for (let i = 0; i < 28; i++) { const a = i / 28 * Math.PI * 2; const st = new THREE.Mesh(new THREE.BoxGeometry(0.42, 0.022, 0.03), staveMat);
+  st.position.set(0, Math.cos(a) * 0.36, Math.sin(a) * 0.36); st.rotation.x = a; sonarArr.add(st); }
+
+function ringBoard(rough) {
+  return new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.ShaderMaterial({
+    transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, fog: false, side: THREE.DoubleSide,
+    uniforms: { uT: { value: 0 }, uAmt: { value: 0 }, uRough: { value: rough }, uSpeed: { value: 0.35 }, uIn: { value: 0 } },
+    vertexShader: `varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix*modelViewMatrix*vec4(position,1.0); }`,
+    fragmentShader: `uniform float uT,uAmt,uRough,uSpeed,uIn; varying vec2 vUv;
+      float h(float n){ return fract(sin(n)*43758.5453); }
+      void main(){ vec2 p = vUv - 0.5; float r = length(p)*2.0; float a = atan(p.y, p.x);
+        float j = uRough * (0.012*sin(a*23.0 + uT*9.0) + 0.009*sin(a*41.0 - uT*13.0) + 0.012*sin(a*7.0+uT*5.0));
+        float ph = (r + j) * 4.5 + (uIn > 0.5 ? uT : -uT) * uSpeed * 4.5;
+        float ring = pow(abs(sin(ph*3.14159)), mix(140.0, 50.0, uRough));
+        float env = smoothstep(0.95, 0.35, r) * smoothstep(0.05, 0.14, r);
+        gl_FragColor = vec4(mix(vec3(0.62,0.85,1.0), vec3(1.0,0.55,0.5), uRough*0.5) * ring * env * uAmt, 1.0); }`,
+  }));
+}
+const noiseRings = ringBoard(1.0); noiseRings.position.set(-6.4, 0, 0); noiseRings.scale.setScalar(3.2); noiseRings.renderOrder = 10; boat.add(noiseRings);
+const sonarField = new THREE.Mesh(new THREE.PlaneGeometry(60, 60), new THREE.ShaderMaterial({
+  transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, fog: false, side: THREE.DoubleSide,
+  uniforms: { uT: { value: 0 }, uAmt: { value: 0 }, uSrc: { value: new THREE.Vector2(26, -20) } },
+  vertexShader: `varying vec3 vL; void main(){ vL = position; gl_Position = projectionMatrix*modelViewMatrix*vec4(position,1.0); }`,
+  fragmentShader: `uniform float uT,uAmt; uniform vec2 uSrc; varying vec3 vL;
+    void main(){ vec2 p = vL.xy; float d = length(p - uSrc); float ph = d*0.55 - uT*2.2;
+      float ring = pow(abs(sin(ph*3.14159)), 140.0);
+      vec2 dir = normalize(-uSrc); float cone = smoothstep(0.75, 0.97, dot(normalize(p - uSrc), dir));
+      float near = smoothstep(26.0, 9.0, length(p)) * smoothstep(0.8, 2.0, length(p - vec2(5.5,0.0)));
+      gl_FragColor = vec4(vec3(0.6,0.86,1.0) * ring * cone * near * uAmt * 0.32, 1.0); }`,
+}));
+sonarField.rotation.x = -Math.PI / 2; sonarField.position.y = -0.05; sonarField.renderOrder = 6; scene.add(sonarField);
+const seabedY = (x, z) => -6.4 + fbm(x * 0.07 + 3.1, z * 0.07 + 1.7) * 4.2 - 1.2 + Math.max(0, -z - 6) * 0.05;
+const seabed = (() => { const g = new THREE.PlaneGeometry(220, 110, 220, 110); g.rotateX(-Math.PI / 2);
+  const p = g.attributes.position; for (let i = 0; i < p.count; i++) p.setY(i, seabedY(p.getX(i), p.getZ(i)));
+  g.computeVertexNormals();
+  const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ color: '#5d7378', roughness: 0.95, metalness: 0, transparent: true, opacity: 0 }));
+  scene.add(m); return m; })();
+const echoGeo = new THREE.BufferGeometry(); {
+  const n = 520, pos = new Float32Array(n * 3), r = new Float32Array(n);
+  for (let i = 0; i < n; i++) { const d = 6 + hash(i * 3.3) * 26, a = (hash(i * 7.7) - 0.5) * 0.9; const x = 5 + Math.cos(a) * d, z = Math.sin(a) * d;
+    pos[3 * i] = x; pos[3 * i + 2] = z; pos[3 * i + 1] = 0; r[i] = (d - 6) / 26 * 0.8 + hash(i * 5.1) * 0.2; }
+  echoGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3)); echoGeo.setAttribute('aR', new THREE.BufferAttribute(r, 1)); }
+const echo = new THREE.Points(echoGeo, pointsMat(C.cool, 1.0, {
+  uniforms: { uFrac: { value: 0 }, uScroll: { value: 0 } },
+  vertex: `attribute float aR; uniform float uSize,uFrac,uScroll; varying float vA;
+    void main(){ vec3 p = position; vec4 mv = modelViewMatrix*vec4(p,1.0); gl_Position = projectionMatrix*mv;
+      gl_PointSize = uSize * 22.0 / max(-mv.z, 1.0); vA = smoothstep(uFrac, uFrac - 0.08, aR); }`,
+})); echo.frustumCulled = false; scene.add(echo);
+const track = flowLine([V(6.6, -0.2, 0), V(12, -0.4, 0.6), V(18, -0.6, 2.0), V(26, -0.8, 4.2), V(34, -1.0, 6.5)], new THREE.Color('#e6f4ff'), 0.02, false, 0.8, 26);
+track.material.uniforms.uCol.value.multiplyScalar(0.6); scene.add(track);
+
+// ------------------------------------------------------------------ look (buildLook chain: AgX, bloom, vignette, grain, msaa)
+const LOOK = {
+  palette: ['#020b14', '#0b3a5c', '#15191d', '#9ec3d9', '#e3232c'],
+  post: { tone: 'AGX', saturation: 0.06, contrast: 0.06, brightness: 0.07, msaa: +(q.get('msaa') ?? 4),
+    bloom: { threshold: 0.62, smoothing: 0.25, intensity: 0.9, radius: 0.72 },
+    vignette: { offset: 0.32, darkness: 0.62 }, grain: { intensity: 0.035, size: 1.3 } },
+};
+
+// ------------------------------------------------------------------ the timeline: every state from t
+const camPos = new THREE.Vector3(), camTgt = new THREE.Vector3();
+let viewShift = 0.08;      // subject held above centre: lower-middle stays free for subtitles
+function shot(t) {
+  const c = chapterOf(t), u = (t - CH[c]) / (CH[c + 1] - CH[c]), e = ease(u);
+  let fov = 48; viewShift = 0.08;
+  switch (c) {
+    case 0: { // hook: bow comes down toward a low camera, the surface bright behind; the camera follows the descent
+      { const k = ease(u * 0.95), mid = V(9.0, 0.6, 6.0);
+        camPos.copy(vl(vl(V(6.0, 3.2, 5.2), mid, k), vl(mid, V(5.6, -3.0, 7.8), k), k)); }
+      camTgt.copy(vl(V(0.6, -0.6, 0), V(-0.2, 0.3, 0), ease(clamp(u * 1.2)))); fov = lerp(52, 44, e); viewShift = 0.04; break; }
+    case 1: { // pressure hull: high orbit from the bow quarter toward the side section
+      camPos.copy(vl(V(8.2, 2.9, 4.6), V(3.4, 1.5, 6.2), ease(clamp(u * 1.05)))); camTgt.copy(vl(V(-1.2, -0.2, 0), V(-0.6, -0.15, 0), e)); fov = lerp(44, 40, e); break; }
+    case 2: { // breathing: inside, three-quarter view down the compartment
+      camPos.copy(vl(V(1.42, 0.36, 1.35), V(0.98, 0.2, 0.66), ease(clamp(u * 1.1)))); camTgt.copy(vl(V(-0.35, 0.0, -0.25), V(-0.45, 0.03, -0.25), e)); fov = 56; viewShift = 0.05; break; }
+    case 3: { // life support: truck along the compartment, O2 unit to scrubber
+      camPos.copy(vl(V(1.42, 0.3, 1.05), V(0.05, 0.26, 0.95), e)); camTgt.copy(vl(V(0.7, 0.0, -0.25), V(-0.72, -0.02, -0.25), e)); fov = 56; viewShift = 0.05; break; }
+    case 4: { // energy: low view from aft and below, the battery rows recede forward
+      camPos.copy(vl(V(-8.0, -2.3, 3.0), V(-9.4, -1.5, 4.6), e)); camTgt.copy(vl(V(-0.6, -0.35, 0), V(0.6, -0.3, 0), e)); fov = 42; break; }
+    case 5: { // AIP: crane down from above the module to its side
+      camPos.copy(vl(V(-0.9, 4.4, 3.0), V(-4.1, 0.95, 3.1), ease(clamp(u * 1.15)))); camTgt.copy(vl(V(-2.1, -0.15, 0), V(-2.1, -0.05, -0.1), e)); fov = lerp(44, 50, e); break; }
+    case 6: { // quiet propulsion: stern quarter, motor and propulsor in one frame
+      camPos.copy(vl(V(-9.6, 1.3, 3.5), V(-9.1, 0.5, 4.3), e)); camTgt.copy(vl(V(-5.4, 0, 0), V(-5.0, 0, 0), e)); fov = 48; viewShift = 0.06; break; }
+    case 7: { // navigation: high wide from astern over the seabed, tracking forward
+      camPos.copy(vl(V(-11, 6.6, 9.0), V(-7.0, 4.4, 10.5), e)); camTgt.copy(vl(V(4, -1.8, 0), V(7, -1.4, 0.5), e)); fov = 50; viewShift = 0.08; break; }
+    case 8: { // reveal: from below the bow quarter, the boat across the frame; dark, then rim light
+      camPos.copy(vl(V(11.0, -1.6, 7.4), V(9.4, -0.7, 9.0), e)); camTgt.set(0.0, 0.3, 0); fov = 44; viewShift = 0.0; break; }
+    default: { // ending: wide, locked, slow drift; negative space above
+      camPos.copy(vl(V(-6.0, -5.0, 17.0), V(-5.4, -4.7, 16.8), u)); camTgt.set(0.5, -0.6, 0); fov = 50; viewShift = -0.06; break; }
+  }
+  camera.fov = fov; camera.position.copy(camPos); camera.lookAt(camTgt);
+  camera.setViewOffset(W, H * (1 + 2 * Math.abs(viewShift)), 0, viewShift > 0 ? 2 * viewShift * H : 0, W, H);
+  camera.updateProjectionMatrix();
+  return c;
+}
+
+// Plot values over the whole film (each a pure function of t)
+const casingSolid = (t) => 1 - ss(7.4, 9.4, t) + ss(63.2, 65.2, t);
+const insideAmt = (t) => ss(8.2, 10.0, t) * (1 - ss(63.0, 64.6, t));
+const o2Frac = (t) => t < 22 ? lerp(1.0, 0.32, ss(14.2, 21.6, t)) : lerp(0.32, 0.9, ss(24.2, 29.0, t));
+const co2Frac = (t) => t < 22 ? lerp(0.05, 0.85, ss(14.2, 21.6, t)) : lerp(0.85, 0.12, ss(24.2, 29.0, t));
+const charge = (t) => { if (t < 30.8) return 1; if (t < 42.8) return lerp(1, 0.3, ss(30.8, 41.0, t)); return lerp(0.3, 0.26, ss(42.8, 47, t)); };
+function depthT(t) { return t < 7 ? lerp(0.0, 1.0, ss(0, 7.5, t)) : 1; }
+
+function setTime(t) {
+  const c = shot(t);
+  // water: surface height above the boat (it sinks in S01), brightness falls with depth
+  const sink = t < 7 ? lerp(4.1, 16, ease(t / 7.4)) : (c >= 9 ? 12 : 30);
+  surface.position.y = sink; surface.material.uniforms.uT.value = t;
+  surface.material.uniforms.uAmt.value = c === 0 ? 1 - ss(5.0, 7.0, t) * 0.7 : (c >= 9 ? 0.6 : 0);
+  const dark = c === 8 ? win(t, 63.6, 65.8, 0.9) * 0.85 : 0;
+  dome.material.uniforms.uBright.value = (c === 0 ? lerp(1.4, 1.0, ss(0, 7, t)) : c >= 9 ? 1.1 : 0.8) * (1 - dark);
+  dome.material.uniforms.uDark.value = dark;
+  const fogD = [0.018, 0.022, 0.015, 0.015, 0.024, 0.022, 0.028, 0.016, 0.03, 0.03][c] + dark * 0.05;
+  scene.fog.density = fogD;
+  scene.fog.color.copy(C.mid).multiplyScalar((c === 0 ? lerp(1.3, 0.8, ss(0, 7, t)) : 0.75) * (1 - dark));
+  const rayAmt = (c === 0 ? 1.3 : c === 7 ? 0.7 : c >= 8 ? 1.0 - dark : 0.45);
+  for (const m of RAYS) { const d = m.userData; m.visible = !d.hidden; m.position.set(d.x, sink - 35, d.z);
+    m.rotation.set(0, Math.atan2(camera.position.x - d.x, camera.position.z - d.z), d.tilt);
+    m.material.uniforms.uT.value = t; m.material.uniforms.uAmt.value = rayAmt; }
+  // marine snow drifts aft (boat moving) and up (boat sinking in S01)
+  const drift = V(-0.55 * t, -0.9 * Math.min(t, 7) + 6.3 + (t > 7 ? 0 : 0), 0);
+  drift.y = t < 7 ? 1.4 * t : 9.8 + 0.05 * (t - 7);
+  snow.material.uniforms.uOff.value.copy(drift); snow.material.uniforms.uCam.value.copy(camera.position);
+  snow.material.uniforms.uT.value = t; snow.material.uniforms.uAmt.value = c === 2 || c === 3 ? 0.35 : 1.0;
+
+  // boat: gentle pitch while sinking, slow drift forward at the end
+  boat.rotation.set(0, 0, t < 7 ? lerp(-0.14, -0.04, ss(0, 7.5, t)) : 0);
+  boat.position.set(c >= 9 ? (t - 69) * 0.12 : 0, Math.sin(t * 0.4) * 0.03, 0);
+  const sol = casingSolid(t);
+  solidMat.opacity = sol; solidMat.depthWrite = sol > 0.98; solidMat.transparent = sol < 0.999;
+  propMat.opacity = 1;
+  for (const g of GHOSTS) g.material.uniforms.uAmt.value = (1 - sol) * 0.55 * (c === 2 || c === 3 ? 0.12 : 1);
+  masts.visible = c >= 8; masts.position.y = c >= 8 ? lerp(-0.5, 0, ss(65.6, 67.6, t)) : -0.5;
+  masts.children.forEach((m) => { m.material = solidMat; });
+  // pressure arrows (S01)
+  const arr = win(t, 3.0, 7.0, 0.8);
+  arrowMat.opacity = arr * 0.85;
+  arrows.children.forEach((g) => { const push = 1.55 - 0.35 * ss(3.0, 6.0, t) - 0.04 * Math.sin(t * 5 + g.userData.a);
+    g.position.set(g.userData.x, Math.sin(g.userData.a) * -0 , 0); g.children.forEach((m) => { m.position.y = 0; });
+    g.rotation.x = g.userData.a; g.scale.setScalar(1); g.children[0].position.y = push - 0.32; g.children[1].position.y = push - 0.32; });
+  arrows.visible = arr > 0.001;
+
+  // inside: cutaway opens in S02 and stays open until S09
+  const ins = insideAmt(t);
+  inner.visible = ins > 0.001;
+  cutPlane.constant = lerp(0.75, 0.0, ss(8.4, 10.6, t));
+  phMat.opacity = ins; pGhost.material.uniforms.uAmt.value = ins * 0.5 * (c === 2 || c === 3 ? 0 : 1);
+  frameMat.opacity = ins;
+  const sweep = lerp(-4.4, 4.4, ss(10.3, 13.2, t)), redOn = win(t, 10.0, 14.2, 0.6);
+  frameGlows.forEach((g, i) => { g.material.opacity = redOn * Math.exp(-Math.pow((frameXs[i] - sweep) / 0.7, 2)) * 0.95 + redOn * 0.12; });
+  const interior = ss(11.6, 13.6, t) * ins;
+  INT.forEach((m) => { m.opacity = interior; });
+  crewMat.opacity = interior * ss(12.4, 14, t);
+  screenMat.opacity = interior * 0.95;
+  practical.intensity = interior * (c <= 3 ? 6.0 : 1.2); practical2.intensity = ss(37.5, 40, t) * ins * 1.6;
+  crew.forEach((g) => { const b = 1 + 0.045 * Math.sin(t * 2 * Math.PI / 3.6 + g.userData.phase) * (c === 2 ? 1.6 : 1);
+    g.userData.torso.scale.set(b, 1 + (b - 1) * 0.4, b); });
+  const airOn = win(t, 13.6, 30.0, 0.5) * ins;
+  o2Pts.material.uniforms.uAmt.value = airOn * 0.8; co2Pts.material.uniforms.uAmt.value = airOn * 0.9;
+  o2Pts.material.uniforms.uFrac.value = o2Frac(t); co2Pts.material.uniforms.uFrac.value = co2Frac(t);
+  o2Pts.material.uniforms.uSink.value.copy(O2POS); o2Pts.material.uniforms.uPull.value = t > 22 ? 1 : 0;
+  co2Pts.material.uniforms.uSink.value.copy(SCRUBPOS); co2Pts.material.uniforms.uPull.value = t > 22 ? 1 : 0;
+  o2Pts.material.uniforms.uT.value = t; co2Pts.material.uniforms.uT.value = t;
+  // life support slides in from above (and stays)
+  const inst = ease(ss(22.4, 24.6, t)), inst2 = ease(ss(23.0, 25.2, t));
+  o2Unit.position.copy(O2POS).add(V(0, lerp(1.2, 0, inst), 0)); scrub.position.copy(SCRUBPOS).add(V(0, lerp(1.2, 0, inst2), 0));
+  o2Unit.visible = scrub.visible = t > 22.3;
+  unitEdge.opacity = win(t, 23.8, 30.0, 0.6) * 0.9;
+  airflow.material.uniforms.uGrow.value = ss(24.6, 26.4, t); airflow.material.uniforms.uAmt.value = win(t, 24.6, 30, 0.5) * 1.1;
+  airflow.material.uniforms.uT.value = t;
+  // batteries
+  cells.visible = tops.visible = t > 29.6;
+  const ch = charge(t), batFocus = win(t, 30.0, 47.0, 0.6), batVis = ss(29.6, 31.0, t) * ins;
+  for (let k = 0; k < NB * NR; k++) { const i = Math.floor(k / NR), on = clamp((ch - i / NB) * NB * 0.7 + 0.5);
+    const glow = on * (0.15 + 0.85 * batFocus) * batVis;
+    tops.setColorAt(k, new THREE.Color(0.55 * glow, 0.85 * glow, 1.0 * glow)); }
+  tops.instanceColor.needsUpdate = true;
+  powerLine.material.uniforms.uGrow.value = ss(31.0, 32.4, t); powerLine.material.uniforms.uAmt.value = win(t, 31, 55, 0.6) * ins * 0.9;
+  powerLine.material.uniforms.uT.value = t;
+  motorMat.opacity = ins;
+  // AIP: module slides in from the side, hydrogen storage lights, flows, current to batteries and motor
+  const aipIn = ease(ss(37.6, 40.2, t));
+  aip.position.set(-2.15, 0, lerp(3.5, 0, aipIn)); aip.visible = t > 37.5 && ins > 0.001;
+  h2.visible = t > 39.5; h2Mat.emissiveIntensity = win(t, 40.0, 47.0, 0.8) * 0.9;
+  const fl = (m, a, b, endT = 63) => { m.material.uniforms.uGrow.value = ss(a, b, t); m.material.uniforms.uAmt.value = win(t, a, endT, 0.6) * ins; m.material.uniforms.uT.value = t; };
+  fl(h2Line, 41.0, 42.4, 47); fl(o2Line, 41.4, 42.4, 47); fl(currentLine, 42.8, 44.2, 47); fl(waterLine, 43.6, 44.6, 47);
+  stackGlowMat.opacity = win(t, 42.2, 47.0, 0.5) * (0.35 + 0.15 * Math.sin(t * 6.0));
+  // propulsion: shaft and propeller turn; noise rings rough, mounts light up, rings go faint
+  const rpm = c === 6 ? 1.6 : 0.9;
+  prop.rotation.x = -t * rpm; shaftMarks.rotation.x = -t * rpm;
+  mountMat.opacity = ins; mountMat.emissiveIntensity = win(t, 50.2, 55, 0.5) * 1.6;
+  const nr = noiseRings.material.uniforms;
+  nr.uT.value = t; nr.uRough.value = 1 - ss(51.0, 52.4, t); nr.uAmt.value = c === 6 ? lerp(0.32, 0.1, ss(51.0, 52.6, t)) * ss(47.4, 48.4, t) * (1 - ss(54.4, 55, t)) : 0;
+  noiseRings.visible = c === 6; noiseRings.lookAt(camera.position);
+  // navigation: seabed, passive arcs to the bow array, sparse echoes, dashed track
+  const nav = c === 7 ? 1 : 0;
+  seabed.visible = c === 7; seabed.material.opacity = ss(55, 56, t); seabed.position.x = 30 - (t - 55) * 1.1;
+  sonarField.visible = c === 7; sonarField.material.uniforms.uT.value = t; sonarField.material.uniforms.uAmt.value = win(t, 55.4, 63, 0.8);
+  staveMat.emissiveIntensity = nav * (0.4 + 0.8 * Math.pow(Math.max(0, Math.sin((t - 55) * 2.2 * 3.14159 * 0.55)), 6)) * win(t, 56, 63, 0.6);
+  echo.visible = c === 7; echo.material.uniforms.uFrac.value = lerp(0, 1.05, ss(56.4, 61.5, t)); echo.material.uniforms.uAmt.value = 1;
+  echo.position.set(seabed.position.x - 30, 0, 0);
+  { const p = echoGeo.attributes.position; if (!echoGeo.userData.y) { for (let i = 0; i < p.count; i++) p.setY(i, seabedY(p.getX(i) - 30, p.getZ(i)) + 0.05); p.needsUpdate = true; echoGeo.userData.y = 1; } }
+  track.visible = c === 7; fl(track, 57.4, 59.6, 63);
+  // light for the reveal: into darkness, then rim and key return
+  key.intensity = (c === 8 ? lerp(3.4, 0, dark) : c >= 9 ? 2.4 : 3.4);
+  rim.intensity = c === 8 ? lerp(1.4, 0.2, dark) + ss(65.4, 67, t) * 1.6 : c >= 9 ? 2.4 : 1.4;
+  hemi.intensity = (c === 0 ? lerp(2.4, 1.7, ss(0, 7, t)) : (1 - dark) * (c >= 2 && c <= 3 ? 1.0 : 1.7));
+  return c;
+}
+
+for (const n of (q.get('hide') || '').split(',').filter(Boolean)) ({ surface, dome, snow, boat, seabed, sonarField, echo, track }[n] || RAYS[0]).visible = false, (n === 'rays') && RAYS.forEach((m) => { m.userData.hidden = 1; });
+{ const pm = new THREE.PMREMGenerator(renderer); const es = new THREE.Scene();
+  const d2 = dome.clone(); d2.material = dome.material.clone(); d2.material.uniforms.uBright.value = 1.2; es.add(d2);
+  scene.environment = pm.fromScene(es, 0.02).texture; scene.environmentIntensity = 0.55; }
+const lk = buildLook({ renderer, scene, camera, look: LOOK, fps: FPS, seed: SEED, setTime });
+lk.toggle('bloom', true);
+
+// ------------------------------------------------------------------ 2D overlay: level bars, words, brand
+const TYPE = { lang: 'en', roles: {
+  display: { family: 'Saira', pkg: 'saira', version: '5.3.0', weights: [400, 700, 900], subsets: ['latin', 'latin-ext'] },
+  text: { family: 'Saira', pkg: 'saira', version: '5.3.0', weights: [400, 700, 900], subsets: ['latin', 'latin-ext'] }, mono: null },
+  check: { strings: { display: ['REIS CLASS', 'CAN IT STAY SUBMERGED', 'FOR WEEKS?'] }, sizes: { text: 0.042 } } };
+const out = document.createElement('canvas'); out.width = W; out.height = H; document.body.appendChild(out);
+const g2 = out.getContext('2d');
+const icon = new Image(); icon.src = ICON; const wordmark = new Image(); wordmark.src = WORDMARK;
+const imgReady = Promise.all([icon, wordmark].map((im) => im.decode()));
+
+function bar(x, y, w, h, frac, col, alpha) {
+  g2.globalAlpha = alpha * 0.22; g2.fillStyle = '#cfe6f5'; g2.fillRect(x, y, w, h);
+  g2.globalAlpha = alpha; g2.fillStyle = col; const fh = h * clamp(frac); g2.fillRect(x, y + h - fh, w, fh);
+  g2.globalAlpha = 1;
+}
+function words(text, y, size, alpha, rise, track = 0.08, weight = 700) {
+  g2.save(); g2.globalAlpha = alpha; g2.fillStyle = '#f2f6f8'; g2.textAlign = 'center'; g2.textBaseline = 'alphabetic';
+  g2.font = `${weight} ${Math.round(size)}px Saira, ${TYPE_FALLBACK.display}`;
+  if ('letterSpacing' in g2) g2.letterSpacing = `${(size * track).toFixed(1)}px`;
+  g2.shadowColor = 'rgba(0,0,0,0.55)'; g2.shadowBlur = size * 0.35;
+  g2.fillText(text, W / 2 + (size * track) / 2, y + rise); g2.restore();
+}
+function overlay(t, c) {
+  // air quality bars (S03-S04), battery bar (S05-S06): unlabeled; the narration names them
+  const air = win(t, 14.8, 29.6, 0.6), bat = win(t, 31.0, 46.6, 0.6);
+  const bx = W * 0.075, by = H * 0.16, bh = H * 0.2, bw = W * 0.014;
+  if (air > 0) { bar(bx, by, bw, bh, o2Frac(t), '#cdeeff', air); bar(bx + bw * 2.2, by, bw, bh, co2Frac(t), '#e3232c', air); }
+  if (bat > 0) { for (let s = 0; s < 10; s++) { const on = charge(t) * 10 - s;
+      g2.globalAlpha = bat * (on > 0.5 ? 0.95 : 0.2); g2.fillStyle = on > 0.5 ? '#bfe6ff' : '#cfe6f5';
+      g2.fillRect(bx, by + bh - (s + 1) * bh / 10 + bh * 0.012, bw * 1.6, bh / 10 - bh * 0.024); }
+    if (t > 42.8) { g2.globalAlpha = bat * win(t, 42.8, 46.6, 0.4); g2.fillStyle = '#e3232c'; g2.fillRect(bx - bw * 0.9, by + bh * 0.6, bw * 0.4, bh * 0.4); }
+    g2.globalAlpha = 1; }
+  // names, only at the end
+  if (c === 8) { const a = ss(66.2, 67.2, t); words('REIS CLASS', H * 0.205, W * 0.088, a, (1 - a) * H * 0.012, 0.14);
+    g2.globalAlpha = a * 0.9; g2.fillStyle = '#e3232c'; g2.fillRect(W / 2 - W * 0.05, H * 0.222, W * 0.1 * a, H * 0.0028); g2.globalAlpha = 1; }
+  if (c === 9) { const a = ss(70.2, 71.4, t), b = ss(71.0, 72.2, t);
+    words('CAN IT STAY SUBMERGED', H * 0.205, W * 0.072, a, (1 - a) * H * 0.01, 0.06);
+    words('FOR WEEKS?', H * 0.205 + W * 0.088, W * 0.072, b, (1 - b) * H * 0.01, 0.06);
+    const ww = W * 0.44, wh = ww * wordmark.height / wordmark.width, c2 = ss(72.4, 73.6, t);
+    g2.globalAlpha = c2; g2.drawImage(wordmark, W / 2 - ww / 2, H * 0.30, ww, wh); g2.globalAlpha = 1; }
+  // corner bug: the D icon, every chapter except the end card
+  const ia = 0.55 * (1 - ss(71.6, 72.6, t)) * ss(0.2, 1.0, t);
+  if (ia > 0) { const iw = W * 0.07, ih = iw * icon.height / icon.width; g2.globalAlpha = ia; g2.drawImage(icon, W * 0.065, H * 0.085, iw, ih); g2.globalAlpha = 1; }
+}
+
+window.renderFrame = (i) => {
+  const t = i / FPS;
+  lk.render(i, t);
+  g2.globalAlpha = 1; g2.drawImage(renderer.domElement, 0, 0);
+  overlay(t, chapterOf(t));
+};
+window.captureFrame = (i, type = 'image/png', quality = 0.95) => { window.renderFrame(i); return out.toDataURL(type, quality); };
+window.READY = loadType(TYPE).then(() => document.fonts.ready).then(() => imgReady).then(() => {
+  const qc = typeCheck(g2, TYPE, W, H, null);
+  if (qc.errors.length) throw new Error('type check: ' + qc.errors.join(' · '));
+  return { frames: FRAMES, fps: FPS, width: W, height: H, renderer: 'three.js r' + THREE.REVISION, qc: qc.warnings };
+});
+
+if (!q.get('capture')) {
+  let frame = 0, last = performance.now(), acc = 0;
+  const loop = (now) => { acc += now - last; last = now;
+    while (acc >= 1000 / FPS) { frame = (frame + 1) % FRAMES; acc -= 1000 / FPS; }
+    window.renderFrame(frame); requestAnimationFrame(loop); };
+  requestAnimationFrame(loop);
+}
+</script>
+</body>
+</html>
