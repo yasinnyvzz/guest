@@ -6,11 +6,11 @@ Method: this chat coordinates and builds what it holds the context for; a fresh 
 
 ## Resume here
 <!-- Updated at every gate and before every handoff. A new chat starts with "STATE.md'den devam et" / "Continue from STATE.md". -->
-- **Phase:** 6a draft v2 delivered, waiting for the user's notes or final
+- **Phase:** 6 final rendering (user: 'zayıf yerleri düzelt, sonra finale geç'; 0:12-0:16 and 0:26-0:30 fixed)
 - **Pace:** through (user: "Film modu, taslağa kadar")
 - **Approved gates:** none
 - **Open notes:** none (notes/round-N.md)
-- **Next action:** notes -> notes/round-1.md and targeted edits in engine/film.html; final -> full size 1080x1920 render (about 60-80 min on this CPU) with the swiftshader flags
+- **Next action:** when renders/film-v1.status.json is done: make.py check renders/film-v1-picture.mp4, qc.py hook/all, copy to <title>.mp4 at the film's top, poster, credits, deliver
 - **Budget so far:** <~estimate> of the <Balanced> ceiling (<n>%)
 
 ## Now
@@ -34,6 +34,7 @@ Method: this chat coordinates and builds what it holds the context for; a fresh 
 ## Running jobs
 | Job | Command (short) | PID | Status file | Log | Started |
 |---|---|---|---|---|---|
+| final v1 1080x1920 | capture.mjs --video renders/film-v1-picture.mp4 | see status | renders/film-v1.status.json | logs/film-v1.log | 2026-11-12 |
 | draft v2 picture 540x960 | capture.mjs engine/film.html --video renders/draft-v2-picture.mp4 | see logs/draft-v2.log | renders/draft-v2.status.json | logs/draft-v2.log | 2026-11-11 16:02 |
 
 ## Gates

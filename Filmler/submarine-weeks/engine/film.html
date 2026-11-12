@@ -452,11 +452,11 @@ function shot(t) {
         camPos.copy(vl(vl(V(6.0, 3.2, 5.2), mid, k), vl(mid, V(5.6, -3.0, 7.8), k), k)); }
       camTgt.copy(vl(V(0.6, -0.6, 0), V(-0.2, 0.3, 0), ease(clamp(u * 1.2)))); fov = lerp(52, 44, e); viewShift = 0.04; break; }
     case 1: { // pressure hull: high orbit from the bow quarter toward the side section
-      camPos.copy(vl(V(8.2, 2.9, 4.6), V(5.2, 2.0, 6.4), e)); camTgt.copy(vl(V(-1.2, -0.2, 0), V(-1.8, -0.2, 0), e)); fov = 44; break; }
+      camPos.copy(vl(V(8.2, 2.9, 4.6), V(3.4, 1.5, 6.2), ease(clamp(u * 1.05)))); camTgt.copy(vl(V(-1.2, -0.2, 0), V(-0.6, -0.15, 0), e)); fov = lerp(44, 40, e); break; }
     case 2: { // breathing: inside, three-quarter view down the compartment
-      camPos.copy(vl(V(1.42, 0.32, 1.2), V(1.12, 0.22, 0.8), e)); camTgt.copy(vl(V(-0.35, 0.0, -0.25), V(-0.45, 0.03, -0.25), e)); fov = 56; viewShift = 0.05; break; }
+      camPos.copy(vl(V(1.42, 0.36, 1.35), V(0.98, 0.2, 0.66), ease(clamp(u * 1.1)))); camTgt.copy(vl(V(-0.35, 0.0, -0.25), V(-0.45, 0.03, -0.25), e)); fov = 56; viewShift = 0.05; break; }
     case 3: { // life support: truck along the compartment, O2 unit to scrubber
-      camPos.copy(vl(V(1.42, 0.3, 1.05), V(-0.15, 0.32, 1.25), e)); camTgt.copy(vl(V(0.7, 0.0, -0.25), V(-1.0, 0.0, -0.25), e)); fov = 56; viewShift = 0.05; break; }
+      camPos.copy(vl(V(1.42, 0.3, 1.05), V(0.05, 0.26, 0.95), e)); camTgt.copy(vl(V(0.7, 0.0, -0.25), V(-0.72, -0.02, -0.25), e)); fov = 56; viewShift = 0.05; break; }
     case 4: { // energy: low view from aft and below, the battery rows recede forward
       camPos.copy(vl(V(-8.0, -2.3, 3.0), V(-9.4, -1.5, 4.6), e)); camTgt.copy(vl(V(-0.6, -0.35, 0), V(0.6, -0.3, 0), e)); fov = 42; break; }
     case 5: { // AIP: crane down from above the module to its side
@@ -479,8 +479,8 @@ function shot(t) {
 // Plot values over the whole film (each a pure function of t)
 const casingSolid = (t) => 1 - ss(7.4, 9.4, t) + ss(63.2, 65.2, t);
 const insideAmt = (t) => ss(8.2, 10.0, t) * (1 - ss(63.0, 64.6, t));
-const o2Frac = (t) => t < 22 ? lerp(1.0, 0.32, ss(14.8, 21.8, t)) : lerp(0.32, 0.9, ss(24.2, 29.0, t));
-const co2Frac = (t) => t < 22 ? lerp(0.05, 0.85, ss(14.8, 21.8, t)) : lerp(0.85, 0.12, ss(24.2, 29.0, t));
+const o2Frac = (t) => t < 22 ? lerp(1.0, 0.32, ss(14.2, 21.6, t)) : lerp(0.32, 0.9, ss(24.2, 29.0, t));
+const co2Frac = (t) => t < 22 ? lerp(0.05, 0.85, ss(14.2, 21.6, t)) : lerp(0.85, 0.12, ss(24.2, 29.0, t));
 const charge = (t) => { if (t < 30.8) return 1; if (t < 42.8) return lerp(1, 0.3, ss(30.8, 41.0, t)); return lerp(0.3, 0.26, ss(42.8, 47, t)); };
 function depthT(t) { return t < 7 ? lerp(0.0, 1.0, ss(0, 7.5, t)) : 1; }
 
@@ -538,7 +538,7 @@ function setTime(t) {
   practical.intensity = interior * (c <= 3 ? 6.0 : 1.2); practical2.intensity = ss(37.5, 40, t) * ins * 1.6;
   crew.forEach((g) => { const b = 1 + 0.045 * Math.sin(t * 2 * Math.PI / 3.6 + g.userData.phase) * (c === 2 ? 1.6 : 1);
     g.userData.torso.scale.set(b, 1 + (b - 1) * 0.4, b); });
-  const airOn = win(t, 14.3, 30.0, 0.8) * ins;
+  const airOn = win(t, 13.6, 30.0, 0.5) * ins;
   o2Pts.material.uniforms.uAmt.value = airOn * 0.8; co2Pts.material.uniforms.uAmt.value = airOn * 0.9;
   o2Pts.material.uniforms.uFrac.value = o2Frac(t); co2Pts.material.uniforms.uFrac.value = co2Frac(t);
   o2Pts.material.uniforms.uSink.value.copy(O2POS); o2Pts.material.uniforms.uPull.value = t > 22 ? 1 : 0;
