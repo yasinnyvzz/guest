@@ -1,0 +1,54 @@
+{
+ "lines": [
+  {
+   "id": "VO1",
+   "text": "Deep down, the sea presses in from every side. How does a submarine stay there for weeks?",
+   "style": "calm, confident documentary narrator; clear and measured, low warmth, no hype"
+  },
+  {
+   "id": "VO2",
+   "text": "First, a pressure hull. Thick steel, braced by ring frames, keeps the crew's world at surface pressure.",
+   "style": "calm, confident documentary narrator; clear and measured, low warmth, no hype"
+  },
+  {
+   "id": "VO3",
+   "text": "But a sealed hull has a problem. Every breath uses oxygen and adds carbon dioxide to the air.",
+   "style": "calm, confident documentary narrator; clear and measured, low warmth, no hype"
+  },
+  {
+   "id": "VO4",
+   "text": "So the boat carries its own life support: an oxygen supply, and scrubbers that pull carbon dioxide out of the air.",
+   "style": "calm, confident documentary narrator; clear and measured, low warmth, no hype"
+  },
+  {
+   "id": "VO5",
+   "text": "Underwater, the motor runs on batteries. And every hour submerged drains them.",
+   "style": "calm, confident documentary narrator; clear and measured, low warmth, no hype"
+  },
+  {
+   "id": "VO6",
+   "text": "Air independent propulsion stretches that time. Fuel cells turn stored hydrogen and oxygen into electricity and water, with no air from the surface.",
+   "style": "calm, confident documentary narrator; clear and measured, low warmth, no hype"
+  },
+  {
+   "id": "VO7",
+   "text": "The electric motor turns the propeller quietly. Isolation mounts keep machinery noise from reaching the water.",
+   "style": "calm, confident documentary narrator; clear and measured, low warmth, no hype"
+  },
+  {
+   "id": "VO8",
+   "text": "To find its way, it listens. Passive sonar picks up distant sounds, while navigation systems track every move.",
+   "style": "calm, confident documentary narrator; clear and measured, low warmth, no hype"
+  },
+  {
+   "id": "VO9",
+   "text": "Put it all together, and you get Türkiye's Reis class, derived from the Type 214.",
+   "style": "calm, confident documentary narrator; clear and measured, low warmth, no hype"
+  },
+  {
+   "id": "VO10",
+   "text": "Its endurance depends on energy, supplies and its crew. So, can it stay submerged for weeks?",
+   "style": "calm, confident documentary narrator; clear and measured, low warmth, no hype"
+  }
+ ]
+}
