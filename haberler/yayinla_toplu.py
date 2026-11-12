@@ -2,7 +2,8 @@
 """Bir haber klasörünü üç siteye yavaşça ve kaldığı yerden devam edecek şekilde yükler.
 
 Klasör düzeni: <klasör>/haber.json + icerik.html + kapak.png (TR), alt klasörler en/ ar/ es/ ru/
-(Envanter), defencearabia/ (AR), defencemena/ (EN). Olmayan alt klasör atlanır.
+(Envanter), defencearabia/ (AR), defencearabia-en/, defencemena/ (EN), defencemena-ar/.
+Arap sitelerinde dil ataması (varsa çok dilli eklenti) yükleme sonrası elle doğrulanır. Olmayan alt klasör atlanır.
 
 Kimlik: oturum vekili ekliyorsa gerekmez; yoksa EV_AUTH / DA_AUTH / MENA_AUTH ("kullanıcı:uygulama parolası").
 
@@ -141,7 +142,10 @@ if __name__ == "__main__":
     print(ROOT.name)
     try:
         if "ev" in SITES: envanter()
-        if "da" in SITES: tek("da", "defencearabia", None)
-        if "mena" in SITES: tek("mena", "defencemena", [int(x) for x in opt["mena-kat"].split(",")] if opt.get("mena-kat") else None)
+        if "da" in SITES:
+            for sub in ("defencearabia", "defencearabia-en"): tek("da", sub, None)
+        if "mena" in SITES:
+            kat = [int(x) for x in opt["mena-kat"].split(",")] if opt.get("mena-kat") else None
+            for sub in ("defencemena", "defencemena-ar"): tek("mena", sub, kat)
     except RuntimeError as e:
         sys.exit(f"DURDU: {e}")
