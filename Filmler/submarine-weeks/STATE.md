@@ -6,11 +6,11 @@ Method: this chat coordinates and builds what it holds the context for; a fresh 
 
 ## Resume here
 <!-- Updated at every gate and before every handoff. A new chat starts with "STATE.md'den devam et" / "Continue from STATE.md". -->
-- **Phase:** 6 final rendering (user: 'zayıf yerleri düzelt, sonra finale geç'; 0:12-0:16 and 0:26-0:30 fixed)
+- **Phase:** 6 final delivered (film-v1)
 - **Pace:** through (user: "Film modu, taslağa kadar")
 - **Approved gates:** none
 - **Open notes:** none (notes/round-N.md)
-- **Next action:** when renders/film-v1.status.json is done: make.py check renders/film-v1-picture.mp4, qc.py hook/all, copy to <title>.mp4 at the film's top, poster, credits, deliver
+- **Next action:** ask clean-up of intermediate files, then the save-format question
 - **Budget so far:** <~estimate> of the <Balanced> ceiling (<n>%)
 
 ## Now
@@ -28,13 +28,12 @@ Method: this chat coordinates and builds what it holds the context for; a fresh 
 - **Sound:** silent by choice (user brief: no VO, no music; editor adds Turkish narration later)
 - **Type:** Saira 700/400 (OFL), caps, end card only; echoes the Defence MENA wordmark
 - **Subtitles:** off
-- **Last output:** renders/Denizalti-Haftalarca-draft.mp4 (= draft-v2, checks passed)
+- **Last output:** How-Can-A-Submarine-Stay-Underwater-For-Weeks.mp4 (1080x1920, 30 fps, 76 s, silent, 94 MB)
 - **Disk free at last check:** <GB, date>
 
 ## Running jobs
 | Job | Command (short) | PID | Status file | Log | Started |
 |---|---|---|---|---|---|
-| final v1 1080x1920 | capture.mjs --video renders/film-v1-picture.mp4 | see status | renders/film-v1.status.json | logs/film-v1.log | 2026-11-12 |
 | draft v2 picture 540x960 | capture.mjs engine/film.html --video renders/draft-v2-picture.mp4 | see logs/draft-v2.log | renders/draft-v2.status.json | logs/draft-v2.log | 2026-11-11 16:02 |
 
 ## Gates
