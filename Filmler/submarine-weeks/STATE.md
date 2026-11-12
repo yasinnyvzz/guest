@@ -6,11 +6,11 @@ Method: this chat coordinates and builds what it holds the context for; a fresh 
 
 ## Resume here
 <!-- Updated at every gate and before every handoff. A new chat starts with "STATE.md'den devam et" / "Continue from STATE.md". -->
-- **Phase:** 6 final delivered (film-v1)
+- **Phase:** 6 final delivered + English VO version (Kokoro bm_george, 1.1x, clean/dry)
 - **Pace:** through (user: "Film modu, taslağa kadar")
 - **Approved gates:** none
 - **Open notes:** none (notes/round-N.md)
-- **Next action:** ask clean-up of intermediate files, then the save-format question
+- **Next action:** none; waiting for the user. Kokoro script: logs/kokoro_tts.py, line times audio/vo-plan.json
 - **Budget so far:** <~estimate> of the <Balanced> ceiling (<n>%)
 
 ## Now
@@ -28,7 +28,7 @@ Method: this chat coordinates and builds what it holds the context for; a fresh 
 - **Sound:** silent by choice (user brief: no VO, no music; editor adds Turkish narration later)
 - **Type:** Saira 700/400 (OFL), caps, end card only; echoes the Defence MENA wordmark
 - **Subtitles:** off
-- **Last output:** How-Can-A-Submarine-Stay-Underwater-For-Weeks.mp4 (1080x1920, 30 fps, 76 s, silent, 94 MB)
+- **Last output:** How-Can-A-Submarine-Stay-Underwater-For-Weeks-EN-VO.mp4 (+ silent version, + VO-only WAV)
 - **Disk free at last check:** <GB, date>
 
 ## Running jobs
