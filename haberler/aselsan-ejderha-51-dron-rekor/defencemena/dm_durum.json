@@ -1,0 +1,21 @@
+{
+  "media": {
+    "sistem": {
+      "id": 7691,
+      "url": "https://defencemena.com/wp-content/uploads/2026/11/aselsan-ejderha-sistem-saha.jpg"
+    },
+    "akyol-anten": {
+      "id": 7692,
+      "url": "https://defencemena.com/wp-content/uploads/2026/11/aselsan-ejderha-akyol-anten.jpg"
+    },
+    "akyol-saha": {
+      "id": 7693,
+      "url": "https://defencemena.com/wp-content/uploads/2026/11/aselsan-ejderha-akyol-saha.jpg"
+    }
+  },
+  "posts": {
+    "en": 7694,
+    "fr": 7695,
+    "pt": 7696
+  }
+}
