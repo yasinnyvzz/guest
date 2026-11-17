@@ -1,0 +1,2794 @@
+{
+ "kontrol_tarihi": "2026-11-17",
+ "kaynak": "https://mke.gov.tr/urunsatis",
+ "tabanca": {
+  "yerli": {
+   "ASELKON": [
+    {
+     "ad": "9X19 MM ASELKON AS P9 YELLOW TABANCA",
+     "fiyat": 10500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM ASELKON AS P9 BLACK TABANCA",
+     "fiyat": 10500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM ASELKON AS P9 MILITARY GREEN TABANCA",
+     "fiyat": 10500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM ASELKON AS P9 TWO-TONE MIL.GR./BLC.TABANCA",
+     "fiyat": 10500.0,
+     "para": "TL"
+    }
+   ],
+   "ATA ARMS": [
+    {
+     "ad": "9X19 MM ATA ARMS ATA 9 FDE DUO TABANCA",
+     "fiyat": 16250.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM ATA ARMS ATA 9 SİYAH TABANCA",
+     "fiyat": 15600.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM ATA ARMS ATA 9 FDE TABANCA",
+     "fiyat": 16770.0,
+     "para": "TL"
+    }
+   ],
+   "BALIKLI SİLAH": [
+    {
+     "ad": "9X19 MM BALIKLI BLK SPORT TABA TABANCA",
+     "fiyat": 40000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP  BALIKLI BLK45 SPORT TABA TABANCA",
+     "fiyat": 40000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM  BALIKLI BLK K1911 MAT SİYAH TABANCA",
+     "fiyat": 23000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP.  BALIKLI BLK K1911A1  MAT SİYAH TABANCA",
+     "fiyat": 23000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP.  BALIKLI BLK K1911A1  BEYAZ TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM  BALIKLI BLK K1911 NİKEL BEYAZ TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP.  BALIKLI BLK K1911A1 NİKEL  BEYAZ TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM  BALIKLI BLK K1911 BEYAZ TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM BALIKLI BLK1911 NİKEL BEYAZ TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM BALIKLI BLK1911 BEYAZ TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM BALIKLI BLK1911 SİYAH TABANCA",
+     "fiyat": 23000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. BALIKLI BLK45-1911 BEYAZ TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. BALIKLI BLK45-1911 SİYAH TABANCA",
+     "fiyat": 23000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. BALIKLI BLK45-1911 NİKEL BEYAZ TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM  BALIKLI BLK K1911 PARLAK SİYAH TABANCA",
+     "fiyat": 23000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP.  BALIKLI BLK K1911A1  PARLAK SİYAH TABANCA",
+     "fiyat": 23000.0,
+     "para": "TL"
+    }
+   ],
+   "BALİSTİK DEFENCE": [
+    {
+     "ad": "45 ACP BS BALISTIK DEFENCE ADAM 45S FIREBALL TAB.",
+     "fiyat": 59500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM BS BALISTIK DEFENCE ADAM 9S BLACK TAB.",
+     "fiyat": 26500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. BS BALISTIK DEFENCE ADAM 45F MESOPOTAMIA TB",
+     "fiyat": 81000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. BS BALISTIK DEFENCE ADAM 45B LEAD TAB.",
+     "fiyat": 52500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. BS BALISTIK DEFENCE ADAM 45M BLACK TAB.",
+     "fiyat": 26500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP BS BALISTIK DEFENCE ADAM 45F OTTOMAN TAB.",
+     "fiyat": 84500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. BS BALISTIK DEFENCE ADAM 45F TITAN TAB.",
+     "fiyat": 81000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP.BS BALISTIK DEFENCE ADAM 45B BLACK TAB.",
+     "fiyat": 26500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM BS BALISTIK DEFENCE ADAM 9S WHITE TAB.",
+     "fiyat": 28000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. BS BALISTIK DEFENCE ADAM 45S WHITE TAB.",
+     "fiyat": 28000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM BS BALISTIK DEFENCE ADAM 9B BLACK TB.",
+     "fiyat": 26500.0,
+     "para": "TL"
+    }
+   ],
+   "BARAK": [
+    {
+     "ad": "9X19 MM BARAK MTX9 CLASSIC SİYAH TABANCA",
+     "fiyat": 10500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM BARAK MTX9 CLASSIC FDE (ÇÖL) TABANCA",
+     "fiyat": 11500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM BARAK MTX9 CLASSIC ODG(HAKİ) TABANCA",
+     "fiyat": 11500.0,
+     "para": "TL"
+    }
+   ],
+   "BAYS": [
+    {
+     "ad": "9X19 MM BAYS 22 SIYAH TABANCA",
+     "fiyat": 22000.0,
+     "para": "TL"
+    }
+   ],
+   "BRG9": [
+    {
+     "ad": "9X19 MM  BRG9 FD 3\" (SİYAH PRİVATE) TABANCA",
+     "fiyat": 15000.0,
+     "para": "TL"
+    }
+   ],
+   "CANİK": [
+    {
+     "ad": "9X19 MM CANİK METE MC9 TAC SİYAH TABANCA",
+     "fiyat": 35500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC 9 SAHRA TABANCA",
+     "fiyat": 30500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SFX SİYAH MAT TABANCA",
+     "fiyat": 20500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC9 TAC DUAL SAHRA TABANCA",
+     "fiyat": 35500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP9 TTI COMBAT BRONZ TABANCA",
+     "fiyat": 49000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC 9 DUAL SAHRA TABANCA",
+     "fiyat": 30000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SUB ELITE SY.EXEC.PVD TABANCA",
+     "fiyat": 32500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK SFX RIVAL (RIVAL GREY) TABANCA",
+     "fiyat": 46000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC 9 SİYAH MAT TABANCA",
+     "fiyat": 16750.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC 9 SİYAH TABANCA",
+     "fiyat": 30000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP9 TTI COMBAT SMOKE  TABANCA",
+     "fiyat": 49000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK SFX RIVAL SİYAH TABANCA",
+     "fiyat": 46000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK SFX RIVAL-S SİYAH TABANCA",
+     "fiyat": 47500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SFX METE SAHRA TABANCA",
+     "fiyat": 36500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP9 ELİTE COMBAT 1923 Ö. TUNGSTEN TB",
+     "fiyat": 22500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK SFX RIVAL-S CHROME TABANCA",
+     "fiyat": 48000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SFX METE SİYAH MAT TABANCA",
+     "fiyat": 23000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SFT METE SAHRA TABANCA",
+     "fiyat": 35000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC9 TAC SAHRA TABANCA",
+     "fiyat": 36000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE SFX PRO SİYAH TABANCA",
+     "fiyat": 39500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SF METE-S TUNGSTEN TABANCA",
+     "fiyat": 33000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SFX METE SİYAH TABANCA",
+     "fiyat": 35500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE SFT PRO SİYAH TABANCA",
+     "fiyat": 37500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC9 TAC SİYAH MAT TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SF METE-S TUNGSTEN PRO TABANCA",
+     "fiyat": 43500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SFT METE SİYAH MAT TABANCA",
+     "fiyat": 20250.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP 9 SF METE-S SİYAH MAT PRO TABANCA",
+     "fiyat": 38000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SF METE-S SİYAH MAT TABANCA",
+     "fiyat": 19750.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SF METE-S SİYAH TABANCA",
+     "fiyat": 32500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SF METE TUNGSTEN TABANCA",
+     "fiyat": 29000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SF METE SİYAH MAT TABANCA",
+     "fiyat": 16750.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SUB ELITE CAS SİYAH TABANCA",
+     "fiyat": 38000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SUB ELITE CAS SİYAH MAT TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SUB ELITE CAS TUNGSTEN TABANCA",
+     "fiyat": 38500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SF METE SİYAH TABANCA",
+     "fiyat": 31000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SUB ELITE TUNGSTEN TABANCA",
+     "fiyat": 29500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SUB ELITE SİYAH MAT TABANCA",
+     "fiyat": 19500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SUB ELITE SİYAH TABANCA",
+     "fiyat": 29000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SFX TUNGSTEN TABANCA",
+     "fiyat": 32500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK L 120 SİYAH LAK TABANCA",
+     "fiyat": 21500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SFT METE SİYAH TABANCA",
+     "fiyat": 33000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK L 120 SİYAH KROM TABANCA",
+     "fiyat": 33500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK S-120 SİYAH TABANCA",
+     "fiyat": 34000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC9 L DUAL SAHRA TABANCA",
+     "fiyat": 35000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC9 LS DUAL SAHRA TABANCA",
+     "fiyat": 35500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC9 LS SAHRA TABANCA",
+     "fiyat": 35750.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC 9 PRİME SİYAH MAT TABANCA",
+     "fiyat": 27500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC9 L SAHRA TABANCA",
+     "fiyat": 34500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC9 LS SİYAH TABANCA",
+     "fiyat": 35000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC 9 PRİME PRO SİYAH TABANCA",
+     "fiyat": 50000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC9 LS SİYAH MAT TABANCA",
+     "fiyat": 23500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK TP-9 SFX SİYAH TABANCA",
+     "fiyat": 32000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC9 L SİYAH TABANCA",
+     "fiyat": 34000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC9 L SİYAH MAT TABANCA",
+     "fiyat": 22000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK METE MC 9 PRİME SİYAH TABANCA",
+     "fiyat": 42500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19  MM CANİK PRIME RADIAN GREY TABANCA",
+     "fiyat": 47500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM CANİK PRIME RADIAN SİYAH MAT  TABANCA",
+     "fiyat": 32500.0,
+     "para": "TL"
+    }
+   ],
+   "DERYA": [
+    {
+     "ad": "9X19 MM DERYA DY9 SİYAH TABANCA",
+     "fiyat": 11000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9 HAKİ TABANCA",
+     "fiyat": 11000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9 OR SİYAH TABANCA",
+     "fiyat": 12500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9 GRİ TABANCA",
+     "fiyat": 11000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9 OR HAKİ TABANCA",
+     "fiyat": 12500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9 TOPRAK TABANCA",
+     "fiyat": 11000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9 OR GRİ TABANCA",
+     "fiyat": 12500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9 OR TOPRAK TABANCA",
+     "fiyat": 12500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9Z BLACK CHERRY  TABANCA",
+     "fiyat": 18500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9Z FLAT DARK EART  TABANCA",
+     "fiyat": 18500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9Z BLACK TABANCA",
+     "fiyat": 18500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9Z BRIGHT PURPLE   TABANCA",
+     "fiyat": 18500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9Z O.D.GREEN  TABANCA",
+     "fiyat": 18500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9Z ROBİNS EGG BLUE  TABANCA",
+     "fiyat": 18500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9Z PINK CHAMPAGNE TABANCA",
+     "fiyat": 18500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9Z TUNGSTEN  TABANCA",
+     "fiyat": 18500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA MELİK DELÜXE  TABANCA",
+     "fiyat": 36900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA MELİK GOLD TABANCA",
+     "fiyat": 29900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA MELİK SİYAH MAT TABANCA",
+     "fiyat": 17000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9 ULTRA GOLD  TABANCA",
+     "fiyat": 19900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM DERYA DY9 ULTRA TİTAN  TABANCA",
+     "fiyat": 19900.0,
+     "para": "TL"
+    }
+   ],
+   "ERMOX SİLAH": [
+    {
+     "ad": "9X19 MM ERMOX X-FIRE CERAKOTE TABANCA",
+     "fiyat": 16000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM ERMOX X-FIRE KAMUFLAJ TABANCA",
+     "fiyat": 16000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM ERMOX  XPOWER SİYAH TABANCA",
+     "fiyat": 55000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM ERMOX XPOWER BEYAZ KROM TABANCA",
+     "fiyat": 60000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM ERMOX X-FIRE MAT SİYAH TABANCA",
+     "fiyat": 15000.0,
+     "para": "TL"
+    }
+   ],
+   "EŞREFOĞLU": [
+    {
+     "ad": "9X19 MM EŞREFOĞLU ESR 9 CLASSIC FDE TABANCA",
+     "fiyat": 9000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM EŞREFOĞLU ESR 9 CLASSIC HAKİ TABANCA",
+     "fiyat": 9000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM EŞREFOĞLU ESR 9 CLASSIC BRONZ TABANCA",
+     "fiyat": 9000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM EŞREFOĞLU ESR 9 CLASSIC SİYAH TABANCA",
+     "fiyat": 8500.0,
+     "para": "TL"
+    }
+   ],
+   "GİRSAN": [
+    {
+     "ad": "9X19 MM YAVUZ 16 CLASSIC (GLOSS BLACK) TABANCA",
+     "fiyat": 60000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 9 XTREME (BLACK PRIVATE) TABANCA",
+     "fiyat": 36000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. YAVUZ 1911 DELUXE (CHROME PRIVATE) TABANCA",
+     "fiyat": 54000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. YAVUZ 1911 GOLD (PRIVATE) TABANCA",
+     "fiyat": 60000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM  YAVUZ 9 PRO (BARRET BROWN) TABANCA",
+     "fiyat": 47000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 9 XTREME (BLACK) TABANCA",
+     "fiyat": 53000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 9 PRO (BARRET BROWN PRIVATE) TABANCA",
+     "fiyat": 27000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 9 PRO (TWO TONE PRIVATE) TABANCA",
+     "fiyat": 27000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 9 PRO (TWO TONE) TABANCA",
+     "fiyat": 47000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 XTREME (BLACK) TABANCA",
+     "fiyat": 63000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 DEFENDER (CHROME PRIVATE) TABANCA",
+     "fiyat": 33000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 CLASSIC (CHROME PRIVATE) TABANCA",
+     "fiyat": 33000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 MATCH (CHROME PRIVATE) TABANCA",
+     "fiyat": 33000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. YAVUZ 1911 CLASSIC (CHROME) TABANCA",
+     "fiyat": 60000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 DEFENDER CHOROME PRIVATE TABANCA",
+     "fiyat": 40000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 DEFENDER BLACK TABANCA",
+     "fiyat": 57000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 DEFENDER BLACK PRIVATE TABANCA",
+     "fiyat": 37000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 DEFENDER (BLACK) TABANCA",
+     "fiyat": 50000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 CLASSIC (BLACK PRIVATE) TABANCA",
+     "fiyat": 30000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 MATCH (BLACK) TABANCA",
+     "fiyat": 50000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 MATCH (CHROME) TABANCA",
+     "fiyat": 53000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 9 MATCH (TWO TONE) TABANCA",
+     "fiyat": 53000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 DEFENDER CHROME TABANCA",
+     "fiyat": 60000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. YAVUZ 1911 MATCH (BLACK) TABANCA",
+     "fiyat": 62000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. YAVUZ 1911 MATCH (BLACK PRIVATE) TABANCA",
+     "fiyat": 42000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM  YAVUZ 1911 XTREME (BLACK) TABANCA",
+     "fiyat": 62000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 9 PRO (BLACK PRIVATE) TABANCA",
+     "fiyat": 26000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 GOLD (PRIVATE) TABANCA",
+     "fiyat": 56000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 CLASSIC (CHROME) TABANCA",
+     "fiyat": 53000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. YAVUZ 1911 MATCH (CHROME) TABANCA",
+     "fiyat": 65000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 9 MATCH (TWO TONE PRIVATE) TABANCA",
+     "fiyat": 36000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "7,65 MM YAVUZ 13 DEFENDER (CHROME) TABANCA",
+     "fiyat": 50000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "7.65 MM YAVUZ 13 DEFENDER (CHROME PRIVATE) TABANCA",
+     "fiyat": 30000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 EXTREME BLACK TABANCA",
+     "fiyat": 73000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 1911 DEFENDER (BLACK) TABANCA",
+     "fiyat": 60000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. YAVUZ 1911 CLASSIC (CHROME PRIVATE) TAB.",
+     "fiyat": 40000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. YAVUZ 1911 MATCH (CHROME PRIVATE) TABANCA",
+     "fiyat": 45000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 1911 XTREME (STAINLESS) TABANCA",
+     "fiyat": 65000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 1911 DEFENDER (BLACK PRIVATE) TAB.",
+     "fiyat": 40000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 DEFENDER (CHROME) TABANCA",
+     "fiyat": 53000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 CLASSIC (BLACK) TABANCA",
+     "fiyat": 50000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 MATCH (BLACK PRIVATE) TABANCA",
+     "fiyat": 30000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 DEFENDER (BLACK PRIVATE) TABANCA",
+     "fiyat": 30000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 DEFENDER TUNGSTEN PRİVATE TAB.",
+     "fiyat": 31000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 XTREME (BLACK PRIVATE) TABANCA",
+     "fiyat": 43000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 DELUXE (CHROME) TABANCA",
+     "fiyat": 64000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 CLASSIC (BLACK) TABANCA",
+     "fiyat": 57000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 CLASSIC (CHROME) TABANCA",
+     "fiyat": 60000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 DELUXE(CHROME PRIVATE) TABANCA",
+     "fiyat": 44000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 CLASSIC (CHROME PRIVATE) TABANCA",
+     "fiyat": 40000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM  YAVUZ 14 CLASSIC (BLACK PRIVATE) TABANCA",
+     "fiyat": 37000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 16 GOLD  (GOLD) TABANCA",
+     "fiyat": 76000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 DEFENDER LW BLACK TAB.",
+     "fiyat": 61000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 CLASSIC TUNGSTEN PRIVATE TABANCA",
+     "fiyat": 38000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 1911 XTREME (ST. PRIVATE) TABANCA",
+     "fiyat": 45000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 X-TREME PVD PRİVATE  TABANCA",
+     "fiyat": 65000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 DELUXE (CHROME PRIVATE) TABANCA",
+     "fiyat": 54000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. YAVUZ 1911 DELUXE (CHROME) TABANCA",
+     "fiyat": 74000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 DELUXE (CHROME) TABANCA",
+     "fiyat": 74000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 GOLD TABANCA",
+     "fiyat": 80000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 GOLD (PRIVATE) TABANCA",
+     "fiyat": 60000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. YAVUZ 1911 GOLD TABANCA",
+     "fiyat": 80000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 EXCELLENCE TITANIUM TABANCA",
+     "fiyat": 80000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 9 PRO (BLACK) TABANCA",
+     "fiyat": 46000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 2311 XTREME TWO TONE PRIVATE TABANCA",
+     "fiyat": 55000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 14 EXCELLENCE TITANIUM PRIVATE TAB.",
+     "fiyat": 60000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM YAVUZ 1911 XTREME (BLACK PRIVATE) TABANCA",
+     "fiyat": 42000.0,
+     "para": "TL"
+    }
+   ],
+   "GYES": [
+    {
+     "ad": "9X19  MM GYES LINE MOS SİYAH TABANCA",
+     "fiyat": 18700.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19  MM GYES LINE STX SIYAH TABANCA",
+     "fiyat": 20000.0,
+     "para": "TL"
+    }
+   ],
+   "KOR": [
+    {
+     "ad": "9X19 MM. KOR FX-9 R SİYAH TABANCA",
+     "fiyat": 35425.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR FX-9 R HAKİ TABANCA",
+     "fiyat": 35425.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR FX-9 R GRİ TABANCA",
+     "fiyat": 35425.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 RS HAKİ TABANCA",
+     "fiyat": 42510.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 RP GRİ TABANCA",
+     "fiyat": 38970.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 RS SİYAH TABANCA",
+     "fiyat": 42510.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 RS ÇÖL YEŞİLİ TABANCA",
+     "fiyat": 42510.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 RS GRİ TABANCA",
+     "fiyat": 42510.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR FX-9 RP SİYAH TABANCA",
+     "fiyat": 38970.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR FX-9 RP HAKİ TABANCA",
+     "fiyat": 38970.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR FX-9 RP GRİ TABANCA",
+     "fiyat": 38970.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR FX-9 RS SİYAH TABANCA",
+     "fiyat": 42510.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR FX-9 RS ÇÖL YEŞİLİ TABANCA",
+     "fiyat": 42510.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR FX-9 RS HAKİ TABANCA",
+     "fiyat": 42510.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR FX-9 RS GRİ TABANCA",
+     "fiyat": 42510.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 R SİYAH TABANCA",
+     "fiyat": 35425.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 R HAKİ TABANCA",
+     "fiyat": 35425.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 R GRİ TABANCA",
+     "fiyat": 35425.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 RP SİYAH TABANCA",
+     "fiyat": 38970.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR FX-9 R ÇÖL YEŞİLİ TABANCA",
+     "fiyat": 35425.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 RP ÇÖL YEŞİLİ TABANCA",
+     "fiyat": 38970.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 RP HAKİ TABANCA",
+     "fiyat": 38970.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR FX-9 RP ÇÖL YEŞİLİ TABANCA",
+     "fiyat": 38970.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM. KOR AG-9 R ÇÖL YEŞİLİ TABANCA",
+     "fiyat": 35425.0,
+     "para": "TL"
+    }
+   ],
+   "KRAL": [
+    {
+     "ad": "9X19 MM KRAL ARMS KR 9 BLACK TABANCA",
+     "fiyat": 20000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KR 9 STAINLESS TABANCA",
+     "fiyat": 20000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KR 19 BLACK TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KR 19 GREEN TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KR 19 BRONZ TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KR 19 SILVER TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KR 9 DESERT TABANCA",
+     "fiyat": 20000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KR 9 TUNGSTEN TABANCA",
+     "fiyat": 20000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KRA9 BLACK TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KRA9 GREEN TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KRA9 PRO GREEN TABANCA",
+     "fiyat": 12000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KRA9 PRO SİLVER TABANCA",
+     "fiyat": 12000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KRA9 ELİTE  TABANCA",
+     "fiyat": 15000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KRA9 SİLVER TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KRA9 DESERT TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KRA9 PRO BLACK TABANCA",
+     "fiyat": 12000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM KRAL ARMS KRA9 PRO DESERT TABANCA",
+     "fiyat": 12000.0,
+     "para": "TL"
+    }
+   ],
+   "RADİKAL": [
+    {
+     "ad": "9X19 MM RADİKAL RPX9 SİYAH TABANCA",
+     "fiyat": 11500.0,
+     "para": "TL"
+    }
+   ],
+   "RANGER ARMS": [
+    {
+     "ad": "9X19 MM RANGER RA9 SİYAH TABANCA",
+     "fiyat": 10500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM RANGER RA9 CAMO TABANCA",
+     "fiyat": 11000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM RANGER RA9 FDE TABANCA",
+     "fiyat": 11000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM RANGER RA9 HAKİ TABANCA",
+     "fiyat": 11000.0,
+     "para": "TL"
+    }
+   ],
+   "REXIMEX": [
+    {
+     "ad": "9X19 MM REXIMEX TRX9 STORMTROOPER TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM REXIMEX TRX9 MAGPUL FDE TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM REXIMEX TRX9 MUTICAM TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM REXIMEX TRX9 DUOTONE TUNGSTEN TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM REXIMEX TRX9 SNIPER GRAY TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM REXIMEX TRX9 BLACK TABANCA",
+     "fiyat": 9500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM REXIMEX TRX9 SPACE TABANCA",
+     "fiyat": 10000.0,
+     "para": "TL"
+    }
+   ],
+   "Sarıçam": [
+    {
+     "ad": "9X19 MM SARIÇAM  S-19 SİYAH  TABANCA",
+     "fiyat": 35000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARIÇAM  S-19 ÇÖL SARISI TABANCA",
+     "fiyat": 40000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARIÇAM  S-19 SİYAH MOSLU  TABANCA",
+     "fiyat": 44000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARIÇAM  S-17  SİYAH  TABANCA",
+     "fiyat": 44000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARIÇAM  S-17 ÇÖL SARISI  TABANCA",
+     "fiyat": 49000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARIÇAM  S-17 SİYAH  MOSLU TABANCA",
+     "fiyat": 49000.0,
+     "para": "TL"
+    }
+   ],
+   "SARSILMAZ": [
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 C GEN3 P PLATINUM TABANCA",
+     "fiyat": 40000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR2023 SİYAH TABANCA",
+     "fiyat": 60000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 C GEN3 PLATINUM TABANCA",
+     "fiyat": 26250.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ K.2000 MEGA (ÖZEL SİYAH) TABANCA",
+     "fiyat": 26100.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SPORT GEN3 SİYAH TABANCA",
+     "fiyat": 39000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SPORT GEN3 P PLATINUM TAB.",
+     "fiyat": 27000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SPORT GEN3 MAT SİYAH TAB.",
+     "fiyat": 26400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SC GEN3 HAKİ TABANCA",
+     "fiyat": 18000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ K.2000 L INOX İŞL.PRÇ.ALTIN TAB.",
+     "fiyat": 55000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "22 LR. SARSILMAZ (B 6 C-SİYAH) TABANCA",
+     "fiyat": 19500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR7/24  R SS MAT  TABANCA",
+     "fiyat": 49000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR7/24 R  İŞ.PR.A. SS MAT  TAB.",
+     "fiyat": 60000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR7/24  R INOKS TABANCA",
+     "fiyat": 39000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR 9 GEN 2 P PLATINUM TABANCA",
+     "fiyat": 42000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR 9 CX P PLATINUM TABANCA",
+     "fiyat": 39000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "7.65 MM SARSILMAZ (B6 C-SİYAH) TABANCA",
+     "fiyat": 20000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR7/24 R  PRÇ.ALT. SS MAT  TAB.",
+     "fiyat": 59000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. SARSILMAZ (K2 45 ST. STEEL MAT) TABANCA",
+     "fiyat": 44900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (K.2000L ST.STEEL MAT İŞL.) TAB.",
+     "fiyat": 45000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM  SARSILMAZ (SAR 9 SİYAH LAK) TABANCA",
+     "fiyat": 13700.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SC GEN3 SİYAH TABANCA",
+     "fiyat": 17800.0,
+     "para": "TL"
+    },
+    {
+     "ad": "38 SP/357 MAG.SARSILMAZ (SR 38-4' ST.STEEL-MAT) TAB.",
+     "fiyat": 45100.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR7/24 R  PRÇ.ALT. INOKS  TAB.",
+     "fiyat": 48000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR7/24  RC SS MAT  TABANCA",
+     "fiyat": 47500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR7/24  RC INOKS  TABANCA",
+     "fiyat": 38700.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR7/24  RS SS MAT  TABANCA",
+     "fiyat": 51000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. SARSILMAZ (K-2 45C S.STEEL) TABANCA",
+     "fiyat": 44000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM  SARSILMAZ (K-12 SPORT X) TABANCA",
+     "fiyat": 40000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ K.2000 MEGA ST.STEEL MAT TABANCA",
+     "fiyat": 43000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (P8 S S.STEEL MAT/İŞ.PR.AL) TAB.",
+     "fiyat": 52000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (P8 L ST.STEEL MAT/İŞ.PR.AL) TAB",
+     "fiyat": 54000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (SAR 9 S.STEEL  MAT) TABANCA",
+     "fiyat": 17400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (SAR 9 C-INOKS) TABANCA",
+     "fiyat": 15200.0,
+     "para": "TL"
+    },
+    {
+     "ad": "38 SP/357 MAG.SARSILMAZ (SR 38-6' ST.STELL MAT) TAB.",
+     "fiyat": 46000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (SAR 9 METE RD P PLATINUM) TAB.",
+     "fiyat": 19250.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR 9 GEN 2 PLATINUM TABANCA",
+     "fiyat": 31000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (SAR 9 C RD MAT SİYAH) TAB.",
+     "fiyat": 14750.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ K.2000 L. ST.STEEL MAT TABANCA",
+     "fiyat": 41000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 T SC GEN3 HAKİ TABANCA",
+     "fiyat": 23000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 T SC GEN3 SİYAH TABANCA",
+     "fiyat": 22850.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SC GEN3 INOKS TABANCA",
+     "fiyat": 27000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SC GEN3 STAINLESS STEEL TB.",
+     "fiyat": 19850.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SOCOM S SİYAH TABANCA",
+     "fiyat": 36000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SOCOM SİYAH TABANCA",
+     "fiyat": 26000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ K.2000 L ST.STEEL.İŞL.PRÇ.ALTIN",
+     "fiyat": 37000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ K.2000 MEGA (SİYAH) TABANCA",
+     "fiyat": 38000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (B6 MAT SİYAH) TABANCA",
+     "fiyat": 21500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (P8 S ST.STEEL MAT) TABANCA",
+     "fiyat": 42000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (P8 L ST.STEEL MAT) TABANCA",
+     "fiyat": 44700.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (SAR-9 X PLATINUM) TABANCA",
+     "fiyat": 45000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 GEN3 SİYAH TABANCA",
+     "fiyat": 39000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 GEN3 P PLATINUM TABANCA",
+     "fiyat": 21800.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 C GEN3 SİYAH TABANCA",
+     "fiyat": 38000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 C GEN3 BRONZ TAB.",
+     "fiyat": 39000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 C GEN3 B BRONZ TAB.",
+     "fiyat": 26150.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (SAR 9 METE RD MAT SİYAH) TAB.",
+     "fiyat": 18500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR 9 CX PLATINUM TABANCA",
+     "fiyat": 26500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SC GEN3 S SİYAH TABANCA",
+     "fiyat": 39500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (K.2000 LIGHT SİYAH) TABANCA",
+     "fiyat": 36000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR7/24  RS INOKS  TABANCA",
+     "fiyat": 41800.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR7/24 R  İŞ.PR.A. INOKS  TAB.",
+     "fiyat": 49500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ K.2000 MEGA (İNOKS) TABANCA",
+     "fiyat": 27500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ (İŞL.ALTIN) K.2000 LIGHT TABANCA",
+     "fiyat": 90500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 GEN3 MAT SİYAH TABANCA",
+     "fiyat": 24850.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 C GEN3 MAT SİYAH TABANCA",
+     "fiyat": 26000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 T C GEN3  HAKİ TABANCA",
+     "fiyat": 26300.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 GEN3 PLATINUM TABANCA",
+     "fiyat": 41000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 C GEN3 H HAKİ TAB.",
+     "fiyat": 26200.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 C GEN3 HAKİ TAB.",
+     "fiyat": 38500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SPORT GEN3 PLATINUM TABANCA",
+     "fiyat": 41200.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR9 SC GEN3 H HAKİ TABANCA",
+     "fiyat": 39500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR 9 SP SPECIAL HAKİ TABANCA",
+     "fiyat": 52000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR 9 SP SPECIAL SİYAH TABANCA",
+     "fiyat": 50000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SARSILMAZ SAR 9 SP SPECIAL PLATINUM  TAB",
+     "fiyat": 51000.0,
+     "para": "TL"
+    }
+   ],
+   "STOEGER": [
+    {
+     "ad": "9X19 MM STOEGER COUGAR 8000 F (SİYAH CERAKOTE) TAB",
+     "fiyat": 34000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9 MC REDDOT MAT TAB.",
+     "fiyat": 17000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "40 S&W STOEGER COUGAR 8040 F (SİYAH CERAKOTE) TAB",
+     "fiyat": 34000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. STOEGER-COUGAR 8045F SİYAH MAT TAB.",
+     "fiyat": 24000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER-COUGAR 8000FT SİYAH MAT TAB.",
+     "fiyat": 24000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER COUGAR 8000 FT (ST. CERAKOTE) TAB",
+     "fiyat": 34000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER (STR-9 SAHRA) TABANCA",
+     "fiyat": 27300.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. STOEGER COUGAR 8045 FT (SİYAH CERAKOTE)TAB",
+     "fiyat": 34000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER COUGAR 8000 FT (SİYAH CERAKOTE) TB",
+     "fiyat": 34000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER COUGAR 8000 FL (SİYAH CERAKOTE) TB",
+     "fiyat": 34000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER COUGAR 8000 F (ST.CERAKOTE) TAB.",
+     "fiyat": 34000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER-COUGAR 8000F SİYAH MAT TAB.",
+     "fiyat": 24000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER COUGAR 8000 F(ST.G.S CERAKOTE) TAB",
+     "fiyat": 34000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9 RD (SİYAH) TAB.",
+     "fiyat": 28950.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER (STR-9 STAINLESS) TABANCA",
+     "fiyat": 27100.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9 TUNGSTEN TABANCA",
+     "fiyat": 27100.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. STOEGER COUGAR 8045 F (SİYAH CERAKOTE) TAB",
+     "fiyat": 34000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9 MC REDDOT CERAKOTE TAB.",
+     "fiyat": 27000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9 COMBAT SX SİYAH CERAKOTE TAB",
+     "fiyat": 31250.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9 COMBAT SX SİYAH MAT TAB.",
+     "fiyat": 21250.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9 THINLINE+  SİYAH CERAKOTE TB",
+     "fiyat": 27000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9 THINLINE +  SİYAH MAT  TAB",
+     "fiyat": 17000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9SC  SİYAH CERAKOTE RD TABANCA",
+     "fiyat": 28950.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9C  SİYAH CERAKOTE RD TABANCA",
+     "fiyat": 28950.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9F  SİYAH CERAKOTE RD TABANCA",
+     "fiyat": 28950.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP STOEGER STR-45  SİYAH CERAKOTE RD TABANCA",
+     "fiyat": 27000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9SC  SİYAH MAT RD TABANCA",
+     "fiyat": 18950.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9  SİYAH MAT RD TABANCA",
+     "fiyat": 18950.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9F  SİYAH MAT RD TABANCA",
+     "fiyat": 18950.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP STOEGER STR-45  SİYAH MAT RD TABANCA",
+     "fiyat": 17000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM STOEGER STR-9C  SİYAH MAT RD TABANCA",
+     "fiyat": 18950.0,
+     "para": "TL"
+    }
+   ],
+   "SYSTEM DEFENCE": [
+    {
+     "ad": "9X19 MM SYSTEM DEFENCE C9 STD SAHRA TAB.",
+     "fiyat": 16000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SYSTEM DEFENCE C9X SİYAH TABANCA",
+     "fiyat": 20000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SYSTEM DEFENCE C9 STD SİYAH TAB.",
+     "fiyat": 14000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SYSTEM DEFENCE C9 STD KP SİYAH TAB.",
+     "fiyat": 12500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM SYSTEM DEFENCE C9 STD KP SAHRA TAB.",
+     "fiyat": 14500.0,
+     "para": "TL"
+    }
+   ],
+   "TİSAŞ": [
+    {
+     "ad": "9X19 MM TİSAŞ ZİG M 1 GOLD TABANCA",
+     "fiyat": 77000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ ZİGANA PX-9 GEN.3 DUTY SİYAH TAB.",
+     "fiyat": 27600.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19MM TİSAŞ ZİGANA PX-9 GEN.3 TACTİCAL TH (SAHRA)",
+     "fiyat": 23700.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19MM TİSAŞ ZİGANA PX-9 GEN.3 TACTİCAL TH (SİYAH)",
+     "fiyat": 22900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM NIGHT STALKER  NS 9 DS TABANCA",
+     "fiyat": 51400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19  MM TİSAŞ DUTY 9 DS TABANCA",
+     "fiyat": 45400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM PX-9 GEN.3 NIGHT STALKER SF (TUNGSTEN)",
+     "fiyat": 38750.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP.TİSAŞ ZİG M 1911 (HAKİ ÖZEL) TABANCA",
+     "fiyat": 29900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19  MM TİSAŞ  CARRY 9 DS TABANCA",
+     "fiyat": 45400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA KC (SIYAH KROM) TABANCA",
+     "fiyat": 17900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA PX-9 GEN.3 SİYAH TABANCA",
+     "fiyat": 25250.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA PX-9 GEN.3 DUTY HAKİ TAB.",
+     "fiyat": 28900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (ÖZEL GRAVÜR KROM) TABANCA",
+     "fiyat": 41900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM PX-9 GEN.3 NIGHT STALKER SF (SİYAH)",
+     "fiyat": 37000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM PX 9 CARRY (SİYAH)",
+     "fiyat": 28900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA FC (SİYAH KROM) TABANCA",
+     "fiyat": 24000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (SİYAH MAT) TAB.",
+     "fiyat": 28600.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA T (SADE GRAVÜR KROM) TABANCA",
+     "fiyat": 24500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA K (SK) TABANCA",
+     "fiyat": 20000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA F (SADE GRAVÜR) TABANCA",
+     "fiyat": 21400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (SİYAH KROM) TABANCA",
+     "fiyat": 40400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM  TİSAŞ-ZİG 14 (INOX) TABANCA",
+     "fiyat": 44200.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA T (SK) TABANCA",
+     "fiyat": 17700.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19MM TİSAŞ-ZİGANA SPORT (SK) TABANCA",
+     "fiyat": 20700.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA KC (BEYAZ KROM )TABANCA",
+     "fiyat": 19700.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA T (SİYAH LAK BOYA) TABANCA",
+     "fiyat": 18500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA SPORT (GSK) TABANCA",
+     "fiyat": 21400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA SPORT (BK) TABANCA",
+     "fiyat": 22900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (SIYAH KROM P.ALT.) TABANCA",
+     "fiyat": 42800.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (İNOX P.ALTIN) TABANCA",
+     "fiyat": 48500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "5,7X28 MM PX 5,7 (SİYAH) TABANCA",
+     "fiyat": 91500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA KC (SİYAH LAK BOYA) TAB.",
+     "fiyat": 16700.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (TİTAN ALTIN VARAKLI) TAB.",
+     "fiyat": 74500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM PX 9 CARRY SİYAH MAT TABANCA",
+     "fiyat": 16200.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA K (BK) TABANCA",
+     "fiyat": 17900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. TİSAŞ ZİG M1911 ÖZEL İNOX TABANCA",
+     "fiyat": 80900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ ZİGANA SPORT ÖZEL BEYAZ TAB.",
+     "fiyat": 24900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA F (BK) TABANCA",
+     "fiyat": 19900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. TİSAŞ ZİG M45 ÖZEL SİYAH TABANCA",
+     "fiyat": 58000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (TİTAN) TABANCA",
+     "fiyat": 60400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA F (SK) TABANCA",
+     "fiyat": 22400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ ZİG M 1 (HAKİ) TAB.",
+     "fiyat": 38800.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP.TİSAŞ ZİG M 1911 (HAKİ) TABANCA",
+     "fiyat": 38800.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. TİSAŞ-ZİG M 1911 (BEYAZ-YAN.PARL.) TAB.",
+     "fiyat": 45500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM ZIG 14 SPORT (SİYAH)",
+     "fiyat": 52900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (TİTAN S) TABANCA",
+     "fiyat": 60400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA T (BK) TABANCA",
+     "fiyat": 18900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ ZİG M9 ÖZEL SİYAH TABANCA",
+     "fiyat": 58000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA K (SADE GRAVÜR KROM) TABANCA",
+     "fiyat": 23300.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA PX-9 GEN.3 SİYAH MAT TABANCA",
+     "fiyat": 15500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "380 ACP. (9MM KISA) TİSAŞ-FATİH 13 (BK) TABANCA",
+     "fiyat": 19600.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA FC (BEYAZ KROM) TABANCA",
+     "fiyat": 21700.0,
+     "para": "TL"
+    },
+    {
+     "ad": "380 ACP. (9MM KISA) TİSAŞ-FATİH 13 (SK) TABANCA",
+     "fiyat": 18000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG M1 (BK-YP) TABANCA",
+     "fiyat": 45500.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA KC (ÖZEL BEYAZ) TABANCA",
+     "fiyat": 22400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA PX-9 GEN.3 DUTY SİYAH MAT TB.",
+     "fiyat": 16200.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİGANA PX-9 GEN.3 DUTY SAHRA TAB.",
+     "fiyat": 28900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ ZİG M 1 SİLVER TABANCA",
+     "fiyat": 74000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ ZİG M 1 (HAKİ ÖZEL) TAB.",
+     "fiyat": 29900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ ZİG M1 (TITAN) TAB.",
+     "fiyat": 43900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ ZİG M1 (INOX) TAB.",
+     "fiyat": 36100.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ ZİG M1 (SİYAH MAT) TAB.",
+     "fiyat": 29900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM ZIG 14 SPORT (INOX)",
+     "fiyat": 77900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (INOX SADE) TAB.",
+     "fiyat": 32100.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (GRAVÜR KROM) TABANCA",
+     "fiyat": 36400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (INOX GRV.P.ALTIN) TABANCA",
+     "fiyat": 57250.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 (INOX GRAVÜRLÜ) TABANCA",
+     "fiyat": 53600.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. TİSAŞ ZİG M 1911 GOLD TABANCA",
+     "fiyat": 77000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. TİSAŞ ZİG M 1911 SİLVER TABANCA",
+     "fiyat": 74000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. TİSAŞ ZİG M 1911 (TITAN) TABANCA",
+     "fiyat": 43900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. TİSAŞ ZİG M 1911 (INOX) TABANCA",
+     "fiyat": 36100.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. TİSAŞ ZİG M 1911 (SİYAH MAT) TABANCA",
+     "fiyat": 29900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "45 ACP. TİSAŞ-ZİG M 1911 (SİYAH) TABANCA",
+     "fiyat": 40000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG M1 (SIYAH KROM)TABANCA",
+     "fiyat": 40000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ ZİG M1 ÖZEL İNOX TABANCA",
+     "fiyat": 80900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 NİKEL PRÇ.ALT.TABANCA",
+     "fiyat": 26700.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 NİKEL GRAVÜR PRÇ.ALT.TAB.",
+     "fiyat": 32900.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ-ZİG 14 NİKEL TABANCA",
+     "fiyat": 23400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ NIGHT STALKER NS 9DS TUNG. MAT TAB.",
+     "fiyat": 37400.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ DUTY 9 DS SİYAH  MAT TABANCA",
+     "fiyat": 34200.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ CARRY 9 DS SİYAH  MAT TABANCA",
+     "fiyat": 34200.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TİSAŞ ZİG 14 SPORT İNOX  MAT TABANCA",
+     "fiyat": 55500.0,
+     "para": "TL"
+    }
+   ],
+   "TORİ": [
+    {
+     "ad": "9X19 TORİ TOR1 MAT SİYAH TABANCA",
+     "fiyat": 15000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TORİ TOR1 BLACK TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TORİ TOR1 BLACK-SAHRA  DUAL TABANCA",
+     "fiyat": 26000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 TORİ TOR1  HAKİ-BLACK DUAL TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 MM TORİ TOR1 BLACK-HAKİ DUAL TABANCA",
+     "fiyat": 26000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 TORİ TOR1 BLACK-TUNGSTEN DUAL TABANCA",
+     "fiyat": 26000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 TORİ TOR1 SAHRA BLACK DUAL TABANCA",
+     "fiyat": 25000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 TORİ TOR1-XT BLACK-TUNGSTEN DUAL TABANCA",
+     "fiyat": 26000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 TORİ TOR1 SAHRA TABANCA",
+     "fiyat": 26000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 TORİ TOR1-XT BLACK TABANCA",
+     "fiyat": 26000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 TORİ TOR1-COMPACT  BLACK TABANCA",
+     "fiyat": 27000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 TORİ TOR1-XT  MAT SİYAH TABANCA",
+     "fiyat": 17000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 TORİ TOR1-COMPACT HAKİ-BLACK DUAL TABANCA",
+     "fiyat": 27000.0,
+     "para": "TL"
+    },
+    {
+     "ad": "9X19 TORİ TOR1-COMPACT MAT SİYAH TABANCA",
+     "fiyat": 17000.0,
+     "para": "TL"
+    }
+   ]
+  },
+  "ithal": {
+   "AREX": [
+    {
+     "ad": "9X19 MM AREX DELTA L BLACK TABANCA",
+     "fiyat": 2923.88,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM AREX DELTA M BLACK TABANCA",
+     "fiyat": 2762.44,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM AREX DELTA X BLACK TABANCA",
+     "fiyat": 3085.32,
+     "para": "Dolar"
+    }
+   ],
+   "BERETTA": [
+    {
+     "ad": "9 MM (PARA) BERETTA 92 FS TABANCA",
+     "fiyat": 4041.13,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9 MM (PARA) BERETTA (PX4 COMPACT) TABANCA",
+     "fiyat": 3308.85,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9 MM (PARA) BERETTA (PX4 STORM) TABANCA",
+     "fiyat": 3308.85,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9MM(PARA) BERETTA (92 COMPACT L) TABANCA",
+     "fiyat": 3458.02,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. BERETTA (PX4 SPECIAL DUTY) TABANCA",
+     "fiyat": 5648.09,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9 MM (PARA) BERETTA (APX A1) TABANCA",
+     "fiyat": 2956.26,
+     "para": "Dolar"
+    }
+   ],
+   "BERNARDELLİ": [
+    {
+     "ad": "22 L BERNARDELLİ (P.68) TABANCA",
+     "fiyat": 1479.13,
+     "para": "Dolar"
+    }
+   ],
+   "CESKA ZBROJOVKA": [
+    {
+     "ad": "9X19 MM CESKA (CZ P-10 S) TABANCA",
+     "fiyat": 2999.43,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM  CZ 75 B TABANCA",
+     "fiyat": 5446.4,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CZ 75 P 01 TABANCA",
+     "fiyat": 4832.91,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CESKA CZ P-10C OR TABANCA",
+     "fiyat": 3183.32,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CESKA CZ P-10F OR TABANCA",
+     "fiyat": 3183.32,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CESKA (CZ P-09) TABANCA",
+     "fiyat": 2968.78,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CESKA (CZ SHADOW-2) TABANCA",
+     "fiyat": 7351.48,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CESKA (CZ P-10 M) TABANCA",
+     "fiyat": 2754.24,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CESKA (CZ P-07) TABANCA",
+     "fiyat": 2968.78,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CZ SHADOW 2 COMPACT OR TABANCA",
+     "fiyat": 7729.19,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CZ SHADOW 2 TARGET 5\" TABANCA",
+     "fiyat": 8982.57,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CZ SHADOW 2 TARGET 6\" TABANCA",
+     "fiyat": 8982.57,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CZ SHADOW 2  CARRY TABANCA",
+     "fiyat": 7729.19,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM CESKA (CZ 75 COMPACT) TABANCA",
+     "fiyat": 4899.62,
+     "para": "Dolar"
+    }
+   ],
+   "COLT": [
+    {
+     "ad": "44  MAG. COLT ANACONDA 6\" TABANCA",
+     "fiyat": 9999.03,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. COLT COMPETITION PLUS TABANCA",
+     "fiyat": 8654.34,
+     "para": "Dolar"
+    },
+    {
+     "ad": "357 MAG. COLT PYTHON 6\" TABANCA",
+     "fiyat": 8961.87,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. COLT DEFENDER TABANCA",
+     "fiyat": 7810.13,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. COLT GOLD CUP TABANCA",
+     "fiyat": 9317.64,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM COLT COMBAT COMMANDER TABANCA",
+     "fiyat": 7810.13,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM COLT COMBAT ELITE COMMANDER TABANCA",
+     "fiyat": 10704.54,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM COLT COMBAT ELITE GOVERNMENT TABANCA",
+     "fiyat": 10704.54,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. COLT COMPETITION STAINLESS TABANCA",
+     "fiyat": 7810.13,
+     "para": "Dolar"
+    },
+    {
+     "ad": "357 MAG. COLT PYTHON 4.25\" TABANCA",
+     "fiyat": 9438.24,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP COLT COMBAT COMMANDER TABANCA",
+     "fiyat": 7810.13,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP COLT GOLD CUP TROPHY TABANCA",
+     "fiyat": 11789.94,
+     "para": "Dolar"
+    }
+   ],
+   "GLOCK": [
+    {
+     "ad": "9 MM (PARA) GLOCK (G 43X) TABANCA",
+     "fiyat": 3690.49,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM GLOCK (G 19 GEN-5) TABANCA",
+     "fiyat": 4084.84,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM GLOCK (G 17 GEN-5) TABANCA",
+     "fiyat": 4084.84,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM GLOCK (G 45) TABANCA",
+     "fiyat": 4096.44,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM GLOCK (G 48) TABANCA",
+     "fiyat": 3721.74,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM GLOCK (G 47) TABANCA",
+     "fiyat": 4096.44,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM GLOCK G 43X SILVER SLIDE TABANCA",
+     "fiyat": 3630.97,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM GLOCK G48 MOS TABANCA",
+     "fiyat": 4084.84,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM GLOCK G 19X TABANCA",
+     "fiyat": 4387.42,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM GLOCK G 43 TABANCA",
+     "fiyat": 3328.39,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM GLOCK G49 MOS TABANCA",
+     "fiyat": 4386.79,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. GLOCK G41 GEN-4  MOS TABANCA",
+     "fiyat": 4690.0,
+     "para": "Dolar"
+    },
+    {
+     "ad": "10 MM AUTO GLOCK G20 GEN-5 MOS TABANCA",
+     "fiyat": 4690.0,
+     "para": "Dolar"
+    }
+   ],
+   "KELTEC": [
+    {
+     "ad": "5.7X28 MM. KELTEC P 50 TABANCA",
+     "fiyat": 5828.62,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM. KELTEC P 15 TABANCA",
+     "fiyat": 2823.44,
+     "para": "Dolar"
+    }
+   ],
+   "KIMBER": [
+    {
+     "ad": "9X19 MM. KIMBER MICRO 9 STAINLESS TABANCA",
+     "fiyat": 5475.75,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP KIMBER 1911 STAINLESS II 5,25\" TAB.",
+     "fiyat": 7066.56,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM KIMBER CARBON COMPACT 3,92\" TABANCA",
+     "fiyat": 4028.07,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM. KIMBER R7 MAKO TABANCA",
+     "fiyat": 4575.3,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP KIMBER 1911 CUSTOM II TWO TONE 5\" TAB.",
+     "fiyat": 6766.41,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP KIMBER CUSTOM L W LIBERTY 5\"  TABANCA",
+     "fiyat": 4148.49,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP KIMBER 1911 AEGIS ELITE PRO 4\" TAB.",
+     "fiyat": 8297.19,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM KIMBER  KDS9C 4,1\" TABANCA",
+     "fiyat": 7478.12,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM KIMBER CDS9 3,18\" TABANCA",
+     "fiyat": 6328.1,
+     "para": "Dolar"
+    }
+   ],
+   "PARA ORDNANCE": [
+    {
+     "ad": "9 MM (Para) PARA ORDNANCE (HAWG 9) TABANCA",
+     "fiyat": 2214.03,
+     "para": "Dolar"
+    }
+   ],
+   "SPRINGFIELD": [
+    {
+     "ad": "9X19 MM SPRINGFIELD ECHELON TABANCA",
+     "fiyat": 3781.66,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM SPRINGFIELD PRODIGY 1911 DS 4,25\" TABANCA",
+     "fiyat": 9123.01,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM SPRINGFIELD PRODIGY 1911 DS 5\" TABANCA",
+     "fiyat": 9123.01,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. SPRINGFIELD 1911 MIL-SPEC TABANCA",
+     "fiyat": 4691.29,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. SPRINGFIELD GARRISON SS TABANCA",
+     "fiyat": 5900.52,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. SPRINGFIELD 1911 MIL-SPEC SS TABANCA",
+     "fiyat": 5324.4,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. SPRINGFIELD 1911 EMISSARY BLU/SS TABANCA",
+     "fiyat": 8838.12,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. SPRINGFIELD 1911 RONIN 4.25\" TABANCA",
+     "fiyat": 5900.52,
+     "para": "Dolar"
+    }
+   ],
+   "SPRINGFIELD (HS PRODUKT)": [
+    {
+     "ad": "9X19 MM SPRINGFIELD XDM ELITE OSP 4,5\" TABANCA",
+     "fiyat": 2672.56,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM SPRINGFIELD HELLCAT PRO COMP. 3,7\" TAB.",
+     "fiyat": 2672.56,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM SPRINGFIELD HELLCAT PRO MS  3,7\" TABANCA",
+     "fiyat": 2643.19,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM SPRINGFIELD HELLCAT PRO  3,7\" TAB.",
+     "fiyat": 2525.71,
+     "para": "Dolar"
+    },
+    {
+     "ad": "45 ACP. SPRINGFIELD  XDM ELITE COMPACT 3,8\"  TAB.",
+     "fiyat": 2672.56,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM SPRINGFIELD HELLCAT RDP 3,8\" TABANCA",
+     "fiyat": 2672.56,
+     "para": "Dolar"
+    },
+    {
+     "ad": "10MM AUTO SPRING. XDM ELITE COMPACT 3,8\"  TABANCA",
+     "fiyat": 2672.56,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM SPRINGFIELD HELLCAT 3,1\" TABANCA",
+     "fiyat": 2525.71,
+     "para": "Dolar"
+    },
+    {
+     "ad": "9X19 MM SPRINGFIELD XD MOD3 4\" TABANCA",
+     "fiyat": 2096.93,
+     "para": "Dolar"
+    }
+   ],
+   "TANFOGLIO": [
+    {
+     "ad": "380 ACP. TANFOGLIO (FT.9 DEFENCE) TABANCA",
+     "fiyat": 1152.22,
+     "para": "Dolar"
+    },
+    {
+     "ad": "7.65MM TANFOGLIO (FT.7 DEFENCE) TABANCA",
+     "fiyat": 1056.21,
+     "para": "Dolar"
+    },
+    {
+     "ad": "357 MAG. TANFOGLIO (RAPTOR-SPORT) TABANCA",
+     "fiyat": 4608.87,
+     "para": "Dolar"
+    }
+   ],
+   "WALTHER": [
+    {
+     "ad": "22 Lr.WALTHER(SP 22) TABANCA",
+     "fiyat": 1055.3,
+     "para": "Dolar"
+    }
+   ]
+  }
+ }
+}
