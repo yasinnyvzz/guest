@@ -1,7 +1,7 @@
 {
-  "title": "US Nationwide Emergency Alert System Test Will Interrupt TV and Radio for One Minute",
+  "title": "US Nationwide Emergency Alert System Test Interrupted TV and Radio for One Minute",
   "slug": "en-us-nationwide-emergency-alert-system-test-november-17-2026",
-  "excerpt": "FEMA and the FCC are running a nationwide EAS test on November 17. It will interrupt TV and radio for about a minute; phones will not receive an alert.",
+  "excerpt": "FEMA and the FCC ran a nationwide EAS test on November 17. It interrupted TV and radio for about a minute; phones did not receive an alert.",
   "categories": [
     53
   ],
@@ -11,7 +11,7 @@
   "cover": {
     "file": "kapak.png",
     "label": "USA",
-    "headline": "Nationwide emergency alert test to interrupt TV and radio for one minute"
+    "headline": "Nationwide emergency alert test interrupted TV and radio for one minute"
   },
   "content_file": "icerik.html",
   "lang": "en"
