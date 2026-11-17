@@ -5,7 +5,7 @@ series: بدائل الغرب (Western Alternatives)
 series_code: AMBARGO DELENLER
 article_no: 8
 format: "THE ALTERNATIVE SUPPLIER"
-facts_checked: 2026-09-30
+facts_checked: 2026-11-17
 slug: al-sufun-al-harbiya-al-turkiya-qatar-anadolu-dearsan-fincantieri
 seo_title: "السفن الحربية التركية في قطر: هل تنافس الأحواض التركية فينكانتيري الإيطالية؟"
 meta_description: "قطر اشترت أسطولها القتالي الرئيسي من إيطاليا، وسفن التدريب والإنزال وزوارق الدورية من تركيا. ما الذي بُني في كل بلد؟ وهل بدأت الأحواض التركية تدخل فئة السفن المسلحة بالصواريخ في الخليج؟"
@@ -267,4 +267,4 @@ secondary_keywords:
 - The Defense Post — TAIS frigate agreement for Indonesia (21 يناير 2026): https://thedefensepost.com/2026/01/21/tais-frigate-agreement-indonesia/
 
 ---
-*آخر تحقق من الحقائق: 30 سبتمبر 2026. سيُحدَّث المقال عند تسليم زورقي FAC 50، أو توقيع عقد للزوارق الثلاثة الإضافية، أو تحوّل خطة ARES Naval في السعودية إلى طلبية فعلية.*
+*آخر تحقق من الحقائق: 17 نوفمبر 2026 (لا تسليم بعد؛ دخول الخدمة متوقع منتصف 2027 بحسب Janes). سيُحدَّث المقال عند تسليم زورقي FAC 50، أو توقيع عقد للزوارق الثلاثة الإضافية، أو تحوّل خطة ARES Naval في السعودية إلى طلبية فعلية.*
