@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Poppins';font-weight:300;src:url(../_ortak/fonts/poppins-300-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1EFF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Poppins';font-weight:300;src:url(../_ortak/fonts/poppins-300-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215}
+@font-face{font-family:'Poppins';font-weight:400;src:url(../_ortak/fonts/poppins-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1EFF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Poppins';font-weight:400;src:url(../_ortak/fonts/poppins-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215}
+@font-face{font-family:'Poppins';font-weight:500;src:url(../_ortak/fonts/poppins-500-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1EFF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Poppins';font-weight:500;src:url(../_ortak/fonts/poppins-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215}
+@font-face{font-family:'Poppins';font-weight:600;src:url(../_ortak/fonts/poppins-600-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1EFF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Poppins';font-weight:600;src:url(../_ortak/fonts/poppins-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215}
+@font-face{font-family:'Poppins';font-weight:700;src:url(../_ortak/fonts/poppins-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1EFF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Poppins';font-weight:700;src:url(../_ortak/fonts/poppins-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215}
+@font-face{font-family:'Poppins';font-weight:800;src:url(../_ortak/fonts/poppins-800-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1EFF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Poppins';font-weight:800;src:url(../_ortak/fonts/poppins-800-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215}
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#1e1e1e;font-family:"Poppins",sans-serif}
+:root{--red:#C8232A;--red2:#FF4B55;--dark:#0A0E15;--ink:#fff}
+.card{position:relative;width:1080px;height:1350px;overflow:hidden;margin-bottom:20px;color:#fff}
+.logo{position:absolute;left:76px;top:70px;width:230px;z-index:5}
+.site{position:absolute;left:76px;bottom:62px;font-size:21px;font-weight:600;letter-spacing:5px;color:rgba(255,255,255,.6);z-index:5}
+.num{position:absolute;right:76px;bottom:62px;font-size:22px;font-weight:600;color:rgba(255,255,255,.6);z-index:5}
+.swipe{position:absolute;right:76px;bottom:62px;font-size:22px;font-weight:600;letter-spacing:1px;color:rgba(255,255,255,.7);z-index:5}
+
+/* cover */
+.cov{background:var(--dark)}
+.cov .glow{position:absolute;left:-200px;right:-200px;bottom:-420px;height:1100px;background:radial-gradient(ellipse at 50% 60%,rgba(200,35,42,.55),rgba(200,35,42,0) 62%)}
+.cov svg.rings{position:absolute;left:0;top:0}
+.cov .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,14,21,.55) 0%,rgba(10,14,21,0) 30%,rgba(10,14,21,.75) 62%,rgba(10,14,21,.97) 100%)}
+.tag{position:absolute;left:76px;top:872px;background:var(--red);color:#fff;font-weight:700;font-size:23px;letter-spacing:4px;padding:10px 24px;z-index:5}
+.cov h1{position:absolute;left:76px;right:70px;top:930px;font-weight:300;font-size:76px;line-height:1.14;letter-spacing:-1.2px;z-index:5}
+.cov h1 b{font-weight:700;color:var(--red2)}
+.src{position:absolute;left:76px;bottom:62px;font-size:23px;font-weight:400;color:rgba(255,255,255,.85);z-index:5}
+.src b{font-weight:700}
+
+/* inner */
+.in{background:var(--red)}
+.in .ghost{position:absolute;right:56px;top:96px;font-size:400px;font-weight:800;line-height:1;color:rgba(255,255,255,.07);z-index:1;letter-spacing:-20px}
+.kick{position:absolute;left:76px;top:250px;z-index:4;font-size:24px;font-weight:700;letter-spacing:5px;color:rgba(255,255,255,.75)}
+.in h2{position:absolute;left:76px;right:80px;top:304px;z-index:4;font-weight:800;font-size:66px;line-height:1.08;letter-spacing:-1.5px}
+.in p{position:absolute;left:76px;right:84px;top:540px;z-index:4;font-weight:300;font-size:37px;line-height:1.42}
+.in p b{font-weight:700}
+.vis{position:absolute;left:76px;right:76px;bottom:150px;z-index:3}
+
+/* venn */
+.venn{height:330px;position:relative}
+.venn .c{position:absolute;top:0;width:580px;height:330px;border-radius:50%;border:5px solid #fff;display:flex;align-items:center;font-weight:700;font-size:30px;letter-spacing:1px}
+.venn .a{left:0;padding-left:64px;background:rgba(255,255,255,.08)}
+.venn .b{right:0;justify-content:flex-end;padding-right:64px;background:rgba(0,0,0,.14)}
+.venn .m{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:160px;text-align:center;font-weight:800;font-size:25px;line-height:1.1;background:#fff;color:var(--red);padding:12px 6px;border-radius:12px;z-index:4}
+
+/* big number */
+.big{display:flex;align-items:flex-end;gap:22px}
+.big .n{font-weight:800;font-size:150px;line-height:.9;letter-spacing:-5px}
+.big .u{font-weight:600;font-size:48px;padding-bottom:10px}
+.pill{display:inline-block;margin-top:24px;background:#fff;color:var(--red);font-weight:700;font-size:25px;padding:10px 22px;border-radius:999px}
+
+/* bars */
+.bar{margin-bottom:34px}
+.bar .l{font-size:26px;font-weight:600;margin-bottom:10px;color:rgba(255,255,255,.9)}
+.bar .t{height:62px;border-radius:12px;background:rgba(0,0,0,.18);position:relative}
+.bar .f{position:absolute;top:0;bottom:0;background:#fff;border-radius:12px;display:flex;align-items:center;padding-left:22px;color:var(--red);font-weight:800;font-size:30px}
+.bar.r .f{background:rgba(255,255,255,.95)}
+
+/* summary */
+.sum{position:absolute;left:76px;right:76px;top:310px;z-index:4;display:flex;gap:26px}
+.col{flex:1;border-radius:22px;padding:34px 30px;min-height:560px}
+.col.k{background:#fff;color:#16181d}
+.col.u{background:rgba(0,0,0,.22);border:3px solid rgba(255,255,255,.5)}
+.col h3{font-weight:800;font-size:34px;letter-spacing:1px;margin-bottom:26px}
+.col.k h3{color:var(--red)}
+.col li{list-style:none;font-size:29px;line-height:1.3;margin-bottom:26px;font-weight:500;padding-left:34px;position:relative}
+.col li:before{content:"";position:absolute;left:0;top:11px;width:16px;height:16px;border-radius:50%;background:var(--red)}
+.col.u li:before{background:#fff}
+.cta{position:absolute;left:76px;top:1085px;z-index:4;border:3px solid #fff;border-radius:999px;padding:16px 34px;font-size:30px;font-weight:700}
+</style></head><body>
+
+<!-- 1 KAPAK -->
+<section class="card cov" id="s1">
+  <div class="glow"></div>
+  <svg class="rings" width="1080" height="1350" viewBox="0 0 1080 1350" fill="none">
+    <defs><pattern id="g" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" stroke="rgba(255,255,255,.05)" stroke-width="1"/></pattern></defs>
+    <rect width="1080" height="1350" fill="url(#g)"/>
+    <g stroke="rgba(255,255,255,.34)" stroke-width="2.5">
+      <circle cx="560" cy="560" r="130"/><circle cx="560" cy="560" r="260" stroke-dasharray="4 10"/>
+      <circle cx="560" cy="560" r="400"/><circle cx="560" cy="560" r="560" stroke-dasharray="4 10"/>
+    </g>
+    <path d="M560 560L860 330" stroke="#FF4B55" stroke-width="3"/>
+    <circle cx="560" cy="560" r="12" fill="#FF4B55"/><circle cx="560" cy="560" r="30" stroke="#FF4B55" stroke-width="3"/>
+    <circle cx="860" cy="330" r="9" fill="#fff"/>
+    <text x="880" y="322" fill="#fff" font-family="Poppins" font-weight="600" font-size="24" letter-spacing="2">2.000 KM</text>
+    <path d="M520 560H600M560 520V600" stroke="#FF4B55" stroke-width="3"/>
+  </svg>
+  <div class="shade"></div>
+  <img class="logo" src="_src/logo-white.png">
+  <div class="tag">İRAN DOSYASI</div>
+  <h1>“Nükleer füze” başlıklarının <b>atladığı 5 gerçek</b></h1>
+  <div class="src">Kaynak: <b>UAEA · CENTCOM · CFR</b></div>
+  <div class="swipe">KAYDIR →</div>
+</section>
+
+<!-- 2 -->
+<section class="card in" id="s2">
+  <img class="logo" src="_src/logo-white.png"><div class="ghost">1</div>
+  <div class="kick">GERÇEK 1</div>
+  <h2>İki ayrı program var</h2>
+  <p><b>Nükleer program</b> uranyum stokunu ve denetimi, <b>balistik füze programı</b> menzili, yükü ve envanteri ilgilendirir. İkisinin kesiştiği nokta, füzeye takılabilecek <b>küçültülmüş bir başlıktır.</b></p>
+  <div class="vis"><div class="venn">
+    <div class="c a">NÜKLEER</div><div class="c b">FÜZE</div><div class="m">BAŞLIK</div>
+  </div></div>
+  <div class="site">ENVANTERMEDYA.COM</div><div class="num">2/8</div>
+</section>
+
+<!-- 3 -->
+<section class="card in" id="s3">
+  <img class="logo" src="_src/logo-white.png"><div class="ghost">2</div>
+  <div class="kick">GERÇEK 2</div>
+  <h2>Uranyumun yeri doğrulanamıyor</h2>
+  <p>UAEA, İran'ın <b>yüzde 60 zenginleştirilmiş</b> uranyumunun bugünkü yerini bilmiyor. Elde yalnızca <b>Haziran 2025</b> tahmini var. Ajans, malzeme üzerindeki bilgi sürekliliğini <b>bir yılı aşkın süredir</b> kaybetmiş durumda.</p>
+  <div class="vis"><div class="big"><div class="n">440,9</div><div class="u">kg</div></div>
+  <div class="pill">%60 · Haziran 2025 tahmini</div></div>
+  <div class="site">ENVANTERMEDYA.COM</div><div class="num">3/8</div>
+</section>
+
+<!-- 4 -->
+<section class="card in" id="s4">
+  <img class="logo" src="_src/logo-white.png"><div class="ghost">3</div>
+  <div class="kick">GERÇEK 3</div>
+  <h2>Füze sayısı tek bir rakam değil</h2>
+  <p>CENTCOM'un 2022 tahmini <b>3.000'in üzerindeydi.</b> ABD istihbaratına atıf yapan bir İsrail'li enstitünün Kasım 2026 değerlendirmesi ise <b>1.500 ile 2.500</b> arasında. Fark, 2025'ten beri süren saldırıları yansıtıyor olabilir.</p>
+  <div class="vis">
+    <div class="bar"><div class="l">CENTCOM · 2022</div><div class="t"><div class="f" style="width:100%">3.000+</div></div></div>
+    <div class="bar r"><div class="l">Kasım 2026 değerlendirmesi (doğrulanmadı)</div><div class="t"><div class="f" style="left:50%;width:33%;padding-left:14px;background:#fff">1.500–2.500</div></div></div>
+  </div>
+  <div class="site">ENVANTERMEDYA.COM</div><div class="num">4/8</div>
+</section>
+
+<!-- 5 -->
+<section class="card in" id="s5">
+  <img class="logo" src="_src/logo-white.png"><div class="ghost">4</div>
+  <div class="kick">GERÇEK 4</div>
+  <h2>Sınırın kalkması, menzilin var olması demek değil</h2>
+  <p>Devrim Muhafızları'nın <b>7 Kasım'da 2.000 km sınırını kaldırdığı</b> bildirildi. Analistler bunun, o menzile yetecek füzelerin hazır olduğunu kanıtlamadığını söylüyor. CFR'ye göre İran, <b>ABD'ye ulaşabilecek</b> bir füze konuşlandırmadı.</p>
+  <div class="vis" style="bottom:130px"><svg width="928" height="250" viewBox="0 0 928 250" fill="none">
+    <g stroke="#fff" stroke-width="3"><circle cx="200" cy="125" r="46" opacity=".9"/><circle cx="200" cy="125" r="92" opacity=".7" stroke-dasharray="6 10"/><circle cx="200" cy="125" r="124" opacity=".5"/></g>
+    <circle cx="200" cy="125" r="9" fill="#fff"/>
+    <path d="M200 125L324 125" stroke="#fff" stroke-width="3"/>
+    <text x="350" y="118" fill="#fff" font-family="Poppins" font-weight="800" font-size="56">2.000 km</text>
+    <text x="352" y="158" fill="#fff" font-family="Poppins" font-weight="400" font-size="26" opacity=".85">kaldırılan menzil sınırı (bildirildi)</text>
+  </svg></div>
+  <div class="site">ENVANTERMEDYA.COM</div><div class="num">5/8</div>
+</section>
+
+<!-- 6 -->
+<section class="card in" id="s6">
+  <img class="logo" src="_src/logo-white.png"><div class="ghost">5</div>
+  <div class="kick">GERÇEK 5</div>
+  <h2>Nükleer başlık için doğrulanmış kanıt yok</h2>
+  <p>Kamuya açık, doğrulanmış bir kanıt İran'ın füzeye uygun nükleer başlık ürettiğini göstermiyor. Tahran, programının <b>barışçıl</b> olduğunu söylüyor. UAEA'nın <b>28 Şubat 2026'dan</b> bu yana zenginleştirme tesislerine erişimi olmadığı bildiriliyor.</p>
+  <div class="vis"><div class="big"><div class="n" style="font-size:120px">28.02</div><div class="u">2026</div></div>
+  <div class="pill">Son denetim erişimi (bildirildi)</div></div>
+  <div class="site">ENVANTERMEDYA.COM</div><div class="num">6/8</div>
+</section>
+
+<!-- 7 -->
+<section class="card in" id="s7">
+  <img class="logo" src="_src/logo-white.png">
+  <div class="kick" style="top:226px">ÖZET</div>
+  <div class="sum" style="top:290px">
+    <div class="col k"><h3>BİLİNENLER</h3><ul>
+      <li>Nükleer ve füze programları ayrı dosyalar</li>
+      <li>Son resmi stok tahmini Haziran 2025'e ait</li>
+      <li>İran'ın envanteri Orta Doğu'nun en büyüğü</li></ul></div>
+    <div class="col u"><h3>BİLİNMEYENLER</h3><ul>
+      <li>Uranyumun bugünkü yeri</li>
+      <li>Güncel füze sayısı</li>
+      <li>Nükleer başlığın var olup olmadığı</li></ul></div>
+  </div>
+  <div class="cta">Kaydet ve takip et</div>
+  <div class="site">ENVANTERMEDYA.COM</div><div class="num">7/8</div>
+</section>
+
+<!-- 8 -->
+<section class="card" id="s8" style="background:#000"><img src="_src/uygulama-karti.png" style="width:1080px;height:1350px;display:block"></section>
+</body></html>
