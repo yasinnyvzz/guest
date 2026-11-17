@@ -209,30 +209,31 @@ Procurement status vocabulary: RUMOURED · REPORTED · EVALUATED · REQUESTED ·
 
 ## Publishing plan
 
-Target site: **defencearabia.com** (the environment `WP_URL` still points to thedailyenergy.com and must be changed). Mode: **scheduled**, one article per week, 09:00 Istanbul time.
-Status 2026-10-05: WordPress API login fails (HTTP 401 `rest_not_logged_in`, identical result with a deliberately wrong password, so the credentials are not being accepted or the Authorization header is not reaching WordPress). Nothing has been uploaded.
+**Site:** www.defencearabia.com (Arabic, Polylang default language). **Status:** all 19 articles scheduled on 2026-11-17 via `yayin-araclari/yayinla_md_da.py` as WordPress `future` posts, twice weekly (Wed + Sat, 06:00 UTC = 09:00 Riyadh) to clear the backlog. Editor-only sections (visual proposals, internal-link notes, Envanter placeholders) are stripped on publish; covers come from `kapak.py`; RankMath title, description and focus keyword are set via `rankmath/v1/updateMeta`.
 
-| # | Article | File | Planned publish |
+| # | File | Scheduled (UTC) | WP post ID |
 |---|---|---|---|
-| 1 | Wing Loong | `01-wing-loong-al-jiyush-al-arabiya.md` | 2026-10-07 |
-| 3 | Cheongung II | `03-cheongung-2-al-difaa-al-jawwi-al-kori.md` | 2026-10-10 |
-| 2 | J-10C Egypt (no official confirmation; reframed) | `02-j-10c-misr.md` | 2026-10-14 |
-| 4 | Algeria Su-57 / CAATSA | `04-su-57-al-jazair-caatsa.md` | 2026-10-21 |
-| 5 | K9 Egypt | `05-k9-misr.md` | 2026-10-28 |
-| 6 | Saudi supplier diversification | `06-al-saudia-tanwi-al-mawarridin.md` | 2026-11-04 |
-| 7 | UAE L-15 (F-35 link not proven; reframed) | `07-l-15-al-imarat.md` | 2026-11-11 |
-| 8 | Turkish ships / Qatar | `08-al-sufun-al-turkiya-qatar.md` | 2026-11-18 |
-| 9 | Morocco MQ-9B vs Bayraktar | `09-al-maghrib-mq-9b-bayraktar.md` | 2026-11-25 |
-| 10 | Arab local industry | `10-al-sinaa-al-askariya-al-arabiya.md` | 2026-12-02 |
-| 11 | Algeria and Chinese arms (new) | `11-al-jazair-al-silah-al-sini.md` | 2026-12-09 |
-| 12 | Iraq after F-16 (new) | `12-al-iraq-baad-f-16.md` | 2026-12-16 |
-| 13 | Türkiye vs China (hub article, weekly run 2026-10-06) | `13-turkiya-am-al-sin.md` | 2026-12-23 |
-| 14 | Kuwait air defence after the Iran war (weekly run 2026-10-13) | `14-al-kuwait-baad-harb-iran-al-difaa-al-jawwi.md` | 2026-12-30 |
-| 15 | Türkiye vs South Korea in Arab land systems (weekly run 2026-10-20) | `15-turkiya-am-korea-al-aslihat-al-barriya.md` | 2027-01-06 |
-| 16 | Qatar after the blockade: supplier diversification (weekly run 2026-10-27) | `16-qatar-baad-al-hisar-tanwi-al-mawarridin.md` | 2027-01-13 |
-| 17 | Egypt's air-defence mosaic: Russia, Germany, US, China, Türkiye (weekly run 2026-11-03) | `17-misr-al-difaa-al-jawwi-fusayfisa.md` | 2027-01-20 |
-| 18 | Oman between F-16, Typhoon and JF-17 (weekly run 2026-11-10) | `18-oman-bayna-al-gharb-wa-jf-17.md` | 2027-01-27 |
-| 19 | Mecca Joint Defence Agreement: an alternative arms channel? (weekly run 2026-11-17) | `19-ittifaq-makka-al-difai.md` | 2027-02-03 |
+| 1 | `01-wing-loong-al-jiyush-al-arabiya.md` | 2026-11-18 06:00 UTC | 10298 |
+| 2 | `02-j-10c-misr.md` | 2026-11-21 06:00 UTC | 10300 |
+| 3 | `03-cheongung-2-al-difaa-al-jawwi-al-kori.md` | 2026-11-25 06:00 UTC | 10302 |
+| 4 | `04-su-57-al-jazair-caatsa.md` | 2026-11-28 06:00 UTC | 10304 |
+| 5 | `05-k9-misr.md` | 2026-12-02 06:00 UTC | 10306 |
+| 6 | `06-al-saudia-tanwi-al-mawarridin.md` | 2026-12-05 06:00 UTC | 10308 |
+| 7 | `07-l-15-al-imarat.md` | 2026-12-09 06:00 UTC | 10310 |
+| 8 | `08-al-sufun-al-turkiya-qatar.md` | 2026-12-12 06:00 UTC | 10312 |
+| 9 | `09-al-maghrib-mq-9b-bayraktar.md` | 2026-12-16 06:00 UTC | 10314 |
+| 10 | `10-al-sinaa-al-askariya-al-arabiya.md` | 2026-12-19 06:00 UTC | 10316 |
+| 11 | `11-al-jazair-al-silah-al-sini.md` | 2026-12-23 06:00 UTC | 10318 |
+| 12 | `12-al-iraq-baad-f-16.md` | 2026-12-26 06:00 UTC | 10320 |
+| 13 | `13-turkiya-am-al-sin.md` | 2026-12-30 06:00 UTC | 10322 |
+| 14 | `14-al-kuwait-baad-harb-iran-al-difaa-al-jawwi.md` | 2027-01-02 06:00 UTC | 10324 |
+| 15 | `15-turkiya-am-korea-al-aslihat-al-barriya.md` | 2027-01-06 06:00 UTC | 10326 |
+| 16 | `16-qatar-baad-al-hisar-tanwi-al-mawarridin.md` | 2027-01-09 06:00 UTC | 10328 |
+| 17 | `17-misr-al-difaa-al-jawwi-fusayfisa.md` | 2027-01-13 06:00 UTC | 10330 |
+| 18 | `18-oman-bayna-al-gharb-wa-jf-17.md` | 2027-01-16 06:00 UTC | 10332 |
+| 19 | `19-ittifaq-makka-al-difai.md` | 2027-01-20 06:00 UTC | 10334 |
+
+New articles from the weekly routine continue **weekly on Wednesdays at 06:00 UTC from 2027-01-27**.
 
 ## Weekly run log
 
@@ -244,7 +245,8 @@ Status 2026-10-05: WordPress API login fails (HTTP 401 `rest_not_logged_in`, ide
 - **2026-11-03:** Wrote #17 (Egypt air defence, WHO REPLACED WHOM?). Finding: accumulation, not replacement; the clearest US limit was on the AIM-120 missile (no AMRAAM until the July 2025 NASAMS approval; QME explanation is analytical); the German IRIS-T shipment diverted to Ukraine in 2022 is REPORTED; HQ-9B is REPORTED (retired general, no MoD statement); Tolga is CONTRACTED (Feb 2026). Refreshed #6 (due 2026-11-04): Congress's 30-day F-35 review window closed ~17 Oct with no disapproval found and no LOA announced; added the TUSAŞ–GAMI T625 Gökbey MoU. WordPress: not published (`WP_USERNAME` missing, `WP_URL` still thedailyenergy.com).
 - **2026-11-10:** Wrote #18 (Oman, FROM WEST TO EAST?). Finding: JF-17 talks are REPORTED only (Intelligence Online, 21 Oct 2026, relayed by others); no Western restriction; the US approved $188m F-16 sustainment (Sept 2026); Türkiye is reportedly considering 12 Omani Typhoons; Türkiye's past Omani deal (PARS III) led to an in-country MRO facility, not production. Updated #16: the Turkish MoD said on 22 Oct 2026 it awaits a draft contract from Qatar for used Typhoons. Refreshed #7 (due 2026-11-11): no new L-15 deliveries or option exercise found. WordPress: not published (`WP_USERNAME` missing, `WP_URL` still thedailyenergy.com).
 - **2026-11-17:** Wrote #19 (Mecca Joint Defence Agreement, 7 Aug 2026, Saudi–Pakistan–Türkiye). Finding: the collective-defence pact is CONFIRMED, but no arms-sale or co-production clauses were reported; linked deals are prior (Akıncı), REPORTED (JF-17C, KAAN) or MoU (T625 Gökbey); US approvals (F-35, PAC-3) continued. Updated #16: Qatar's 2026 local-production announcements (STM and MKE with Barzan, KNDS LOI, 19 Oct minister statement). Refreshed #8 (due 2026-11-18): FAC 50 still pre-delivery, service mid-2027. WordPress: not published (`WP_USERNAME` missing, `WP_URL` still thedailyenergy.com).
+- **2026-11-17 (user request):** WordPress access for defencearabia.com provided by the user. Scheduled #1–#19 (post IDs 10298–10334). Credentials are NOT stored in the repo; the publisher reads `DA_AUTH` from the environment.
 
 ## Next run
 
-Each weekly run should (a) refresh facts in the article due to publish next, and (b) research ONE new topic for slot #20 onward (planned 2027-02-10+). Candidates: Saudi National Guard ground modernisation (only if a contract is announced); Saudi KAAN participation (only if signed); Bahrain after the 2026 Iran war; Jordan local industry (JODDB); Iraq JF-17 (only if beyond reports).
+Each weekly run should (a) refresh facts in the article due to publish next, and (b) research ONE new topic for slot #20 onward (planned 2027-01-27, then weekly). Candidates: Saudi National Guard ground modernisation (only if a contract is announced); Saudi KAAN participation (only if signed); Bahrain after the 2026 Iran war; Jordan local industry (JODDB); Iraq JF-17 (only if beyond reports).

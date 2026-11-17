@@ -28,6 +28,9 @@ The standing instructions for every weekly run. **ONE article maximum per run.**
 
 ## Publishing
 
-WordPress is for final publishing only. Credentials live exclusively in environment secrets:
-`WP_URL`, `WP_USERNAME`, `WP_APP_PASSWORD`. Never write them into files, prompts or commits.
-If these variables are not present, stop at READY TO PUBLISH and leave publishing to an editor.
+Target: **www.defencearabia.com**. Publisher: `yayin-araclari/yayinla_md_da.py` (reads credentials only from the `DA_AUTH` environment variable, format `user:application-password`).
+
+- **New article:** `python3 yayin-araclari/yayinla_md_da.py bedail-al-gharb/NN-....md "YYYY-MM-DDT06:00:00" "<category IDs>"` — schedules a WordPress `future` post (UTC), uploads a cover, sets RankMath fields. Then write `status: SCHEDULED (WordPress)`, `planned_publish` and `wp_post_id` into the front matter and the QUEUE table. Next free slot: the Wednesday after the last scheduled article.
+- **Fact refresh of an already scheduled/published article:** edit the Markdown, then `python3 yayin-araclari/yayinla_md_da.py <file> --update` (date and status unchanged).
+- Arabic category IDs used so far: 254 land, 260 artillery, 266 fighters, 270 trainers, 276 UAVs, 286 frigates/corvettes, 296 air defence, 322 defence companies, 334 exports & cooperation, 336 export deals, 338 international partnerships, 340 technology transfer, 342 localisation, 344 defence policy, 346 Gulf security, 348 geopolitics, 350 procurement, 352 Arab armed forces.
+- Never write credentials into files, prompts or commits. If `DA_AUTH` is not set, stop at READY TO PUBLISH and report it.
