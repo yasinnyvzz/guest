@@ -233,6 +233,8 @@ Procurement status vocabulary: RUMOURED · REPORTED · EVALUATED · REQUESTED ·
 | 18 | `18-oman-bayna-al-gharb-wa-jf-17.md` | 2027-01-16 06:00 UTC | 10332 |
 | 19 | `19-ittifaq-makka-al-difai.md` | 2027-01-20 06:00 UTC | 10334 |
 
+| 20 | `20-libya-tahta-al-hazr-al-umami.md` | 2027-01-27 06:00 UTC (planned) | — not scheduled: `DA_AUTH` missing |
+
 New articles from the weekly routine continue **weekly on Wednesdays at 06:00 UTC from 2027-01-27**.
 
 ## Weekly run log
@@ -246,7 +248,8 @@ New articles from the weekly routine continue **weekly on Wednesdays at 06:00 UT
 - **2026-11-10:** Wrote #18 (Oman, FROM WEST TO EAST?). Finding: JF-17 talks are REPORTED only (Intelligence Online, 21 Oct 2026, relayed by others); no Western restriction; the US approved $188m F-16 sustainment (Sept 2026); Türkiye is reportedly considering 12 Omani Typhoons; Türkiye's past Omani deal (PARS III) led to an in-country MRO facility, not production. Updated #16: the Turkish MoD said on 22 Oct 2026 it awaits a draft contract from Qatar for used Typhoons. Refreshed #7 (due 2026-11-11): no new L-15 deliveries or option exercise found. WordPress: not published (`WP_USERNAME` missing, `WP_URL` still thedailyenergy.com).
 - **2026-11-17:** Wrote #19 (Mecca Joint Defence Agreement, 7 Aug 2026, Saudi–Pakistan–Türkiye). Finding: the collective-defence pact is CONFIRMED, but no arms-sale or co-production clauses were reported; linked deals are prior (Akıncı), REPORTED (JF-17C, KAAN) or MoU (T625 Gökbey); US approvals (F-35, PAC-3) continued. Updated #16: Qatar's 2026 local-production announcements (STM and MKE with Barzan, KNDS LOI, 19 Oct minister statement). Refreshed #8 (due 2026-11-18): FAC 50 still pre-delivery, service mid-2027. WordPress: not published (`WP_USERNAME` missing, `WP_URL` still thedailyenergy.com).
 - **2026-11-17 (user request):** WordPress access for defencearabia.com provided by the user. Scheduled #1–#19 (post IDs 10298–10334). Credentials are NOT stored in the repo; the publisher reads `DA_AUTH` from the environment.
+- **2026-11-24:** Wrote #20 (Libya under the UN arms embargo). Finding: the only case in the series with a country-wide OFFICIAL RESTRICTION; Chinese (Feilong-1) and Turkish (TB2) drones were REPORTED at Al Khadim in 2025 from satellite imagery, supplier unknown; 2019 Wing Loong II/UAE remains the UN-attributed case. Could not read the full Panel report S/2026/224 (PDF too large) or the UN/Global Sanctions pages (blocked), so no state-by-state breach list is claimed. Refreshed #3 (publishes 2026-11-25): no Qatar/Kuwait Cheongung contract found; no WordPress change needed. Not scheduled on WordPress: `DA_AUTH` is not set in this environment.
 
 ## Next run
 
-Each weekly run should (a) refresh facts in the article due to publish next, and (b) research ONE new topic for slot #20 onward (planned 2027-01-27, then weekly). Candidates: Saudi National Guard ground modernisation (only if a contract is announced); Saudi KAAN participation (only if signed); Bahrain after the 2026 Iran war; Jordan local industry (JODDB); Iraq JF-17 (only if beyond reports).
+Each weekly run should (a) refresh facts in the article due to publish next, and (b) research ONE new topic for slot #21 onward (planned 2027-02-03, then weekly). If `DA_AUTH` becomes available, first schedule #20 at 2027-01-27 06:00 UTC (categories 276,334,352). Candidates: Libya Panel interim report (Dec 2026) follow-up; Saudi National Guard ground modernisation (only if a contract is announced); Saudi KAAN participation (only if signed); Bahrain after the 2026 Iran war; Jordan local industry (JODDB); Iraq JF-17 (only if beyond reports).

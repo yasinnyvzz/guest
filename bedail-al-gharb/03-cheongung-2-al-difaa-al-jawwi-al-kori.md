@@ -6,7 +6,7 @@ series: بدائل الغرب (Western Alternatives)
 series_code: AMBARGO DELENLER
 article_no: 3
 format: "THE ALTERNATIVE SUPPLIER"
-facts_checked: 2026-10-06
+facts_checked: 2026-11-24
 slug: cheongung-2-al-difaa-al-jawwi-al-kori-al-imarat-al-saudia-al-iraq
 seo_title: "Cheongung II: لماذا اشترت الإمارات والسعودية والعراق الدفاع الجوي الكوري؟"
 meta_description: "ثلاث صفقات بنحو 9.5 مليار دولار: لماذا اتجهت الإمارات والسعودية والعراق إلى منظومة Cheongung II الكورية الجنوبية، وهل هي بديل لباتريوت أم مكمّل لها؟ وماذا أظهرت الحرب مع إيران؟"
