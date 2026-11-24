@@ -233,7 +233,7 @@ Procurement status vocabulary: RUMOURED · REPORTED · EVALUATED · REQUESTED ·
 | 18 | `18-oman-bayna-al-gharb-wa-jf-17.md` | 2027-01-16 06:00 UTC | 10332 |
 | 19 | `19-ittifaq-makka-al-difai.md` | 2027-01-20 06:00 UTC | 10334 |
 
-| 20 | `20-libya-tahta-al-hazr-al-umami.md` | 2027-01-27 06:00 UTC (planned) | — not scheduled: `DA_AUTH` missing |
+| 20 | `20-libya-tahta-al-hazr-al-umami.md` | 2027-01-27 06:00 UTC | 11235 |
 
 New articles from the weekly routine continue **weekly on Wednesdays at 06:00 UTC from 2027-01-27**.
 
@@ -252,4 +252,4 @@ New articles from the weekly routine continue **weekly on Wednesdays at 06:00 UT
 
 ## Next run
 
-Each weekly run should (a) refresh facts in the article due to publish next, and (b) research ONE new topic for slot #21 onward (planned 2027-02-03, then weekly). If `DA_AUTH` becomes available, first schedule #20 at 2027-01-27 06:00 UTC (categories 276,334,352). Candidates: Libya Panel interim report (Dec 2026) follow-up; Saudi National Guard ground modernisation (only if a contract is announced); Saudi KAAN participation (only if signed); Bahrain after the 2026 Iran war; Jordan local industry (JODDB); Iraq JF-17 (only if beyond reports).
+Each weekly run should (a) refresh facts in the article due to publish next, and (b) research ONE new topic for slot #21 onward (planned 2027-02-03, then weekly). Candidates: Libya Panel interim report (Dec 2026) follow-up; Saudi National Guard ground modernisation (only if a contract is announced); Saudi KAAN participation (only if signed); Bahrain after the 2026 Iran war; Jordan local industry (JODDB); Iraq JF-17 (only if beyond reports).

@@ -1,6 +1,7 @@
 ---
-status: READY TO PUBLISH
-planned_publish: 2027-01-27T06:00Z (WordPress: pending DA_AUTH)
+status: SCHEDULED (WordPress)
+planned_publish: 2027-01-27T06:00Z
+wp_post_id: 11235
 series: بدائل الغرب (Western Alternatives)
 series_code: AMBARGO DELENLER
 article_no: 20
